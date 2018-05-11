@@ -1,0 +1,5 @@
+baseURL = "http://battleofbrothers.com"
+languageCode = "en-us"
+title = "Battle of Brothers"
+theme = "Battle"
+relativeURLs = "false"
