@@ -1,0 +1,207 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>The good news is that I’ve received a ton of artwork over the last two weeks. The bad news is that I can only demo a small portion of it because there just isn’t enough time to get it all into the game. That’s a good problem to have, though, and what I can show you is some pretty cool cut scenes, some character animations, and this sweet footage of a knight putting the beat down on an evil ogre.</p>
+
+<p></p>
+
+<div class="inlineimg" style="clear:both">
+  [gfycat data_id=&#8221;CoarseWeakKagu&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<p>You can’t see all of the animations in that .png sequence, but you can see 3 of the knight’s 4 attack moves, the ogre’s hit animation and the ogre’s death animation. For debugging purposes, I built a tool to display all of a character’s animations at once, and here are those two characters going through all of their moves.</p>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;ShamelessSecondBlackpanther&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;EmbellishedSpitefulCuttlefish&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<h4 id="memory-considerations">Memory Considerations</h4>
+
+<p>The animations are looking great, but one thing I noticed during the game demo was that each new character took up too much texture memory. Each character has 8 animations, each animation is ~45 frames, and each animation is shot from 2 angles. That gives me a total of 720 sprites per character. I use <a href="https://www.codeandweb.com/texturepacker">Texture Packer</a> to condense those sprites into sprite sheets, but many of the sprite sheets took up 4 &#8211; 16MB of memory. When you consider that I&#8217;ll have up to 12 characters on-screen at the same time, I had a potential problem on my hand. The good news is that I have some options to deal with this issue.</p>
+
+<ul>
+<li>One option is to use fewer frames per animation. This is promising, especially for some of the animations that run at higher frame rates.</p></li>
+
+<li><p>Another option is to load/unload sprite sheets as needed, but I’m worried that will make the animations unreliable and clunky.</p></li>
+
+<li><p>A third option is to shrink the individual sprites and then scale them up in-game.</p></li>
+</ul>
+
+<p>Based on my initial tests, I think I’m going to try the third option. I get some good memory savings by shrinking sprites by about 20%, and it’s hardly noticeable when those sprites are scaled-up in-game. Having fewer frames per animation would be my second choice and possibly something I still utilize in certain situations, but I felt that having fewer sprites per animation was more noticeable to the eye than slightly scaling up sprites.</p>
+
+<p>Most of my time in the last week has been experimenting with animations and creating testing tools to figure out the memory issue before adding any new characters to the game. Creating sprite sheets is a boring and time intensive process, so I’ll save in the long run by figuring out a strategy now.</p>
+
+<h4 id="illustrations">Illustrations</h4>
+
+<p>I have all of the battlefield maps, world map, and character concepts illustrated, but I still have some cut scene and marketing work to be illustrated. The first contract that I had with <a href="http://appylon.weebly.com">Scott Pellico</a>, the game’s illustrator, was completed and I’ve entered into a second contract to hopefully finish the remaining work. This is going to put me over budget, but I think the investment will be worth it. Scott started on the cut scenes and story this week, and here’s one of the images that will help me provide the player with a bit of background story before getting into the game.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2015/01/SC01_01-2.jpg" alt="SC01_01" width="800" height="269" class="alignnone size-full wp-image-1762" srcset="http://localhost:8888/wp-content/uploads/2015/01/SC01_01-2.jpg 800w, http://localhost:8888/wp-content/uploads/2015/01/SC01_01-2-300x101.jpg 300w, http://localhost:8888/wp-content/uploads/2015/01/SC01_01-2-768x258.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+</div>
+
+<h4 id="what-8217-s-next">What&#8217;s Next</h4>
+
+<p>Now that I have more artwork than I now what to do with, I have a couple of options. I can either add some more characters into the game or I can start playing with the cut scenes and story part of the game. My gut says I&#8217;ll want to go with the cut scenes only because I&#8217;ve been playing with sprites for the last few weeks and a change of pace is good for the soul.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

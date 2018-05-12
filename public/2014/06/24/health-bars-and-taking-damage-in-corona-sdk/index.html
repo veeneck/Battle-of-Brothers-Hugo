@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>It&#8217;s common to see <a href="http://battleofbrothers.com/sirchris/health-display-roundup">health bars attached to a characters</a> in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.</p>
+
+<p></p>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/dwarf-healthbar.jpg" alt="dwarf-healthbar" width="547" height="249" class="alignnone size-full wp-image-632" />
+</div>
+
+<p><a href="https://gist.github.com/codepaladin/7d7afd56df17468abd24">https://gist.github.com/codepaladin/7d7afd56df17468abd24</a></p>
+
+<p>The first thing we do is create a new display group called characterGroup. Think of display groups as containers that hold different objects, like images, shapes, and text. The reason we need a display group in this example is because we will have three objects, a character, a health bar, and a damage bar, all which need to move in unison as the character moves across the screen.</p>
+
+<p>After we have the character group created and centered on the screen, a dwarf image is added to the group. You&#8217;ll also see maxHealth and currentHealth variables, which will be used for our health bars.</p>
+
+<p><a href="https://gist.github.com/codepaladin/72b438209eebe018511d">https://gist.github.com/codepaladin/72b438209eebe018511d</a></p>
+
+<p>Here we draw the health bar to the screen as a green rectangle. The width is set to maxHealth, which conveniently makes the health bar 100 pixels wide. Then we draw a red rectangle called damageBar directly on top of the green health bar. The damage bar is 0 pixels wide to start, because our character is at full health. Note that it&#8217;s important to draw the damage bar second, because Corona z-indexes images to the screen in the order they&#8217;re drawn.</p>
+
+<p>The health bar and the damage bar are added to the characterGroup so that they are in the same container as the dwarf image.</p>
+
+<p><a href="https://gist.github.com/codepaladin/3d554c91ee65fbd27fdb">https://gist.github.com/codepaladin/3d554c91ee65fbd27fdb</a></p>
+
+<p>The moveLeft and moveRight functions move the character, health bar, and damage bar 100 pixels to the left and then to the right. Notice that in the transition.to() function, the characterGroup is what&#8217;s being moved. We move the group and not the individual objects, because moving a group also moves the objects inside of a group.</p>
+
+<p>If you look at the moveRight() function, you&#8217;ll see that damageCharacter() is called, which then subtracts the damage taken from the character&#8217;s maxHealth. The updateDamageBar() function is then called so that the red damage bar&#8217;s width is increased in order to show how much health remains.</p>
+
+<p>The complete source code to this tutorial can be found on <a href="https://github.com/codepaladin/Health-Bar-Tutorial">GitHub</a></p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

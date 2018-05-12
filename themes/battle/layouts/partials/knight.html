@@ -1,0 +1,45 @@
+
+<div class="outercontent">
+
+	<div class="content clear">
+
+		<div class="floatleft activity posts clear">
+			<ul class="recent">
+				{{ $items := .Site.Taxonomies.categories.sirryan }}
+				{{ range $items }}
+					{{ if not (in .Params.tags "status") }}
+						{{ partial "post_summary.html" . }}
+					{{ end }}
+				{{ end }}
+			</ul>
+			<span class="updatelink clear"><a href="/category/sirryan" class="subtext source_light dotted arrow">Read more blog posts in the archive</a> </span>
+		</div> <!-- #activity -->
+
+		<div class="floatleft activity right clear">
+
+
+			<span class="updatelink clear"><a href="https://twitter.com/veeneck" class="subtext source_light dotted arrow" target="_blank">Follow me on twitter</a> </span>
+
+			<h4>Status Update<span class="floatright"><span class="pound">#</span></span></h4>
+			<div class="progress clear">
+
+				<a href="/sir' . $author_name . '/' . $post->post_name.'">
+
+				
+
+				</a>
+
+					
+				<p class="clear"></p>
+
+				<ul class="events">Key Events
+				<li>$value</li>
+				</ul>
+			</div>
+			
+			<span class="updatelink clear"><a href="/sirryan/timeline" class="subtext source_light dotted arrow">View timeline</a> </span>
+		</div> <!-- #activity -->
+
+		<div class="clear:both"></div>
+	</div>
+</div> <!-- #content -->

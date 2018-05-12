@@ -1,0 +1,217 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+  	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+   	 	
+  	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>With update #3, I bring you my most challenging two weeks so far. As you can see from the featured image, working with Finite State Machines, and AI in general, plays a big part in my frustrations. When this cycle began, I was hoping to have wave movement, group formations and melee combat working. Since only one of those three goals was accomplished, let&#8217;s take a look at what went right and what went wrong.</p>
+
+<p></p>
+
+<p>As always, the status update is available in video format. Check it out below:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/QfCRQUN3gMk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<h4 id="enemy-waves-and-movement">Enemy Waves and Movement</h4>
+
+<p>The good news is that I&#8217;m happy with the code that spawns enemies and tells them where to move. Specifically, a few cool things are happening now:</p>
+
+<ul>
+<li>Subpaths are now supported. When a wave is assigned a path (i.e: enter from top of screen or right side of screen) they will now randomly choose between an array of subpaths within that main path.</li>
+<li>A 16px variance in any direction for skirmishers at each waypoint. This ensures that enemies on the same subpath still won&#8217;t walk along the same exact line.</li>
+<li>Arc to path for mid points. Instead of connecting each waypoint with a straight line, each one is connected with a curved line. This makes the movement less rigid, and is achieved by using <code>CGPathAddArcToPoint(pathing, NULL, end.x, end.y, next.x, next.y, 50);</code></li>
+<li>Enemies start walking on a random delay so that they aren&#8217;t all on the same animation cycle.</li>
+</ul>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-403" src="http://localhost:8888/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-1024x793.png" alt="Screen Shot 2014-04-28 at 8.56.58 AM" width="625" height="484" srcset="http://localhost:8888/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-1024x793.png 1024w, http://localhost:8888/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-300x232.png 300w, http://localhost:8888/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-768x595.png 768w, http://localhost:8888/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1.png 1136w" sizes="(max-width: 625px) 100vw, 625px" />
+</div>
+
+<p>The other gem I found was a tutorial by Tony Chamblee on <a href="http://tonychamblee.com/2013/11/18/tcprogresstimer-a-spritekit-progress-timer/" target="_blank">progress timers with Sprite Kit</a>. I love when someone shares a concept openly on Github with well documented or easy to follow code. Seeing how other people approach problems helps newbies learn. In this case, I was introduced to SKCropNode and tracking time.</p>
+
+<h4 id="formations">Formations</h4>
+
+<p>Implementing formations (or group based movements) was the start of a downhill slope for me these past two weeks. As is becoming the norm, everything seems easy but I&#8217;m oversimplifying it. In the case of formations, what should happen if someone dies? Does the person behind them move up? What if everyone behind is dead? Can a formation be attacked on the side &#8212; if so, how does that affect reforming after a death. When marching, each unit must reach the front of the formation before turning towards the desired destination. Is the code flexible enough to handle that? These are just a few of the thoughts to consider.</p>
+
+<p>In addition to the logical problems, implementing formations is pushing me to try to become a better programmer. For example, this code is acceptable, but is it the best approach? Have a look at this pseudocode:</p>
+
+<p>In an ideal world, I would think that one object should have no knowledge of its containing object. So, a soldier should not know he is in a formation, which means he should not store a pointer to his formation. Then, if the soldier dies, he can&#8217;t just call a method directly on his container like <code>self.formation.removeSoldier(self)</code>. Instead, the soldier should trigger an event of his death and the formation listens to it, finds out if the soldier belongs to said formation, and acts accordingly.</p>
+
+<p>That small example illustrates what I&#8217;m spending a lot of my time on lately. Should I add overhead and complexity or take shortcuts. What do other game developers do? What do forums say? This process is time-consuming, and often results in setting up sample projects to see the flow of the code.</p>
+
+<h4 id="artificial-intelligence">Artificial Intelligence</h4>
+
+<p>Take my frustrations with formations and add 6x the amount of work and you&#8217;ll be left with Artificial Intelligence. The problems and solutions are easy to say verbally. If I&#8217;m being attacked, I should face my target and attack him. But if I&#8217;m already fighting someone else, stay engaged with that person until he dies. Most importantly, if my friend goes below 20% health, stop attacking and heal him. Then, resume combat. In terms of code, it is easy to write a bunch of if statements to handle that. Once the if&#8217;s get out of control, every developer will find themselves researching <a href="http://gameprogrammingpatterns.com/state.html" target="_blank">finite state machines</a>.</p>
+
+<p>State machines in general are not a problem for me. They just led me down a path of questions that open all sorts of holes in my code. Let&#8217;s start with the concept of attacking. An enemy intersects with my range object, so I store it in an array of pointers named targetsInRange. Once I decide to attack, do I directly communicate with the target like <code>[target handleEnemyEngagement:self];</code>? Or do I trigger a custom event that the enemy listens to? Either way, combat depends on me broadcasting my intentions (see my <a href="http://stackoverflow.com/questions/23302509/finite-state-machine-communicating-state-between-objects" target="_blank">Stack Overflow question regarding this</a>).</p>
+
+<p>I struggle with the example above is because one object requires another to call its method in order for it to function properly. In every other state, the object behaves correctly using its own data / intelligence. When patrolling, scan for enemies. When an enemy found, engage. When health is low, flee. The only thing an object can&#8217;t recognize is when it is being attacked, so it relies on a handshake mechanic. So I ask myself, is a handshake acceptable as an exception, and where do I draw the line on using it? Preferably, all code follows a predictable pattern that is easy to follow and debug.</p>
+
+<h4 id="next-two-weeks">Next Two Weeks</h4>
+
+<p>I would really love to have a handle on formations, movements and melee behaviors by the next update. More importantly, I want the code to be a foundation that any character type can build on. The past two weeks turned out to be more of an education than actual progress on the game, so I hope to convert that knowledge into something I can show off.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

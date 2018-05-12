@@ -1,0 +1,197 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>If you&#8217;re making a grid based game and you need a character to move from point A to point B while avoiding obstacles, then you&#8217;re going to need some type of pathfinding. Luckily for us, Roland Yonaba utilized the power of A Star, a popular pathfinding algorithm, and made it even better with his open source Jumper library. Visually, what we&#8217;re trying to accomplish looks a little something like:</p>
+
+<p></p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-371" src="http://localhost:8888/wp-content/uploads/2014/04/Jumper-Grid1-1.png" alt="Jumper Grid" width="500" height="499" srcset="http://localhost:8888/wp-content/uploads/2014/04/Jumper-Grid1-1.png 500w, http://localhost:8888/wp-content/uploads/2014/04/Jumper-Grid1-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/04/Jumper-Grid1-1-300x300.png 300w, http://localhost:8888/wp-content/uploads/2014/04/Jumper-Grid1-1-100x100.png 100w" sizes="(max-width: 500px) 100vw, 500px" />
+</div>
+
+<p>The first thing you&#8217;ll want to do is download and install <a href="https://github.com/Yonaba/Jumper">Jumper</a>. I&#8217;m using the latest development version in this example. After that, let&#8217;s do some basic setup by declaring local variables and drawing a background to the screen.</p>
+
+<p><a href="https://gist.github.com/codepaladin/11145485">https://gist.github.com/codepaladin/11145485</a></p>
+
+<p>And now that all the basics are set up, we&#8217;ll draw a grid, make a map, and set our start and end positions with the following function:</p>
+
+<p><a href="https://gist.github.com/codepaladin/11145629">https://gist.github.com/codepaladin/11145629</a></p>
+
+<p>This function is responsible for a few things. First, it draws a square grid made up of 100 tiles with each tile being 48 pixels wide.</p>
+
+<p>You&#8217;ll see that some tiles have gridRow[col] set to either a 1 or a 0, and that is how we create obstacles, or un-walkable tiles for the Jumper library. When we declared local variables, walkable was set to 0, which means any value other than 0 makes a tile un-walkable.</p>
+
+<p>Secondly, the function populates the local map {} table with those 1 and 0 values. When the function is finished running, the map table will contain 10 nested tables, with each nested table consisting of 10 values. The map is a direct representation of the grid drawn to the screen and this table is what Jumper needs in order to know how many rows and columns make up the grid and which positions are walkable or un-walkable. For example, if you were to print out the contents of map[4], you&#8217;d see a table like {0,0,1,1,1,1,1,1,0,0}.</p>
+
+<p>Finally, the function calls the drawStart and drawEnd functions, which look like:</p>
+
+<p><a href="https://gist.github.com/codepaladin/11145921">https://gist.github.com/codepaladin/11145921</a></p>
+
+<p>These two functions draw the A and B values on the screen, but they also set the start and end grid coordinates, which the Jumper library will need in order to create a path.</p>
+
+<p>So now that we have our grid, obstacles, and start/end positions, we can figure out the correct path by running the getPath function.</p>
+
+<p><a href="https://gist.github.com/codepaladin/11145940">https://gist.github.com/codepaladin/11145940</a></p>
+
+<p>The Jumper library utilizes the map, obstacle, start and finish variables to figure out the optimal grid path to get way to get form point A to point B. To take things further, you could store the grid path and then use it to move a sprite from A to B one grid position at a time. Doing that would require a little more work to do things like translate grid coordinates to pixel coordinates, and I recommend the <a href="http://masteringcoronasdk.com/jumper-pathfinding-tutorial-a/">Pathfinding with Jumper</a> tutorial if you need some more help.</p>
+
+<p>The source code to this tutorial can be <a href="https://github.com/codepaladin/Jumper-Tutorial">found on GitHub</a></p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{{ define "main" -}}
+
+{{ if (in .Params.categories "sirryan") }}
+	{{ partial "knight.html" . }}
+{{ end }}
+
+{{- end }}

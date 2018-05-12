@@ -1,0 +1,201 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>I previously wrote a tutorial on how to create a square grid and <a href="http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star">implement pathfinding with Corona SDK</a> and the Jumper library, but now we&#8217;re going to take things up a notch and do the same thing on an isometric grid. Isometric grids use rhombus, or diamond shaped tiles, as opposed to square tiles. The introduction of angled tiles adds the perception of depth and can dramatically change the visuals of your game without adding much complexity to your code.</p>
+
+<p></p>
+
+<p>For a comparison, here is what a simple map looks like in isometric (2.5D) vs orthographic (flat) projection.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.45.39-PM-1.png" alt="Screen Shot 2014-05-26 at 2.45.39 PM" width="787" height="388" class="alignnone size-full wp-image-583" srcset="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.45.39-PM-1.png 787w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.45.39-PM-1-300x148.png 300w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.45.39-PM-1-768x379.png 768w" sizes="(max-width: 787px) 100vw, 787px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.52.23-PM-1.png" alt="Screen Shot 2014-05-26 at 2.52.23 PM" width="787" height="415" class="alignnone size-full wp-image-584" srcset="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.52.23-PM-1.png 787w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.52.23-PM-1-300x158.png 300w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-26-at-2.52.23-PM-1-768x405.png 768w" sizes="(max-width: 787px) 100vw, 787px" />
+</div>
+
+<p>And to get a greater feel for the difference between the projection techniques, [take a look at my current game&#8217;s status](), where I add a little artwork to the equation.</p>
+
+<p>But enough talk for now, let&#8217;s get to the nuts and bolts of how to make the switch. You&#8217;ll first want to <a href="https://github.com/Yonaba/Jumper">download and install Jumper</a>, the open source pathfinding library used for this project. Once you have that downloaded, lets&#8217;s do some basic setup by declaring local variables and drawing a background to the screen.</p>
+
+<p><a href="https://gist.github.com/codepaladin/8dc3511c2c5b6b4044ad">https://gist.github.com/codepaladin/8dc3511c2c5b6b4044ad</a></p>
+
+<p>Once the basics are set up, we&#8217;ll draw a grid to the screen and populate the map table with information about the grid.</p>
+
+<p><a href="https://gist.github.com/codepaladin/04e7c8ed2fa73fcb8a65">https://gist.github.com/codepaladin/04e7c8ed2fa73fcb8a65</a></p>
+
+<p>This function is responsible for a couple things. The first is to 6 rows and 6 columns in order to give us our grid. Since the isometric look depends on the tiles being diamond shaped, we create 36 polygons, each with a width of 128 pixels and a height of 64 pixels. It&#8217;s important to note that compared to a square grid, a little extra math needs to be performed when calculating grid and pixel coordinates. This is because moving an x or y position on the cartesian grid also affects both the x and y pixel coordinates. I don&#8217;t want to get into that too much in this tutorial, but I recommend reading <a href="http://clintbellanger.net/articles/isometric_math/">Isometric Tiles Math</a> if you want to learn more about the mathematics behind plotting isometric tiles.</p>
+
+<p>The second responsibility of the drawGrid() function is to populate the local map {} table with 1 and 0 values. When the function is finished running, the map table will contain 6 nested tables, with each nested table consisting of 6 values. The map is a direct representation of the grid drawn to the screen and this table is what Jumper needs in order to know how many rows and columns make up the grid and which positions are walkable or un-walkable.</p>
+
+<p>Next, we create our start and end positions:</p>
+
+<p><a href="https://gist.github.com/codepaladin/4035d4415e2f1cec82b5">https://gist.github.com/codepaladin/4035d4415e2f1cec82b5</a></p>
+
+<p>These two functions draw the A and B values onto the screen by using the start and end coordinates declared earlier. These points are also what the Jumper library will use to create the most efficient path.</p>
+
+<p><a href="https://gist.github.com/codepaladin/d85a5d7f9f0244b774fd">https://gist.github.com/codepaladin/d85a5d7f9f0244b774fd</a></p>
+
+<p>The Jumper library utilizes the map, obstacle, and start and finish variables to figure out the optimal grid path to get way to get form point A to point B. To take things further, you could store the grid path and then use it to move a sprite from A to B one grid position at a time. Doing that would require a little more work to do things like translate grid coordinates to pixel coordinates, and I recommend the <a href="http://masteringcoronasdk.com/jumper-pathfinding-tutorial-a/">Pathfinding with Jumper</a> tutorial if you need some more help.</p>
+
+<p>The source code to this tutorial can be <a href="https://github.com/codepaladin/Jumper-Isometric">found on GitHub</a>.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

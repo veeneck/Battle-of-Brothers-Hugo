@@ -1,0 +1,227 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+  	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+   	 	
+  	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>Now that I&#8217;m working with other people, all sorts of questions come up about my game. How many illustrations where there be? How many actors? Is the script finished? What tone should the game have? Pretty much every single thing you could think to ask about the game needs an answer. Everyone I have spoken to says to start art / sound / music / copy editing / storyboarding early in the process. Don&#8217;t wait until the last minute, they say. And while most people have my best interests in mind, it is still a ton of work to answer questions in a thoughtful way.</p>
+
+<p></p>
+
+<p>So, going on 3 weeks now, I have done very little programming and a ton of writing. I thought it may be interesting to look at the types of design documents I&#8217;ve had to prepare.</p>
+
+<h4 id="scope-of-game">Scope of Game</h4>
+
+<p>Once I began talking to artists and was able to get a rough idea on pricing, I was able to really think about the scope of my game. Writing out the overall game design helps to focus vague ideas in your head and turn them into concrete ideas that have money attached to them. Examples of what has come out of this process:</p>
+
+<blockquote>
+<p>12 level illustrations</p>
+
+<p>150 small, layered environment details (campfire, tent, house, etc).</p>
+
+<p>12 &#8211; 20 storyboard illustrations</p>
+
+<p>1 main menu illustration</p>
+
+<p>1 combat prep illustration</p>
+
+<p>1 world map</p>
+
+<p>6 character portraits (if they can’t be cut from one of the storyboards)</p>
+</blockquote>
+
+<p>From there, I have also thought about how heroes will progress, what strategies will take place on each level, and so on. Without this information, it is hard to design a map to that highlights different advantages or character traits.</p>
+
+<h4 id="individual-levels">Individual Levels</h4>
+
+<p>I&#8217;ve been working with an amazing illustrator, <a href="http://appylon.weebly.com" target="_blank">Scott Pellico</a>. Before he can start drawing a level, he needs layout information from me. Where people will spawn, where they will walk, what obstacles there will be and general design notes. So, for this process, I create a rough map using assets from <a href="http://www.kenney.nl" target="_blank">Kenney</a>. I&#8217;ll add the map in game, and run real spawns through it to see the timing and feel of the layout. From there, I&#8217;ll give Scott this:</p>
+
+<p><img class="alignnone size-large wp-image-969" src="http://localhost:8888/wp-content/uploads/2014/08/Level-3-City-1-723x1024.jpg" alt="Level 3 - City" width="625" height="885" /></p>
+
+<p>He can take that, and generate an illustration that will be close to perfect.</p>
+
+<h4 id="details-of-individual-levels">Details of Individual Levels</h4>
+
+<p>Once Scott has finished a 90% pass of the level, I&#8217;ll start to go in and add ideas for environmental changes as the player progress. If you&#8217;re not aware, my game map will incrementally change as the player performs actions. Ideally, this will make the player more engaged, and also give the perception of an ongoing conflict. It&#8217;s one thing to say, &#8220;Hey Scott, just make the map get slightly cooler each time a unit spawns.&#8221; It turns out it is actually quite time consuming just to think of ideas, and to present them in a way that won&#8217;t interfere with game mechanics. So, for this step, I prepare something like this for each spawn:</p>
+
+<p><img class="alignnone size-large wp-image-972" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-11-at-3.44.46-PM-1-817x1024.png" alt="Screen Shot 2014-08-11 at 3.44.46 PM" width="625" height="783" srcset="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-11-at-3.44.46-PM-1-817x1024.png 817w, http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-11-at-3.44.46-PM-1-239x300.png 239w, http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-11-at-3.44.46-PM-1-768x963.png 768w, http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-11-at-3.44.46-PM-1.png 900w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+
+<h4 id="script">Script</h4>
+
+<p>In order to plan out ho many illustrations you will need, you need to know how many cut scenes your game will have. And to know how many cut scenes, you need to know the story and script. So, out of this process, I now have a first draft of the script. It did seem a bit early for me to be working on the script, but a few benefits have come out of it:</p>
+
+<ul>
+<li>Already have a copy editor looking at it, which means I can be responsive to changes since all illustrations have not been completed yet.</li>
+<li>I&#8217;m in early talks with sound guys, and I can provide information like &#8220;There will be 4 main speaking characters, 2 sub characters with 1 line each, and 55 total lines of dialogue.&#8221;</li>
+<li>I have rough ideas of the setting for each level now.</li>
+<li>With settings nearly finalized, the world map can be started when there is downtime.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<hr class="dots" />
+
+<p>&nbsp;</p>
+
+<p>Taking this time away from programming to write everything out has too many benefits to list. I was skeptical at first, but this feeling of being prepared is invaluable. I&#8217;m not sure I&#8217;ll ever truly enjoy creating design documents, but seeing what the talented people I work with turn them into is always a huge motivator.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

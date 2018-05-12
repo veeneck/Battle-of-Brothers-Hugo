@@ -3,26 +3,11 @@
 
   	<div id="leftChecker"></div>
 
+  	{{ partial "breadcrumb.html" . }}
+
   	{{ partial "hero.html" . }}
 
-    <nav>
-  	 	<div class="container clear">
-	  		<div class="leftnav">
-	  			<span>
-		  			<a href="/sirryan" class=" clear">
-		  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Ryan
-		  			</a>
-	  			</span>
-			</div>
-			<div class="rightnav">
-				<span>
-		  			<a href="/sirchris" class="clear">
-		  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Chris
-		  			</a>
-	  			</span>
-			</div>
-		</div>
-  	</nav>
+  	{{ partial "nav.html" . }}
 
     {{ block "main" . -}}{{- end }}
 

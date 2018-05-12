@@ -1,0 +1,230 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+  	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+   	 	
+  	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>An unsteady foundation is still a foundation, right? I&#8217;ve continued my work of porting all code into a single project. You can roughly play the game from start to level 2 right now. This means loading, saving, world map, placing troops, enemy waves, game over state, resuming, story, and more. There is a lot of core code in place.</p>
+
+<p></p>
+
+<p>The only catch? It&#8217;s not stable yet. Memory leaks, timing issues and missing assets are still common. I&#8217;ll keep iterating on this next update. And when I get bored with that, I incrementally polish different screens. During this update, I revisited the main menu and world map.</p>
+
+<div class="inlineimg">
+  [youtube=https://www.youtube.com/watch?v=8wekuzwkWG0&w=740&theme=light]
+</div>
+
+<h4 id="laying-a-foundation">Laying a Foundation</h4>
+
+<p>When I say that I&#8217;m laying a foundation, here are some specifics on what I mean.</p>
+
+<ul>
+<li>Sizing all assets needed for the first 3 levels, and making sure they&#8217;re fine on all devices.</li>
+<li>Testing button sizes and making sure their click region is large enough.</li>
+<li>Adding functionality like propagation to buttons, which SpriteKit does not have built in.</li>
+<li>Larger placeholder assets for music and video streaming, to see how memory and loading is affected.</li>
+<li>Playing with volume control on music, and trying to keep music playing between scenes.</li>
+<li>Tons of memory issues / leaks between scenes.</li>
+<li>Fix common crashes in combat to get an alpha playable.</li>
+<li>Come up with some sort of basic, reusable UI pattern.</li>
+<li>Fix redundant problems in the code.</li>
+</ul>
+
+<p>There is plenty more to add to that list, but you get the idea. Once the first 3 levels are rock solid, adding every additional level will just be more of the same. So, I&#8217;m just trying to get to a decent, bug free code base for general game navigation along with basic combat functionality. At that point, I can bring in co-workers for a super early alpha to test on different devices. From there, I&#8217;ll spend months working on an in depth combat layer in preparation for a beta.</p>
+
+<h4 id="main-menu">Main Menu</h4>
+
+<p>Since I now have all of the art and music for a main menu, I decided to start making it functional. Technically, this means a few things:</p>
+
+<ul>
+<li>Detect if it&#8217;s the first time playing, and show different logos (i.e.: company logo) accordingly.</li>
+<li>Make the music transition smoothly when going to the loading screen, or directly into story scene.</li>
+<li>Create up to 3 new save files, and allow the user to delete them.</li>
+</ul>
+
+<p>Have a look at the first draft below. Everything, including the title, are subject to change. But, I now have a decent foundation to work with here.</p>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;NeedyPositiveKiskadee&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<p>One of the nice things about implementing the main menu is that I took my time. I set no deadlines, so I was not rushed. I played around with movement and light. I learned tricks in Pixelmator. The code is clean and reusable. Overall, it felt really good to get something to a decent state. So much in game development is overwhelming that this was a welcome change.</p>
+
+<h4 id="world-map">World Map</h4>
+
+<p>The problem with the world map is that it is too cartoony when compared to the rest of the game. Everything is serious and somber, and then you have this happy world map breaking the flow. So, before having the art redone, I&#8217;m playing with ways to make everything look more consistent. Here is that first attempt.</p>
+
+<p>The old world map.</p>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;ColossalFemaleCobra&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<p>The new world map.</p>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;PertinentFamousGlowworm&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<p>There is definitely some progress, but it isn&#8217;t there yet. Having icons designed could be a huge help. Also, I&#8217;ll be reaching out to Brian for help on this one to see if he has any tricks up his sleeves.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

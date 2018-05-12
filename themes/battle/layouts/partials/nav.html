@@ -1,0 +1,60 @@
+{{ if eq .Page.Title "Battle of Brothers" }}
+
+ <nav>
+	 <div class="container clear">
+  		<div class="leftnav">
+  			<span>
+	  			<a href="/sirryan" class=" clear">
+	  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Ryan
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav">
+			<span>
+	  			<a href="/sirchris" class="clear">
+	  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Chris
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+{{ else }}
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+{{ end }}

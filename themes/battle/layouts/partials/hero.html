@@ -1,5 +1,11 @@
+{{ $ryanSelected := "" }}
+
+{{ if (in .Params.categories "sirryan") }}
+	{{ $ryanSelected := "selected" }}
+{{ end }}
+
 <header class="content">
-	<a class="ryanshield rotate" href="/sirryan">
+	<a class="ryanshield rotate {{ $ryanSelected }}" href="/sirryan">
 		<img class="" style="" src="/assets/RyanShield.png" />
 	</a>
 

@@ -1,0 +1,239 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>Most mobile apps are developed to run across multiple devices, which means developers have to account for multiple screen resolutions. Image scaling is an important part of multi-device support because you want to use higher resolution images on modern, high-res devices, while using lower resolution images on low-res devices. That saves memory on the low-res devices while maximizing all of the pixel density goodness on the high-res devices. Lucky for Corona SDK developers, Corona makes image scaling a breeze with their <a href="http://docs.coronalabs.com/guide/basics/configSettings/#dynamic-image-selection">dynamic image selection</a> feature.</p>
+
+<p></p>
+
+<p>In this tutorial I&#8217;m going to go over how to implement dynamic image selection using <a href="http://www.codeandweb.com/texturepacker">Texture Packer</a> and Corona to easily scale your images across multiple devices. If you haven&#8217;t already downloaded Texture Packer, go and <a href="http://www.codeandweb.com/texturepacker/download">download the free trial</a>. Texture Packer easily creates sprite sheets for multiple game engines and they also automatically scale sprite sheets for Corona SDK.</p>
+
+<h4 id="drag-your-images-into-texture-packer">Drag your Images into Texture Packer</h4>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-2.19.59-PM-1024x590.png" alt="Screen Shot 2014-06-24 at 2.19.59 PM" width="625" height="360" class="alignnone size-large wp-image-708" />
+</div>
+
+<p>I&#8217;m using a <a href="http://opengameart.org/content/tuscan-knight-bleeds-game-art-hd">Tuscan Knight image</a> that I found at open game art, so you can download that to follow along.</p>
+
+<p>In this first step we find our knight images, which are in the /Isometric/Idle folder and drag them over into Texture Packer. Also make sure that the Texture Packer data format setting at the top left of the screen is set to Corona SDK.</p>
+
+<h4 id="configure-auto-sd-settings">Configure Auto-SD Settings</h4>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-2.20.19-PM.png" alt="Screen Shot 2014-06-24 at 2.20.19 PM" width="851" height="679" class="alignnone size-full wp-image-709" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-2.20.28-PM.png" alt="Screen Shot 2014-06-24 at 2.20.28 PM" width="836" height="678" class="alignnone size-full wp-image-710" />
+</div>
+
+<p>Click the AutoSD cog in the left hand panel to bring up the Auto-SD Settings panel. Once that pops up, click on corona@2x and hit Apply. This is done so that Texture Packer will create two sprite sheets. One at full size and one at half-size.</p>
+
+<h4 id="name-your-files">Name your Files</h4>
+
+<p>You need to include {v} in your file names as a placeholder for the variant identifier, which is 2x in this case.</p>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-2.21.24-PM.png" alt="Screen Shot 2014-06-24 at 2.21.24 PM" width="387" height="376" class="alignnone size-full wp-image-711" />
+</div>
+
+<h4 id="export-the-sprite-sheet">Export the Sprite Sheet</h4>
+
+<p>Click the Publish button and export your sprite sheets and corresponding .lua files. There should be 4 total files which in this example are knight.lua, knight.png, knight@2x.lua and knight@2x.png.</p>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-2.21.50-PM-1024x857.png" alt="Screen Shot 2014-06-24 at 2.21.50 PM" width="625" height="523" class="alignnone size-large wp-image-707" />
+</div>
+
+<h4 id="create-a-corona-project">Create a Corona Project</h4>
+
+<p>Create a new project in Corona and add the two .png files and two .lua files that were generated by Texture Packer. You&#8217;ll also want to create a main.lua file and config.lua file.</p>
+
+<h4 id="the-config-file">The Config File</h4>
+
+<p><a href="https://gist.github.com/codepaladin/f17194932197ea3aa91e">https://gist.github.com/codepaladin/f17194932197ea3aa91e</a></p>
+
+<p>They key to image scaling is the .config file, and you can read more about what a config file handles over on the <a href="http://docs.coronalabs.com/guide/basics/configSettings/index.html">official Corona site</a>. The config file that I&#8217;m using was taken from Corona&#8217;s <a href="http://coronalabs.com/blog/2013/09/10/modernizing-the-config-lua/">tutorial on modernizing the config.lua file</a>:</p>
+
+<p>What the config file does here is tell Corona to use the larger sprite sheet, or the &#8220;@2x&#8221; .png file on devices that have a screen width greater than 1040 pixels. The smaller base .png file will be used on any devices that have a screen width less than 1040 pixels.</p>
+
+<h4 id="displaying-images">Displaying Images</h4>
+
+<p><a href="https://gist.github.com/codepaladin/b202d45864ba6a886cc6">https://gist.github.com/codepaladin/b202d45864ba6a886cc6</a></p>
+
+<p>Here we draw an animated knight sprite to the screen based off of the sprite sheets that Texture Packer created. Corona automatically handles which sprite sheet to use based on the device you&#8217;re using.</p>
+
+<p>So if you&#8217;re on an iPhone 5, the display will look like:</p>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-4.08.47-PM.png" alt="Screen Shot 2014-06-24 at 4.08.47 PM" width="369" height="770" class="alignnone size-full wp-image-714" />
+</div>
+
+<p>And if you&#8217;re on an iPad Retina, the display will look like:</p>
+
+<div class="inlineimg">
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-4.09.02-PM.png" alt="Screen Shot 2014-06-24 at 4.09.02 PM" width="828" height="1080" class="alignnone size-full wp-image-715" />
+</div>
+
+<p>The images look similar, but they&#8217;re actually taken from different sprite sheets as you can see by the image with the 2x on it. The iPhone will use less memory since it loads in a smaller image. The iPad uses more memory, but it has more clarity due to the greater pixel density.</p>
+
+<p>Files for this tutorial can be <a href="https://github.com/codepaladin/Image-Scaling">downloaded on GitHub</a>.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

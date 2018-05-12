@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lua on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/lua/</link>
+    <description>Recent content in Lua on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jun 2014 17:30:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/lua/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Health Bars and Taking Damage in Corona SDK</title>
+      <link>http://battleofbrothers.com/2014/06/24/health-bars-and-taking-damage-in-corona-sdk/</link>
+      <pubDate>Tue, 24 Jun 2014 17:30:09 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/06/24/health-bars-and-taking-damage-in-corona-sdk/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s common to see &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34;&gt;health bars attached to a characters&lt;/a&gt; in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

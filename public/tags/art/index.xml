@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/art/</link>
+    <description>Recent content in Art on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2015 15:15:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Character Creation Process</title>
+      <link>http://battleofbrothers.com/2015/01/27/the-character-creation-process/</link>
+      <pubDate>Tue, 27 Jan 2015 15:15:48 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2015/01/27/the-character-creation-process/</guid>
+      <description>&lt;p&gt;One of the most enjoyable parts of the game development process so far has been creating characters. Using my imagination to discover how they look, what abilities they have, where they&amp;#8217;re from, and how they talk is immensely satisfying. Largely due to the efforts of the illustrator and animator I&amp;#8217;m contracting, the first character of the game was just fully completed. I&amp;#8217;m extremely happy with the outcome and thought I&amp;#8217;d share with you the process of how he came to life.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Take on Health Bars</title>
+      <link>http://battleofbrothers.com/2015/01/12/my-take-on-health-bars/</link>
+      <pubDate>Mon, 12 Jan 2015 16:35:41 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2015/01/12/my-take-on-health-bars/</guid>
+      <description>&lt;p&gt;Health indicators are found in almost every game. As Chris pointed out, they come in a &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34; target=&#34;_blank&#34;&gt;variety of shapes and sizes&lt;/a&gt;. When it became time to think about them in my game, I wanted to add something that was functional, but also unique or interesting in some way.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Level Design – Concept to Creation</title>
+      <link>http://battleofbrothers.com/2014/09/24/level-design-concept-to-creation/</link>
+      <pubDate>Wed, 24 Sep 2014 12:52:38 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/09/24/level-design-concept-to-creation/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been working on level design with an illustrator for the last couple weeks and things are really moving along nicely. What once took about 3 days of work is now condensed down into almost a day. We have 5 or so levels knocked out at this stage and I thought I&amp;#8217;d share the process on how they come to life.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Evolution of a Level</title>
+      <link>http://battleofbrothers.com/2014/09/17/evolution-of-a-level/</link>
+      <pubDate>Wed, 17 Sep 2014 13:26:50 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/09/17/evolution-of-a-level/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s amazing how long it can take to make your first level. It seems so simple at first. Just put a castle here, some grass there, and call it a day. But, questions arise. What art style should we go with? Will sprites be light or dark, so that we know what color grass and flooring to use? How wide do walkways need to be? Basically, figuring out your first level is like figuring out your entire game. Because of that, my first level continues to change. I thought it would be neat to take a look at where it started, and where it is now.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>$800 on Illustrations</title>
+      <link>http://battleofbrothers.com/2014/08/27/800-on-illustrations/</link>
+      <pubDate>Wed, 27 Aug 2014 14:24:03 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/27/800-on-illustrations/</guid>
+      <description>I found an illustrator for my game, and he started out by creating some character concepts and a couple of battlefield scenes.</description>
+    </item>
+    
+    <item>
+      <title>$200 on Behance</title>
+      <link>http://battleofbrothers.com/2014/08/27/200-on-behance/</link>
+      <pubDate>Wed, 27 Aug 2014 14:21:40 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/27/200-on-behance/</guid>
+      <description>I&amp;#8217;ve been looking for an animator and the three methods of recruitment that I used were making a blog post, reaching out to people I admired on Carbonmade, and paying for a job listing on Behance. I received 52 applications within 5 days and ended up finding the right man for the job through Behance. If he works out, then this was $200 well spent.</description>
+    </item>
+    
+    <item>
+      <title>Designing Backgrounds for Multiple Aspect Ratios and Corona’s Config.lua</title>
+      <link>http://battleofbrothers.com/2014/08/26/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</link>
+      <pubDate>Tue, 26 Aug 2014 13:50:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/26/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</guid>
+      <description>&lt;p&gt;One of the reasons I chose Corona SDK as my development platform was because they support many devices across many platforms. But mo&amp;#8217; devices means mo&amp;#8217; problems, and one of those problems is creating artwork that scales across all devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>$325 on Illustrator Trial Run</title>
+      <link>http://battleofbrothers.com/2014/08/18/325-on-illustrator-trial-run/</link>
+      <pubDate>Mon, 18 Aug 2014 15:55:48 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/18/325-on-illustrator-trial-run/</guid>
+      <description>I made a list of illustrators who I planned on contacting for trial illustrations, but I lucked out by having Scott Pellico go first. Scott illustrated a piece of my world map as a trial to see if his style was a fit for the world I&amp;#8217;d like to create. He nailed it and I&amp;#8217;m lucky to have found a quality illustrator on the first go.</description>
+    </item>
+    
+    <item>
+      <title>A Bit About Design Documents</title>
+      <link>http://battleofbrothers.com/2014/08/12/a-bit-about-design-documents/</link>
+      <pubDate>Tue, 12 Aug 2014 16:25:40 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/12/a-bit-about-design-documents/</guid>
+      <description>&lt;p&gt;Now that I&amp;#8217;m working with other people, all sorts of questions come up about my game. How many illustrations where there be? How many actors? Is the script finished? What tone should the game have? Pretty much every single thing you could think to ask about the game needs an answer. Everyone I have spoken to says to start art / sound / music / copy editing / storyboarding early in the process. Don&amp;#8217;t wait until the last minute, they say. And while most people have my best interests in mind, it is still a ton of work to answer questions in a thoughtful way.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>$475 on Animator Trial Runs</title>
+      <link>http://battleofbrothers.com/2014/08/08/375-on-animator-trial-runs/</link>
+      <pubDate>Fri, 08 Aug 2014 16:47:16 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/08/375-on-animator-trial-runs/</guid>
+      <description>Things are moving quickly now. I&amp;#8217;ve started to line up as many character artists and animators as I can to do some trial runs. Ideally, I&amp;#8217;ll find one super talented person, or multiple people who have complimentary skill sets. Trials get expensive, but they&amp;#8217;re worth it to find the right person. More should come in next week.</description>
+    </item>
+    
+    <item>
+      <title>Art &amp; Working With Others</title>
+      <link>http://battleofbrothers.com/2014/08/04/art-working-with-others/</link>
+      <pubDate>Mon, 04 Aug 2014 13:37:58 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/04/art-working-with-others/</guid>
+      <description>&lt;p&gt;The past two weeks did not go as planned. What started out as a coding week that would involve balancing unit attributes turned into a full on art blitz. I received a lengthy, somewhat painful, and costly introduction into the world of art. At the same time, I received the invaluable jolt of excitement and motivation that comes from working with other talented people.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I’m Looking for in an Illustrator</title>
+      <link>http://battleofbrothers.com/2014/07/31/what-im-looking-for-in-an-illustrator/</link>
+      <pubDate>Thu, 31 Jul 2014 15:00:24 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/07/31/what-im-looking-for-in-an-illustrator/</guid>
+      <description>&lt;p&gt;I&amp;#8217;m in the process of contracting an illustrator and so far I&amp;#8217;ve looked at more profiles on &lt;a href=&#34;http://www.deviantart.com&#34;&gt;deviantART&lt;/a&gt; and &lt;a href=&#34;https://www.behance.net&#34;&gt;Behance&lt;/a&gt; than I can remember. I thought this would be an easy process, but I&amp;#8217;ve never worked with an illustrator before and I never realized how many variables would come into play when searching for the right person. I know I won&amp;#8217;t find everything I&amp;#8217;m looking for, but here are some of the variables I&amp;#8217;m taking into consideration while looking for the right person.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Experiences Searching for an Artist</title>
+      <link>http://battleofbrothers.com/2014/07/29/my-experiences-searching-for-an-artist/</link>
+      <pubDate>Tue, 29 Jul 2014 17:19:47 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/07/29/my-experiences-searching-for-an-artist/</guid>
+      <description>&lt;p&gt;Finding an artist has been my biggest fear since this competition started. There are so many things that could go wrong when you have to depend on someone you don&amp;#8217;t know to contribute a third or more to your project. The style may not be a match, they could leave half way through the project, the budget estimations may be way off &amp;#8212; the list goes on and on. I must say though, I&amp;#8217;ve gained confidence in art contractors in the two weeks I&amp;#8217;ve been speaking with them. I thought I would share some of my notes.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Thinking About the Cost of Art</title>
+      <link>http://battleofbrothers.com/2014/06/30/thinking-about-the-cost-of-art/</link>
+      <pubDate>Mon, 30 Jun 2014 15:21:02 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/06/30/thinking-about-the-cost-of-art/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve ventured into the unknown while working on my game &amp;#8212; I don&amp;#8217;t know what art costs. This is becoming an issue because I have all sorts of grand ideas for levels, characters and features. It is clear that art, or more directly my budget, will be the deciding factor on the scope of my game.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

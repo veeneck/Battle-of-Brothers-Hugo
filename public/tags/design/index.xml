@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/design/</link>
+    <description>Recent content in Design on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2015 15:15:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Character Creation Process</title>
+      <link>http://battleofbrothers.com/2015/01/27/the-character-creation-process/</link>
+      <pubDate>Tue, 27 Jan 2015 15:15:48 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2015/01/27/the-character-creation-process/</guid>
+      <description>&lt;p&gt;One of the most enjoyable parts of the game development process so far has been creating characters. Using my imagination to discover how they look, what abilities they have, where they&amp;#8217;re from, and how they talk is immensely satisfying. Largely due to the efforts of the illustrator and animator I&amp;#8217;m contracting, the first character of the game was just fully completed. I&amp;#8217;m extremely happy with the outcome and thought I&amp;#8217;d share with you the process of how he came to life.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Level Design – Concept to Creation</title>
+      <link>http://battleofbrothers.com/2014/09/24/level-design-concept-to-creation/</link>
+      <pubDate>Wed, 24 Sep 2014 12:52:38 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/09/24/level-design-concept-to-creation/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been working on level design with an illustrator for the last couple weeks and things are really moving along nicely. What once took about 3 days of work is now condensed down into almost a day. We have 5 or so levels knocked out at this stage and I thought I&amp;#8217;d share the process on how they come to life.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Evolution of a Level</title>
+      <link>http://battleofbrothers.com/2014/09/17/evolution-of-a-level/</link>
+      <pubDate>Wed, 17 Sep 2014 13:26:50 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/09/17/evolution-of-a-level/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s amazing how long it can take to make your first level. It seems so simple at first. Just put a castle here, some grass there, and call it a day. But, questions arise. What art style should we go with? Will sprites be light or dark, so that we know what color grass and flooring to use? How wide do walkways need to be? Basically, figuring out your first level is like figuring out your entire game. Because of that, my first level continues to change. I thought it would be neat to take a look at where it started, and where it is now.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Designing Backgrounds for Multiple Aspect Ratios and Corona’s Config.lua</title>
+      <link>http://battleofbrothers.com/2014/08/26/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</link>
+      <pubDate>Tue, 26 Aug 2014 13:50:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/26/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</guid>
+      <description>&lt;p&gt;One of the reasons I chose Corona SDK as my development platform was because they support many devices across many platforms. But mo&amp;#8217; devices means mo&amp;#8217; problems, and one of those problems is creating artwork that scales across all devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Bit About Design Documents</title>
+      <link>http://battleofbrothers.com/2014/08/12/a-bit-about-design-documents/</link>
+      <pubDate>Tue, 12 Aug 2014 16:25:40 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/08/12/a-bit-about-design-documents/</guid>
+      <description>&lt;p&gt;Now that I&amp;#8217;m working with other people, all sorts of questions come up about my game. How many illustrations where there be? How many actors? Is the script finished? What tone should the game have? Pretty much every single thing you could think to ask about the game needs an answer. Everyone I have spoken to says to start art / sound / music / copy editing / storyboarding early in the process. Don&amp;#8217;t wait until the last minute, they say. And while most people have my best interests in mind, it is still a ton of work to answer questions in a thoughtful way.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I’m Looking for in an Illustrator</title>
+      <link>http://battleofbrothers.com/2014/07/31/what-im-looking-for-in-an-illustrator/</link>
+      <pubDate>Thu, 31 Jul 2014 15:00:24 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/07/31/what-im-looking-for-in-an-illustrator/</guid>
+      <description>&lt;p&gt;I&amp;#8217;m in the process of contracting an illustrator and so far I&amp;#8217;ve looked at more profiles on &lt;a href=&#34;http://www.deviantart.com&#34;&gt;deviantART&lt;/a&gt; and &lt;a href=&#34;https://www.behance.net&#34;&gt;Behance&lt;/a&gt; than I can remember. I thought this would be an easy process, but I&amp;#8217;ve never worked with an illustrator before and I never realized how many variables would come into play when searching for the right person. I know I won&amp;#8217;t find everything I&amp;#8217;m looking for, but here are some of the variables I&amp;#8217;m taking into consideration while looking for the right person.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Thinking About the Cost of Art</title>
+      <link>http://battleofbrothers.com/2014/06/30/thinking-about-the-cost-of-art/</link>
+      <pubDate>Mon, 30 Jun 2014 15:21:02 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/06/30/thinking-about-the-cost-of-art/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve ventured into the unknown while working on my game &amp;#8212; I don&amp;#8217;t know what art costs. This is becoming an issue because I have all sorts of grand ideas for levels, characters and features. It is clear that art, or more directly my budget, will be the deciding factor on the scope of my game.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>10 Movement Grid Display Techniques</title>
+      <link>http://battleofbrothers.com/2014/06/18/10-unique-movement-grid-display-techniques/</link>
+      <pubDate>Wed, 18 Jun 2014 16:59:51 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/06/18/10-unique-movement-grid-display-techniques/</guid>
+      <description>&lt;p&gt;An easy way to add distinction and flavor to your game is to make seemingly standard concepts into &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34;&gt;unique game art&lt;/a&gt;. For example, two visual elements that pretty much all turn based tactical games contain are a means of displaying how far character can move and what enemies are within attack range. It would be easy to just make some squares green and others red, but you&amp;#8217;d be missing an opportunity to add a little polish to your game. To visually understand what I&amp;#8217;m talking about, here are screenshots of games that implement standard concepts in unique ways.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Common Turn Based Game Projection Techniques</title>
+      <link>http://battleofbrothers.com/2014/05/21/common-turn-based-game-projection-techniques/</link>
+      <pubDate>Wed, 21 May 2014 16:53:09 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/05/21/common-turn-based-game-projection-techniques/</guid>
+      <description>&lt;p&gt;A couple commonly used projection techniques for turn based video games are &lt;a href=&#34;http://en.wikipedia.org/wiki/Orthographic_projection&#34;&gt;orthographic&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Isometric_projection&#34;&gt;isometric&lt;/a&gt; projection. I&amp;#8217;m in the process of figuring out which technique I&amp;#8217;ll be using for my tactics game and I&amp;#8217;ve been looking into the pros and cons of each method and how they&amp;#8217;ve been used in previous games. Here&amp;#8217;s what I&amp;#8217;ve discovered so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trial and Error is a Necessity for Game Development</title>
+      <link>http://battleofbrothers.com/2014/05/20/trial-and-error-is-a-necessity-for-game-development/</link>
+      <pubDate>Tue, 20 May 2014 14:51:08 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/05/20/trial-and-error-is-a-necessity-for-game-development/</guid>
+      <description>&lt;p&gt;While working on the catapult for my game, I came across the first of many design problems I will face. Turns out it is much easier to critique another game&amp;#8217;s design than it is to create your own with confidence. In my situation, I was deciding between a player controlled catapult and an automated catapult. I was so torn that I &lt;a href=&#34;http://www.reddit.com/r/gamedesign/comments/25eakp/when_is_player_control_no_longer_fun/&#34; target=&#34;_blank&#34;&gt;posed the question to /r/gamedesign&lt;/a&gt; and had to write the code for each. Let&amp;#8217;s look at the results.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Health Display Roundup</title>
+      <link>http://battleofbrothers.com/2014/05/05/health-display-roundup-2/</link>
+      <pubDate>Mon, 05 May 2014 16:59:16 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/05/05/health-display-roundup-2/</guid>
+      <description>&lt;p&gt;Visually displaying a character&amp;#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&amp;#8217;m working on will include health bars, so I&amp;#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&amp;#8217;ve come across.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Health Display Roundup</title>
+      <link>http://battleofbrothers.com/2014/05/05/health-display-roundup/</link>
+      <pubDate>Mon, 05 May 2014 16:59:16 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/05/05/health-display-roundup/</guid>
+      <description>&lt;p&gt;Visually displaying a character&amp;#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&amp;#8217;m working on will include health bars, so I&amp;#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&amp;#8217;ve come across.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Designing This Site Prepares Me For Game Development</title>
+      <link>http://battleofbrothers.com/2014/03/27/how-designing-this-site-prepares-me-for-game-development/</link>
+      <pubDate>Thu, 27 Mar 2014 15:00:33 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/2014/03/27/how-designing-this-site-prepares-me-for-game-development/</guid>
+      <description>&lt;p&gt;Whether it be video games, web development or mobile software, coding is coding. And launching something is hard. Every developer knows that. One of the main difficulties comes from design. Or, more specifically, polish. Anytime I can exercise my design muscles, I&amp;#8217;ll be better prepared the next time around.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

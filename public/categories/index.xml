@@ -10,5 +10,32 @@
 	<atom:link href="http://battleofbrothers.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Sirchris</title>
+      <link>http://battleofbrothers.com/categories/sirchris/</link>
+      <pubDate>Wed, 16 Sep 2015 17:07:22 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/categories/sirchris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sirryan</title>
+      <link>http://battleofbrothers.com/categories/sirryan/</link>
+      <pubDate>Tue, 12 Jul 2016 18:08:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/categories/sirryan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>http://battleofbrothers.com/categories/uncategorized/</link>
+      <pubDate>Fri, 11 May 2018 17:33:43 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

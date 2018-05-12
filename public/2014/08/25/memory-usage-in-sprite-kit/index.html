@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+  	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+   	 	
+  	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>Now that I&#8217;m <a href="http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks" target="_blank">receiving real art</a> for my game, I thought it would be a good time to learn about memory usage and limits. This was also prompted by my current level running at 55-60MB before any gameplay action or characters loaded on screen. That memory usage seemed a bit high, so I decided this was an issue that I needed to <a href="https://www.youtube.com/watch?v=2o1U2pWcR34" target="_blank">delve into</a>. In hindsight, most of this is basic to an experienced game developer, but I found the process to be quite fun. You can just read my lessons learned below if you don&#8217;t want to follow my detective work.</p>
+
+<p></p>
+
+<ul>
+<li>Product -&gt; Clean in Xcode between each test.</li>
+<li><a href="http://stackoverflow.com/a/15200855/3519461" target="_blank">Upper limits on memory usage</a>.</li>
+<li>Compress png&#8217;s to improve download size, not memory management.</li>
+<li>PVR is a commonly recommend format.</li>
+<li>Change <a href="http://stackoverflow.com/questions/21625654/sprite-kit-texture-atlas-define-image-format-rgba4444-rgb565" target="_blank">build settings to </a><span style="color: #000000"><a href="http://stackoverflow.com/questions/21625654/sprite-kit-texture-atlas-define-image-format-rgba4444-rgb565" target="_blank">RGBA4444</a> if your images still look good at that setting. I&#8217;m not sure if it is my art style, but I couldn&#8217;t get them to look right (even with dithering).</span></li>
+<li>RGB565 seems to hold up quality, but does not support transparency. This would work well for my base background.</li>
+<li>Breaking apart large images into tiles, and removing tiles that would be covered by other gameplay elements, shows minor gains.</li>
+<li>Create a smaller file for smaller resolution devices as fallback.</li>
+<li>Group files in texture atlases according to use.</li>
+<li>Read<a href="https://developer.apple.com/library/ios/documentation/3ddrawing/conceptual/opengles_programmingguide/TechniquesForWorkingWithTextureData/TechniquesForWorkingWithTextureData.html" target="_blank"> official advice</a>.</li>
+</ul>
+
+<p>Of course, nothing is ever easy. Here are my unanswered questions:</p>
+
+<ul>
+<li>Sprite Kit seems to convert atlases at build time, so setting one image to be RGB565 won&#8217;t work. It&#8217;s all or nothing. I tried adding my one image to images.xcassets, but memory usage increases since the benefits of atlases aren&#8217;t being used. I&#8217;m trying to find a way to set different compressions for different atlases.</li>
+<li>I am not having any luck getting PVR files to work with Sprite Kit. Any tips?</li>
+</ul>
+
+<h4 id="test-1-remove-gui">Test 1: Remove GUI</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1088" src="http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-1024x766.png" alt="Test 2" width="625" height="467" srcset="http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-1024x766.png 1024w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-300x224.png 300w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-768x575.png 768w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1.png 1211w" sizes="(max-width: 625px) 100vw, 625px" />
+</div>
+
+<p>I began my tests by removing things piece by piece. The goal was to get down to 1 node and observe what happened along the way.</p>
+
+<p>Memory: <strong>52MB</strong>    CPU: <strong>17%</strong></p>
+
+<h4 id="test-2-remove-layers">Test 2: Remove Layers</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1091" src="http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg" alt="foothills_base_01-compressor" width="625" srcset="http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg 1024w, http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1-300x225.jpg 300w, http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+</div>
+
+<p>My game is isometric, so there are a ton of layers to give depth and allow units to walk behind objects. I went ahead and removed all of those, which leaves a basic full size background image. This had hugely successful results mainly because anywhere a layer is sitting gone top of the background, the memory usage for that part of the screen is essentially doubled.</p>
+
+<p>Memory: <strong>25.5MB</strong>    CPU: <strong>14%</strong></p>
+
+<h4 id="test-3-compress-images">Test 3: Compress Images</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1092" src="http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-1024x832.png" alt="Test 4" width="625" height="507" srcset="http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-1024x832.png 1024w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-300x244.png 300w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-768x624.png 768w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1.png 1264w" sizes="(max-width: 625px) 100vw, 625px" />
+</div>
+
+<p>Using <a href="https://compressor.io" target="_blank">compressor.io</a>, I shrunk my background image from 1.93MB to 390KB. That&#8217;s a huge difference, and I was expecting huge results. But, I didn&#8217;t get the results I was looking for. Hmmm. At a minimum, this at least helps with the <a href="http://stackoverflow.com/questions/4753100/max-size-of-an-ios-application" target="_blank">over-the-air download limit</a>.</p>
+
+<p>Memory: <strong>25.5MB</strong>    CPU: <strong>12%    </strong>Verdict: <strong>Helps download size, but not in game memory.</strong></p>
+
+<h4 id="test-4-clean-up-atlas-folder">Test 4: Clean Up Atlas Folder</h4>
+
+<p>I was using my <code>.atlas</code> folders to hold generic items instead of specific collections. I removed everything not necessary to the scene, and noticed good results. It appears that if you touch anything inside of an atlas, the entire contents of the atlas are accessed in some fashion.</p>
+
+<p>Memory: <strong>20.9MB</strong>    CPU: <strong>12%    </strong>Verdict:<strong> Important.</strong></p>
+
+<h4 id="test-5-new-swift-sprite-kit-project">Test 5: New Swift / Sprite Kit Project</h4>
+
+<p>Making progress now, so a benchmark is needed. What does a brand new, empty project run at?</p>
+
+<p>Memory: <strong>8.1MB</strong>    CPU: <strong>9%</strong></p>
+
+<h4 id="test-6-clean-up-images-xcassets">Test 6: Clean Up images.xcassets</h4>
+
+<p>Since cleaning up the texture atlases helped, I decided to see if cleaning up images.xcassets would have a similar effect. No luck.</p>
+
+<p>Memory: <strong>20.9MB</strong>    CPU: <strong>12%    </strong>Verdict: <strong>Not related.</strong></p>
+
+<h4 id="test-7-stop-all-code">Test 7: Stop All Code</h4>
+
+<p>I made sure that all of my code was no longer executing. The scene is unpacked, and then nothing else happens. No change.</p>
+
+<p>Memory: <strong>20.9MB</strong>    CPU: <strong>12%</strong></p>
+
+<h4 id="test-8-try-a-smaller-background-image">Test 8: Try A Smaller Background Image</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1093" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-23-at-12.01.36-PM-1-1024x768.png" alt="Screen Shot 2014-08-23 at 12.01.36 PM" width="625" height="468" />
+</div>
+
+<p>At this point, it became clear that file size alone is not the only indicator of memory. So, I tried an image of <sup>1</sup>&frasl;<sub>4</sub> the size. 75% savings, which proved that the remaining ~12MB between a base project and mine was due to the texture size of the background image. Turns out textures use memory based on their <a href="http://stackoverflow.com/questions/20377859/high-memory-usage-in-spritekit-when-using-texture-atlas" target="_blank">resolution and color depth</a>.</p>
+
+<p>Memory: <strong>11.8MB</strong>    CPU: <strong>11%    </strong>Verdict:  <strong>Huge. Memory is related to texture size.</strong></p>
+
+<h4 id="test-9-rgba4444">Test 9: RGBA4444</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1110" src="http://localhost:8888/wp-content/uploads/2014/08/foothills_bad-1-1024x789.png" alt="foothills_bad" width="625" height="481" />
+</div>
+
+<p>Using RGBA444 instead of RGBA8888 cuts the memory used in half. The problem is that it leaves artifacts all over the artwork, and in my case they are quite noticeable. I pointed out the water and snow as examples above.</p>
+
+<p>Memory: <strong>14.9MB</strong>    CPU: <strong>11%    </strong>Verdict: <strong>Huge. But, image quality suffers.</strong></p>
+
+<h4 id="test-10-break-apart-into-tiles">Test 10: Break Apart Into Tiles</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1116" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-24-at-10.45.14-AM-1-1024x767.png" alt="Screen Shot 2014-08-24 at 10.45.14 AM" width="625" height="468" />
+</div>
+
+<p>I wanted to see what would happen if the background was tiled instead of one giant image. Then, I could remove tiles that would be hidden behind a z-index overlay. I thought this would be significant, but I only saw minor gains.</p>
+
+<p>Memory: <strong>Saved 1.8MB</strong>    CPU: <strong>11%    </strong>Verdict: <strong>Minimal gains. Last resort.</strong></p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

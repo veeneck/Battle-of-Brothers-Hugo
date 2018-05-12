@@ -11,7 +11,15 @@
 	<meta name="viewport" content="width=1024"/>
 
   <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  {{ if eq .Page.Title "Battle of Brothers" }}
   <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" />
+  {{ end }}
+
+{{ if (in .Params.categories "sirryan") }}
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+{{ end }}
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

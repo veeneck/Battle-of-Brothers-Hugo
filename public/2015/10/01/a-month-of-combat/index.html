@@ -1,0 +1,228 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+  	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+   	 	
+  	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>This update is similar to <a href="http://battleofbrothers.com/sirryan/a-month-of-pathfinding" target="_blank">my last update</a> in that I spent a month trying to improve the framework of a more complicated portion of the codebase. Last time was pathfinding, this time is combat. In addition to improving combat, I wanted to focus on data integrity and porting combat pathfinding to iOS9 / GameplayKit.</p>
+
+<p><em>Note: This post has been backdated to keep the documentation accurate &#8212; the game was in this state as of Oct. 1st.</em></p>
+
+<p></p>
+
+<div class="inlineimg">
+  [youtube=https://www.youtube.com/watch?v=Gtj9s2cUAn0&w=740&theme=light]
+</div>
+
+<h4 id="a-sampling-of-combat-issues">A Sampling of Combat Issues</h4>
+
+<p>Combat has a bunch of tricky issues that need to be tackled. Among them are:</p>
+
+<ul>
+<li>Only attack enemies you can see.</li>
+<li>Try to avoid units by walking around them instead of through them.</li>
+<li>AI and UI have to use the same code.</li>
+<li>Range overlays have to be dynamic.</li>
+<li>UI should lock certain abilities when engaged.</li>
+<li>Units engaged while walking should stop walking and defend.</li>
+<li>Unit attacked by multiple enemies should remain engaged until last enemy defeated.</li>
+<li>What happens after combat?</li>
+<li>Data integrity for all units tracking who is attacking, who has died, and who is engaging.</li>
+</ul>
+
+<p>As you can imagine, things get complicated quickly. I had to tackle each item one at a time to avoid being overwhelmed. I&#8217;ve taken quite a mental beating between this update and last.</p>
+
+<h4 id="implementing-line-of-sight">Implementing Line of Sight</h4>
+
+<p>One of the more interesting tasks with line of sight for combat. Each unit should be able to see an enemy before walking towards them. This will prevent units from walking through their friends just to get to a target. Steering behaviors can help avoid friendlies, but in order to prevent units from walking in circles, you can&#8217;t rely on steering behaviors alone. With that in mind, the logic works like this:</p>
+
+<ul>
+<li>Look through all enemy units and sort them by distance.</li>
+<li>Take the top X units, and see if you have line of sight.</li>
+<li><em>Note</em>: Since LoS is intensive, X will depend on device / CPU.</li>
+<li>Pick the closet target and engage.</li>
+<li>Run the steps above every 1 second.</li>
+<li>If a change in target occurs, clear any state data and engage new target.</li>
+<li>While walking, use steering behaviors to partially avoid other units.</li>
+</ul>
+
+<h4 id="attacked-from-both-sides">Attacked From Both Sides</h4>
+
+<p>Units will often be close to one another, so combat between multiple squads has to look decent. I started by tackling a unit surrounded on both sides.</p>
+
+<div class="inlineimg">
+  [gfycat data_id=&#8221;GleefulSameFinwhale&#8221; data_autoplay=true data_controls=false]
+</div>
+
+<p>While not finished, the results are promising. To take it a step further, I had to run the simulation multiple times from multiple directions because it has to always work. The end goal is for squads to keep their shape to some extent, which will also have the side effect of keeping things balanced.</p>
+
+<h4 id="cutscenes">Cutscenes</h4>
+
+<p>A quick note on cutscenes &#8212; they are still being worked on, and are getting better each iteration.  As of this update, a proof of concept of the final scene 2 is finished. The same style will then be applied to each scene. After that, sound design will go in. Finally, voice will be done. I&#8217;ll make periodic updates just to track the status.</p>
+
+<h4 id="where-does-this-leave-us">Where Does This Leave Us?</h4>
+
+<p>In a decent spot. Combat isn&#8217;t close to done, but it is no in a place that I can iterate on. In particular, the state machine has been cleaned up significantly and is easier to read. Also, I&#8217;m more confident that the data is accurate. To test it, I have characters logging when they are attacking air, or stuck doing nothing. Those log items are almost non-existent now.</p>
+
+<p>For the next month I&#8217;ll be adding more combat features like catapults and improved AI. I&#8217;ll also be tackling a huge refactor to abilities with the goal of making them reusable, easy to construct, easy to modify, and usable by AI. That will be a huge departure from what powers the commands now. Finally, I&#8217;ll set up level two and also get a proof of concept working for experience and levels.</p>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

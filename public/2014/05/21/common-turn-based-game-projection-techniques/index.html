@@ -1,0 +1,234 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>A couple commonly used projection techniques for turn based video games are <a href="http://en.wikipedia.org/wiki/Orthographic_projection">orthographic</a> and <a href="http://en.wikipedia.org/wiki/Isometric_projection">isometric</a> projection. I&#8217;m in the process of figuring out which technique I&#8217;ll be using for my tactics game and I&#8217;ve been looking into the pros and cons of each method and how they&#8217;ve been used in previous games. Here&#8217;s what I&#8217;ve discovered so far.</p>
+
+<p></p>
+
+<h4 id="orthographic-projection">Orthographic Projection</h4>
+
+<p>The orthographic projection is the view that pretty much every old school game like Mario, Zelda, and Civilization 1 used. Simply put, this technique places the camera above the action. You can see this technique commonly used in games with a top down view or a birds eye view.</p>
+
+<p>The birds eye view places the camera directly over the character&#8217;s head and can be seen in older games like Civilization 1 and recent games like <a href="http://www.rodeogames.co.uk/hunters-episode-one/">Hunters</a> and <a href="http://www.rodeogames.co.uk/warhammer-quest/">Warhammer Quest</a>.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/civilization1-1.jpg" alt="civilization1" width="640" height="400" class="alignnone size-full wp-image-533" srcset="http://localhost:8888/wp-content/uploads/2014/05/civilization1-1.jpg 640w, http://localhost:8888/wp-content/uploads/2014/05/civilization1-1-300x188.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/hunters2-1.jpg" alt="hunters2" width="635" height="305" class="alignnone size-full wp-image-451" srcset="http://localhost:8888/wp-content/uploads/2014/05/hunters2-1.jpg 635w, http://localhost:8888/wp-content/uploads/2014/05/hunters2-1-300x144.jpg 300w" sizes="(max-width: 635px) 100vw, 635px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/warhammer_quest_2-1-1024x581.jpg" alt="warhammer_quest_2" width="625" height="354" class="alignnone size-large wp-image-450" />
+</div>
+
+<p>The top down view moves the camera point of view up a little bit, which allows us to give the screen and characters some depth. Some examples of this view in practice are Might and Magic 3, <a href="http://origin-www.robotentertainment.com/games/heroacademy/">Hero Academy</a>, and <a href="http://www.tortugateam.com/en/">Braveland</a>.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Heroes-of-Might-and-Magic-III-1.jpg" alt="Heroes-of-Might-and-Magic-III" width="600" height="450" class="alignnone size-full wp-image-529" srcset="http://localhost:8888/wp-content/uploads/2014/05/Heroes-of-Might-and-Magic-III-1.jpg 800w, http://localhost:8888/wp-content/uploads/2014/05/Heroes-of-Might-and-Magic-III-1-300x225.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/Heroes-of-Might-and-Magic-III-1-768x576.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Hero-Academy-1.png" alt="Hero-Academy" width="720" height="480" class="alignnone size-full wp-image-530" srcset="http://localhost:8888/wp-content/uploads/2014/05/Hero-Academy-1.png 960w, http://localhost:8888/wp-content/uploads/2014/05/Hero-Academy-1-300x200.png 300w, http://localhost:8888/wp-content/uploads/2014/05/Hero-Academy-1-768x512.png 768w" sizes="(max-width: 720px) 100vw, 720px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1.jpg" alt="braveland-10" width="800" height="450" class="alignnone size-full wp-image-455" srcset="http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1.jpg 800w, http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1-300x169.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+</div>
+
+<p>The orthographic point of view is what I have been primarily experimenting with so far and the pros for this technique are that everything is completely grid based at a 1:1 scale, making programming calculations easier, and fewer character animations are needed, which saves on artwork. I think the main downside of this point of view, especially the top down style, is that the artwork and animations can look a little awkward and cheesy.</p>
+
+<h4 id="isometric-projection">Isometric Projection</h4>
+
+<p>Isometric projection is commonly referred to as 2.5D and this technique creates the illusion of 3D in a 2D world by using angles. Instead of the straight 90 degree angles that are used in orthographic projection, isometric projection uses slopes to give each tile a diamond shape. Examples of this in practice can be seen in Final Fantasy Tactics, <a href="http://www.rodeogames.co.uk/warhammer-quest/">Ravenmark</a>, <a href="http://stoicstudio.com">Banner Saga</a> and UFO.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/final-fantasy-tactids-1.jpg" alt="final-fantasy-tactids" width="640" height="480" class="alignnone size-full wp-image-531" srcset="http://localhost:8888/wp-content/uploads/2014/05/final-fantasy-tactids-1.jpg 640w, http://localhost:8888/wp-content/uploads/2014/05/final-fantasy-tactids-1-300x225.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1.jpg" alt="ravenmark" width="568" height="320" class="alignnone size-full wp-image-449" srcset="http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1.jpg 568w, http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1-300x169.jpg 300w" sizes="(max-width: 568px) 100vw, 568px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1.jpg" alt="Banner Saga" width="792" height="473" class="alignnone size-full wp-image-452" srcset="http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1.jpg 792w, http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1-300x179.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1-768x459.jpg 768w" sizes="(max-width: 792px) 100vw, 792px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/ufo-1.gif" alt="ufo" width="640" height="400" class="alignnone size-full wp-image-532" />
+</div>
+
+<p>I personally think isometric projection looks better for most turn based games, but it does add more programming difficulty and artwork, both of which cost time and money. I plan on experimenting with this technique over the next couple of weeks and I&#8217;ll keep you posted on what I learn.</p>
+
+<h4 id="further-reading">Further Reading</h4>
+
+<p>If you&#8217;re looking to learn more about different projection techniques, here are some of the better resources that I&#8217;ve come across</p>
+
+<ul>
+<li><a href="http://www-cs-students.stanford.edu/~amitp/gameprog.html#tiles">Amit&#8217;s Game Programming Information (Amazing Resource for Tile Based Games)</a></li>
+<li><a href="http://flarerpg.org/tutorials/isometric_intro/">Isometric Tiles Introduction</a></li>
+<li><a href="http://www.significant-bits.com/a-laymans-guide-to-projection-in-videogames">A layman&#8217;s Guide to Projection in Videogames</a></li>
+<li><a href="http://clintbellanger.net/articles/isometric_math/">Isometric Tile Math</a></li>
+<li><a href="http://gamedevelopment.tutsplus.com/tutorials/creating-isometric-worlds-a-primer-for-game-developers--gamedev-6511">Creating Isometric World Primer</a></li>
+<li><a href="http://kotaku.com/5991061/the-best-looking-isometric-games">The Best Looking Isometric Games</a></li>
+</ul>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

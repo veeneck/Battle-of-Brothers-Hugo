@@ -1,0 +1,251 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+  
+
+  
+   	
+  
+
+  
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+	</p>
+</div>
+
+
+
+  	
+
+   	
+
+
+
+
+<header class="content">
+	<a class="ryanshield rotate selected" href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	<div class="container clear">
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="main clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <p>I&#8217;ve been working on level design with an illustrator for the last couple weeks and things are really moving along nicely. What once took about 3 days of work is now condensed down into almost a day. We have 5 or so levels knocked out at this stage and I thought I&#8217;d share the process on how they come to life.</p>
+
+<p></p>
+
+<h4 id="world-location">World Location</h4>
+
+<p>The levels in my game serve two purposes. The obvious purpose is to host fights where the forces of good battle the evil minions. The second and equally important purpose is to help bring the world to life. My budget is limited and I&#8217;m not sure how much, if any cut scenes will make it into the game, so by giving the battle scenes unique architectures and landscapes, the player is immersed into the world.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/08/Jungle-1.jpg" alt="Jungle" width="425" height="412" class="alignnone size-full wp-image-983" srcset="http://localhost:8888/wp-content/uploads/2014/08/Jungle-1.jpg 850w, http://localhost:8888/wp-content/uploads/2014/08/Jungle-1-300x291.jpg 300w, http://localhost:8888/wp-content/uploads/2014/08/Jungle-1-768x745.jpg 768w" sizes="(max-width: 425px) 100vw, 425px" />
+</div>
+
+<p>The level that I&#8217;m highlighting in this blog post takes place at the top of an Aztec-Like pyramid, so the goal is to highlight what the pyramid and it&#8217;s surrounding area look like.</p>
+
+<h4 id="inspiration">Inspiration</h4>
+
+<p>I have a folder with screenshots of other isometric games including, The Banner Saga, Transistor, Dofus, Diablo 3, and many more. I don&#8217;t want to copy anybody else&#8217;s style or battlefields, but I do get ideas on what types of artwork can be made from an isometric perspective. For example, these screenshots show you what can be illustrated on a cliff, in a castle, or on an open battlefield.</p>
+
+<div id='gallery-11' class='gallery galleryid-1284 gallery-columns-3 gallery-size-thumbnail'>
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/bsaga22/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/bsaga22-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/bsaga22-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/09/bsaga22-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/transistor-2014-05-21-09-47-44-27/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/transistor-2014-05-21-09-47-44-27-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/transistor-2014-05-21-09-47-44-27-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/09/transistor-2014-05-21-09-47-44-27-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/dofus-combart/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/dofus-combart-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/dofus-combart-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/09/dofus-combart-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+</div>
+
+<p>I love the cliff battles because they allow for a lot of background imagery, so that&#8217;s what is being used in this example.</p>
+
+<h4 id="grid-mockup">Grid Mockup</h4>
+
+<p>It&#8217;s kind of important that the battlefield is close to pixel perfect because the characters walk on a grid of 128&#215;64 rhombuses. So what I did was is create a base image that&#8217;s 1425 x 900 pixels and overlaid with rhombuses. I then make the playable area a turquoise green and the non-playable area red. I send that over to the illustrator to bring to life.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/09/level-5-1024x646.jpg" alt="level 5" width="625" height="394" class="alignnone size-large wp-image-1292" />
+</div>
+
+<h4 id="first-take">First Take</h4>
+
+<p>The illustrator will then take a couple hours to create a basic mockup just to make sure the dimensions, colors, and overall feel are correct. I&#8217;ll take the mockup and test it on an iPad just to make sure things look right and the grid works correctly.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_01-1-1024x646.jpg" alt="12_TempleTop_01" width="625" height="394" class="alignnone size-large wp-image-1294" />
+</div>
+
+<h4 id="iterations-and-detail">Iterations and Detail</h4>
+
+<p>After he gets the OK on the basic mockup, each subsequent illustration comes back with more and more detail. We go over each iteration to see if anything needs to change.</p>
+
+<div id='gallery-12' class='gallery galleryid-1284 gallery-columns-3 gallery-size-thumbnail'>
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/12_templetop_02/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_02-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_02-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_02-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/12_templetop_03/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_03-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_03-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_03-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/2014/09/24/level-design-concept-to-creation/12_templetop_04/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_04-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_04-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_04-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+</div>
+
+<p>After 4 or 5 iterations, here is what the level looks like all said and done.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/09/12_TempleTop_05-1-1024x646.jpg" alt="12_TempleTop_05" width="625" height="394" class="alignnone size-large wp-image-1321" />
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>
