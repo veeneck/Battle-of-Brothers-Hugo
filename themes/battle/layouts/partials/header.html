@@ -10,14 +10,20 @@
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=1024"/>
 
-  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
-
   {{ if eq .Page.Title "Battle of Brothers" }}
+  <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" />
   {{ end }}
 
 {{ if (in .Params.categories "sirryan") }}
    	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+{{ end }}
+
+{{ if (in .Params.categories "sirchris") }}
+   	 <link rel="stylesheet" href="/css/chris.css?v=1'; ?>" type="text/css" media="screen" />
+   	 <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
    	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
 {{ end }}
 

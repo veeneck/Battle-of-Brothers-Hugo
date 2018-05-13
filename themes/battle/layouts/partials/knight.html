@@ -1,3 +1,8 @@
+{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirchris }}
+{{ if (in .Params.categories "sirryan") }}
+	{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirryan }}
+{{ end }}
+{{ $sortedPosts := (sort ($.Scratch.Get "allPostsInCategory") "Date" "desc") }}
 
 <div class="outercontent">
 
@@ -5,10 +10,13 @@
 
 		<div class="floatleft activity posts clear">
 			<ul class="recent">
-				{{ $items := .Site.Taxonomies.categories.sirryan }}
-				{{ range $items }}
-					{{ if not (in .Params.tags "status") }}
-						{{ partial "post_summary.html" . }}
+				{{ $.Scratch.Set "count" 0 }}
+				{{ range $sortedPosts }}
+					{{ if lt ($.Scratch.Get "count") 3 }}
+						{{ if not (in .Params.tags "status") }}
+							{{ partial "post_summary.html" . }}
+							{{ $.Scratch.Add "count" 1 }}
+						{{ end }}
 					{{ end }}
 				{{ end }}
 			</ul>
@@ -20,24 +28,43 @@
 
 			<span class="updatelink clear"><a href="https://twitter.com/veeneck" class="subtext source_light dotted arrow" target="_blank">Follow me on twitter</a> </span>
 
-			<h4>Status Update<span class="floatright"><span class="pound">#</span></span></h4>
-			<div class="progress clear">
 
-				<a href="/sir' . $author_name . '/' . $post->post_name.'">
-
-				
-
-				</a>
-
-					
-				<p class="clear"></p>
-
-				<ul class="events">Key Events
-				<li>$value</li>
-				</ul>
-			</div>
+			{{ $.Scratch.Set "count" 0 }}
+				{{ range $sortedPosts }}
+					{{ if lt ($.Scratch.Get "count") 1 }}
+						{{ if in .Params.tags "status" }}
+							{{ range $key, $value := .Params.number }}
+							<h4>Status Update<span class="floatright"><span class="pound">#{{ $value }}</span></span></h4>
+							{{ end }}
+							<div class="progress clear">
+								<a href="{{ .Page.RelPermalink }}">
+									<img src="{{ .Page.Params.featured_image }}" width="370" style="margin-top: 25px;" />
+								</a>
+								<span class="comments floatright">
+									<img class="icon" src="/assets/Chat-6.png" width="16px" />
+									<small><a href="/" class="dotted">X Comments</a></small>
+								</span>
+								<img class="icon" src="/assets/Tag-star.png" width="16px">
+								<small>
+									{{ range $key, $value := .Params.tags }}
+									<a href="" class="dotted">{{ $value }}</a>
+									{{ end }}
+								</small>
+								<p class="clear">{{ .Summary }}<a class="more-link" href="{{ .RelPermalink }}">Read More…</a></p>
+								<ul class="events">Key Events
+									{{ range $key, $value := .Params.keyevent }}
+									<li>{{ $value }}</li>
+									{{ end }}
+								</ul>
+							</div>
+						{{ $.Scratch.Add "count" 1 }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
 			
 			<span class="updatelink clear"><a href="/sirryan/timeline" class="subtext source_light dotted arrow">View timeline</a> </span>
+
+
 		</div> <!-- #activity -->
 
 		<div class="clear:both"></div>

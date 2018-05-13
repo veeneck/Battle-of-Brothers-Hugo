@@ -1,6 +1,6 @@
 {{ define "main" -}}
 
-{{ if (in .Params.categories "sirryan") }}
+{{ if (or (in .Params.categories "sirryan") (in .Params.categories "sirchris")) }}
 	{{ partial "knight.html" . }}
 {{ end }}
 

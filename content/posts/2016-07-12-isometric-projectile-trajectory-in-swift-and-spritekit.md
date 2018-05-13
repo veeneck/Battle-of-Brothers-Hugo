@@ -3,7 +3,7 @@ title: Isometric Projectile Trajectory in Swift and SpriteKit
 author: Ryan
 type: post
 date: 2016-07-12T18:08:19+00:00
-url: /2016/07/12/isometric-projectile-trajectory-in-swift-and-spritekit/
+url: /sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/
 categories:
   - sirryan
 tags:
