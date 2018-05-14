@@ -693,11 +693,6 @@
   </url>
   
   <url>
-    <loc>http://battleofbrothers.com/timeline/</loc>
-    <lastmod>2014-03-26T16:27:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://battleofbrothers.com/budget/</loc>
     <lastmod>2014-03-26T16:26:03+00:00</lastmod>
   </url>
@@ -883,6 +878,14 @@
     <loc>http://battleofbrothers.com/tags/thoughts/</loc>
     <lastmod>2015-01-12T16:35:41+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/timeline/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/timeline/</loc>
   </url>
   
   <url>

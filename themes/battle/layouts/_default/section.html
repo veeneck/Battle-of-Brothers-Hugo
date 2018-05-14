@@ -1,7 +1,5 @@
 {{ define "main" -}}
 
-{{ if (in .Params.categories "sirryan") | or (in .Params.categories "sirchris") }}
-	{{ partial "knight.html" . }}
-{{ end }}
+{{ .Content }}
 
 {{- end }}

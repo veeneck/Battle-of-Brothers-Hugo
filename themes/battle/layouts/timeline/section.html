@@ -1,0 +1,61 @@
+{{ define "main" -}}
+
+{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirchris }}
+{{ if (in .Params.categories "sirryan") }}
+	{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirryan }}
+{{ end }}
+{{ $sortedPosts := (sort ($.Scratch.Get "allPostsInCategory") "Date" "desc") }}
+
+<div class="outercontent">
+  	<div class="content clear">
+
+  	  	<ul class="timeline recent">
+  	  		
+  	  		{{ range $sortedPosts }}
+	  	  		{{ if in .Params.tags "status" }}
+	  	  			{{ $randomShield := index (first 1 (shuffle (seq 7 12))) 0 }}
+	  	  			<li class="clear">
+	  	  				<div class="status floatleft clear">
+	  	  					<div class="floatleft timestamp">
+								<span class="month">{{ .Date.Format "Jan" }}</span>
+								<p class="shield" style="background-image:url('/assets/Shield{{ $randomShield }}.png')">{{ .Date.Format "2" }}</p>
+							</div>
+							<a href="{{ .Page.RelPermalink }}" class="title grace">{{ .Page.Title }}</a>
+
+							<span class="comments floatright">
+								<img class="icon" src="/assets/Chat-6.png" width="16px" />
+								<small><a href="/" class="dotted">X Comments</a></small>
+							</span>
+							<img class="icon" src="/assets/Tag-star.png" width="16px">
+							<small>
+								{{ range $key, $value := .Params.tags }}
+									<a href="" class="dotted">{{ $value }}</a>
+								{{ end }}
+							</small>
+							<span class="more source_light">{{- .Page.Summary -}}</span>
+
+							<a class="more-link" href="{{ .RelPermalink }}">Read More…</a>
+						</div>
+
+						<div class="pic floatleft common">
+							{{ range $key, $value := .Params.number }}
+								<h4><span class="pound">#{{ $value }}</span></h4>
+							{{ end }}
+							<img src="{{ .Page.Params.featured_image }}" width="370" style="margin-top: 25px;" />
+						</div>
+
+						<ul class="keys">
+							{{ range $key, $value := .Params.keyevent }}
+								<li>{{ $value | safeHTML }}</li>
+							{{ end }}
+						</ul>
+						<hr />
+					</li>
+				{{ end }}
+  	  		{{ end }}
+			
+  	  	</ul>	
+	</div>
+  </div> <!-- #content -->
+
+{{- end }}

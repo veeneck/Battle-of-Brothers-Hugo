@@ -1,3 +1,5 @@
+{{ define "main" -}}
+
 {{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirchris }}
 {{ if (in .Params.categories "sirryan") }}
 	{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirryan }}
@@ -71,3 +73,5 @@
 		<div class="clear:both"></div>
 	</div>
 </div> <!-- #content -->
+
+{{- end }}
