@@ -10,14 +10,18 @@
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=1024"/>
 
+   <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
   
 
 
    	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
 
 
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
 
 
   
@@ -102,11 +106,41 @@
 </nav>
 
 
-    <p>How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&#8217;ll still have to understand the concepts, but if you&#8217;re Googling for help this will hopefully get you on the right track.
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Jul</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield11.png')">12</p>
+					<span class="year legacy">2016</span> 
+				</div>
+				<h3 class="grace">Isometric Projectile Trajectory in Swift and SpriteKit</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">code</a>
+						
+						<a href="" class="dotted">spritekit</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&#8217;ll still have to understand the concepts, but if you&#8217;re Googling for help this will hopefully get you on the right track.
 </p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;FrayedEvenCardinal&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/FrayedEvenCardinal' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>To accomplish the above, here is what has to happen:</p>
@@ -120,7 +154,13 @@
 <li>Call the function below, and run the returned SKAction on your projectile.</li>
 </ul>
 
-<p><a href="https://gist.github.com/veeneck/8a12a23f673d410359ca96b8978a913f">https://gist.github.com/veeneck/8a12a23f673d410359ca96b8978a913f</a></p>
+<script src="//gist.github.com/veeneck/8a12a23f673d410359ca96b8978a913f.js"></script>
+			</div>
+
+		</article>
+
+	</div>
+</div>
 
     
     <footer class="clear">

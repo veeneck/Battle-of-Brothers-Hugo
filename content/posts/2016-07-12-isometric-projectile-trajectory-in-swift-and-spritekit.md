@@ -15,7 +15,7 @@ How do you launch a catapult, grenade, arrow, or any other projectile in an isom
 <!--more-->
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;FrayedEvenCardinal&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="FrayedEvenCardinal" >}}
 </div>
 
 To accomplish the above, here is what has to happen:
@@ -27,7 +27,7 @@ To accomplish the above, here is what has to happen:
   * Note that my `degreesToRadians` and `distanceTo` functions below come from [SKTUtils][2].
   * Call the function below, and run the returned SKAction on your projectile.
 
-https://gist.github.com/veeneck/8a12a23f673d410359ca96b8978a913f
+{{< gist veeneck 8a12a23f673d410359ca96b8978a913f >}}
 
  [1]: http://hyperphysics.phy-astr.gsu.edu/hbase/traj.html#tra6
  [2]: https://github.com/raywenderlich/SKTUtils

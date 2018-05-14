@@ -1116,17 +1116,6 @@
     
     <item>
       <title>The Shaping of a Game</title>
-      <link>http://battleofbrothers.com/2014/06/09/the-shaping-of-a-game-2/</link>
-      <pubDate>Mon, 09 Jun 2014 16:11:47 +0000</pubDate>
-      
-      <guid>http://battleofbrothers.com/2014/06/09/the-shaping-of-a-game-2/</guid>
-      <description>&lt;p&gt;If last week was a &lt;a href=&#34;http://battleofbrothers.com/sirryan/feature-rush&#34; target=&#34;_blank&#34;&gt;feature rush&lt;/a&gt;, this week was a feature overload. I&amp;#8217;ve slowly been breaking out of the learning phase and into the implementation phase. I definitely know what needs to happen now &amp;#8212; it&amp;#8217;s just a matter of doing it. Exciting times are ahead because I can now begin testing features that will make my game unique. My update this week introduces a lot of those features, including a defendable castle and dynamic spawn points.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>The Shaping of a Game</title>
       <link>http://battleofbrothers.com/2014/06/09/the-shaping-of-a-game/</link>
       <pubDate>Mon, 09 Jun 2014 16:11:47 +0000</pubDate>
       
@@ -1233,17 +1222,6 @@
       
       <guid>http://battleofbrothers.com/2014/05/12/and-then-there-was-a-playable-game/</guid>
       <description>&lt;p&gt;Don&amp;#8217;t look now, but I think my Xcode project just turned into a playable game. That&amp;#8217;s right, you heard me correctly. User input, gold and a game over state. I would almost say it&amp;#8217;s time to wrap things up and call it a win for team Ryan.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Health Display Roundup</title>
-      <link>http://battleofbrothers.com/2014/05/05/health-display-roundup-2/</link>
-      <pubDate>Mon, 05 May 2014 16:59:16 +0000</pubDate>
-      
-      <guid>http://battleofbrothers.com/2014/05/05/health-display-roundup-2/</guid>
-      <description>&lt;p&gt;Visually displaying a character&amp;#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&amp;#8217;m working on will include health bars, so I&amp;#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&amp;#8217;ve come across.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

@@ -10,14 +10,18 @@
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=1024"/>
 
+   <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
   
 
 
    	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
 
 
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
 
 
   
@@ -102,7 +106,35 @@
 </nav>
 
 
-    <p>At the beginning of August I challenged myself to get pathfinding under control. In truth, if I couldn&#8217;t figure it out I would be forced to consider making the game turn based instead. So, I set out with a giant todo list containing many edge cases to solve. Fortunately, the main branch was merged in yesterday, so I&#8217;m in an infinitely better position than I was. It&#8217;s been an exhausting month, so I&#8217;m ready to move on. Let&#8217;s have a look at what&#8217;s been completed, and what issues still remain.</p>
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Sep</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield9.png')">1</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">A Month of Pathfinding</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>At the beginning of August I challenged myself to get pathfinding under control. In truth, if I couldn&#8217;t figure it out I would be forced to consider making the game turn based instead. So, I set out with a giant todo list containing many edge cases to solve. Fortunately, the main branch was merged in yesterday, so I&#8217;m in an infinitely better position than I was. It&#8217;s been an exhausting month, so I&#8217;m ready to move on. Let&#8217;s have a look at what&#8217;s been completed, and what issues still remain.</p>
 
 <p></p>
 
@@ -190,6 +222,12 @@
 <p>We&#8217;re now in a cautiously optimistic spot. Most importantly, everything is flexible now. I can easily scale up and down the accuracy. What you see now is balanced for performance, so I may even do different things for different platforms. Additionally, my state machine now makes sense and does not have a ton of redundant code. So, the logic for certain conditions is clean and easy to modify. All of this is good, and it will make the next steps easier.</p>
 
 <p>What are the next steps? Combat and avoidance. Building on this foundation, make combat look more natural. While the combat code is ready to go, the pathfinding for it is horrible. I need to work on charging, surrounding units, and fleeing with everything appearing believable. As for avoidance, I&#8217;m putting it on the future list for now. Ideally, units would try to avoid each other instead of walking through one another.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
 
     
     <footer class="clear">

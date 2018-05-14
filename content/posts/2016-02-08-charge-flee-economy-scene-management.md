@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2016-02-08T20:53:48+00:00
 url: /sirryan/charge-flee-economy-scene-management/
-featured_image: /wp-content/uploads/2016/02/Screen-Shot-2016-01-29-at-11.53.54-AM-3.png
+featured_image: /wp-content/uploads/2016/02/Screen-Shot-2016-01-29-at-11.53.54-AM.png
 number:
   - 27
 keyevent:

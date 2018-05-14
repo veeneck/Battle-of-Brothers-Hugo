@@ -10,14 +10,18 @@
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=1024"/>
 
+   <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
   
 
 
 
 
    	 <link rel="stylesheet" href="/css/chris.css?v=1'; ?>" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
-   	 <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
 
 
   
@@ -100,7 +104,37 @@
 </nav>
 
 
-    <p>I recently found myself wanting to animate a character&#8217;s progress path and initially I thought I would do this by creating multiple animation frames, much like a sprite. After a bit of frustration, trial and error, I realized that creating an image mask was a more efficient and effective method.</p>
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Apr</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield8.png')">6</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">Animating a Path Using Image Masking</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">corona</a>
+						
+						<a href="" class="dotted">learning</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>I recently found myself wanting to animate a character&#8217;s progress path and initially I thought I would do this by creating multiple animation frames, much like a sprite. After a bit of frustration, trial and error, I realized that creating an image mask was a more efficient and effective method.</p>
 
 <p>To give you an example of what I was trying to accomplish, here is a picture of a portion of my game&#8217;s world map. The yellow and line is the path that my character takes.</p>
 
@@ -135,6 +169,12 @@
 <p><a href="https://gist.github.com/codepaladin/c2d7921dd50d23898683">https://gist.github.com/codepaladin/c2d7921dd50d23898683</a></p>
 
 <p>What&#8217;s great about masking is that the mask image is always drawn exactly over the base image. I only need to worry about pixel precision when placing the base image and the mask images will automatically be displayed in the right location. And it&#8217;s no problem if I change or alter of the yellow path, because the mask stays exactly the same. As a bonus, I can do other cool things with masking like add gradients, brush strokes and other effects by simply changing the shades of grey in the mask. <a href="http://www.gamasutra.com/blogs/OwenCanavan/20150106/233616/Creating_the_Scribble_Effect_in_Guild_of_Dungeoneering.php?utm_campaign=iOS_GameDev_Weekly_17&amp;utm_medium=email&amp;utm_source=iOS%2BGameDev%2BWeekly">Here&#8217;s an example</a> of what I&#8217;m talking about.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
 
     
     <footer class="clear">

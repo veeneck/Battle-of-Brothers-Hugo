@@ -23,7 +23,7 @@ The general approach remains the same &#8212; conform save data to NSCoding and 
 
 You can read my last post for more context, or jump straight to the gist below. First, code calling the GameData class.
 
-https://gist.github.com/veeneck/1d988af6e20e67b131c9cf775f546f16
+{{< gist veeneck 1d988af6e20e67b131c9cf775f546f16 >}}
 
 Then, you can look at the GameData and Level class here:
 
