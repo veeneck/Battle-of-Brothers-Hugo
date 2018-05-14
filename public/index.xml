@@ -22,13 +22,12 @@
     
     <item>
       <title>Isometric Projectile Trajectory in Swift and SpriteKit</title>
-      <link>http://battleofbrothers.com/2016/07/12/isometric-projectile-trajectory-in-swift-and-spritekit/</link>
+      <link>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</link>
       <pubDate>Tue, 12 Jul 2016 18:08:19 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2016/07/12/isometric-projectile-trajectory-in-swift-and-spritekit/</guid>
-      <description>&lt;p&gt;How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&amp;#8217;ll still have to understand the concepts, but if you&amp;#8217;re Googling for help this will hopefully get you on the right track.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</guid>
+      <description>&lt;p&gt;How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&amp;#8217;ll still have to understand the concepts, but if you&amp;#8217;re Googling for help this will hopefully get you on the right track.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,13 +54,12 @@
     
     <item>
       <title>Charge, Flee, Economy &amp; Scene Management</title>
-      <link>http://battleofbrothers.com/2016/02/08/charge-flee-economy-scene-management/</link>
+      <link>http://battleofbrothers.com/sirryan/charge-flee-economy-scene-management/</link>
       <pubDate>Mon, 08 Feb 2016 20:53:48 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2016/02/08/charge-flee-economy-scene-management/</guid>
-      <description>&lt;p&gt;January 2016. Getting close to that two year mark. This month marks the first full month of iteration on an existing &amp;#8220;platform&amp;#8221;. I&amp;#8217;m rapidly iterating through smaller features instead of spending months implementing core code. Because of that, I&amp;#8217;m also going to change these status updates slightly. I&amp;#8217;ll have my videos go through all the incremental changes, while the posts look through the bigger picture of what&amp;#8217;s left. This should allow for easier tracking of overall progress. Additionally, I can save thoughts, ideas, and other general topics for the blog posts.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>http://battleofbrothers.com/sirryan/charge-flee-economy-scene-management/</guid>
+      <description>&lt;p&gt;January 2016. Getting close to that two year mark. This month marks the first full month of iteration on an existing &amp;#8220;platform&amp;#8221;. I&amp;#8217;m rapidly iterating through smaller features instead of spending months implementing core code. Because of that, I&amp;#8217;m also going to change these status updates slightly. I&amp;#8217;ll have my videos go through all the incremental changes, while the posts look through the bigger picture of what&amp;#8217;s left. This should allow for easier tracking of overall progress. Additionally, I can save thoughts, ideas, and other general topics for the blog posts.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -259,7 +257,8 @@
       <pubDate>Mon, 06 Apr 2015 20:02:58 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/04/06/1500-on-music/</guid>
-      <description>I&amp;#8217;ve entered into a contract with Brendon Williams to compose the game&amp;#8217;s music. He&amp;#8217;ll be doing everything from intro music, battle music, world map music, and any other types of music that come up. Brendon recently started with the music for the intro movie and it&amp;#8217;s sounding awesome.</description>
+      <description>&lt;p&gt;I&amp;#8217;ve entered into a contract with &lt;a href=&#34;http://www.brendonwilliams.com&#34;&gt;Brendon Williams&lt;/a&gt; to compose the game&amp;#8217;s music. He&amp;#8217;ll be doing everything from intro music, battle music, world map music, and any other types of music that come up. Brendon recently started with the music for the intro movie and it&amp;#8217;s &lt;a href=&#34;https://www.youtube.com/watch?v=oChbnCv1H1k&#34;&gt;sounding awesome&lt;/a&gt;.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -268,7 +267,8 @@
       <pubDate>Mon, 06 Apr 2015 20:00:14 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/04/06/7323-on-animations/</guid>
-      <description>I&amp;#8217;ve received a bunch of animations over the last few months and you can see a lot of them over at Dualbo&amp;#8217;s Vimeo Site and in my status updates. I&amp;#8217;ve received 12 of the 18 characters that will be in the game, so we&amp;#8217;re two-thirds there. I think this payment has officially put my game over budget, but that&amp;#8217;s how these things go sometimes. The good news is that the animations are awesome and worth every penny.</description>
+      <description>&lt;p&gt;I&amp;#8217;ve received a bunch of animations over the last few months and you can see a lot of them over at &lt;a href=&#34;https://vimeo.com/dualbo&#34;&gt;Dualbo&amp;#8217;s Vimeo Site&lt;/a&gt; and in &lt;a href=&#34;http://battleofbrothers.com/sirchris/knights-ninjas-and-wizards&#34;&gt;my status updates&lt;/a&gt;. I&amp;#8217;ve received 12 of the 18 characters that will be in the game, so we&amp;#8217;re two-thirds there. I think this payment has officially put my game over budget, but that&amp;#8217;s how these things go sometimes. The good news is that the animations are awesome and worth every penny.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -493,10 +493,10 @@
     
     <item>
       <title>Transitioning an Image but Not a Mask in Corona SDK</title>
-      <link>http://battleofbrothers.com/2015/01/15/transitioning-an-image-but-not-a-mask-in-corona-sdk/</link>
+      <link>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</link>
       <pubDate>Thu, 15 Jan 2015 14:09:10 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/15/transitioning-an-image-but-not-a-mask-in-corona-sdk/</guid>
+      <guid>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</guid>
       <description>&lt;p&gt;I was recently playing around with image masking, and I wanted to transition the mask so that the image behind it gradually appeared on screen. Unfortunately, Corona doesn&amp;#8217;t allow you to transition masks, but after &lt;a href=&#34;http://forums.coronalabs.com/topic/34774-moving-image-but-not-mask/&#34;&gt;doing a little research&lt;/a&gt; I learned that you can use groups to transition the image behind the mask. Here&amp;#8217;s an example to see what I&amp;#8217;m talking about.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -1559,15 +1559,6 @@
       
       <guid>http://battleofbrothers.com/subscribe/</guid>
       <description>content</description>
-    </item>
-    
-    <item>
-      <title>sirchris</title>
-      <link>http://battleofbrothers.com/sirchris/</link>
-      <pubDate>Fri, 07 Mar 2014 00:31:05 +0000</pubDate>
-      
-      <guid>http://battleofbrothers.com/sirchris/</guid>
-      <description>Content</description>
     </item>
     
   </channel>

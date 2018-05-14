@@ -3,7 +3,7 @@ title: 'Charge, Flee, Economy & Scene Management'
 author: Ryan
 type: post
 date: 2016-02-08T20:53:48+00:00
-url: /2016/02/08/charge-flee-economy-scene-management/
+url: /sirryan/charge-flee-economy-scene-management/
 featured_image: /wp-content/uploads/2016/02/Screen-Shot-2016-01-29-at-11.53.54-AM-3.png
 number:
   - 27
@@ -18,7 +18,6 @@ tags:
 
 ---
 January 2016. Getting close to that two year mark. This month marks the first full month of iteration on an existing &#8220;platform&#8221;. I&#8217;m rapidly iterating through smaller features instead of spending months implementing core code. Because of that, I&#8217;m also going to change these status updates slightly. I&#8217;ll have my videos go through all the incremental changes, while the posts look through the bigger picture of what&#8217;s left. This should allow for easier tracking of overall progress. Additionally, I can save thoughts, ideas, and other general topics for the blog posts.
-
 <!--more-->
 
 <div class="inlineimg">

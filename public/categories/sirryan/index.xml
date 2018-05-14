@@ -13,13 +13,12 @@
     
     <item>
       <title>Isometric Projectile Trajectory in Swift and SpriteKit</title>
-      <link>http://battleofbrothers.com/2016/07/12/isometric-projectile-trajectory-in-swift-and-spritekit/</link>
+      <link>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</link>
       <pubDate>Tue, 12 Jul 2016 18:08:19 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2016/07/12/isometric-projectile-trajectory-in-swift-and-spritekit/</guid>
-      <description>&lt;p&gt;How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&amp;#8217;ll still have to understand the concepts, but if you&amp;#8217;re Googling for help this will hopefully get you on the right track.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</guid>
+      <description>&lt;p&gt;How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&amp;#8217;ll still have to understand the concepts, but if you&amp;#8217;re Googling for help this will hopefully get you on the right track.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,13 +45,12 @@
     
     <item>
       <title>Charge, Flee, Economy &amp; Scene Management</title>
-      <link>http://battleofbrothers.com/2016/02/08/charge-flee-economy-scene-management/</link>
+      <link>http://battleofbrothers.com/sirryan/charge-flee-economy-scene-management/</link>
       <pubDate>Mon, 08 Feb 2016 20:53:48 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2016/02/08/charge-flee-economy-scene-management/</guid>
-      <description>&lt;p&gt;January 2016. Getting close to that two year mark. This month marks the first full month of iteration on an existing &amp;#8220;platform&amp;#8221;. I&amp;#8217;m rapidly iterating through smaller features instead of spending months implementing core code. Because of that, I&amp;#8217;m also going to change these status updates slightly. I&amp;#8217;ll have my videos go through all the incremental changes, while the posts look through the bigger picture of what&amp;#8217;s left. This should allow for easier tracking of overall progress. Additionally, I can save thoughts, ideas, and other general topics for the blog posts.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>http://battleofbrothers.com/sirryan/charge-flee-economy-scene-management/</guid>
+      <description>&lt;p&gt;January 2016. Getting close to that two year mark. This month marks the first full month of iteration on an existing &amp;#8220;platform&amp;#8221;. I&amp;#8217;m rapidly iterating through smaller features instead of spending months implementing core code. Because of that, I&amp;#8217;m also going to change these status updates slightly. I&amp;#8217;ll have my videos go through all the incremental changes, while the posts look through the bigger picture of what&amp;#8217;s left. This should allow for easier tracking of overall progress. Additionally, I can save thoughts, ideas, and other general topics for the blog posts.
+&lt;/p&gt;</description>
     </item>
     
     <item>

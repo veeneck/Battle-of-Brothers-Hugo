@@ -50,7 +50,8 @@
 									<a href="" class="dotted">{{ $value }}</a>
 									{{ end }}
 								</small>
-								<p class="clear">{{ .Summary }}<a class="more-link" href="{{ .RelPermalink }}">Read More…</a></p>
+								{{- .Summary -}}
+								<a class="more-link" href="{{ .RelPermalink }}">Read More…</a>
 								<ul class="events">Key Events
 									{{ range $key, $value := .Params.keyevent }}
 									<li>{{ $value }}</li>

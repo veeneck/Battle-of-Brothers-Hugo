@@ -26,10 +26,10 @@
     
     <item>
       <title>Transitioning an Image but Not a Mask in Corona SDK</title>
-      <link>http://battleofbrothers.com/2015/01/15/transitioning-an-image-but-not-a-mask-in-corona-sdk/</link>
+      <link>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</link>
       <pubDate>Thu, 15 Jan 2015 14:09:10 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/15/transitioning-an-image-but-not-a-mask-in-corona-sdk/</guid>
+      <guid>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</guid>
       <description>&lt;p&gt;I was recently playing around with image masking, and I wanted to transition the mask so that the image behind it gradually appeared on screen. Unfortunately, Corona doesn&amp;#8217;t allow you to transition masks, but after &lt;a href=&#34;http://forums.coronalabs.com/topic/34774-moving-image-but-not-mask/&#34;&gt;doing a little research&lt;/a&gt; I learned that you can use groups to transition the image behind the mask. Here&amp;#8217;s an example to see what I&amp;#8217;m talking about.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

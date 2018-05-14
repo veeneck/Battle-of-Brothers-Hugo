@@ -1,0 +1,168 @@
+/* RESETS & BASIC PAGE SETUP */
+
+* { margin: 0; padding: 0; }
+html{min-height:100%;position:relative}/* make sure it is at least as tall as the viewport */
+body { 
+	height: 100%;
+	background: #a4dee1; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0ZGVlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2E0ZGVlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg0Y2JkMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NGNiZDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #a4dee1 0%, #a4dee1 50%, #84cbd2 50%, #84cbd2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#a4dee1), color-stop(50%,#a4dee1), color-stop(50%,#84cbd2), color-stop(100%,#84cbd2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #a4dee1 0%,#a4dee1 50%,#84cbd2 50%,#84cbd2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #a4dee1 0%,#a4dee1 50%,#84cbd2 50%,#84cbd2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #a4dee1 0%,#a4dee1 50%,#84cbd2 50%,#84cbd2 100%); /* IE10+ */
+	background: linear-gradient(to right,  #a4dee1 0%,#a4dee1 50%,#84cbd2 50%,#84cbd2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4dee1', endColorstr='#84cbd2',GradientType=1 ); /* IE6-8 */
+ }
+
+p { font-size: 1.2em; line-height: 1.2em; margin-bottom: 1.2em; }
+a { outline: none; }
+a img { border: none; }
+
+/* LINKS */
+
+a.solid, a.twitter-user, cite.fn a {
+	color: #bf4f6f;
+	font-weight: 'Source';
+}
+
+a.dotted, a.comment-reply-link, .logged-in-as a, #reply-title a, .post a, a.twitter-link, 
+.events a, .progress p a, .comment-body a, .twitter-timestamp a, .tagcloud li a {
+	color: #3aabb1;
+	border-bottom: 1px dotted #bf4f6f;
+	cursor: pointer;
+}
+
+a.dotted:hover, a.comment-reply-link:hover, .logged-in-as a:hover, #reply-title a:hover, 
+.post a:hover, .twitter-link:hover, a.more-link:hover, .events a:hover, .progress p a:hover, .comment-body a:hover,
+.twitter-timestamp a:hover, .tagcloud li a:hover {
+	border-bottom: 1px solid #bf4f6f;
+}
+
+a.arrow:after {
+	color: #bf4f6f;
+}
+
+a.more-link:after, .feeds li span {
+	color: #bf4f6f;
+}
+
+li.mailchimp input[type=submit] {
+	background-color: #bf4f6f;
+}
+
+ul.events li.mailchimp input[type=submit]:hover {
+	background-color: #84cbd2;
+}
+
+.enemy h4 {
+	color: #D86D51 !important;
+}
+
+.breadcrumb a {
+	color: #a4dee1;
+	border-bottom: 1px dotted #a4dee1;
+}
+
+.breadcrumb a:hover {
+	border-bottom: 1px solid #a4dee1;
+}
+
+.underline:before {
+	background-color: #358E92;
+}
+
+.outercontent {
+	background-color: #f1fafa;
+}
+
+.outercontentalt {
+	/* This exists to wrap things in a second color if we ever decide to */
+}
+
+.remaining {
+	background-color: #bf4f6f;
+}
+
+/* HEADER */
+
+nav {
+	background-color: #f1fafa;
+}
+
+/* ARTICLE */
+
+article {
+	min-height: 400px;
+	width: 960px;	
+}
+
+article h3 {
+	color: #bf4f6f;
+}
+
+.embed {
+	border-left: 3px solid #bf4f6f;
+}
+
+.embedleft {
+	border-right: 3px solid #bf4f6f;
+	border-left: none !important;
+}
+
+.recent a.title {
+	color: #bf4f6f;
+}
+
+a.more-link {
+	border-bottom: 1px dotted #bf4f6f;
+	color: #3aabb1;
+}
+
+/* LINK INDICATOR */
+
+.arrow:after {
+	color: #bf4f6f;
+	content: " ↣";
+}
+
+
+/* SUBMIT BUTTON */
+
+#submit {
+	background: #bf4f6f;
+}
+
+/* RIBBON FOR CATEGORIES */
+
+.ribbon {
+	background: #bf4f6f !important;
+}
+
+.ribbon:after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1em solid #9C385D;
+	z-index: -1;
+}
+
+.ribbon .ribbon-content:after {
+	border-color: #69132B transparent transparent transparent !important;
+}
+
+/* COMMENT BACKGROUND */
+
+.comment-wrapper {
+	background-color: #A4DEE1;
+}
+
+.comment-body .reply {
+	background-color: #A4DEE1;
+}
+
+.comment-body blockquote p {
+	border-left: 3px solid #bf4f6f;
+}

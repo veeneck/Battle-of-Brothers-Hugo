@@ -12,7 +12,6 @@ tags:
 
 ---
 How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&#8217;ll still have to understand the concepts, but if you&#8217;re Googling for help this will hopefully get you on the right track.
-
 <!--more-->
 
 <div class="inlineimg">

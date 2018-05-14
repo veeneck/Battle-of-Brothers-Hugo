@@ -1,0 +1,131 @@
+/* FOOTER */
+
+footer {
+	width: 100%;
+	margin-top: 0px;
+	color: #FFF;
+	background-color: #454545;
+	position: relative;
+}
+
+/* Battle of Brothers logo */
+
+.bob {
+	margin: 0 auto;
+	width:100%;
+	text-align: center;
+}
+
+.bob img {
+	margin-top: -34px;
+}
+
+/* Absolutely positioned logos. They need a width so that the actual content can expand based on browser size */
+
+.corner p {
+	width: 175px;
+}
+
+.ryanfoot {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.chrisfoot {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* FOOTER TEXT */
+
+.inner {
+	max-width: 460px;
+	min-width: 280px;
+	margin: 0 10px 0 auto;
+	padding: 20px;
+}
+
+.outer {
+	max-width: 450px;
+	min-width: 270px;
+	margin: 0 auto 0 20px;
+	padding: 20px;
+}
+
+.footer_content {
+	width: 100%;
+	display: table-row;
+}
+
+.footer_content div.cell {
+	display: table-cell;
+}
+
+/* ABOUT THE CONTEST */
+
+.about_contest {
+	width: 50%;
+}
+
+.footer_content h5 {
+	font-family: 'Grace';
+	font-size: 1.1em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.footer_content p {
+	font-family: 'SourceLight';
+	font-size: .95em;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+
+.about_contest a {
+	width: 75px;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: none;
+	text-decoration: none;
+	font-family: 'SourceLight';
+	letter-spacing: 0px;
+	color: #454545;
+	background: #FFF;
+	text-align: center;
+	padding: 5px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+/* LINK DUMP */
+
+.links {
+	width: 50%;
+}
+
+.links p {
+	margin-bottom: 30px;
+}
+
+.links p span {
+	margin-left: 50px;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+.rss {
+	margin-left: 46px !important;
+}
+
+.links a {
+	margin-right: 5px;
+}
+
+.white {
+	color: #FFF;
+	text-decoration: none;
+}

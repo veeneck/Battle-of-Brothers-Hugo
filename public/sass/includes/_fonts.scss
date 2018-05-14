@@ -1,0 +1,87 @@
+/* FONTS */
+
+.grace {
+	font-family: 'Grace';
+}
+
+.legacy {
+	font-family: 'Legacy';
+}
+
+.social {
+	font-family: 'Social';
+}
+
+.source {
+	font-family: 'Source';
+}
+
+.source_light {
+	font-family: 'SourceLight';
+}
+
+@font-face{
+	font-family: 'Grace';
+	src: url("fonts/Grace/CoveredByYourGrace.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: 'Legacy';
+	src: url("fonts/Legacy/wg_legacy_edition.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: 'Social';
+	src: url("fonts/SocialMedia/SocialMediaIcons.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: 'Source';
+	src: url("fonts/source-sans-pro/SourceSansPro-Regular.otf") format("truetype");
+}
+
+@font-face{
+	font-family: 'SourceLight';
+	src: url("fonts/source-sans-pro/SourceSansPro-Light.otf") format("truetype");
+    src: url('fonts/SourceSansPro/EOT/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SourceSansPro/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+         url('fonts/SourceSansPro/WOFF/TTF/SourceSansPro-Light.otf.ttf') format('truetype'),
+         url('fonts/SourceSansPro/SVG/SourceSansPro-Light.svg#Museo100Regular') format('svg');
+}
+
+@font-face{
+	font-family: 'SourceLightIt';
+	src: url("fonts/source-sans-pro/SourceSansPro-LightIt.otf") format("truetype");
+}
+
+@font-face{
+	font-family: 'BariolBold';
+	src: url("fonts/Bariol/Bariol_Bold/Bariol_Bold.otf") format("truetype");
+}
+
+@font-face{
+	font-family: 'BariolLight';
+	src: url("fonts/Bariol/Bariol_Light/Bariol_Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Museo100Regular';
+    src: url('fonts/museo_100_macroman/Museo100-Regular-webfont.eot');
+    src: url('fonts/museo_100_macroman/Museo100-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo_100_macroman/Museo100-Regular-webfont.woff') format('woff'),
+         url('fonts/museo_100_macroman/Museo100-Regular-webfont.ttf') format('truetype'),
+         url('fonts/museo_100_macroman/Museo100-Regular-webfont.svg#Museo100Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'd';
+    src: url('fonts/raleway/Raleway Thin.otf');
+    src: url('fonts/raleway/webfonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway/webfonts/raleway_thin-webfont.woff') format('woff'),
+         url('fonts/raleway/webfonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('fonts/raleway/webfonts/raleway_thin-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

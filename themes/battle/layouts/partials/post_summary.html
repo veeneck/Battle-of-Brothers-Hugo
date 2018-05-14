@@ -1,7 +1,9 @@
+{{ $randomShield := index (first 1 (shuffle (seq 7 12))) 0 }}
+
 <li class="clear">
 	<div class="floatleft timestamp">
 		<span class="month">{{ .Date.Format "Jan" }}</span>
-		<p class="shield" style="background-image:url('/assets/Shield1.png')">{{ .Date.Format "2" }}</p>
+		<p class="shield" style="background-image:url('/assets/Shield{{ $randomShield }}.png')">{{ .Date.Format "2" }}</p>
 	</div>
 	<a href="{{ .Page.RelPermalink }}" class="title grace">{{ .Page.Title }}</a>
 	
@@ -16,6 +18,8 @@
 		{{ end }}
 	</small>
 
-	<span class="more source_light">{{ .Page.Summary }}<a class="more-link" href="{{ .RelPermalink }}">Read More…</a></span>
+	<span class="more source_light">{{- .Page.Summary -}}</span>
+
+	<a class="more-link" href="{{ .RelPermalink }}">Read More…</a>
 
 </li>

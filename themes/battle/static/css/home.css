@@ -16,7 +16,7 @@ body {
   /* IE10+ */
   background: linear-gradient(to right, #def3f4 0%, #def3f4 50%, #d8ed9e 50%, #d8ed9e 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#def3f4', endColorstr='#d8ed9e',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#def3f4', endColorstr='#d8ed9e',GradientType=1 );
   /* IE6-8 */ }
 
 /* HOME PAGE HAS A CUSTOM NAV SO THE OVERRIDES ARE HERE */

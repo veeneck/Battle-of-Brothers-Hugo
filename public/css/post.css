@@ -173,7 +173,8 @@ h3 {
   font-size: 20px !important;
   width: 250px !important;
   font-family: 'Grace';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  clear: both; }
 
 ul.events li {
   font-family: 'SourceLight';
