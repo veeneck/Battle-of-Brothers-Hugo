@@ -21,7 +21,7 @@ It&#8217;s been nearly two months since my last status update. To quickly sum up
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=z44JcViQG9U&w=740&theme=light]
+  {{< youtube z44JcViQG9U >}}
 </div>
 
 #### Fundamental Menu Controls

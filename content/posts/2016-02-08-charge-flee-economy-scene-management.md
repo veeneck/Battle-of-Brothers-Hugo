@@ -21,7 +21,7 @@ January 2016. Getting close to that two year mark. This month marks the first fu
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=bEUbAE7cLH4&w=740&theme=light]
+  {{< youtube bEUbAE7cLH4 >}}
 </div>
 
 Changelogs:
@@ -87,5 +87,5 @@ Let&#8217;s start with the road to alpha. I&#8217;m targeting September because 
   * Bug fixing for all of the above.
   * Test levels and test cases in the code to easily validate some of the more complex features above.
 
- [1]: https://gist.github.com/veeneck/4d0795f8139bef223052
- [2]: https://gist.github.com/veeneck/1c18139181f5bb1942fb
+ [1]: gist.guthub.com/veeneck/4d0795f8139bef223052
+ [2]: gist.guthub.com/veeneck/1c18139181f5bb1942fb

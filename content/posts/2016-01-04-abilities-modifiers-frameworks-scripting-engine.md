@@ -21,7 +21,7 @@ It&#8217;s been quite the 2 months. In anticipation of becoming a father, I&#821
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=j5stQgL6IjE&w=740&theme=light]
+  {{< youtube j5stQgL6IjE >}}
 </div>
 
 #### Abilities & Modifiers
