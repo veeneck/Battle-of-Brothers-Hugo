@@ -1,0 +1,6 @@
+{{ $randomShield := index (first 1 (shuffle (seq 7 12))) 0 }}
+<div class="floatleft timestamp">
+	<span class="month">{{ .Date.Format "Jan" }}</span>
+	<p class="shield" style="background-image:url('/assets/Shield{{ $randomShield }}.png')">{{ .Date.Format "2" }}</p>
+	<span class="year legacy">{{ .Date.Format "2006" }}</span>
+</div>

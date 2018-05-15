@@ -180,3 +180,6 @@ a.subtext {
 
 .progress a.more-link {
   margin-bottom: 20px; }
+
+.year {
+  display: none; }
