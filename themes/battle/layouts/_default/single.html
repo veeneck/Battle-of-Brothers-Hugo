@@ -47,12 +47,22 @@
 
 		</article>
 
-		{{ if .Site.DisqusShortname -}}
-			<h2>Comments</h2>
-			{{ template "_internal/disqus.html" . }}
-		{{- end }}
-
 	</div>
 </div>
+
+<div class="outercontent">
+  	  <div class="content clear">
+
+  	  	{{ if .Site.DisqusShortname -}}
+			<div id="discuss" class="discuss">
+				<img class="" src="/assets/discuss.png" />
+			</div>
+		
+			<div class="disqus">
+				{{ template "_internal/disqus.html" . }}
+			</div>
+		{{- end }}
+      </div>
+	</div> <!-- #content -->
 
 {{- end }}
