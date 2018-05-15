@@ -53,15 +53,7 @@ Next steps&nbsp;for this are to continue to revise the script, and to try to rea
 Another item we started work on this week is the camp screen. The camp screen is where the player can manage their army, buy heroes, upgrade their abilities, etc. Here is an example of the merchant.
 
 <div style="margin-left: 130px !important">
-  <blockquote class="twitter-tweet" width="550">
-    <p>
-      A colorful merchant (designed by <a href="https://twitter.com/Appylon">@appylon</a>, of course). Want to buy something? <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/gameart?src=hash">#gameart</a> <a href="https://twitter.com/themeatly">@themeatly</a> <a href="http://t.co/pGvUDWKb25">pic.twitter.com/pGvUDWKb25</a>
-    </p>
-    
-    <p>
-      &mdash; Ryan Campbell (@veeneck) <a href="https://twitter.com/veeneck/status/564072270956855298">February 7, 2015</a>
-    </p>
-  </blockquote>
+  {{< tweet 564072270956855298 >}}
 </div> 
     
 This is quite a large scene, so it was not completely finished in time for this update. Once the scene is done, the individual menus will have to be designed. For example, if you click on the merchant cart above, what does the screen look like that it takes you to?
@@ -70,18 +62,10 @@ This is quite a large scene, so it was not completely finished in time for this 
 #### Formations and AI
     
 With my remaining time, I tried to implement a few features for the battle scenes. First up, formations have been rewritten to support different layouts. The columns, max units, and spacing between units are all variables, and the code determines the proper layout. Prior to this, everything was hard coded.
-    
+
 <div style="margin-left: 130px !important">
-      <blockquote class="twitter-tweet" width="550">
-        <p>
-          Formations can now have different shapes, sizes, and spacing. Also, hello to trebuchet. <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/indiedev?src=hash">#indiedev</a> <a href="http://t.co/rva4TLerEJ">pic.twitter.com/rva4TLerEJ</a>
-        </p>
-        
-        <p>
-          &mdash; Ryan Campbell (@veeneck) <a href="https://twitter.com/veeneck/status/566658237983117312">February 14, 2015</a>
-        </p>
-      </blockquote>
-</div> 
+{{< tweet 566658237983117312 >}}
+</div>
         
 After that, I began work on enemy AI. My goal is to be able to finish a battle in its most basic form. So, that&#8217;s what I&#8217;ll continue working on in between cutscene work over the upcoming two weeks. Things that have to happen:
 
