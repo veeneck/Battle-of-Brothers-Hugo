@@ -3,7 +3,7 @@ title: Why I Chose the Corona SDK over Sprite Kit, Unity, or Cocos2d-x
 author: chris
 type: post
 date: 2014-04-07T15:17:57+00:00
-url: /2014/04/07/why-i-chose-the-corona-sdk-over-sprite-kit-unity-or-cocos2d-x/
+url: /sirchris/why-i-chose-the-corona-sdk-over-sprite-kit-unity-or-cocos2d-x/
 categories:
   - sirchris
 tags:

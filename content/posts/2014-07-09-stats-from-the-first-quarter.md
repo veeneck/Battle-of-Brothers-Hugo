@@ -3,7 +3,7 @@ title: Stats From the First Quarter
 author: Ryan
 type: post
 date: 2014-07-09T18:41:59+00:00
-url: /2014/07/09/stats-from-the-first-quarter/
+url: /sirryan/stats-from-the-first-quarter/
 categories:
   - sirryan
 tags:

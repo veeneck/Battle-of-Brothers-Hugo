@@ -1,0 +1,301 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Feb</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield7.png')">2</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">All About Those Cutscenes</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>I&#8217;ve done quite a lot over the past two weeks. Work has started on melee combat. I&#8217;ve hired a composer! But most of all, I&#8217;ve been consumed with cutscenes. When I started this process, I didn&#8217;t realize that the decision to add a story to my game would end up costing me ~30% of my budget and an equal amount of programming time. Now that I&#8217;m actually implementing the story, I&#8217;m starting to understand all of the implications.
+</p>
+
+<p>As always, I cover all of this in the video update, so follow along there if you prefer.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/4IzAr7jXEDs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<p>Let&#8217;s break down each of the tasks I took on over the past two weeks.</p>
+
+<h4 id="melee-combat">Melee Combat</h4>
+
+<p>I left off last update working on ranged combat, so I carried that into the first week by working on melee combat. The good news is that the code to process combat works just fine, so no refactoring was needed. The bad news is that combat doesn&#8217;t look perfect just yet. See for yourself.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/MildNecessaryGoitered' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>I have to play around with making combat look more natural. For example, have soldiers feet moved when they are pushed. Or, when processing allows, have a soldier walk around someone rather than through them. Finally, if it&#8217;s 4 on 1, have the 4 properly surround the target. Right now, they just walk in a straight line directly to the closest target.</p>
+
+<p>I would have continued working on this, but I received an unexpected email.</p>
+
+<h4 id="hired-a-composer">Hired a Composer</h4>
+
+<p>I&#8217;ve received a few emails about music needs for my game, and I&#8217;ve told everyone that I&#8217;m not ready to think about that yet. The other day, I was contacted by <a href="https://soundcloud.com/tony-manfredonia" target="_blank">Tony Manfredonia</a> and felt the urge to do a trial with him. Something about the tone of his email showed me he cared about his work, and was genuinely interested in my project.</p>
+
+<p>So, I ran through a trial with him (samples in the video above), and everything checked out. At first, he gave me a sample title song. Then, followed up with a battle song. I plan to write more about this in depth, but we went through 8 revisions on the battle song. He was cool with the entire process, and open to feedback. That&#8217;s the kind of person I like to work with, so I&#8217;m excited to start with him in May.</p>
+
+<h4 id="cutscenes">Cutscenes</h4>
+
+<p>Because a composer needs a story to compose, I immediately switched gears to cutscenes. As far as timing goes, I should be finished with them by the end of February, so that they are ready for voice overs. Then, with voice added, send them off to the composer.</p>
+
+<p>Cutscenes are hard. Here&#8217;s why:</p>
+
+<ul>
+<li>Dialogue is hard. I keep iterating to try to stay away from the cheese.</li>
+<li>Timing is hard without sound and music. Sometimes, a pause is just too long. Other times, with the right music, it is the perfect touch.</li>
+<li>They have to be skippable / skimmable, which requires a lot of flexibility in the code.</li>
+<li>Effects and animations are time consuming, and will stand out if they aren&#8217;t polished enough.</li>
+<li>Camera work / placement is a skill in itself. Basically, I find myself having to research basic director skills.</li>
+</ul>
+
+<p>Given all of that, I&#8217;m both excited and nervous about the end product. But, I&#8217;m committed. For now, I&#8217;ve got a <a href="http://battleofbrothers.com/sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions" target="_blank">basic, skippable engine in place</a> and roughly <sup>1</sup>&frasl;<sub>4</sub> of the content in there. I&#8217;ll keep working towards a finished product over the next month.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/WearyEverlastingBee' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<h4 id="scene-management">Scene Management</h4>
+
+<p>While working on cutscenes, I received quite the education in scene management. There are both technical and logical challenges.</p>
+
+<p>On the technical side, scenes have to transition into one another gracefully. This is easier said than done when working with large assets. So, to implement transitions, I have had to start a preloading system. Each scene has a tree of next scenes, and based on the state of the game will being a background thread that preloads the upcoming scene. This system allows for graceful transitions like this:</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/EntireImaginativeIndianrockpython' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>On the logic side, there are a bunch of edge cases with players quitting the game or turning off their device. Some scenes, like story dialogue, can be marked as complete if they get shown. Other scenes, like player decisions, must have a decision made in order to not be shown again. That decision must be stored somewhere. I&#8217;ve started the process of implementing that. Another example would be the world map. If revealing a new level, zoom in and show it. Otherwise, show the entire map in its normal state.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/WhirlwindMeekLacewing' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<hr class="dots" />
+
+<p>&nbsp;</p>
+
+<p>Next week, I plan to really flesh out the two scene management concepts I talked about above. Once that foundation is solid, I can go on an implement the next <sup>1</sup>&frasl;<sub>4</sub> or so of the story.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

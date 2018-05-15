@@ -3,7 +3,7 @@ title: Stats From Our Launch
 author: Ryan
 type: post
 date: 2014-04-03T14:35:36+00:00
-url: /2014/04/03/stats-from-our-launch/
+url: /sirryan/stats-from-our-launch/
 categories:
   - sirryan
 tags:

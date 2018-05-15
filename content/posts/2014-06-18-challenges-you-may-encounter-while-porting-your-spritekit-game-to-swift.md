@@ -3,7 +3,7 @@ title: Challenges You May Encounter While Porting Your SpriteKit Game to Swift
 author: Ryan
 type: post
 date: 2014-06-18T16:20:02+00:00
-url: /2014/06/18/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/
+url: /sirryan/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/
 categories:
   - sirryan
 tags:

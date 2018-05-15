@@ -3,7 +3,7 @@ title: Welcome to the Site!
 author: chris
 type: post
 date: 2014-03-26T16:40:22+00:00
-url: /2014/03/26/welcome-to-the-site/
+url: /sirchris/welcome-to-the-site/
 categories:
   - sirchris
 tags:

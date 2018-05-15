@@ -3,7 +3,7 @@ title: Handling zPosition in a 2.5d World
 author: Ryan
 type: post
 date: 2014-04-21T15:28:10+00:00
-url: /2014/04/21/handling-zposition-in-a-2-5d-world/
+url: /sirryan/handling-zposition-in-a-2-5d-world/
 categories:
   - sirryan
 tags:

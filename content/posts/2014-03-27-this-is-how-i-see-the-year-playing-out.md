@@ -3,7 +3,7 @@ title: Predictions About the Upcoming Year
 author: Ryan
 type: post
 date: 2014-03-27T14:59:46+00:00
-url: /2014/03/27/this-is-how-i-see-the-year-playing-out/
+url: /sirryan/this-is-how-i-see-the-year-playing-out/
 categories:
   - sirryan
 tags:

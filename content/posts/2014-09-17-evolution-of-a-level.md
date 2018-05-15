@@ -3,7 +3,7 @@ title: Evolution of a Level
 author: Ryan
 type: post
 date: 2014-09-17T13:26:50+00:00
-url: /2014/09/17/evolution-of-a-level/
+url: /sirryan/evolution-of-a-level/
 featured_image: /wp-content/uploads/2014/09/levels-1.png
 categories:
   - sirryan

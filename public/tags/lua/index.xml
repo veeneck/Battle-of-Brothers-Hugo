@@ -13,10 +13,10 @@
     
     <item>
       <title>Health Bars and Taking Damage in Corona SDK</title>
-      <link>http://battleofbrothers.com/2014/06/24/health-bars-and-taking-damage-in-corona-sdk/</link>
+      <link>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</link>
       <pubDate>Tue, 24 Jun 2014 17:30:09 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/06/24/health-bars-and-taking-damage-in-corona-sdk/</guid>
+      <guid>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</guid>
       <description>&lt;p&gt;It&amp;#8217;s common to see &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34;&gt;health bars attached to a characters&lt;/a&gt; in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.
 &lt;/p&gt;</description>
     </item>

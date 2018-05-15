@@ -3,9 +3,9 @@ title: $7600 on Illustrations
 author: chris
 type: post
 date: 2015-01-13T14:24:26+00:00
-url: /2015/01/13/7600-on-illustrations/
+url: /sirchris/7600-on-illustrations/
 categories:
-  - Uncategorized
+  - sirchris
 tags:
   - budget
 amount: 7600

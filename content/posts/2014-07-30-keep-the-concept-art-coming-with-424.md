@@ -3,7 +3,7 @@ title: Keep the concept art coming with $424
 author: Ryan
 type: post
 date: 2014-07-30T15:48:07+00:00
-url: /2014/07/30/keep-the-concept-art-coming-with-424/
+url: /sirryan/keep-the-concept-art-coming-with-424/
 categories:
   - sirryan
 tags:

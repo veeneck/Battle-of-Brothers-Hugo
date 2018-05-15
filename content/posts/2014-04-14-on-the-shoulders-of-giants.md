@@ -3,7 +3,7 @@ title: On the Shoulders of Giants
 author: Ryan
 type: post
 date: 2014-04-14T13:44:21+00:00
-url: /2014/04/14/on-the-shoulders-of-giants/
+url: /sirryan/on-the-shoulders-of-giants/
 featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-8.06.58-AM-1.png
 number:
   - 2

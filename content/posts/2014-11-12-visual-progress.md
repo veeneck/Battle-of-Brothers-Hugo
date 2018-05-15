@@ -3,7 +3,7 @@ title: Visual Progress
 author: chris
 type: post
 date: 2014-11-12T17:00:53+00:00
-url: /2014/11/12/visual-progress/
+url: /sirchris/visual-progress/
 featured_image: /wp-content/uploads/2014/11/characterscreen-2.png
 keyevent:
   - Added Level Markers

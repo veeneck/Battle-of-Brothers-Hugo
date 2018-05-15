@@ -3,7 +3,7 @@ title: 10 Movement Grid Display Techniques
 author: chris
 type: post
 date: 2014-06-18T16:59:51+00:00
-url: /2014/06/18/10-unique-movement-grid-display-techniques/
+url: /sirchris/10-unique-movement-grid-display-techniques/
 categories:
   - sirchris
 tags:

@@ -1,0 +1,316 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Sep</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield12.png')">1</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">A Month of Pathfinding</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>At the beginning of August I challenged myself to get pathfinding under control. In truth, if I couldn&#8217;t figure it out I would be forced to consider making the game turn based instead. So, I set out with a giant todo list containing many edge cases to solve. Fortunately, the main branch was merged in yesterday, so I&#8217;m in an infinitely better position than I was. It&#8217;s been an exhausting month, so I&#8217;m ready to move on. Let&#8217;s have a look at what&#8217;s been completed, and what issues still remain.
+</p>
+
+<div class="inlineimg">
+  [youtube=https://www.youtube.com/watch?v=GVu4rrOWFDM&w=740&theme=light]
+</div>
+
+<h4 id="a-sampling-of-pathfinding-issues">A Sampling of Pathfinding Issues</h4>
+
+<p>How hard can walking be, right? Well, finding the best path is only one of the many issues. But there are many more like managing state, performance and user input. Here is a list of the main issues tackled:</p>
+
+<ul>
+<li>Port navmesh to use iOS9&#8217;s new GKObstacleGraph</li>
+<li>Port code to use iOS9&#8217;s entity component system with steering agents</li>
+<li>Write tool to import data from <a href="https://www.codeandweb.com/physicseditor" target="_blank">PhysicsEditor</a></li>
+<li>Manage multiple GKObstacleGraphs so that wider formations take a larger turn radius</li>
+<li>If destination is more than 2 radians of a turn, reform squad instead of wheeling</li>
+<li>When Idle, check every so often to see if a unit has been bumped, and attempt to move back into position</li>
+<li>If destination is invalid (off of a cliff), stop as close to destination as possible</li>
+<li>If leader is still moving but destination is invalid, leave formation and just attempt to stay nearby other followers</li>
+<li>If stuck on a physics object, leave formation and use pathfinding to figure a way back to the squad.</li>
+<li>Multiple performance issues with units overlapping, updating their direction, etc</li>
+<li>Figure out a way to preview a move</li>
+<li>Figure out a way to allow the user to rotate a squad</li>
+<li>Decouple UI actions from squad commands</li>
+<li>Define a completed move so that sound, state and other callbacks / listeners are always accurate</li>
+</ul>
+
+<p>The list continues on with each item getting more specific. The point is that this has been a ton of work. During the first year of game development, I learned a lot about movement so I chalk that time up to education. Now that I know what to look for, I&#8217;m still amazed at how complex everything becomes. According to RescueTime, I&#8217;ve put in 116 programming hours this month, which resulted in ~2,500 lines of code.</p>
+
+<p>For those of you interested, let&#8217;s break down a few of the issues.</p>
+
+<h4 id="stuck-on-an-object">Stuck on an Object</h4>
+
+<p>This is something that should rarely happen because the navmesh should have a proper turn radius set for each unit. That said, there will be edge cases. For example, catapult knocks one unit aside but doesn&#8217;t kill it. The unit will have to figure out how to catch up to his friends. I hard coded walking into a corner, and how it would be solved. Check out the gif.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/IllinformedSpanishBuffalo' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>As you can see, their pathfinding eventually kicks in and they round the corner.</p>
+
+<h4 id="invalid-positions">Invalid Positions</h4>
+
+<p>There are multiple types of invalid positions. First, we can have the user tapping on water or a cliff. That should be detected, and provide visual feedback. Second, we have a leader who has stopped in a valid position, but tells some of his followers that their desired position is off of a cliff. Third, we have a leader who is moving, and is temporarily telling is followers to walk off of a cliff. The gif below shows how the third case was solved.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/PrestigiousUnfortunateFalcon' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>The blue dots represent the leaders orders. Whenever the dot is in an invalid position, each follower is instructed to stay close by, but favor moving towards the dot. If the follower hits a physics edge, ignore the dot, and just try to stay close by while avoiding obstacles. That&#8217;s easy enough to type out in english, but you can imagine the math and constant checks per frame to make sure they&#8217;re doing the right thing.</p>
+
+<h4 id="previewing-and-rotating-a-move">Previewing and Rotating a Move</h4>
+
+<p>I was trying to think of an elegant way to allow previewing rotating. I didn&#8217;t want a separate button for rotate, and I still wanted moving to be easy. So, the solution is: Tap to move, hold your finger down to preview, and move your finger while holding to rotate. Surprisingly, it feels quite natural, so I&#8217;m happy with the outcome.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/TiredRepulsiveGaur' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>The code isn&#8217;t quite perfect yet as you can see. Units don&#8217;t face the proper direction at the end, for example. But the idea and code is there. Speaking of the code, this took quite a refactor. Tap and hold should only be registered  when a move command is active. So basically, each icon is now a full component that updates each frame. Each icon is responsible for registering its own events, updating UI with icons like the move marker, disabling itself, etc. This was a necessary refactor that feels good to have finished as well.</p>
+
+<h4 id="problems-with-the-actual-mesh">Problems with the Actual Mesh</h4>
+
+<p>Getting the GKObstacleGraph to work took up quite a bit of time. First, I need a tool to help make the outline of the map. Adding each coordinate by hand wouldn&#8217;t cut it. So, I wrote an importer from PhysicsEditor. That was super cool until I noticed random imperfections. To investigate, I wrote a tool that tries to move to every 20 pixels on the map, and placed a red X if it was in the buffer region and inaccessible.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-2296" src="http://localhost:8888/wp-content/uploads/2015/08/IMG_0223-2-1024x768.jpg" alt="IMG_0223" width="625" height="469" />
+</div>
+
+<p>As you can see, there are pockets that look like they are in a valid position but can&#8217;t be walked to. It turns out that the triangles exported by Physics Editor (remember, no concave objects allowed) are sometimes sharp angles. When you stroke the path of a sharp angle, the resulting path points out quite a bit further. So, as a temporary fix, I had to manually adjust the individual triangles to try to have 30 degrees or larger angles.</p>
+
+<h4 id="bumped-out-of-position">Bumped out of Position</h4>
+
+<p>Contact with a physics object could cause some followers of an idle squad to be bumped out of position. When that happens, they should attempt to move back into position. See the problem in the yellow squad:</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-2299" src="http://localhost:8888/wp-content/uploads/2015/08/IMG_0224-3-1024x768.jpg" alt="IMG_0224" width="625" height="469" />
+</div>
+
+<p>There are two ways to solve this. First, on physics contact, change state to find a way back to the desired position. Second, check if you are out of position during certain intervals. The first is more accurate, but requires more CPU. The second has a noticeable delay, but works and is not intensive. Currently, I&#8217;ve implemented the second, but I do plan to experiment with quad trees at some point. If I can get the performance where it needs to be, I can switch to more accurate options.</p>
+
+<h4 id="where-does-this-leave-us">Where Does This Leave Us?</h4>
+
+<p>We&#8217;re now in a cautiously optimistic spot. Most importantly, everything is flexible now. I can easily scale up and down the accuracy. What you see now is balanced for performance, so I may even do different things for different platforms. Additionally, my state machine now makes sense and does not have a ton of redundant code. So, the logic for certain conditions is clean and easy to modify. All of this is good, and it will make the next steps easier.</p>
+
+<p>What are the next steps? Combat and avoidance. Building on this foundation, make combat look more natural. While the combat code is ready to go, the pathfinding for it is horrible. I need to work on charging, surrounding units, and fleeing with everything appearing believable. As for avoidance, I&#8217;m putting it on the future list for now. Ideally, units would try to avoid each other instead of walking through one another.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

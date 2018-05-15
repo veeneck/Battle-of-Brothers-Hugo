@@ -3,7 +3,7 @@ title: First Look at SKLightNode in iOS8
 author: Ryan
 type: post
 date: 2014-06-03T17:24:14+00:00
-url: /2014/06/03/first-look-at-sklightnode-in-ios8/
+url: /sirryan/first-look-at-sklightnode-in-ios8/
 categories:
   - sirryan
 tags:

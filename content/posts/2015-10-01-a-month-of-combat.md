@@ -3,7 +3,7 @@ title: A Month of Combat
 author: Ryan
 type: post
 date: 2015-10-01T20:46:47+00:00
-url: /2015/10/01/a-month-of-combat/
+url: /sirryan/a-month-of-combat/
 featured_image: /wp-content/uploads/2015/11/Screen-Shot-2015-11-13-at-4.45.05-PM-e1447451181588-3.png
 number:
   - 25

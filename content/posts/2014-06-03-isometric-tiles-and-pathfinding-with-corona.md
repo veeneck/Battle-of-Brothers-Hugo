@@ -3,7 +3,7 @@ title: Isometric Tiles and Pathfinding with Corona
 author: chris
 type: post
 date: 2014-06-03T17:43:32+00:00
-url: /2014/06/03/isometric-tiles-and-pathfinding-with-corona/
+url: /sirchris/isometric-tiles-and-pathfinding-with-corona/
 categories:
   - sirchris
 tags:

@@ -3,7 +3,7 @@ title: Designing Backgrounds for Multiple Aspect Ratios and Corona’s Config.lu
 author: chris
 type: post
 date: 2014-08-26T13:50:19+00:00
-url: /2014/08/26/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/
+url: /sirchris/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/
 categories:
   - sirchris
 tags:

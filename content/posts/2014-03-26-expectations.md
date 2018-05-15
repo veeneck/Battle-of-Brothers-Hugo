@@ -3,7 +3,7 @@ title: Expectations
 author: chris
 type: post
 date: 2014-03-26T16:56:29+00:00
-url: /2014/03/26/expectations/
+url: /sirchris/expectations/
 categories:
   - sirchris
 tags:

@@ -3,7 +3,7 @@ title: Come One, Come All
 author: Ryan
 type: post
 date: 2014-03-27T14:59:14+00:00
-url: /2014/03/27/come-one-come-all/
+url: /sirryan/come-one-come-all/
 categories:
   - sirryan
 tags:

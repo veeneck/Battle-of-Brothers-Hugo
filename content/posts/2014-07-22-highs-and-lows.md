@@ -3,7 +3,7 @@ title: Highs and Lows
 author: Ryan
 type: post
 date: 2014-07-22T15:21:54+00:00
-url: /2014/07/22/highs-and-lows/
+url: /sirchris/highs-and-lows/
 featured_image: /wp-content/uploads/2014/07/Screen-Shot-2014-07-22-at-11.20.15-AM-1.png
 number:
   - 8

@@ -3,7 +3,7 @@ title: More Difficult Than When I Thought Things Were Difficult
 author: Ryan
 type: post
 date: 2014-11-03T21:45:01+00:00
-url: /2014/11/03/more-difficult-than-when-i-thought-things-were-difficult/
+url: /sirryan/more-difficult-than-when-i-thought-things-were-difficult/
 featured_image: /wp-content/uploads/2014/11/B1X2Ni5CMAAZg0v-3.png
 number:
   - 13

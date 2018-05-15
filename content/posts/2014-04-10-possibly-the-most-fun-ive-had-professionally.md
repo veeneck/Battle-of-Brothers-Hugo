@@ -3,7 +3,7 @@ title: Possibly the Most Fun I’ve Had Professionally
 author: Ryan
 type: post
 date: 2014-04-10T12:18:18+00:00
-url: /2014/04/10/possibly-the-most-fun-ive-had-professionally/
+url: /sirryan/possibly-the-most-fun-ive-had-professionally/
 categories:
   - sirryan
 tags:

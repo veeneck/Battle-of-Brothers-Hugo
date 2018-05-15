@@ -3,7 +3,7 @@ title: The Beginning of a Game
 author: chris
 type: post
 date: 2014-05-12T18:55:50+00:00
-url: /2014/05/12/the-beginning-of-a-game/
+url: /sirchris/the-beginning-of-a-game/
 featured_image: /wp-content/uploads/2014/05/Update-4-1.png
 keyevent:
   - AI Foundation Written

@@ -3,7 +3,7 @@ title: Saving Game Data in SpriteKit
 author: Ryan
 type: post
 date: 2015-02-03T13:22:40+00:00
-url: /2015/02/03/saving-game-data-in-spritekit/
+url: /sirryan/saving-game-data-in-spritekit/
 categories:
   - sirryan
 tags:

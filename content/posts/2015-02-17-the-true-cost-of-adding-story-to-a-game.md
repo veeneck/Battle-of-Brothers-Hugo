@@ -3,7 +3,7 @@ title: The True Cost of Adding Story to a Game
 author: Ryan
 type: post
 date: 2015-02-17T17:56:20+00:00
-url: /2015/02/17/the-true-cost-of-adding-story-to-a-game/
+url: /sirryan/the-true-cost-of-adding-story-to-a-game/
 categories:
   - sirryan
 tags:

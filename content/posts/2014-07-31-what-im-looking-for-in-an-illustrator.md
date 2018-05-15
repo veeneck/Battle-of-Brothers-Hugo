@@ -3,7 +3,7 @@ title: What I’m Looking for in an Illustrator
 author: chris
 type: post
 date: 2014-07-31T15:00:24+00:00
-url: /2014/07/31/what-im-looking-for-in-an-illustrator/
+url: /sirchris/what-im-looking-for-in-an-illustrator/
 categories:
   - sirchris
 tags:

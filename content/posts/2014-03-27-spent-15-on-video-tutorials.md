@@ -3,7 +3,7 @@ title: Spent $15 on video tutorials
 author: Ryan
 type: post
 date: 2014-03-27T15:02:00+00:00
-url: /2014/03/27/spent-15-on-video-tutorials/
+url: /sirryan/spent-15-on-video-tutorials/
 categories:
   - sirryan
 tags:

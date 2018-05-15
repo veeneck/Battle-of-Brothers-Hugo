@@ -3,7 +3,7 @@ title: Video, Audio, Fonts and Other Useful Sprite Kit Fundamentals
 author: Ryan
 type: post
 date: 2014-04-07T13:28:54+00:00
-url: /2014/04/07/video-audio-fonts-and-other-useful-sprite-kit-fundamentals/
+url: /sirryan/video-audio-fonts-and-other-useful-sprite-kit-fundamentals/
 categories:
   - sirryan
 tags:

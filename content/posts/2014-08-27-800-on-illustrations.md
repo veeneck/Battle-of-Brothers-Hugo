@@ -3,7 +3,7 @@ title: $800 on Illustrations
 author: chris
 type: post
 date: 2014-08-27T14:24:03+00:00
-url: /2014/08/27/800-on-illustrations/
+url: /sirchris/800-on-illustrations/
 categories:
   - sirchris
 tags:

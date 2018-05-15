@@ -1,0 +1,302 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">May</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield10.png')">26</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">Spawns, Heraldry and UI</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>This update is broken into three main events. First, I created spawn zones for the player to place their troops before battle. Second, I fixed off screen heraldry, and refactored the code to make it more flexible. Lastly, I played with consistent UI classes that will work for every screen. And in between all of that, I fixed bugs and worked with the composer (<a href="http://www.manfredoniamusic.com" target="_blank">Tony Manfredonia</a>).
+</p>
+
+<p>One interesting side note about developing games. It is nice to be able to switch gears. When I&#8217;m bored with combat work, I can play with UI. When I don&#8217;t feel like coding, I can try to implement and learn about music or sound effects. There is a huge variety of things to work on. Of course, that comes with a downside. There is a mountain of work to be done that is quite intimidating, and I really have to stop myself from focusing on that aspect.</p>
+
+<p>[youtube=<a href="https://www.youtube.com/watch?v=NIWS48fUkXY&amp;w=740&amp;theme=light">https://www.youtube.com/watch?v=NIWS48fUkXY&amp;w=740&amp;theme=light</a>]</p>
+
+<h4 id="placing-units">Placing Units</h4>
+
+<p>The task here was to create a region that allows troop placement. If the user taps outside of that region, it won&#8217;t work. The code had to be flexible for every map, and also allow a limit to the amount of units that could be placed in a particular region. Here is a working draft.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/TightDamagedGull' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>Once all units are placed, the game begins. In the future, there may be a button to being battle if it is optional to use every unit. Another cool thing to note is the direction the archers are facing when placed. I have a few hidden nodes with rotation sitting inside of the placement zone. When a unit is placed, the code finds the closest node. Whatever the rotation of that node is, the unit is set to that heading. I will allow the player to rotate units, but this is a nice touch for convenience.</p>
+
+<h4 id="heraldry">Heraldry</h4>
+
+<p>I refer to the shields that identify the squads as Heraldry. They are ket to the UI because they act as unique identifiers, show life, standing, spells and are the item you click to interact with a unit.  They also perform two other functions that I implemented:</p>
+
+<ul>
+<li>When a unit is spawning under delay, the Heraldry will gradually appear.</li>
+<li>When a unit is offscreen, the Heraldry shrinks but still indicates the location of the unit.</li>
+</ul>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/SpiritedAgitatedBarbet' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>Technically, the offscreen placement has been a pain. Weeks ago, I was able to get the location of the intersection with the edge of the screen. Everything worked until there were a bunch of units. The Heraldry started to overlap, and I have to avoid this as much as possible. So, we now have a grid of dots that sit at the edge of the screen. Each Heraldry can only be on one unique dot. If that dot is occupied, the next dot is selected. Now, we no long have off screen overlapping. On screen overlapping still does occur, but that&#8217;s a challenge for another week.</p>
+
+<h4 id="ui">UI</h4>
+
+<p>This weeks work on the interface was more about usability and less about appearance. I had to tackle a few problems.</p>
+
+<ul>
+<li>Keep the settings icon in the same place on all screens.</li>
+<li>Keep the navigation in the bottom right on all screens.</li>
+<li>Figure out the &#8220;Slide&#8221; system. What does 1 pane look like? How about 2?</li>
+<li>What does a confirm dialogue look like?</li>
+<li>What about controls, like plus and minus to toggle volume?</li>
+<li>If the UI is transparent, what happens when the heraldry goes partially behind it?</li>
+</ul>
+
+<p>I don&#8217;t have the answers to all of these questions, but I am fairly confident in the functionality on the &#8220;Slide&#8221; system. You&#8217;ve already seen <a href="http://battleofbrothers.com/sirryan/a-wobbly-foundation" target="_blank">how it would look on the main menu and world map</a>. Here is an idea of how it would apply to the Camp screen.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-2145" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-23-at-10.35.05-AM-1024x785.png" alt="Screen Shot 2015-05-23 at 10.35.05 AM" width="625" height="479" />
+</div>
+
+<p>Functionally, it works. In the future I&#8217;ll spend time on appearance. I&#8217;m also imagining the iPhone version will have a slight variation where the second pane takes up the entire width of the remaining screen.</p>
+
+<p>Another UI task that was accomplished this week was settings and pausing. I thought pausing would take me forever, but I was lucky that everything &#8220;just worked.&#8221; All of my game nodes were already in a separate World layer, so pausing just that layer stops the game while the UI layer is still active. See it in action below.</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/UnsteadyUnlinedFlicker' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<h4 id="music">Music</h4>
+
+<p>Progress is being made on the soundtrack as well. Here is what we have completed.</p>
+
+<ul>
+<li>Main menu</li>
+<li>World map</li>
+<li>Unit placement</li>
+<li>Player decisions</li>
+<li>Battles 1-3</li>
+<li>Boss 1</li>
+</ul>
+
+<p>One other interesting thing to bring up &#8212; when you&#8217;re about 75% complete with a level, the music cross fades into a rock / electric version of the same track. It&#8217;s an interesting effect that you can hear in the video status update. I&#8217;m interested in more ways to add value through the music.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

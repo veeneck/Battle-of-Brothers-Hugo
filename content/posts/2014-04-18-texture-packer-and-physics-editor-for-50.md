@@ -3,7 +3,7 @@ title: Texture Packer and Physics Editor for $50
 author: chris
 type: post
 date: 2014-04-18T19:00:48+00:00
-url: /2014/04/18/texture-packer-and-physics-editor-for-50/
+url: /sirchris/texture-packer-and-physics-editor-for-50/
 categories:
   - sirchris
 tags:

@@ -1,0 +1,295 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Nov</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield12.png')">3</p>
+					<span class="year legacy">2014</span> 
+				</div>
+				<h3 class="grace">More Difficult Than When I Thought Things Were Difficult</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>Alright, so that title is sort of doom and gloom. Really though, my mood is pretty good. I&#8217;m a married man now! On the work front, the difficulty I&#8217;m encountering is programming difficulty, which I feel is in my control. That&#8217;s always better than art, story, music, sound or gameplay difficulty. Current pain points? Pathfinding, and moving units as a formation.
+</p>
+
+<p>That said, I have made progress on both fronts. I have a basic navmesh implemented, and formation walking and rotating. Not bad, right? Problem is that it doesn&#8217;t look or feel right. There are so many edge case left to fix. Have a watch of my status video to see what I&#8217;m talking about.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/l4wT2B4chdc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<p>In short, people can walk, sometimes. Have a look at this navmesh:</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1415" src="http://localhost:8888/wp-content/uploads/2014/11/B0zmh0LIEAAWw1v-2.png-large-2.png" alt="B0zmh0LIEAAWw1v.png-large" width="650" />
+</div>
+
+<p>Everything appears to work except when:</p>
+
+<ul>
+<li>You move into a space that has 3 polygons sharing the same point, and then try to come back out.</li>
+<li>You click anywhere outside of the navmesh.</li>
+<li>Clicking inside of a concave polygon, and then outside, will trigger line of sight to break. This may or may not be an issue with <code>SKPhysicsWorld.bodyAlongRayStart()</code></li>
+</ul>
+
+<p>And there are plenty more examples where things will break. However, what you see is still a huge accomplishment. I know have a full featured debug system underneath the code, which I can turn on and off with different flags. That&#8217;s the overlay you see in the image above. Also, my first attempt at implementing a navmesh results in 30% CPU usage (mainly due to internal SKShapeNode bugs). I was able to bring that down to just using 1% more CPU. I also have a working understanding of A* now, which is huge. So, I&#8217;m a better game developer now &#8212; it&#8217;s just a tough process. Sometimes, it feels like I imagine walking through mud would feel.</p>
+
+<h4 id="illustrations">Illustrations</h4>
+
+<p>Art is moving along nicely. During the first few weeks, things went slow because we were trying to figure out how to make art for an unknown game. Now that things are more defined, art is flying. Have a look at this story scene:</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1420" src="http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png" alt="B1Iql1NCIAEGtKo.png-large" width="662" height="654" srcset="http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png 662w, http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-300x296.png 300w, http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-100x100.png 100w" sizes="(max-width: 662px) 100vw, 662px" />
+</div>
+
+<p>There is plenty more where that came from too. Overall, here is where the illustrations are at:</p>
+
+<ul>
+<li><sup>6</sup>&frasl;<sub>15</sub> levels</li>
+<li><sup>15</sup>&frasl;<sub>26</sub> characters</li>
+<li><sup>5</sup>&frasl;<sub>15</sub> cutscenes</li>
+<li>0 / 1 world map</li>
+<li>0 / 1 start screen</li>
+<li>0 / 1 camp screen</li>
+<li>0 / 1 interface</li>
+<li>0 / 1 polish like rivers, birds, flags, etc</li>
+<li>0 / 1 marketing materials</li>
+</ul>
+
+<div>
+  And at this point, I&#8217;m just over half way through my first illustrator contract.
+</div>
+
+<h4 id="animations">Animations</h4>
+
+<p>I just entered into a new contract with an animator. She lives in Israel, and so far has been amazing to work with. I&#8217;m excited to see the results, and hope that this marks the end of <a href="http://battleofbrothers.com/sirryan/my-experiences-hiring-an-artist-part-2" target="_blank">my search for artists</a>. Here is a sample of her work:</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1395" src="http://localhost:8888/wp-content/uploads/2014/11/Archer-1-Walk-Front-2.gif" alt="Archer-1-Walk-Front" width="128" height="128" srcset="http://localhost:8888/wp-content/uploads/2014/11/Archer-1-Walk-Front-2.gif 128w, http://localhost:8888/wp-content/uploads/2014/11/Archer-1-Walk-Front-2-100x100.gif 100w" sizes="(max-width: 128px) 100vw, 128px" />
+</div>
+
+<p>She&#8217;ll be working on ~26 characters, each with 4 to 6 8 frame animations.</p>
+
+<h4 id="goals-for-november">Goals for November</h4>
+
+<p>Walking. Sounds simple, but I want it perfect. Every pathfinding bug, and units moving naturally throughout the map. The units won&#8217;t flock or avoid each other just yet. But, I&#8217;d like to see controlled movement. On the art front, the story will probably be finished, and the first animation contract will be nearly complete by the end of the month.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

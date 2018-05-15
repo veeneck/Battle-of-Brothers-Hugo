@@ -3,7 +3,7 @@ title: $588 on Corona SDK Pro Subscription
 author: chris
 type: post
 date: 2014-10-20T13:03:43+00:00
-url: /2014/10/20/588-on-corona-sdk-pro-subscription/
+url: /sirchris/588-on-corona-sdk-pro-subscription/
 categories:
   - sirchris
 tags:

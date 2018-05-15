@@ -3,7 +3,7 @@ title: How Designing This Site Prepares Me For Game Development
 author: Ryan
 type: post
 date: 2014-03-27T15:00:33+00:00
-url: /2014/03/27/how-designing-this-site-prepares-me-for-game-development/
+url: /sirryan/how-designing-this-site-prepares-me-for-game-development/
 categories:
   - sirryan
 tags:

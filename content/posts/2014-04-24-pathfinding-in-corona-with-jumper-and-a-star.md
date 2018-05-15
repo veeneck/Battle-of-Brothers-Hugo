@@ -3,7 +3,7 @@ title: Pathfinding in Corona with Jumper and A Star
 author: chris
 type: post
 date: 2014-04-24T15:57:28+00:00
-url: /2014/04/24/pathfinding-in-corona-with-jumper-and-a-star/
+url: /sirchris/pathfinding-in-corona-with-jumper-and-a-star/
 categories:
   - sirchris
 tags:

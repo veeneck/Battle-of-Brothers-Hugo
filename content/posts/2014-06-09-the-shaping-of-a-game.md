@@ -3,7 +3,7 @@ title: The Shaping of a Game
 author: Ryan
 type: post
 date: 2014-06-09T16:11:47+00:00
-url: /2014/06/09/the-shaping-of-a-game/
+url: /sirryan/the-shaping-of-a-game/
 number:
   - 6
 keyevent:

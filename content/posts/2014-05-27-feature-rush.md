@@ -3,7 +3,7 @@ title: Feature Rush
 author: Ryan
 type: post
 date: 2014-05-27T16:50:37+00:00
-url: /2014/05/27/feature-rush/
+url: /sirryan/feature-rush/
 featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-12.48.56-PM-1.png
 keyevent:
   - Catapult implemented.

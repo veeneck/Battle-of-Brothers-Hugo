@@ -3,7 +3,7 @@ title: A Very Basic Game
 author: chris
 type: post
 date: 2015-04-28T18:50:52+00:00
-url: /2015/04/28/a-very-basic-game/
+url: /sirchris/a-very-basic-game/
 featured_image: /wp-content/uploads/2015/04/Screen-Shot-2015-04-28-at-10.31.33-AM-2.png
 number:
   - 24

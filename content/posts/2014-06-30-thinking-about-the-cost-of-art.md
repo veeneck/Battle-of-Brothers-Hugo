@@ -3,7 +3,7 @@ title: Thinking About the Cost of Art
 author: Ryan
 type: post
 date: 2014-06-30T15:21:02+00:00
-url: /2014/06/30/thinking-about-the-cost-of-art/
+url: /sirryan/thinking-about-the-cost-of-art/
 categories:
   - sirryan
 tags:

@@ -3,7 +3,7 @@ title: Knights, Ninjas, and Wizards
 author: chris
 type: post
 date: 2015-02-16T14:16:41+00:00
-url: /2015/02/16/knights-ninjas-and-wizards/
+url: /sirchris/knights-ninjas-and-wizards/
 featured_image: /wp-content/uploads/2015/02/e067f984dcf7e6846ff5db2163d624d5-1-e1424094776180-3.png
 number:
   - 20

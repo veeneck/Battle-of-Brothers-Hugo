@@ -1,0 +1,290 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Jan</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield7.png')">5</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">SpriteKit: CPU gains from caching enumerateChildNodesWithName</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">code</a>
+						
+						<a href="" class="dotted">sprite kit</a>
+						
+						<a href="" class="dotted">swift</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>Those of you who follow me know that I&#8217;m working on a game that will have ~200 nodes on the screen updating every frame. Because of that requirement, I&#8217;m <a href="http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1" target="_blank">constantly looking</a> at <a href="http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit" target="_blank">how I can</a> incrementally <a href="http://battleofbrothers.com/sirryan/now-were-rolling" target="_blank">improve performance</a>. Slowly but surely, I&#8217;m making this game a well oiled machine. Today, I stumbled on a significant slow down, and the resulting fix that shaved off 16% CPU usage: caching <code>enumerateChildNodesWithName</code>.
+</p>
+
+<p>This discovery came from reading WWDC 2014 transcripts while discussing said function.</p>
+
+<blockquote>
+<p>This is very fast, so you can do it often but we do recommend your cache results if it becomes a performance problem.</p>
+
+<p><a href="http://asciiwwdc.com/2014/sessions/608" target="_blank">Best Practices for Building SpriteKit Games</a></p>
+</blockquote>
+
+<p>If it warranted a mention in Apple&#8217;s discussion, it deserved a closer look. So, I set up a test with 105 nodes running in the update loop. Here are the results:</p>
+
+<ul>
+<li>Calling <strong>enumerateChildNodesWithName</strong> each frame: <strong>44%</strong> CPU</li>
+<li>Caching update callbacks in an array: <strong>28%</strong> CPU</li>
+</ul>
+
+<p>Huge gains, and the best part that the caching is relatively painless to implement.</p>
+
+<h4 id="implementation">Implementation</h4>
+
+<p>First, we&#8217;ll start with an array to hold our callback functions.</p>
+
+<pre>var updateListeners : Array&lt;((CFTimeInterval) -&gt; ())&gt; = []</pre>
+
+<p>Here is an example of what one of those callbacks would look like:</p>
+
+<pre>    func updateWithTime(currentTime:NSTimeInterval) { 
+        // do something 
+    }
+</pre>
+
+<p>With that in place, all we have to do is cache the callback functions on the first run through of <code>enumerateChildNodesWithName&lt;strong&gt;</code> in the Scenes update loop.</strong></p>
+
+<script src="//gist.github.com/veenecka5f2dd16bf11843141cd/.js"></script>
+
+<p>Now, let&#8217;s say one of our characters dies. We don&#8217;t want the update function to keep running on that character. We&#8217;ll have to clear the cache by emptying the array. Then, it will automatically rebuild on the next update loop.</p>
+
+<pre>self.updateListeners = []</pre>
+
+<p>I&#8217;ve consolidated all of this into a small class that I call from my scene object in case it gets more complicated down the road. You can see my full code here:</p>
+
+<script src="//gist.github.com/veeneckf1d534a87133415bfd6d/.js"></script>
+
+<h4 id="notes-concerns">Notes &amp; Concerns</h4>
+
+<p>Each time you clear the cache, it fully rebuilds. If you&#8217;re pushing CPU limits already, this could cause some delayed frames. Two solutions to improve this:</p>
+
+<ul>
+<li>Add a removeUpdateListener() function, and a key/value store, so that you can remove a specific item on demand.</li>
+<li>Or, break apart your objects into smaller cache groups with the goal of minimizing the amount of objects removed from the cache at any given time.</li>
+</ul>
+
+<p>Consider expanding <code>updateService</code> to dynamically control what would be in the cache. My example is hard coded to <code>Characters</code> and <code>Heraldry</code>, but the situation could be different each level.</p>
+
+<p>Also, this can be a useful way to begin separating out updates for different objects by different time intervals if everything doesn&#8217;t have to tick 60 times per second.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

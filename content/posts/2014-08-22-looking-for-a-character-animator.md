@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-08-22T15:06:46+00:00
 draft: true
-url: /?p=1069
+url: /sirchris/looking-for-a-character-animator
 categories:
   - sirchris
 tags:

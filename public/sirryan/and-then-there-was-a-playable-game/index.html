@@ -1,0 +1,292 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">May</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield8.png')">12</p>
+					<span class="year legacy">2014</span> 
+				</div>
+				<h3 class="grace">And Then There was a Playable Game</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">status</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>Don&#8217;t look now, but I think my Xcode project just turned into a playable game. That&#8217;s right, you heard me correctly. User input, gold and a game over state. I would almost say it&#8217;s time to wrap things up and call it a win for team Ryan.
+</p>
+
+<p>As you can see, I&#8217;ve come a long way since my <a href="http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows" target="_blank">last status update</a>. I spent a lot of time trying to understand AI and state machines in previous weeks, and now I am able to see some of the rewards.</p>
+
+<p>Let&#8217;s jump to the video to do this status update justice:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Dcb_2ysh5r8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<p>Reaching this point also makes work easier to handle. I&#8217;m starting to feel like I know where things should go in my code, and am transitioning out of the super beginner phase in some regards. An example of this would be clearer separation of code responsibilities:</p>
+
+<ul>
+<li>My Character class is responsible for modifying local variables or providing convenience methods to be used elsewhere.</li>
+<li>My state machine deals specifically with behavior that a non programmer could understand. Just a collection of calls to readable helper functions exposed by the character or AI system. The code would read as &#8220;If this character is currently waiting, scan for an ideal target. If a target is found, switch to engage that target.&#8221;</li>
+<li>The AI code handles the logic associated with &#8220;scanning for ideal target.&#8221; This includes looping over all targets in range, finding out which one is the biggest threat, and so on.</li>
+</ul>
+
+<p>While I&#8217;m much happier with the code, there are still two catches that I&#8217;m not thrilled about. The entire combat system only works if two specific things occur:</p>
+
+<ul>
+<li>When one character engages another, it must notify the target by calling an exposed method.</li>
+<li>When one character disengages another, it must notify its target.</li>
+</ul>
+
+<p>The reason for this coupling is because each character keeps an array of targetsInRange and of unitsCurrentlyAttacking. The AI functions under the assumption that these two arrays are always accurate.</p>
+
+<h4 id="the-update-loop">The Update Loop</h4>
+
+<p>Another huge break through for me was to finally embrace the update loop. For some reason, I thought I could get by using the built in tools provided by Sprite Kit. The best example to illustrate this is moving to engage a target. Pretend you want to characters to charge each other to attack. Originally, I tried to have each communicate to agree on meeting coordinates, and then call the moveTo:coords SKAction on each. This breaks easily. Imagine one character decides mid move that there is something more important to do. He will walk on while the other guy aimlessly walks to the meeting point.</p>
+
+<p>By using the update loop, each character can walk towards another incrementally. That way, if one character changes directions or goes somewhere else, the other can adjust their course to still engage them properly. I resisted going this approach because I was hesitant to learn vectors, but it opened up significant opportunities. By running update methods on each character I can:</p>
+
+<ul>
+<li>Heal, poison, freeze the character over time</li>
+<li>Run AI on the character each frame</li>
+<li>Update local data (i.e: current walking vector)</li>
+<li>Easing</li>
+</ul>
+
+<p>It turns out that it is much easier to make a coding decision based on accurate real time variables instead of trying to coordinate SKActions and completion blocks.</p>
+
+<h4 id="other-progress">Other Progress</h4>
+
+<p>Accomplishments of note this week:</p>
+
+<ul>
+<li>Gold, health, game over state</li>
+<li>Working AI for skirmishers</li>
+<li>Partially working AI for formations</li>
+<li>Partially working AI for archers</li>
+<li>Spawn points, read from a plist file, that allow you to select a unit type</li>
+<li>Understand easing to add &#8220;juice&#8221; &#8212; notice health bar or unit menu coming into view.</li>
+</ul>
+
+<h4 id="where-i-8217-m-headed">Where I&#8217;m Headed</h4>
+
+<p>My primary focus is to implement basic functionality of each feature so I can understand the scope of the project. For example, small environmental effects like  squirrel running around requires plist data, code in the engine to load and display that data, and an environmental animated node that could possibly require basic state behavior. It sounds easy to say &#8220;let&#8217;s add a moving squirrel to the game,&#8221; and while it isn&#8217;t too difficult it is still worth going through the motions to understand how flexible your code needs to be. I still have at least 2-4 weeks of features I know I want, so I&#8217;ll just try to knock those out.</p>
+
+<p>A secondary goal of mine is to incrementally refactor. I thought I would like to keep working quickly for a few more weeks and then do an entire rewrite. Instead, I&#8217;m going to challenge myself to refactor a class every other day and see if I can gradually improve the code base.</p>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

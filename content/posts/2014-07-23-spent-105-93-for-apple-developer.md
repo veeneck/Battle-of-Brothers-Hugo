@@ -3,7 +3,7 @@ title: Spent $105.93 for Apple Developer
 author: Ryan
 type: post
 date: 2014-07-23T17:19:39+00:00
-url: /2014/07/23/spent-105-93-for-apple-developer/
+url: /sirryan/spent-105-93-for-apple-developer/
 categories:
   - sirryan
 tags:

@@ -3,7 +3,7 @@ title: 'SpriteKit: CPU gains from caching enumerateChildNodesWithName'
 author: Ryan
 type: post
 date: 2015-01-05T18:48:27+00:00
-url: /2015/01/05/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/
+url: /sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/
 categories:
   - sirryan
 tags:

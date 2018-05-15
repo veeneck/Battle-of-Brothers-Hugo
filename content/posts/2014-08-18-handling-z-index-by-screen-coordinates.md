@@ -3,7 +3,7 @@ title: Handling Z-Index by Screen Coordinates
 author: chris
 type: post
 date: 2014-08-18T14:48:27+00:00
-url: /2014/08/18/handling-z-index-by-screen-coordinates/
+url: /sirchris/handling-z-index-by-screen-coordinates/
 categories:
   - sirchris
 tags:

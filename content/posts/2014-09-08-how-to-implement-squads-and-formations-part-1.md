@@ -3,7 +3,7 @@ title: How To Implement Squads and Formations, Part 1
 author: Ryan
 type: post
 date: 2014-09-08T18:38:01+00:00
-url: /2014/09/08/how-to-implement-squads-and-formations-part-1/
+url: /sirryan/how-to-implement-squads-and-formations-part-1/
 categories:
   - sirryan
 tags:

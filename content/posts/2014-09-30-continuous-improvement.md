@@ -3,7 +3,7 @@ title: Continuous Improvement
 author: chris
 type: post
 date: 2014-09-30T19:37:01+00:00
-url: /2014/09/30/continuous-improvement/
+url: /sirchris/continuous-improvement/
 featured_image: /wp-content/uploads/2014/09/ortho_blackKnight_03-1.png
 number:
   - 13

@@ -3,7 +3,7 @@ title: A Bit About Design Documents
 author: Ryan
 type: post
 date: 2014-08-12T16:25:40+00:00
-url: /2014/08/12/a-bit-about-design-documents/
+url: /sirryan/a-bit-about-design-documents/
 categories:
   - sirryan
 tags:

@@ -3,7 +3,7 @@ title: 0 to Art in Two Weeks
 author: Ryan
 type: post
 date: 2014-08-19T13:26:58+00:00
-url: /2014/08/19/0-to-art-in-two-weeks/
+url: /sirryan/0-to-art-in-two-weeks/
 featured_image: /wp-content/uploads/2014/08/flag_design_05-1.jpg
 number:
   - 10

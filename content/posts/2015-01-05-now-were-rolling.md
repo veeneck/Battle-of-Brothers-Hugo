@@ -3,7 +3,7 @@ title: Now We’re Rolling
 author: Ryan
 type: post
 date: 2015-01-05T13:43:10+00:00
-url: /2015/01/05/now-were-rolling/
+url: /sirryan/now-were-rolling/
 featured_image: /wp-content/uploads/2014/12/B4wQf2AIIAA8hjZ-3.png-large-3.png
 number:
   - 14

@@ -3,7 +3,7 @@ title: Dynamic Image Selection with Corona and Texture Packer
 author: chris
 type: post
 date: 2014-06-30T15:26:31+00:00
-url: /2014/06/30/dynamic-image-selection-with-corona-and-texture-packer/
+url: /sirchris/dynamic-image-selection-with-corona-and-texture-packer/
 categories:
   - sirchris
 tags:

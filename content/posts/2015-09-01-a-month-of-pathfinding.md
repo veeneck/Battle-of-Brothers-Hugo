@@ -3,7 +3,7 @@ title: A Month of Pathfinding
 author: Ryan
 type: post
 date: 2015-09-01T13:58:46+00:00
-url: /2015/09/01/a-month-of-pathfinding/
+url: /sirryan/a-month-of-pathfinding/
 featured_image: /wp-content/uploads/2015/09/1.png-2.jpeg
 number:
   - 24

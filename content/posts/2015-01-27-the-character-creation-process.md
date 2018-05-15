@@ -3,7 +3,7 @@ title: The Character Creation Process
 author: chris
 type: post
 date: 2015-01-27T15:15:48+00:00
-url: /2015/01/27/the-character-creation-process/
+url: /sirchris/the-character-creation-process/
 categories:
   - sirchris
 tags:

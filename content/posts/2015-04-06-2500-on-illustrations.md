@@ -3,7 +3,7 @@ title: $2500 on Illustrations
 author: chris
 type: post
 date: 2015-04-06T19:54:30+00:00
-url: /2015/04/06/2500-on-illustrations/
+url: /sirchris/2500-on-illustrations/
 categories:
   - sirchris
 tags:

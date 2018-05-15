@@ -3,7 +3,7 @@ title: $475 on Animator Trial Runs
 author: Ryan
 type: post
 date: 2014-08-08T16:47:16+00:00
-url: /2014/08/08/375-on-animator-trial-runs/
+url: /sirryan/375-on-animator-trial-runs/
 categories:
   - sirryan
 tags:

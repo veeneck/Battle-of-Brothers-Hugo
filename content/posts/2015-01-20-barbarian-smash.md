@@ -3,7 +3,7 @@ title: Barbarian Smash!
 author: chris
 type: post
 date: 2015-01-20T14:17:18+00:00
-url: /2015/01/20/barbarian-smash/
+url: /sirchris/barbarian-smash/
 featured_image: /wp-content/uploads/2015/01/barbarian_TwoHandedStrike.28-3.png
 keyevent:
   - Barbarian Attack Animation

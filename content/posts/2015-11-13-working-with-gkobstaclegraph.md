@@ -3,7 +3,7 @@ title: Working With GKObstacleGraph
 author: Ryan
 type: post
 date: 2015-11-13T19:38:51+00:00
-url: /2015/11/13/working-with-gkobstaclegraph/
+url: /sirryan/working-with-gkobstaclegraph/
 categories:
   - sirryan
 tags:

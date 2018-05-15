@@ -3,7 +3,7 @@ title: 'First Half of Animation Contract: $1,558'
 author: Ryan
 type: post
 date: 2014-08-26T13:20:48+00:00
-url: /2014/08/26/first-half-of-animation-contract-1558/
+url: /sirryan/first-half-of-animation-contract-1558/
 categories:
   - sirryan
 tags:

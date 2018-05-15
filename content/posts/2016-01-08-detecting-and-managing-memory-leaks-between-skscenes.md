@@ -3,7 +3,7 @@ title: Detecting and Managing Memory Leaks Between SKScenes
 author: Ryan
 type: post
 date: 2016-01-08T20:46:40+00:00
-url: /2016/01/08/detecting-and-managing-memory-leaks-between-skscenes/
+url: /sirryan/detecting-and-managing-memory-leaks-between-skscenes/
 categories:
   - sirryan
 tags:

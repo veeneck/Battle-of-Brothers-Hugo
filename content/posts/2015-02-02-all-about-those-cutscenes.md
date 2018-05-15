@@ -3,7 +3,7 @@ title: All About Those Cutscenes
 author: Ryan
 type: post
 date: 2015-02-02T13:41:07+00:00
-url: /2015/02/02/all-about-those-cutscenes/
+url: /sirryan/all-about-those-cutscenes/
 featured_image: /wp-content/uploads/2015/01/Screen-Shot-2015-01-30-at-1.26.23-PM-3.png
 number:
   - 16

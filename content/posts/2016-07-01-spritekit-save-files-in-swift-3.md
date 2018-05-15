@@ -3,7 +3,7 @@ title: SpriteKit Save Files in Swift 3
 author: Ryan
 type: post
 date: 2016-07-01T21:07:39+00:00
-url: /2016/07/01/spritekit-save-files-in-swift-3/
+url: /sirryan/spritekit-save-files-in-swift-3/
 categories:
   - sirryan
 tags:

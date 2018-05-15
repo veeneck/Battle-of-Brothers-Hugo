@@ -3,7 +3,7 @@ title: More Difficult Than Expected
 author: Ryan
 type: post
 date: 2014-09-03T16:13:06+00:00
-url: /2014/09/03/more-difficult-than-expected/
+url: /sirryan/more-difficult-than-expected/
 featured_image: /wp-content/uploads/2014/09/photo-1.jpg
 number:
   - 11

@@ -3,7 +3,7 @@ title: $96 on Trial Animations
 author: chris
 type: post
 date: 2014-08-27T14:57:34+00:00
-url: /2014/08/27/96-on-trial-animations/
+url: /sirchris/96-on-trial-animations/
 categories:
   - sirchris
 tags:

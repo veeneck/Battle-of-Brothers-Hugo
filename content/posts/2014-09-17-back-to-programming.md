@@ -3,7 +3,7 @@ title: Back to Programming
 author: chris
 type: post
 date: 2014-09-17T13:59:22+00:00
-url: /2014/09/17/back-to-programming/
+url: /sirchris/back-to-programming/
 featured_image: /wp-content/uploads/2014/09/code-1.png
 number:
   - 12

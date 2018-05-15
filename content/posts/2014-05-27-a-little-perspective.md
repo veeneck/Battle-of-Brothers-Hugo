@@ -3,7 +3,7 @@ title: A Little Perspective
 author: chris
 type: post
 date: 2014-05-27T15:40:58+00:00
-url: /2014/05/27/a-little-perspective/
+url: /sirchris/a-little-perspective/
 featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png
 keyevent:
   - Added Obstacles

@@ -3,7 +3,7 @@ title: Gamedev with a Newborn
 author: Ryan
 type: post
 date: 2016-03-29T02:36:51+00:00
-url: /2016/03/28/gamedev-with-a-newborn/
+url: /sirryan/gamedev-with-a-newborn/
 categories:
   - sirryan
 tags:

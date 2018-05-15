@@ -3,7 +3,7 @@ title: Parallax All Week
 author: Ryan
 type: post
 date: 2015-03-30T17:01:09+00:00
-url: /2015/03/30/parallax-all-week/
+url: /sirryan/parallax-all-week/
 featured_image: /wp-content/uploads/2015/03/encampment_fg-e1426884347607-3.png
 number:
   - 19

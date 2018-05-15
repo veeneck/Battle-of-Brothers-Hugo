@@ -3,7 +3,7 @@ title: Level Design – Concept to Creation
 author: chris
 type: post
 date: 2014-09-24T12:52:38+00:00
-url: /2014/09/24/level-design-concept-to-creation/
+url: /sirchris/level-design-concept-to-creation/
 categories:
   - sirchris
 tags:

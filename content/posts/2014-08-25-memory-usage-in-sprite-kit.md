@@ -3,7 +3,7 @@ title: Memory Usage in Sprite Kit
 author: Ryan
 type: post
 date: 2014-08-25T14:58:39+00:00
-url: /2014/08/25/memory-usage-in-sprite-kit/
+url: /sirryan/memory-usage-in-sprite-kit/
 categories:
   - sirryan
 tags:

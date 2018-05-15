@@ -3,7 +3,7 @@ title: Animating a Path Using Image Masking
 author: chris
 type: post
 date: 2015-04-06T18:40:23+00:00
-url: /2015/04/06/animating-a-path-using-image-masking/
+url: /sirchris/animating-a-path-using-image-masking/
 categories:
   - sirchris
 tags:

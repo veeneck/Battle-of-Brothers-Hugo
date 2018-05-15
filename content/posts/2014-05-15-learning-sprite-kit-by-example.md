@@ -3,7 +3,7 @@ title: Learning Sprite Kit by Example
 author: Ryan
 type: post
 date: 2014-05-15T14:13:33+00:00
-url: /2014/05/15/learning-sprite-kit-by-example/
+url: /sirryan/learning-sprite-kit-by-example/
 categories:
   - sirryan
 tags:

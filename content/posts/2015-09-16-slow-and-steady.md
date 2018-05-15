@@ -3,7 +3,7 @@ title: Slow and Steady
 author: chris
 type: post
 date: 2015-09-16T17:07:22+00:00
-url: /2015/09/16/slow-and-steady/
+url: /sirchris/slow-and-steady/
 featured_image: /wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-12.56.00-PM-2.png
 keyevent:
   - Multiple Attack Support

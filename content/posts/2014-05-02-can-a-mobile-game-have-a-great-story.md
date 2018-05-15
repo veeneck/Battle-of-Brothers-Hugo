@@ -3,7 +3,7 @@ title: Can a Mobile Game Have a Great Story?
 author: Ryan
 type: post
 date: 2014-05-02T13:50:30+00:00
-url: /2014/05/02/can-a-mobile-game-have-a-great-story/
+url: /sirryan/can-a-mobile-game-have-a-great-story/
 categories:
   - sirryan
 tags:

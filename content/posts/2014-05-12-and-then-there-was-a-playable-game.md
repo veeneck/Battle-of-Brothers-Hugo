@@ -3,7 +3,7 @@ title: And Then There was a Playable Game
 author: Ryan
 type: post
 date: 2014-05-12T15:49:28+00:00
-url: /2014/05/12/and-then-there-was-a-playable-game/
+url: /sirryan/and-then-there-was-a-playable-game/
 featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-12-at-11.49.52-AM-1.png
 keyevent:
   - Behaviors for units.

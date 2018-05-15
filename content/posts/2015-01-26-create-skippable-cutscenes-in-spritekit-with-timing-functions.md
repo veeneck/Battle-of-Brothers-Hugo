@@ -3,7 +3,7 @@ title: Create Skippable Cutscenes in SpriteKit with Timing Functions
 author: Ryan
 type: post
 date: 2015-01-26T15:05:10+00:00
-url: /2015/01/26/create-skippable-cutscenes-in-spritekit-with-timing-functions/
+url: /sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions/
 categories:
   - sirryan
 tags:

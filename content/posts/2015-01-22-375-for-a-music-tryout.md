@@ -3,7 +3,7 @@ title: $375 for a Music Tryout
 author: Ryan
 type: post
 date: 2015-01-22T14:38:35+00:00
-url: /2015/01/22/375-for-a-music-tryout/
+url: /sirryan/375-for-a-music-tryout/
 categories:
   - sirryan
 tags:

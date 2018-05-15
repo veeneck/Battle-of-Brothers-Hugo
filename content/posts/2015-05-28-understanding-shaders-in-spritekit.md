@@ -3,7 +3,7 @@ title: Understanding Shaders in SpriteKit
 author: Ryan
 type: post
 date: 2015-05-28T18:03:09+00:00
-url: /2015/05/28/understanding-shaders-in-spritekit/
+url: /sirryan/understanding-shaders-in-spritekit/
 categories:
   - sirryan
 tags:

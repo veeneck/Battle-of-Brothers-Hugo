@@ -3,7 +3,7 @@ title: Animations for $8,095
 author: Ryan
 type: post
 date: 2014-09-22T13:35:21+00:00
-url: /2014/09/22/animations-for-8095/
+url: /sirryan/animations-for-8095/
 categories:
   - sirryan
 tags:

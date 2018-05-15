@@ -3,7 +3,7 @@ title: $8,380 on Illustration Contract
 author: Ryan
 type: post
 date: 2014-09-01T13:29:28+00:00
-url: /2014/09/01/8380-on-illustration-contract/
+url: /sirryan/8380-on-illustration-contract/
 categories:
   - sirryan
 tags:

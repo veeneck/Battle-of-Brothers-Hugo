@@ -3,7 +3,7 @@ title: Animations!
 author: chris
 type: post
 date: 2014-12-04T20:20:18+00:00
-url: /2014/12/04/animations/
+url: /sirchris/animations/
 featured_image: /wp-content/uploads/2014/12/ortho_sorceress_01-3.png
 number:
   - 16

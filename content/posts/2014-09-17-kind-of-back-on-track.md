@@ -3,7 +3,7 @@ title: Kind of Back on Track
 author: Ryan
 type: post
 date: 2014-09-17T15:04:18+00:00
-url: /2014/09/17/kind-of-back-on-track/
+url: /sirryan/kind-of-back-on-track/
 featured_image: /wp-content/uploads/2014/09/castle2-1.png
 number:
   - 12

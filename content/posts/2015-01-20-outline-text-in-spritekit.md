@@ -3,7 +3,7 @@ title: Outline Text in SpriteKit
 author: Ryan
 type: post
 date: 2015-01-20T20:31:57+00:00
-url: /2015/01/20/outline-text-in-spritekit/
+url: /sirryan/outline-text-in-spritekit/
 categories:
   - sirryan
 tags:

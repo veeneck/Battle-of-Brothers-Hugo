@@ -1,0 +1,324 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
+		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">Jan</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield8.png')">12</p>
+					<span class="year legacy">2015</span> 
+				</div>
+				<h3 class="grace">My Take on Health Bars</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">art</a>
+						
+						<a href="" class="dotted">thoughts</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>Health indicators are found in almost every game. As Chris pointed out, they come in a <a href="http://battleofbrothers.com/sirchris/health-display-roundup" target="_blank">variety of shapes and sizes</a>. When it became time to think about them in my game, I wanted to add something that was functional, but also unique or interesting in some way.
+</p>
+
+<p>Here are the conditions that my health bars had to meet:</p>
+
+<ul>
+<li>Too cluttered to exist on an individual unit, so they had to represent the entire group.</li>
+<li>At a glance, clear what total health would be, and when health has been removed.</li>
+<li>Ability to be different colors.</li>
+<li>Not too demanding technically.</li>
+<li>Compliment, and not distract, from the units icon.</li>
+<li>Also, must work with icons of different shapes.</li>
+<li>And, must work for units of different sizes.</li>
+<li>Work together visually with a units selected state.</li>
+</ul>
+
+<p>Here&#8217;s what I came up with:</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1527" src="http://localhost:8888/wp-content/uploads/2015/01/final-2.png" alt="final" width="444" height="150" srcset="http://localhost:8888/wp-content/uploads/2015/01/final-2.png 444w, http://localhost:8888/wp-content/uploads/2015/01/final-2-300x101.png 300w" sizes="(max-width: 444px) 100vw, 444px" />
+</div>
+
+<p>Surprisingly, this was a 2 day process, which shows how hard it can be to estimate for the &#8220;little things.&#8221; Let&#8217;s talk about a few of the considerations.</p>
+
+<h4 id="health-removed">Health Removed</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1532" src="http://localhost:8888/wp-content/uploads/2015/01/health-removed-2.png" alt="health removed" width="573" height="167" srcset="http://localhost:8888/wp-content/uploads/2015/01/health-removed-2.png 573w, http://localhost:8888/wp-content/uploads/2015/01/health-removed-2-300x87.png 300w" sizes="(max-width: 573px) 100vw, 573px" />
+</div>
+
+<p>How does the image above look when health is removed? There is definitely enough contrast for missing health, and it is easy to check if something is ~50% health, or some other large mark. However, one criticism I have is that it is tough to tell, at a glance, the starting health of a squad. That&#8217;s an acceptable compromise for me, as the player will also see the actual units on screen, and be able to visually tell, for example, if there are 4 or 9.</p>
+
+<h4 id="selecting-a-unit">Selecting a Unit</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1537" src="http://localhost:8888/wp-content/uploads/2015/01/selected-2.png" alt="selected" width="625" height="298" />
+</div>
+
+<p>Next, how would this implementation handle units that have been selected by the player? At first, I tried toggling the actual color of the health bars. In the image above, notice the shields with black bars indicating that they are missing. That idea just added too much confusion, so I went with a white background, and missing bars, for a selected state.</p>
+
+<p>The second thing I tried is a blur. The main problem with the blur is that it lowers the contrast of the health bars. So, while it achieves the effect of making something look selected, it comes at a cost. I will keep iterating to find a balance that satisfies both requirements.</p>
+
+<p>The main knock at this step is that a separate sprite is required for the selected state, and I was hoping to achieve it with color changing only.</p>
+
+<h4 id="enemy-units">Enemy Units</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1533" src="http://localhost:8888/wp-content/uploads/2015/01/enemy-2.png" alt="enemy" width="625" height="174" srcset="http://localhost:8888/wp-content/uploads/2015/01/enemy-2.png 660w, http://localhost:8888/wp-content/uploads/2015/01/enemy-2-300x84.png 300w" sizes="(max-width: 625px) 100vw, 625px" />
+</div>
+
+<p>Once I was happy with friendly units, I made sure this would work for enemy units. The pleasant surprise here is that it works, and it actually aids the user in quickly recognizing good versus bad. Also add bonus points for it being fairly easy to implement.</p>
+
+<pre><code>    if self.squad.friendly {
+        self.pictureToMask.color = UIColor(red:0.533, green:0.769, blue:0.639, alpha:1) /*#88c4a3*/
+    }
+    else {
+        self.pictureToMask.color = UIColor(red:0.929, green:0.455, blue:0.318, alpha:1) /*#ed7451*/
+    }
+</code></pre>
+
+<p>I can expand this further into NPC&#8217;s, damage over time indicators, and so on. Just set up a pList file of color options, and we&#8217;re good to go.</p>
+
+<h4 id="notifications">Notifications</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-1531" src="http://localhost:8888/wp-content/uploads/2015/01/notifications-1.png" alt="notifications" width="670" height="217" srcset="http://localhost:8888/wp-content/uploads/2015/01/notifications-1.png 670w, http://localhost:8888/wp-content/uploads/2015/01/notifications-1-300x97.png 300w" sizes="(max-width: 670px) 100vw, 670px" />
+</div>
+
+<p>This part was tricky because I don&#8217;t know what notifications, if any, my game will have. In fact, this is a challenge with game development overall &#8212; trying to plan for everything because it is impossible to know what will and won&#8217;t work. Anyway, I ran a quick test to see how cluttered this would look with other information in the area. I&#8217;m not fully satisfied, but confident I can find a working solution. Moving on!</p>
+
+<h4 id="implementation">Implementation</h4>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1534" src="http://localhost:8888/wp-content/uploads/2015/01/implementation-3.png" alt="implementation" width="625" height="234" />
+</div>
+
+<p>Implementation is a bit tricky, and a bit resource intensive. Here&#8217;s what is happening:</p>
+
+<ul>
+<li>Shield is an image, with an outer border 10px away. Transparency in between.</li>
+<li>Dark background in shape of first image is added underneath.</li>
+<li>Grid, or sunburst added in between the two above. Same dark background set as the mask for the grid.</li>
+</ul>
+
+<p>So, 3 images to achieve this. The middle layer could be done dynamically, but <a href="http://sartak.org/2014/03/skshapenode-you-are-dead-to-me.html" target="_blank">SKShapeNode is horrible</a> in SpriteKit. I may have to spend some time trying this with CGPath&#8217;s, as that would save the majority of the resource usage.</p>
+
+<p>One other note &#8212; regardless of if you use sunburst or squares, there will be discrepancies in each health bar size. You can see the sunburst example above on the right. Some gaps are larger than others. For a grid implementation that isn&#8217;t divisible by 4, the bars will be different lengths (see above for that as well).</p>
+
+<p>While I still have a few things to tighten up, I love the end result.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-large wp-image-1535" src="http://localhost:8888/wp-content/uploads/2015/01/B7Ac8MDIUAEXT1m-3.png-large-3.png" alt="B7Ac8MDIUAEXT1m.png-large" width="625" height="482" />
+</div>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

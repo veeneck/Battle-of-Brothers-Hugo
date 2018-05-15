@@ -3,7 +3,7 @@ title: Trial and Error is a Necessity for Game Development
 author: Ryan
 type: post
 date: 2014-05-20T14:51:08+00:00
-url: /2014/05/20/trial-and-error-is-a-necessity-for-game-development/
+url: /sirryan/trial-and-error-is-a-necessity-for-game-development/
 categories:
   - sirryan
 tags:

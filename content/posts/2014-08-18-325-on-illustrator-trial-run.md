@@ -3,7 +3,7 @@ title: $325 on Illustrator Trial Run
 author: chris
 type: post
 date: 2014-08-18T15:55:48+00:00
-url: /2014/08/18/325-on-illustrator-trial-run/
+url: /sirchris/325-on-illustrator-trial-run/
 categories:
   - sirchris
 tags:

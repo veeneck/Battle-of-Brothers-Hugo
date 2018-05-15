@@ -3,7 +3,7 @@ title: Multi-Device Support and HUD Elements
 author: chris
 type: post
 date: 2014-06-30T15:25:12+00:00
-url: /2014/06/30/multi-device-support-and-hud-elements/
+url: /sirchris/multi-device-support-and-hud-elements/
 keyevent:
   - Added Multi-Device Support
   - Added Basic HUD

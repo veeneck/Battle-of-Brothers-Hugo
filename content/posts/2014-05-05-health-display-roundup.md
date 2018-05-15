@@ -3,7 +3,7 @@ title: Health Display Roundup
 author: chris
 type: post
 date: 2014-05-05T16:59:16+00:00
-url: /2014/05/05/health-display-roundup/
+url: /sirchris/health-display-roundup/
 categories:
   - sirchris
 tags:

@@ -3,7 +3,7 @@ title: 3 Game design books for $80.80
 author: chris
 type: post
 date: 2014-03-26T16:50:40+00:00
-url: /2014/03/26/3-game-design-books-for-80/
+url: /sirchris/3-game-design-books-for-80/
 categories:
   - sirchris
 tags:

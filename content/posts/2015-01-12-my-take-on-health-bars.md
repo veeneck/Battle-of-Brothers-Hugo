@@ -3,7 +3,7 @@ title: My Take on Health Bars
 author: Ryan
 type: post
 date: 2015-01-12T16:35:41+00:00
-url: /2015/01/12/my-take-on-health-bars/
+url: /sirryan/my-take-on-health-bars/
 categories:
   - sirryan
 tags:

@@ -3,7 +3,7 @@ title: $3733 on Illustrations and Animations
 author: chris
 type: post
 date: 2014-09-09T19:18:04+00:00
-url: /2014/09/09/3733-on-illustrations-and-animations/
+url: /sirchris/3733-on-illustrations-and-animations/
 categories:
   - sirchris
 tags:

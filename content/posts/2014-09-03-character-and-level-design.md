@@ -3,7 +3,7 @@ title: Character and Level Design
 author: chris
 type: post
 date: 2014-09-03T15:58:27+00:00
-url: /2014/09/03/character-and-level-design/
+url: /sirchris/character-and-level-design/
 featured_image: /wp-content/uploads/2014/08/bridge-1.jpg
 keyevent:
   - First Character Created

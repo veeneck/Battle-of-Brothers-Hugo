@@ -3,7 +3,7 @@ title: My Experiences Searching for an Artist
 author: Ryan
 type: post
 date: 2014-07-29T17:19:47+00:00
-url: /2014/07/29/my-experiences-searching-for-an-artist/
+url: /sirryan/my-experiences-searching-for-an-artist/
 categories:
   - sirryan
 tags:

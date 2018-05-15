@@ -3,7 +3,7 @@ title: Trial run with an animator for $135
 author: Ryan
 type: post
 date: 2014-07-26T16:02:47+00:00
-url: /2014/07/26/trial-run-with-an-animator-for-135/
+url: /sirryan/trial-run-with-an-animator-for-135/
 categories:
   - sirryan
 tags:

@@ -3,7 +3,7 @@ title: 'Joy of Debugging: Command swiftc failed with exit code 1'
 author: Ryan
 type: post
 date: 2014-12-21T17:51:14+00:00
-url: /2014/12/21/joy-of-debugging-command-swiftc-failed-with-exit-code-1/
+url: /sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1/
 categories:
   - sirryan
 tags:

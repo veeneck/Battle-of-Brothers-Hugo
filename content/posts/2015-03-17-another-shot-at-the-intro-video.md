@@ -3,7 +3,7 @@ title: Another Shot at the Intro Video
 author: chris
 type: post
 date: 2015-03-17T14:40:01+00:00
-url: /2015/03/17/another-shot-at-the-intro-video/
+url: /sirchris/another-shot-at-the-intro-video/
 featured_image: /wp-content/uploads/2015/03/Screen-Shot-2015-03-12-at-4.05.26-PM-2.png
 number:
   - 22

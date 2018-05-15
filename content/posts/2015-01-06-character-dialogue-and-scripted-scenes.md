@@ -3,7 +3,7 @@ title: Character Dialogue and Scripted Scenes
 author: chris
 type: post
 date: 2015-01-06T16:43:26+00:00
-url: /2015/01/06/character-dialogue-and-scripted-scenes/
+url: /sirchris/character-dialogue-and-scripted-scenes/
 featured_image: /wp-content/uploads/2014/12/Screen-Shot-2014-12-22-at-1.47.35-PM-3.png
 number:
   - 17

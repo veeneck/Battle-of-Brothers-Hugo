@@ -3,7 +3,7 @@ title: 4 Tips from The App Store Playbook
 author: chris
 type: post
 date: 2014-04-22T16:06:43+00:00
-url: /2014/04/22/4-tips-from-the-app-store-playbook/
+url: /sirchris/4-tips-from-the-app-store-playbook/
 categories:
   - sirchris
 tags:

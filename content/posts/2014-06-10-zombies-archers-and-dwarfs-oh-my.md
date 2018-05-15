@@ -3,7 +3,7 @@ title: Zombies, Archers, and Dwarfs! Oh My!
 author: chris
 type: post
 date: 2014-06-10T16:19:33+00:00
-url: /2014/06/10/zombies-archers-and-dwarfs-oh-my/
+url: /sirchris/zombies-archers-and-dwarfs-oh-my/
 keyevent:
   - New Character Animations
   - Added Sound Effects

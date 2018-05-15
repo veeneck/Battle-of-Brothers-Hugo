@@ -23,20 +23,20 @@
     
     <item>
       <title>Abilities, Modifiers, Frameworks &amp; Scripting Engine</title>
-      <link>http://battleofbrothers.com/2016/01/04/abilities-modifiers-frameworks-scripting-engine/</link>
+      <link>http://battleofbrothers.com/sirryan/abilities-modifiers-frameworks-scripting-engine/</link>
       <pubDate>Mon, 04 Jan 2016 16:06:23 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2016/01/04/abilities-modifiers-frameworks-scripting-engine/</guid>
+      <guid>http://battleofbrothers.com/sirryan/abilities-modifiers-frameworks-scripting-engine/</guid>
       <description>&lt;p&gt;It&amp;#8217;s been quite the 2 months. In anticipation of becoming a father, I&amp;#8217;ve significantly picked up my work efforts. It&amp;#8217;s not that I wasn&amp;#8217;t trying before &amp;#8212; it&amp;#8217;s just that deadlines have a way of motivating me further. I&amp;#8217;ve tackled a few major rewrites / problems with the foundation of my code, and I now have a working &amp;#8220;game&amp;#8221; that is actually installed on 3 devices via Testflight! With all of this in place, I can iterate on the platform and slowly work towards a rough alpha and then polished beta.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Month of Combat</title>
-      <link>http://battleofbrothers.com/2015/10/01/a-month-of-combat/</link>
+      <link>http://battleofbrothers.com/sirryan/a-month-of-combat/</link>
       <pubDate>Thu, 01 Oct 2015 20:46:47 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/10/01/a-month-of-combat/</guid>
+      <guid>http://battleofbrothers.com/sirryan/a-month-of-combat/</guid>
       <description>&lt;p&gt;This update is similar to &lt;a href=&#34;http://battleofbrothers.com/sirryan/a-month-of-pathfinding&#34; target=&#34;_blank&#34;&gt;my last update&lt;/a&gt; in that I spent a month trying to improve the framework of a more complicated portion of the codebase. Last time was pathfinding, this time is combat. In addition to improving combat, I wanted to focus on data integrity and porting combat pathfinding to iOS9 / GameplayKit.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Note: This post has been backdated to keep the documentation accurate &amp;#8212; the game was in this state as of Oct. 1st.&lt;/em&gt;&lt;/p&gt;
@@ -46,210 +46,210 @@
     
     <item>
       <title>Slow and Steady</title>
-      <link>http://battleofbrothers.com/2015/09/16/slow-and-steady/</link>
+      <link>http://battleofbrothers.com/sirchris/slow-and-steady/</link>
       <pubDate>Wed, 16 Sep 2015 17:07:22 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/09/16/slow-and-steady/</guid>
+      <guid>http://battleofbrothers.com/sirchris/slow-and-steady/</guid>
       <description>&lt;p&gt;I’ve been able to get a bunch done in the last month and I’m getting closer and closer to my short-term goal of having a playable first 4 levels. This update includes new character animations, new attack icons, an updated character select screen, intro movie updates, and pinch/zoom functionality.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Month of Pathfinding</title>
-      <link>http://battleofbrothers.com/2015/09/01/a-month-of-pathfinding/</link>
+      <link>http://battleofbrothers.com/sirryan/a-month-of-pathfinding/</link>
       <pubDate>Tue, 01 Sep 2015 13:58:46 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/09/01/a-month-of-pathfinding/</guid>
+      <guid>http://battleofbrothers.com/sirryan/a-month-of-pathfinding/</guid>
       <description>&lt;p&gt;At the beginning of August I challenged myself to get pathfinding under control. In truth, if I couldn&amp;#8217;t figure it out I would be forced to consider making the game turn based instead. So, I set out with a giant todo list containing many edge cases to solve. Fortunately, the main branch was merged in yesterday, so I&amp;#8217;m in an infinitely better position than I was. It&amp;#8217;s been an exhausting month, so I&amp;#8217;m ready to move on. Let&amp;#8217;s have a look at what&amp;#8217;s been completed, and what issues still remain.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What makes a game fun?</title>
-      <link>http://battleofbrothers.com/2015/08/06/what-makes-a-game-fun/</link>
+      <link>http://battleofbrothers.com/sirchris/what-makes-a-game-fun/</link>
       <pubDate>Thu, 06 Aug 2015 20:15:39 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/08/06/what-makes-a-game-fun/</guid>
+      <guid>http://battleofbrothers.com/sirchris/what-makes-a-game-fun/</guid>
       <description>&lt;p&gt;I’m at the point of development where I feel I have a rough, yet playable, version of the game’s core functionality. I’ve built the intro, menu system, world map, battle maps, and character selection. I’ve created a playable, yet not very fun, game. And that leads me to my next big challenge which is to make the game fun.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Progress Followed By No Progress</title>
-      <link>http://battleofbrothers.com/2015/07/28/progress-followed-by-no-progress/</link>
+      <link>http://battleofbrothers.com/sirryan/progress-followed-by-no-progress/</link>
       <pubDate>Tue, 28 Jul 2015 17:05:55 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/07/28/progress-followed-by-no-progress/</guid>
+      <guid>http://battleofbrothers.com/sirryan/progress-followed-by-no-progress/</guid>
       <description>&lt;p&gt;It&amp;#8217;s been nearly two months since my last status update. To quickly sum up those two months, June was extremely productive while July was almost a waste. June consisted of implementing reusable menus, music, sound effects, button effects, volume controls, unit management and more. Basically, a lot of foundation type elements needed for a game. Unfortunately, I started playing with iOS9 in July, which happened to be both a necessity and a time sink. Finally, just last Friday, I finished the contract with the composer, so all of the music for the game has been completed.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Character Creation</title>
-      <link>http://battleofbrothers.com/2015/07/09/character-creation/</link>
+      <link>http://battleofbrothers.com/sirchris/character-creation/</link>
       <pubDate>Thu, 09 Jul 2015 19:08:47 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/07/09/character-creation/</guid>
+      <guid>http://battleofbrothers.com/sirchris/character-creation/</guid>
       <description>&lt;p&gt;After working on the intro, world map, and combat layer, it was time to work on the character selection screen. My short-term goal is to have 4 playable levels and the only major missing piece is the functionality to manage your heroes. Everything is still in a bit of a rough state, but here’s a look at what I have so far.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sound and Music</title>
-      <link>http://battleofbrothers.com/2015/06/10/sound-and-music/</link>
+      <link>http://battleofbrothers.com/sirchris/sound-and-music/</link>
       <pubDate>Wed, 10 Jun 2015 13:19:19 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/06/10/sound-and-music/</guid>
+      <guid>http://battleofbrothers.com/sirchris/sound-and-music/</guid>
       <description>&lt;p&gt;In the last update I demoed the &lt;a href=&#34;http://battleofbrothers.com/sirchris/the-battlefield-ui&#34;&gt;latest version of the game’s battle layer&lt;/a&gt; and I&amp;#8217;m comfortable with how that part of the game is progressing. There are still bugs to squish and polish to add, but now that I’m confident in the game’s art, animation, and general flow, it’s time to give audio some love. I’ve contracted the pros to help me out in this area, and with their help the game has gotten some fantastic ear candy. Here’s a look at the latest build with the new audio enhancements.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Battlefield UI</title>
-      <link>http://battleofbrothers.com/2015/05/27/the-battlefield-ui/</link>
+      <link>http://battleofbrothers.com/sirchris/the-battlefield-ui/</link>
       <pubDate>Wed, 27 May 2015 17:40:59 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/05/27/the-battlefield-ui/</guid>
+      <guid>http://battleofbrothers.com/sirchris/the-battlefield-ui/</guid>
       <description>&lt;p&gt;Many of my UI elements have been pretty ugly so far, but those days are soon coming to an end. I’ve now received pretty much all of the game’s artwork and in the last few weeks I started implementing the UI portion of that work. There’s still plenty of polish to add, but here’s a look at the battlefield UI in its current state.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Spawns, Heraldry and UI</title>
-      <link>http://battleofbrothers.com/2015/05/26/spawns-heraldry-and-ui/</link>
+      <link>http://battleofbrothers.com/sirryan/spawns-heraldry-and-ui/</link>
       <pubDate>Tue, 26 May 2015 18:07:51 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/05/26/spawns-heraldry-and-ui/</guid>
+      <guid>http://battleofbrothers.com/sirryan/spawns-heraldry-and-ui/</guid>
       <description>&lt;p&gt;This update is broken into three main events. First, I created spawn zones for the player to place their troops before battle. Second, I fixed off screen heraldry, and refactored the code to make it more flexible. Lastly, I played with consistent UI classes that will work for every screen. And in between all of that, I fixed bugs and worked with the composer (&lt;a href=&#34;http://www.manfredoniamusic.com&#34; target=&#34;_blank&#34;&gt;Tony Manfredonia&lt;/a&gt;).
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Wobbly Foundation</title>
-      <link>http://battleofbrothers.com/2015/05/12/a-wobbly-foundation/</link>
+      <link>http://battleofbrothers.com/sirryan/a-wobbly-foundation/</link>
       <pubDate>Tue, 12 May 2015 16:49:29 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/05/12/a-wobbly-foundation/</guid>
+      <guid>http://battleofbrothers.com/sirryan/a-wobbly-foundation/</guid>
       <description>&lt;p&gt;An unsteady foundation is still a foundation, right? I&amp;#8217;ve continued my work of porting all code into a single project. You can roughly play the game from start to level 2 right now. This means loading, saving, world map, placing troops, enemy waves, game over state, resuming, story, and more. There is a lot of core code in place.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Very Basic Game</title>
-      <link>http://battleofbrothers.com/2015/04/28/a-very-basic-game/</link>
+      <link>http://battleofbrothers.com/sirchris/a-very-basic-game/</link>
       <pubDate>Tue, 28 Apr 2015 18:50:52 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/04/28/a-very-basic-game/</guid>
+      <guid>http://battleofbrothers.com/sirchris/a-very-basic-game/</guid>
       <description>&lt;p&gt;Even though I &lt;a href=&#34;http://battleofbrothers.com/sirchris/one-year-later-late-and-over-budget&#34;&gt;missed my goal&lt;/a&gt; of releasing a game after a year of development, I still have a pretty solid foundation to build upon. And by foundation I mean an intro video, start screen, working world map, and very basic, yet playable battlefields. There’s still a lot of work to do, but here’s a look at those key foundation areas put together in the form of a simple game.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Piecing It Together</title>
-      <link>http://battleofbrothers.com/2015/04/17/piecing-it-together/</link>
+      <link>http://battleofbrothers.com/sirryan/piecing-it-together/</link>
       <pubDate>Fri, 17 Apr 2015 13:19:29 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/04/17/piecing-it-together/</guid>
+      <guid>http://battleofbrothers.com/sirryan/piecing-it-together/</guid>
       <description>&lt;p&gt;For the past year I&amp;#8217;ve been working on a bunch of different code bases learning new concepts. For this update, I decided to piece together a first build of my &amp;#8220;game&amp;#8221; to get rid of redundant bits of code. I&amp;#8217;m left with an app that has menus, navigation, saving, loading, and cutscenes. While it&amp;#8217;s still far from an enjoyable game, it&amp;#8217;s cool stuff to have a foundation to work with.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Music &amp; Memory</title>
-      <link>http://battleofbrothers.com/2015/03/31/music-memory/</link>
+      <link>http://battleofbrothers.com/sirchris/music-memory/</link>
       <pubDate>Tue, 31 Mar 2015 17:17:38 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/03/31/music-memory/</guid>
+      <guid>http://battleofbrothers.com/sirchris/music-memory/</guid>
       <description>&lt;p&gt;I’m happy to report that I’ve received the first 30 seconds of game music and that my ears are happy with what they&amp;#8217;re hearing. It’s amazing what a little sound can do to the intro video and I can’t wait to see how the future music adds more depth to the game. I’ve also continued to experiment with some memory concerns and making scene transitions as smooth as possible. That’s required a bit of a re-write, but the game is heavy on texture memory usage, so it’s important to tackle this issue sooner than later.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Parallax All Week</title>
-      <link>http://battleofbrothers.com/2015/03/30/parallax-all-week/</link>
+      <link>http://battleofbrothers.com/sirryan/parallax-all-week/</link>
       <pubDate>Mon, 30 Mar 2015 17:01:09 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/03/30/parallax-all-week/</guid>
+      <guid>http://battleofbrothers.com/sirryan/parallax-all-week/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve spent every day of the past two weeks working on story. The good news is that it was worth the effort. There is a noticeable jump in quality, and it makes me feel a bit of pride for the product. I&amp;#8217;m now optimistic that one or two more rounds of polish along with some sound and music will make it a worthy purchase for gamers. The bad news is that I still have one or two more rounds of polish to go, which turns into 2-4 weeks of work. Music starts on May 4th, so at least I have a concrete deadline driving me. Otherwise, I fear that I could tinker on this forever.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Another Shot at the Intro Video</title>
-      <link>http://battleofbrothers.com/2015/03/17/another-shot-at-the-intro-video/</link>
+      <link>http://battleofbrothers.com/sirchris/another-shot-at-the-intro-video/</link>
       <pubDate>Tue, 17 Mar 2015 14:40:01 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/03/17/another-shot-at-the-intro-video/</guid>
+      <guid>http://battleofbrothers.com/sirchris/another-shot-at-the-intro-video/</guid>
       <description>&lt;p&gt;I said I wouldn’t do it, but I couldn’t help myself and took another crack at the intro video. The main practical reason is because the game’s music is being composed, and it kind of all derives from the intro song. The main impractical reason is because I hated the first video and couldn’t help myself from trying again. Here’s look at the second attempt.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Bit of Story and a Sprinkle of AI</title>
-      <link>http://battleofbrothers.com/2015/03/05/a-bit-of-story-and-a-sprinkle-of-ai/</link>
+      <link>http://battleofbrothers.com/sirryan/a-bit-of-story-and-a-sprinkle-of-ai/</link>
       <pubDate>Thu, 05 Mar 2015 20:31:58 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/03/05/a-bit-of-story-and-a-sprinkle-of-ai/</guid>
+      <guid>http://battleofbrothers.com/sirryan/a-bit-of-story-and-a-sprinkle-of-ai/</guid>
       <description>&lt;p&gt;The past two weeks have been 75% story and 25% in game work. That trend will continue for the next few updates as I prepare to send the story of to voice and sound. The encouraging news on the story front is that the first round of polish has resulted in noticeable improvements. Most importantly, the new chat bubbles add animation and interest while also allowing me to add dialogue to travel and battle scenes. As far as battle goes, enemies now have a basic spawn service and will attack the closest target they can find.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Intro Video, Artwork, and Audio</title>
-      <link>http://battleofbrothers.com/2015/03/03/intro-video-artwork-and-audio/</link>
+      <link>http://battleofbrothers.com/sirchris/intro-video-artwork-and-audio/</link>
       <pubDate>Tue, 03 Mar 2015 16:21:27 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/03/03/intro-video-artwork-and-audio/</guid>
+      <guid>http://battleofbrothers.com/sirchris/intro-video-artwork-and-audio/</guid>
       <description>&lt;p&gt;I have a lot to share this time around, including icons, character animations, splash screens, world map animations, music and sound, and cut scenes. But the biggest achievement over the last two weeks was completing the first take of the game’s intro video, which you can see below.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Knights, Ninjas, and Wizards</title>
-      <link>http://battleofbrothers.com/2015/02/16/knights-ninjas-and-wizards/</link>
+      <link>http://battleofbrothers.com/sirchris/knights-ninjas-and-wizards/</link>
       <pubDate>Mon, 16 Feb 2015 14:16:41 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/02/16/knights-ninjas-and-wizards/</guid>
+      <guid>http://battleofbrothers.com/sirchris/knights-ninjas-and-wizards/</guid>
       <description>&lt;p&gt;Knights, Ninjas, and Wizards… If that title didn’t get you hooked, then you’re in the wrong place! I added some great sprites to the game in the last two weeks, but a man can only play with sprite sheets so long before he loses his sanity. I didn’t want to lose my sanity, so I also worked on my intro scenes in an attempt to regain control of my mind. I’m really happy with how everything is turning out so far, and you can see what I have so far after a quick word from our sponsors.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>We Have a Story</title>
-      <link>http://battleofbrothers.com/2015/02/16/we-have-a-story/</link>
+      <link>http://battleofbrothers.com/sirryan/we-have-a-story/</link>
       <pubDate>Mon, 16 Feb 2015 13:46:52 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/02/16/we-have-a-story/</guid>
+      <guid>http://battleofbrothers.com/sirryan/we-have-a-story/</guid>
       <description>&lt;p&gt;Story, story, story. 8 of the 10 days over the past two weeks have been spent preparing story assets, implementing them into the game engine, revising dialogue, and getting the cutscenes to work. It has been extremely tedious, but it feels great to have finished a first pass.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fights, cut scenes, and texture memory</title>
-      <link>http://battleofbrothers.com/2015/02/04/fights-cut-scenes-and-texture-memory/</link>
+      <link>http://battleofbrothers.com/sirchris/fights-cut-scenes-and-texture-memory/</link>
       <pubDate>Wed, 04 Feb 2015 16:15:28 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/02/04/fights-cut-scenes-and-texture-memory/</guid>
+      <guid>http://battleofbrothers.com/sirchris/fights-cut-scenes-and-texture-memory/</guid>
       <description>&lt;p&gt;The good news is that I’ve received a ton of artwork over the last two weeks. The bad news is that I can only demo a small portion of it because there just isn’t enough time to get it all into the game. That’s a good problem to have, though, and what I can show you is some pretty cool cut scenes, some character animations, and this sweet footage of a knight putting the beat down on an evil ogre.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>All About Those Cutscenes</title>
-      <link>http://battleofbrothers.com/2015/02/02/all-about-those-cutscenes/</link>
+      <link>http://battleofbrothers.com/sirryan/all-about-those-cutscenes/</link>
       <pubDate>Mon, 02 Feb 2015 13:41:07 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/02/02/all-about-those-cutscenes/</guid>
+      <guid>http://battleofbrothers.com/sirryan/all-about-those-cutscenes/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve done quite a lot over the past two weeks. Work has started on melee combat. I&amp;#8217;ve hired a composer! But most of all, I&amp;#8217;ve been consumed with cutscenes. When I started this process, I didn&amp;#8217;t realize that the decision to add a story to my game would end up costing me ~30% of my budget and an equal amount of programming time. Now that I&amp;#8217;m actually implementing the story, I&amp;#8217;m starting to understand all of the implications.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Barbarian Smash!</title>
-      <link>http://battleofbrothers.com/2015/01/20/barbarian-smash/</link>
+      <link>http://battleofbrothers.com/sirchris/barbarian-smash/</link>
       <pubDate>Tue, 20 Jan 2015 14:17:18 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/20/barbarian-smash/</guid>
+      <guid>http://battleofbrothers.com/sirchris/barbarian-smash/</guid>
       <description>&lt;p&gt;I feel like I made some really solid progress for the first time in a while, and I have some exciting stuff to share. A ton of little things were done, but the big accomplishments are the implementation of some awesome attack animations, battlefield animations, and world map animations. I also received some great new artwork and I gave my marketing efforts some much-needed love.&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href=&#34;https://www.youtube.com/watch?v=y6cgpwZo6Ck&amp;amp;list=UU9mKr14Czu1VWN6jYAGeqHA&#34;&gt;view all of this week&amp;#8217;s updates&lt;/a&gt; with added commentary on YouTube or continue reading for a quick breakdown of each section.&lt;/p&gt;
@@ -259,80 +259,80 @@
     
     <item>
       <title>Refactor, Health Bars and Ranged Combat</title>
-      <link>http://battleofbrothers.com/2015/01/19/refactor-health-bars-and-ranged-combat/</link>
+      <link>http://battleofbrothers.com/sirryan/refactor-health-bars-and-ranged-combat/</link>
       <pubDate>Mon, 19 Jan 2015 14:14:41 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/19/refactor-health-bars-and-ranged-combat/</guid>
+      <guid>http://battleofbrothers.com/sirryan/refactor-health-bars-and-ranged-combat/</guid>
       <description>&lt;p&gt;I&amp;#8217;m finally able to start writing game code, and it is fun. Now that learning and performance issues are almost behind me, I was able to implement  ranged combat and death, which is great to see in action. In addition to that, steady progress has been made on the world map, and early story boards are coming along. This update also marks the end of the first contract with Scott, my illustrator, but we&amp;#8217;ll be entering a second contract shortly.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Character Dialogue and Scripted Scenes</title>
-      <link>http://battleofbrothers.com/2015/01/06/character-dialogue-and-scripted-scenes/</link>
+      <link>http://battleofbrothers.com/sirchris/character-dialogue-and-scripted-scenes/</link>
       <pubDate>Tue, 06 Jan 2015 16:43:26 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/06/character-dialogue-and-scripted-scenes/</guid>
+      <guid>http://battleofbrothers.com/sirchris/character-dialogue-and-scripted-scenes/</guid>
       <description>&lt;p&gt;With the holidays upon us, I wasn&amp;#8217;t able to get much done over the last couple of weeks. But when I did get the chance to work, I made it count. I&amp;#8217;ve been putting off character dialogue and scripted scenes for a while now, but I&amp;#8217;m happy to say the framework to achieve that is now in place. Here is a brief example of a couple of characters engaging in a well written scripted scene, full of deception, intrigue, and suspense.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Now We’re Rolling</title>
-      <link>http://battleofbrothers.com/2015/01/05/now-were-rolling/</link>
+      <link>http://battleofbrothers.com/sirryan/now-were-rolling/</link>
       <pubDate>Mon, 05 Jan 2015 13:43:10 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2015/01/05/now-were-rolling/</guid>
+      <guid>http://battleofbrothers.com/sirryan/now-were-rolling/</guid>
       <description>&lt;p&gt;Things are moving along much better now. I wouldn&amp;#8217;t say moving quickly just yet, but they&amp;#8217;re at least moving. I&amp;#8217;ve overcome a lot of technical hurdles and learning curves in the past 3 months. The latest of those was how to support 100-150 units on the screen at once. Serious progress has been made in that department. And, as always, I&amp;#8217;ve received amazing illustrations and animations from Scott and Liron. Lastly, I&amp;#8217;ve dabbled a bit in icon making.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Animations!</title>
-      <link>http://battleofbrothers.com/2014/12/04/animations/</link>
+      <link>http://battleofbrothers.com/sirchris/animations/</link>
       <pubDate>Thu, 04 Dec 2014 20:20:18 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/12/04/animations/</guid>
+      <guid>http://battleofbrothers.com/sirchris/animations/</guid>
       <description>&lt;p&gt;It&amp;#8217;s been a little while since the last status update, due to the holidays and a mean case of strep, but I have some pretty cool stuff to share. I had hoped to add the functionality for dialogue into the game, but my animator got back to me with some awesome animations and I just couldn&amp;#8217;t wait to implement them. So here&amp;#8217;s a look at 4 of the hero character animations hot off the assembly line.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Visual Progress</title>
-      <link>http://battleofbrothers.com/2014/11/12/visual-progress/</link>
+      <link>http://battleofbrothers.com/sirchris/visual-progress/</link>
       <pubDate>Wed, 12 Nov 2014 17:00:53 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/11/12/visual-progress/</guid>
+      <guid>http://battleofbrothers.com/sirchris/visual-progress/</guid>
       <description>&lt;p&gt;I really enjoyed working on the game over the last few weeks because pretty much everything I did resulted in visual progress. Adding code and manipulating JSON files is good and dandy, but programming is a lot more exciting when I&amp;#8217;m working on something that my family and friends can visually experience.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>More Difficult Than When I Thought Things Were Difficult</title>
-      <link>http://battleofbrothers.com/2014/11/03/more-difficult-than-when-i-thought-things-were-difficult/</link>
+      <link>http://battleofbrothers.com/sirryan/more-difficult-than-when-i-thought-things-were-difficult/</link>
       <pubDate>Mon, 03 Nov 2014 21:45:01 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/11/03/more-difficult-than-when-i-thought-things-were-difficult/</guid>
+      <guid>http://battleofbrothers.com/sirryan/more-difficult-than-when-i-thought-things-were-difficult/</guid>
       <description>&lt;p&gt;Alright, so that title is sort of doom and gloom. Really though, my mood is pretty good. I&amp;#8217;m a married man now! On the work front, the difficulty I&amp;#8217;m encountering is programming difficulty, which I feel is in my control. That&amp;#8217;s always better than art, story, music, sound or gameplay difficulty. Current pain points? Pathfinding, and moving units as a formation.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Core Improvement</title>
-      <link>http://battleofbrothers.com/2014/10/22/core-improvement/</link>
+      <link>http://battleofbrothers.com/sirchris/core-improvement/</link>
       <pubDate>Wed, 22 Oct 2014 17:50:10 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/10/22/core-improvement/</guid>
+      <guid>http://battleofbrothers.com/sirchris/core-improvement/</guid>
       <description>&lt;p&gt;As planned after the last update, I was able to add scene management, loading and saving functionality, and the ability to view the game on a physical device. There are also some pretty cool new battleground maps and my first character sprite .png animation to check out below.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Continuous Improvement</title>
-      <link>http://battleofbrothers.com/2014/09/30/continuous-improvement/</link>
+      <link>http://battleofbrothers.com/sirchris/continuous-improvement/</link>
       <pubDate>Tue, 30 Sep 2014 19:37:01 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/09/30/continuous-improvement/</guid>
+      <guid>http://battleofbrothers.com/sirchris/continuous-improvement/</guid>
       <description>&lt;p&gt;As planned, I was able to continue programming over the last two weeks and add some more features and a new character to the demo. I also spent a little time working on some new character concepts, battlegrounds, and animation preparation.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -340,30 +340,30 @@
     
     <item>
       <title>Kind of Back on Track</title>
-      <link>http://battleofbrothers.com/2014/09/17/kind-of-back-on-track/</link>
+      <link>http://battleofbrothers.com/sirryan/kind-of-back-on-track/</link>
       <pubDate>Wed, 17 Sep 2014 15:04:18 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/09/17/kind-of-back-on-track/</guid>
+      <guid>http://battleofbrothers.com/sirryan/kind-of-back-on-track/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://battleofbrothers.com/sirryan/more-difficult-than-expected&#34; target=&#34;_blank&#34;&gt;Last update&lt;/a&gt; was a rough one. My original concept for a tower defense game just wouldn&amp;#8217;t work the way I had envisioned. So, instead of moving towards a standard tower defense game, I decided to change direction and make a sort of squad based defense game. This update covers that transition. Most importantly, I feel all of my problems right now are technical ones, and that the art will work out (or be adjustable).
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Back to Programming</title>
-      <link>http://battleofbrothers.com/2014/09/17/back-to-programming/</link>
+      <link>http://battleofbrothers.com/sirchris/back-to-programming/</link>
       <pubDate>Wed, 17 Sep 2014 13:59:22 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/09/17/back-to-programming/</guid>
+      <guid>http://battleofbrothers.com/sirchris/back-to-programming/</guid>
       <description>&lt;p&gt;For the first time in what feels like forever, I was able to get back into actually programming. I had no idea that hiring artists, researching art direction, building design documents, and working with contractors would take so much time, but it does. I can understand why studios have art directors and game designers because those two jobs take up just as much time as programming. Anyways, I was able to spend a full week programming, and here is a video update on where the game is at:
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>More Difficult Than Expected</title>
-      <link>http://battleofbrothers.com/2014/09/03/more-difficult-than-expected/</link>
+      <link>http://battleofbrothers.com/sirryan/more-difficult-than-expected/</link>
       <pubDate>Wed, 03 Sep 2014 16:13:06 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/09/03/more-difficult-than-expected/</guid>
+      <guid>http://battleofbrothers.com/sirryan/more-difficult-than-expected/</guid>
       <description>&lt;p&gt;The past two weeks have been a real shot to my confidence. It turns out that a perfect game does not live inside of my head. Instead, a game with real usability, budget, and gameplay issues lives in my head. Researching some of the &lt;a href=&#34;http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks&#34; target=&#34;_blank&#34;&gt;questions I needed answers for last week&lt;/a&gt; revealed that there isn&amp;#8217;t always a perfect solution, and that my game idea needs refinement.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -371,30 +371,30 @@
     
     <item>
       <title>Character and Level Design</title>
-      <link>http://battleofbrothers.com/2014/09/03/character-and-level-design/</link>
+      <link>http://battleofbrothers.com/sirchris/character-and-level-design/</link>
       <pubDate>Wed, 03 Sep 2014 15:58:27 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/09/03/character-and-level-design/</guid>
+      <guid>http://battleofbrothers.com/sirchris/character-and-level-design/</guid>
       <description>&lt;p&gt;I had just started working with an illustrator when I last left off, and most of my time over the last two weeks was spent designing some pretty cool characters and battlefields. I was also able to contract a character animator, who is now working on the game&amp;#8217;s first character animations.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Found an Illustrator</title>
-      <link>http://battleofbrothers.com/2014/08/20/found-an-illustrator/</link>
+      <link>http://battleofbrothers.com/sirchris/found-an-illustrator/</link>
       <pubDate>Wed, 20 Aug 2014 14:40:56 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/08/20/found-an-illustrator/</guid>
+      <guid>http://battleofbrothers.com/sirchris/found-an-illustrator/</guid>
       <description>&lt;p&gt;When I left off last time, I was working with an illustrator to see if he could create the style of art I hope to use in my game. I&amp;#8217;m happy to say that he exceeded my expectations and will be playing a large role in the game&amp;#8217;s development. In addition to formally contracting the artist, I spent a little time playing with game mechanics and a lot of time preparing for the art that&amp;#8217;s about to come rolling in.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>0 to Art in Two Weeks</title>
-      <link>http://battleofbrothers.com/2014/08/19/0-to-art-in-two-weeks/</link>
+      <link>http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks/</link>
       <pubDate>Tue, 19 Aug 2014 13:26:58 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/08/19/0-to-art-in-two-weeks/</guid>
+      <guid>http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks/</guid>
       <description>&lt;p&gt;If you remember, I left off last update &lt;a href=&#34;http://battleofbrothers.com/sirryan/art-working-with-others&#34;&gt;finding and losing two artists&lt;/a&gt;. This update marks the beginning of my first contract with an illustrator, and the revelation that I have 1000 unanswered questions about my game. So, while I&amp;#8217;m now super motivated, I&amp;#8217;m also a bit stressed since every design decision I get wrong directly amounts to spending more money.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -402,110 +402,110 @@
     
     <item>
       <title>The Start of My Game</title>
-      <link>http://battleofbrothers.com/2014/08/05/the-start-of-my-game/</link>
+      <link>http://battleofbrothers.com/sirchristhe-start-of-my-game/</link>
       <pubDate>Tue, 05 Aug 2014 17:29:33 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/08/05/the-start-of-my-game/</guid>
+      <guid>http://battleofbrothers.com/sirchristhe-start-of-my-game/</guid>
       <description>&lt;p&gt;Up until this update, everything that I did was basically learning and testing basic concepts that could be applied to many types of turn based games. Characters moved, attacked, died, etc. I&amp;#8217;ve known that I wanted to make a turn based game, but I didn&amp;#8217;t know exactly what I was going to build. That all changed this time around, because over the last two weeks I decided what game I want to build, created an art design document, and contracted an illustrator to draw preliminary sketches.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Art &amp; Working With Others</title>
-      <link>http://battleofbrothers.com/2014/08/04/art-working-with-others/</link>
+      <link>http://battleofbrothers.com/sirryan/art-working-with-others/</link>
       <pubDate>Mon, 04 Aug 2014 13:37:58 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/08/04/art-working-with-others/</guid>
+      <guid>http://battleofbrothers.com/sirryan/art-working-with-others/</guid>
       <description>&lt;p&gt;The past two weeks did not go as planned. What started out as a coding week that would involve balancing unit attributes turned into a full on art blitz. I received a lengthy, somewhat painful, and costly introduction into the world of art. At the same time, I received the invaluable jolt of excitement and motivation that comes from working with other talented people.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Highs and Lows</title>
-      <link>http://battleofbrothers.com/2014/07/22/highs-and-lows/</link>
+      <link>http://battleofbrothers.com/sirchris/highs-and-lows/</link>
       <pubDate>Tue, 22 Jul 2014 15:21:54 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/07/22/highs-and-lows/</guid>
+      <guid>http://battleofbrothers.com/sirchris/highs-and-lows/</guid>
       <description>&lt;p&gt;Last update marked the beginning of my conversion to Swift, and this update marks the end &amp;#8212; almost. I continued to be plagued by conversion issues (64 bit this time) and time off (Bachelor party), but also enjoyed faster refactoring and cleaner code. I&amp;#8217;ve now gotten the game back to playable with 10% of the code left to convert. Small details like synchronized walking animations, missing damage over time and other bugs remain, but I finally feel like I&amp;#8217;m in the clear. This is a huge thing because for a second there I was a bit depressed and questioned my choice to convert to Swift.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Refactoring of Character Creation Code</title>
-      <link>http://battleofbrothers.com/2014/07/21/refactoring-of-character-creation-code/</link>
+      <link>http://battleofbrothers.com/sirchrisrefactoring-of-character-creation-code/</link>
       <pubDate>Mon, 21 Jul 2014 16:37:29 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/07/21/refactoring-of-character-creation-code/</guid>
+      <guid>http://battleofbrothers.com/sirchrisrefactoring-of-character-creation-code/</guid>
       <description>&lt;p&gt;After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Swift Distractions</title>
-      <link>http://battleofbrothers.com/2014/07/07/swift-distractions/</link>
+      <link>http://battleofbrothers.com/sirryan/swift-distractions/</link>
       <pubDate>Mon, 07 Jul 2014 15:35:17 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/07/07/swift-distractions/</guid>
+      <guid>http://battleofbrothers.com/sirryan/swift-distractions/</guid>
       <description>&lt;p&gt;It has been awhile since my last update. 4 weeks to be exact. And to top it off, my game has fewer features than it did the last time you heard from me. There are two reasons for this: The introduction of &lt;a href=&#34;https://developer.apple.com/swift/&#34; target=&#34;_blank&#34;&gt;Swift&lt;/a&gt;, and the perfect storm of distractions.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Multi-Device Support and HUD Elements</title>
-      <link>http://battleofbrothers.com/2014/06/30/multi-device-support-and-hud-elements/</link>
+      <link>http://battleofbrothers.com/sirchris/multi-device-support-and-hud-elements/</link>
       <pubDate>Mon, 30 Jun 2014 15:25:12 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/06/30/multi-device-support-and-hud-elements/</guid>
+      <guid>http://battleofbrothers.com/sirchris/multi-device-support-and-hud-elements/</guid>
       <description>&lt;p&gt;This update was delayed by a week because I took a &amp;#8220;&lt;a href=&#34;http://www.ragnartrail.com/locations/appalachians-wv&#34;&gt;vacation&lt;/a&gt;&amp;#8220;, but I&amp;#8217;m back in action and hard at work again. After the last update I had some concerns about making my game work across multiple devices, but I&amp;#8217;m happy to say that Corona makes multi-device support pretty easy. It was actually so easy that I was not only able to make my prototype work across multiple devices, but I also had time to start adding some basic HUD elements to the game.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Zombies, Archers, and Dwarfs! Oh My!</title>
-      <link>http://battleofbrothers.com/2014/06/10/zombies-archers-and-dwarfs-oh-my/</link>
+      <link>http://battleofbrothers.com/sirchris/zombies-archers-and-dwarfs-oh-my/</link>
       <pubDate>Tue, 10 Jun 2014 16:19:33 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/06/10/zombies-archers-and-dwarfs-oh-my/</guid>
+      <guid>http://battleofbrothers.com/sirchris/zombies-archers-and-dwarfs-oh-my/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve added a lot of pretty cool changes to my prototype in the last two weeks, including new characters, attack animations, directional movement, death animations, and sound effects. The game is still a very rough prototype, but as you can see in the video below, I&amp;#8217;m now able to actually play a complete level from start to finish.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Shaping of a Game</title>
-      <link>http://battleofbrothers.com/2014/06/09/the-shaping-of-a-game/</link>
+      <link>http://battleofbrothers.com/sirryan/the-shaping-of-a-game/</link>
       <pubDate>Mon, 09 Jun 2014 16:11:47 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/06/09/the-shaping-of-a-game/</guid>
+      <guid>http://battleofbrothers.com/sirryan/the-shaping-of-a-game/</guid>
       <description>&lt;p&gt;If last week was a &lt;a href=&#34;http://battleofbrothers.com/sirryan/feature-rush&#34; target=&#34;_blank&#34;&gt;feature rush&lt;/a&gt;, this week was a feature overload. I&amp;#8217;ve slowly been breaking out of the learning phase and into the implementation phase. I definitely know what needs to happen now &amp;#8212; it&amp;#8217;s just a matter of doing it. Exciting times are ahead because I can now begin testing features that will make my game unique. My update this week introduces a lot of those features, including a defendable castle and dynamic spawn points.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Feature Rush</title>
-      <link>http://battleofbrothers.com/2014/05/27/feature-rush/</link>
+      <link>http://battleofbrothers.com/sirryan/feature-rush/</link>
       <pubDate>Tue, 27 May 2014 16:50:37 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/05/27/feature-rush/</guid>
+      <guid>http://battleofbrothers.com/sirryan/feature-rush/</guid>
       <description>&lt;p&gt;Last update I had a &lt;a href=&#34;http://battleofbrothers.com/sirryan/and-then-there-was-a-playable-game&#34;&gt;playable game&lt;/a&gt;. This update has been spent trying to add as many features to the game as possible, which has been an enlightening process that has revealed two lessons. First, I &lt;a href=&#34;http://www.gamasutra.com/view/feature/179501/rapid_prototyping_tips_for_.php&#34;&gt;need to prototype&lt;/a&gt; since you don&amp;#8217;t know what&amp;#8217;s fun until you try it. Second, while my code is getting better, it still isn&amp;#8217;t ready to scale to an entire project. Each time I add a new asset or feature, I&amp;#8217;m finding myself copying a lot of code. By going through the motions, it&amp;#8217;s becoming clear what needs to be fixed up.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Little Perspective</title>
-      <link>http://battleofbrothers.com/2014/05/27/a-little-perspective/</link>
+      <link>http://battleofbrothers.com/sirchris/a-little-perspective/</link>
       <pubDate>Tue, 27 May 2014 15:40:58 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/05/27/a-little-perspective/</guid>
+      <guid>http://battleofbrothers.com/sirchris/a-little-perspective/</guid>
       <description>&lt;p&gt;I was really excited after the last update because I felt like the foundation of my code was relatively solid and the core game mechanics were working. With that core work out of the way, I was free to focus on polishing what I had built and thinking about what type of game I ultimately want to build. In the last 2 weeks I was able to fix a bunch of bugs, add obstacles, add art, and switch the camera point of view. Add all of those together and you get a game that&amp;#8217;s starting to look pretty sweet in my unbiased opinion.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Beginning of a Game</title>
-      <link>http://battleofbrothers.com/2014/05/12/the-beginning-of-a-game/</link>
+      <link>http://battleofbrothers.com/sirchris/the-beginning-of-a-game/</link>
       <pubDate>Mon, 12 May 2014 18:55:50 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/05/12/the-beginning-of-a-game/</guid>
+      <guid>http://battleofbrothers.com/sirchris/the-beginning-of-a-game/</guid>
       <description>&lt;p&gt;I&amp;#8217;m a little over a month into my game now and I feel like I finally have something that resembles what will one day be a playable game. When I left off last time, I was hoping to add some AI to the game, and I&amp;#8217;m happy to report that the AI system wasn&amp;#8217;t as hard as I had originally feared. In the last two weeks, I was able to add archer and mage characters to the game and also give the enemy characters some intelligence.&lt;/p&gt;
 
 &lt;p&gt;To see where I&amp;#8217;m out, check out the following video.
@@ -514,20 +514,20 @@
     
     <item>
       <title>And Then There was a Playable Game</title>
-      <link>http://battleofbrothers.com/2014/05/12/and-then-there-was-a-playable-game/</link>
+      <link>http://battleofbrothers.com/sirryan/and-then-there-was-a-playable-game/</link>
       <pubDate>Mon, 12 May 2014 15:49:28 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/05/12/and-then-there-was-a-playable-game/</guid>
+      <guid>http://battleofbrothers.com/sirryan/and-then-there-was-a-playable-game/</guid>
       <description>&lt;p&gt;Don&amp;#8217;t look now, but I think my Xcode project just turned into a playable game. That&amp;#8217;s right, you heard me correctly. User input, gold and a game over state. I would almost say it&amp;#8217;s time to wrap things up and call it a win for team Ryan.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Refactoring</title>
-      <link>http://battleofbrothers.com/2014/04/28/refactoring/</link>
+      <link>http://battleofbrothers.com/sirchris/refactoring/</link>
       <pubDate>Mon, 28 Apr 2014 18:24:53 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/04/28/refactoring/</guid>
+      <guid>http://battleofbrothers.com/sirchris/refactoring/</guid>
       <description>&lt;p&gt;When I left off two weeks ago, I had the goal of adding some bad guys to fight my valiant knight. The good news is that those bad guys can now be seen and attacked, but the bad news is that for every step forward, I&amp;#8217;ve had to take about 0.9 steps back. If learning was the name of the game before my first update, refactoring is the name of the game this time around. I knew there was going to be a price to pay for plunging into my game without much thought given to organization and structure, and it was time to pay the piper.&lt;/p&gt;
 
 &lt;p&gt;But in an effort to stay positive about game development, let&amp;#8217;s celebrate the visual progress I&amp;#8217;ve made.
@@ -536,30 +536,30 @@
     
     <item>
       <title>It’s Not All Sunshine and Rainbows</title>
-      <link>http://battleofbrothers.com/2014/04/28/its-not-all-sunshine-and-rainbows/</link>
+      <link>http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows/</link>
       <pubDate>Mon, 28 Apr 2014 15:09:18 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/04/28/its-not-all-sunshine-and-rainbows/</guid>
+      <guid>http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows/</guid>
       <description>&lt;p&gt;With update #3, I bring you my most challenging two weeks so far. As you can see from the featured image, working with Finite State Machines, and AI in general, plays a big part in my frustrations. When this cycle began, I was hoping to have wave movement, group formations and melee combat working. Since only one of those three goals was accomplished, let&amp;#8217;s take a look at what went right and what went wrong.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Beginnings</title>
-      <link>http://battleofbrothers.com/2014/04/14/beginnings/</link>
+      <link>http://battleofbrothers.com/sirchris/beginnings/</link>
       <pubDate>Mon, 14 Apr 2014 17:48:47 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/04/14/beginnings/</guid>
+      <guid>http://battleofbrothers.com/sirchris/beginnings/</guid>
       <description>&lt;p&gt;I&amp;#8217;m two weeks into game development and I&amp;#8217;ve realized that making a game will require a lot of learning and hard work, and this is going to be a lot of fun. I know so little about game development that it&amp;#8217;s difficult to even know where to start. What should be a seemingly simple task, like animating and moving a sprite, can be challenging due to amateur hour mistakes.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>On the Shoulders of Giants</title>
-      <link>http://battleofbrothers.com/2014/04/14/on-the-shoulders-of-giants/</link>
+      <link>http://battleofbrothers.com/sirryan/on-the-shoulders-of-giants/</link>
       <pubDate>Mon, 14 Apr 2014 13:44:21 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/04/14/on-the-shoulders-of-giants/</guid>
+      <guid>http://battleofbrothers.com/sirryan/on-the-shoulders-of-giants/</guid>
       <description>&lt;p&gt;Game development has always been intimidating to me. There have always been so many unknowns that learning how make a game, let alone write in C, seemed unachievable. The past two weeks have been shocking to me because the tools and libraries available have come so far that game development is now accessible. I feel like I did when developing for the web and &lt;a href=&#34;http://jquery.com&#34; target=&#34;_blank&#34;&gt;jQuery&lt;/a&gt;/&lt;a href=&#34;http://prototypejs.org&#34; target=&#34;_blank&#34;&gt;Prototype.js&lt;/a&gt; came out. It&amp;#8217;s an amazing time and indie games will only become easier to produce.
 &lt;/p&gt;</description>
     </item>
@@ -576,10 +576,10 @@
     
     <item>
       <title>I’m a n00b</title>
-      <link>http://battleofbrothers.com/2014/03/26/im-a-n00b/</link>
+      <link>http://battleofbrothers.com/sirchris/im-a-n00b/</link>
       <pubDate>Wed, 26 Mar 2014 16:53:44 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/2014/03/26/im-a-n00b/</guid>
+      <guid>http://battleofbrothers.com/sirchris/im-a-n00b/</guid>
       <description>&lt;p&gt;All journeys have beginnings and today is where my journey starts. While I might not be as useless as the n00b &lt;a href=&#34;http://www.wizards.com/Magic/tcg/newtomagic.aspx&#34;&gt;MTG&lt;/a&gt; card above, I do lack most of the skills required to build a video game. Advancing from beginner to competent game developer will be a difficult task, but I&amp;#8217;m hoping that&amp;#8217;s where this quest leads.
 &lt;/p&gt;</description>
     </item>

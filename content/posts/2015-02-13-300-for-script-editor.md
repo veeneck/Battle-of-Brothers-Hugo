@@ -3,7 +3,7 @@ title: $300 for Script Editor
 author: Ryan
 type: post
 date: 2015-02-13T19:56:02+00:00
-url: /2015/02/13/300-for-script-editor/
+url: /sirryan/300-for-script-editor/
 categories:
   - sirryan
 tags:

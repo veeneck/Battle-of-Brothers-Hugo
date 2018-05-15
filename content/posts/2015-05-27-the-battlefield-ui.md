@@ -3,7 +3,7 @@ title: The Battlefield UI
 author: chris
 type: post
 date: 2015-05-27T17:40:59+00:00
-url: /2015/05/27/the-battlefield-ui/
+url: /sirchris/the-battlefield-ui/
 number:
   - 25
 keyevent:

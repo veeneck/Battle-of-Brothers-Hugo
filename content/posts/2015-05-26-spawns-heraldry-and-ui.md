@@ -3,7 +3,7 @@ title: Spawns, Heraldry and UI
 author: Ryan
 type: post
 date: 2015-05-26T18:07:51+00:00
-url: /2015/05/26/spawns-heraldry-and-ui/
+url: /sirryan/spawns-heraldry-and-ui/
 number:
   - 22
 keyevent:

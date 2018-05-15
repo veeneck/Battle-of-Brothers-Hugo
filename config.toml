@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Battle of Brothers"
 theme = "Battle"
 relativeURLs = "false"
+DisqusShortname = "battle-of-brothers"
 [params]
   chrisEnemy = "Chris is older than me, but he has wasted his years starting a family instead of honing his development skills. Anxious to step out of his shadow, my youth and superior intelligence will clearly crown me champion."
   ryanEnemy = "Ryan is younger than me and like many younger brothers, he carries a chip on his shoulder due to lost our childhood competitions. Ryan may be a better programmer coming into this, but I think my wisdom and veteran tactics will once again win the day."

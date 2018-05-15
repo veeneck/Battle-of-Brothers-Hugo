@@ -3,7 +3,7 @@ title: Animating Sprites from a Texture Packer Image
 author: chris
 type: post
 date: 2014-04-10T16:58:48+00:00
-url: /2014/04/10/animating-sprites-from-a-texture-packer-image/
+url: /sirchris/animating-sprites-from-a-texture-packer-image/
 categories:
   - sirchris
 tags:

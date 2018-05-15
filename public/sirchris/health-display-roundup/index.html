@@ -1,0 +1,289 @@
+
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=1024"/>
+
+  
+
+
+
+
+   	 <link rel="stylesheet" href="/css/chris.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+  
+</head>
+  <body class="home gradient">
+
+  	<div id="leftChecker"></div>
+
+  	
+
+<div class="top">
+	<p class="breadcrumb">
+		Currently following
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a> 
+		<a href="/sirryan" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Ryan is up to &#8611;</a>
+		
+	</p>
+</div>
+
+
+
+  	
+
+
+
+<header class="content">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+  	
+<nav>
+	
+		<div class="container clear blog">
+	
+  		<div class="leftnav clear">
+  			<span>
+	  			<a href="/sirchris" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="rightnav clear">
+			<span>
+	  			<a href="/sirchris/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    
+
+	<div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				<div class="floatleft">
+					<span class="month legacy">May</span> 
+					<p class="shield legacy" style="background-image:url('/assets/Shield11.png')">5</p>
+					<span class="year legacy">2014</span> 
+				</div>
+				<h3 class="grace">Health Display Roundup</h3>
+				<div class="subhead">
+					<span class="comments floatright">
+						<img class="icon" src="/assets/Chat-6.png" width="16px" />
+						<small><a href="/" class="dotted">X Comments</a></small>
+					</span>
+					<img class="icon" src="/assets/Tag-star.png" width="16px">
+					<small>
+						
+						<a href="" class="dotted">design</a>
+						
+						<a href="" class="dotted">roundup</a>
+						
+					</small>
+				</div>
+			</div>
+
+			<div class="post source_light">				
+ 				<p>Visually displaying a character&#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&#8217;m working on will include health bars, so I&#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&#8217;ve come across.
+</p>
+
+<h4 id="bar-above-the-head">Bar Above the Head</h4>
+
+<p>The good ol&#8217; bar above the head technique is probably one of the most common ways to display health. You can see this in <a href="https://itunes.apple.com/us/app/battleheart/id394057299?mt=8">Battleheart</a> and <a href="http://us.battle.net/sc2/en/">Starcraft 2</a> and one thing I like about their implementation is that they both change the color of the bar in order to add a secondary visual cue. This is particularly helpful when you have to make extremely quick decisions, like whether or not to run from a Zerg swarm.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-446" src="http://localhost:8888/wp-content/uploads/2014/05/screen568x568-1.jpeg" alt="screen568x568" width="568" height="320" srcset="http://localhost:8888/wp-content/uploads/2014/05/screen568x568-1.jpeg 568w, http://localhost:8888/wp-content/uploads/2014/05/screen568x568-1-300x169.jpeg 300w" sizes="(max-width: 568px) 100vw, 568px" />
+</div>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-447" src="http://localhost:8888/wp-content/uploads/2014/05/starcraft-1.jpg" alt="starcraft" width="497" height="157" srcset="http://localhost:8888/wp-content/uploads/2014/05/starcraft-1.jpg 497w, http://localhost:8888/wp-content/uploads/2014/05/starcraft-1-300x95.jpg 300w" sizes="(max-width: 497px) 100vw, 497px" />
+</div>
+
+<h4 id="circular">Circular</h4>
+
+<p>You don&#8217;t see circular health displays all that much, and I think part of the reason is due to screen real estate, but two games that pull it off are <a href="http://ravenmark-saga.com">Ravenmark</a> and <a href="http://www.gratuitoustankbattles.com">Gratuitous Tank Battles</a>.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-449" src="http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1.jpg" alt="ravenmark" width="568" height="320" srcset="http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1.jpg 568w, http://localhost:8888/wp-content/uploads/2014/05/ravenmark-1-300x169.jpg 300w" sizes="(max-width: 568px) 100vw, 568px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/Gratuitous-Tank-Battles-screenshot-2_thumb-1.jpg" alt="Gratuitous-Tank-Battles-screenshot-2_thumb" width="540" height="300" class="alignnone size-full wp-image-462" srcset="http://localhost:8888/wp-content/uploads/2014/05/Gratuitous-Tank-Battles-screenshot-2_thumb-1.jpg 540w, http://localhost:8888/wp-content/uploads/2014/05/Gratuitous-Tank-Battles-screenshot-2_thumb-1-300x167.jpg 300w" sizes="(max-width: 540px) 100vw, 540px" />
+</div>
+
+<h4 id="half-circle">Half Circle</h4>
+
+<p>What happens when you introduce the standard health bar to the circular health bar, turn on a little Barry White, and wait 9 months? The half circle health bar is what happens. I&#8217;m not sure pioneered this concept, but Rodeo Games has two great examples in <a href="https://itunes.apple.com/us/app/warhammer-quest/id573516833?mt=8">Warhammer Quest</a> and <a href="https://itunes.apple.com/us/app/hunters-2/id489463556?mt=8">Hunters 2</a>.</p>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/warhammer_quest_2-1-1024x581.jpg" alt="warhammer_quest_2" width="625" height="354" class="alignnone size-large wp-image-450" />
+</div>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-451" src="http://localhost:8888/wp-content/uploads/2014/05/hunters2-1.jpg" alt="hunters2" width="635" height="305" srcset="http://localhost:8888/wp-content/uploads/2014/05/hunters2-1.jpg 635w, http://localhost:8888/wp-content/uploads/2014/05/hunters2-1-300x144.jpg 300w" sizes="(max-width: 635px) 100vw, 635px" />
+</div>
+
+<h4 id="unique-and-stylish">Unique and Stylish</h4>
+
+<p>Who says health displays have to be simplistic colored bars or circles? I think <a href="http://stoicstudio.com">The Banner Saga</a> and <a href="http://skullsoftheshogun.com">Skulls of the Shogun</a> did amazing jobs by making the health displays a part of their game&#8217;s overall artistic style.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-452" src="http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1.jpg" alt="Banner Saga" width="792" height="473" srcset="http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1.jpg 792w, http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1-300x179.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/Banner-Saga-1-768x459.jpg 768w" sizes="(max-width: 792px) 100vw, 792px" />
+</div>
+
+<div class="inlineimg">
+  <img src="http://localhost:8888/wp-content/uploads/2014/05/skulls-1-1024x591.jpg" alt="skulls" width="625" height="360" class="alignnone size-large wp-image-453" srcset="http://localhost:8888/wp-content/uploads/2014/05/skulls-1-1024x591.jpg 1024w, http://localhost:8888/wp-content/uploads/2014/05/skulls-1-300x173.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/skulls-1-768x443.jpg 768w, http://localhost:8888/wp-content/uploads/2014/05/skulls-1.jpg 1143w" sizes="(max-width: 625px) 100vw, 625px" />
+</div>
+
+<h4 id="unit-count">Unit Count</h4>
+
+<p>It would be awesome if we could create massive armies like you see in <a href="http://www.totalwar.com/en_us/">Rome Total War</a>, but that isn&#8217;t possible for a lot of reasons. A quick and easy way to show that there are multiple units, without actually displaying multiple units, is by adding a number signifying how many units of a single character exist. Below you can see what I&#8217;m talking about in <a href="http://might-and-magic.ubi.com/heroes-6/">Might and Magic 6</a> and <a href="http://www.tortugateam.com/en/">Braveland</a>.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-454" src="http://localhost:8888/wp-content/uploads/2014/05/might-and-magic-1.jpg" alt="might and magic" width="697" height="489" srcset="http://localhost:8888/wp-content/uploads/2014/05/might-and-magic-1.jpg 697w, http://localhost:8888/wp-content/uploads/2014/05/might-and-magic-1-300x210.jpg 300w" sizes="(max-width: 697px) 100vw, 697px" />
+</div>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-455" src="http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1.jpg" alt="braveland-10" width="800" height="450" srcset="http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1.jpg 800w, http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1-300x169.jpg 300w, http://localhost:8888/wp-content/uploads/2014/05/braveland-10-1-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+</div>
+			</div>
+
+		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	</div>
+</div>
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div style="display:table;">
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+			<div class="about_contest cell">
+				<div class="inner">
+					<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+					<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+					In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+					It begins on April 7th, 2014. We'll be documenting the journey.</p>
+					<p><a href="/">Learn More!</a></p>
+				</div>
+			</div>
+			<div class="links cell">
+				<div class="outer">
+					<h5>Sir Ryan</h5>
+					<p>
+					<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+					<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+					<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+					<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+					<a class="ryan" href="/category/sirryan">Archive</a>
+					<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/SirRyan">RSS Feed</a></br>
+					</p>
+					<h5>Sir Chris</h5>
+					<p>
+					<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+					<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+					<a class="chris" href="/sirchris/timeline">Timeline</a>
+					<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+					<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+					<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+					<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+					<a class="white" href="http://feeds.feedburner.com/SirChris">RSS Feed</a></br></p>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

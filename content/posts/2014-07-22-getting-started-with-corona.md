@@ -3,7 +3,7 @@ title: Getting Started with Corona
 author: chris
 type: post
 date: 2014-07-22T17:37:32+00:00
-url: /2014/07/22/getting-started-with-corona/
+url: /sirchris/getting-started-with-corona/
 categories:
   - sirchris
 tags:

@@ -3,7 +3,7 @@ title: Refactor, Health Bars and Ranged Combat
 author: Ryan
 type: post
 date: 2015-01-19T14:14:41+00:00
-url: /2015/01/19/refactor-health-bars-and-ranged-combat/
+url: /sirryan/refactor-health-bars-and-ranged-combat/
 featured_image: /wp-content/uploads/2015/01/final-2.png
 keyevent:
   - Refactor FSM

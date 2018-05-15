@@ -3,7 +3,7 @@ title: A Bit of Story and a Sprinkle of AI
 author: Ryan
 type: post
 date: 2015-03-05T20:31:58+00:00
-url: /2015/03/05/a-bit-of-story-and-a-sprinkle-of-ai/
+url: /sirryan/a-bit-of-story-and-a-sprinkle-of-ai/
 featured_image: /wp-content/uploads/2015/03/Screen-Shot-2015-03-05-at-1.18.57-PM-e1425579863658.png
 keyevent:
   - New chat system.

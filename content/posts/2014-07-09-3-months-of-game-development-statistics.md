@@ -3,7 +3,7 @@ title: 3 Months of Game Development Statistics
 author: chris
 type: post
 date: 2014-07-09T18:18:38+00:00
-url: /2014/07/09/3-months-of-game-development-statistics/
+url: /sirchris/3-months-of-game-development-statistics/
 categories:
   - sirchris
 tags:

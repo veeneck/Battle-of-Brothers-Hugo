@@ -3,7 +3,7 @@ title: $249 and trials are completed
 author: Ryan
 type: post
 date: 2014-08-17T13:16:03+00:00
-url: /2014/08/17/249-and-trials-are-completed/
+url: /sirryan/249-and-trials-are-completed/
 categories:
   - sirryan
 tags:

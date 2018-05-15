@@ -3,7 +3,7 @@ title: Quarter 2 Game Development Stats
 author: chris
 type: post
 date: 2014-10-08T13:15:41+00:00
-url: /2014/10/08/quarter-2-game-development-stats/
+url: /sirchris/quarter-2-game-development-stats/
 categories:
   - sirchris
 tags:

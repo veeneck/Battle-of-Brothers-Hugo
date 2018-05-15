@@ -3,7 +3,7 @@ title: Sound and Music
 author: chris
 type: post
 date: 2015-06-10T13:19:19+00:00
-url: /2015/06/10/sound-and-music/
+url: /sirchris/sound-and-music/
 featured_image: /wp-content/uploads/2015/06/Screen-Shot-2015-06-09-at-11.55.26-AM-2.png
 number:
   - 26

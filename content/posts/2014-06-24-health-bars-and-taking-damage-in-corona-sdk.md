@@ -3,7 +3,7 @@ title: Health Bars and Taking Damage in Corona SDK
 author: chris
 type: post
 date: 2014-06-24T17:30:09+00:00
-url: /2014/06/24/health-bars-and-taking-damage-in-corona-sdk/
+url: /sirchris/health-bars-and-taking-damage-in-corona-sdk/
 categories:
   - sirchris
 tags:

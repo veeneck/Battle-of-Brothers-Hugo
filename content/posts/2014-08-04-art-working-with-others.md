@@ -3,7 +3,7 @@ title: 'Art & Working With Others'
 author: Ryan
 type: post
 date: 2014-08-04T13:37:58+00:00
-url: /2014/08/04/art-working-with-others/
+url: /sirryan/art-working-with-others/
 featured_image: /wp-content/uploads/2014/08/orange-guy-1.png
 number:
   - 9

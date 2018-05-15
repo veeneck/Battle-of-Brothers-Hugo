@@ -3,7 +3,7 @@ title: A Wobbly Foundation
 author: Ryan
 type: post
 date: 2015-05-12T16:49:29+00:00
-url: /2015/05/12/a-wobbly-foundation/
+url: /sirryan/a-wobbly-foundation/
 number:
   - 21
 keyevent:

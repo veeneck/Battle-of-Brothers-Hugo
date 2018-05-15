@@ -3,7 +3,7 @@ title: Common Turn Based Game Projection Techniques
 author: chris
 type: post
 date: 2014-05-21T16:53:09+00:00
-url: /2014/05/21/common-turn-based-game-projection-techniques/
+url: /sirchris/common-turn-based-game-projection-techniques/
 categories:
   - sirchris
 tags:

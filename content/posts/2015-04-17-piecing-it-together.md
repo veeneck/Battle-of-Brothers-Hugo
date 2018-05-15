@@ -3,7 +3,7 @@ title: Piecing It Together
 author: Ryan
 type: post
 date: 2015-04-17T13:19:29+00:00
-url: /2015/04/17/piecing-it-together/
+url: /sirryan/piecing-it-together/
 featured_image: /wp-content/uploads/2015/04/farm-e1429197046269-2.png
 number:
   - 20
