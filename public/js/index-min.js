@@ -5,6 +5,7 @@ $(document).ready(function () {
         var urlArray = [];
 
         $('.my-class').each(function () {
+            console.log("looking for comment count");
             var url = $(this).attr('data-disqus-url');
             urlArray.push('link:' + url);
         });
@@ -27,11 +28,12 @@ $(document).ready(function () {
                         if (count == 1)
                            countText = " comment";
 
-                        $('div[data-disqus-url="' + result.response[i].link + '"]').html('<h4>' + count + countText + '</h4>');
+                        $('span[data-disqus-url="' + result.response[i].link + '"]').html('' + count + countText);
 
                     }
                 }
         });
+      });
 
 });
 
