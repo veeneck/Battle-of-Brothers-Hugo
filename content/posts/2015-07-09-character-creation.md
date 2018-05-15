@@ -19,7 +19,7 @@ After working on the intro, world map, and combat layer, it was time to work on 
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=jJ3nX9PMOiE&w=740&theme=light]
+  {{< youtube jJ3nX9PMOiE >}}
 </div>
 
 There&#8217;s still a lot to be done in terms of making the interface usable to an actual player, but there were four main areas I addressed during this first attempt:

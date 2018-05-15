@@ -51,7 +51,7 @@ Right now I have things set up so that attacks only show when they’ve been unl
 [Brian Campbell][2] has been reworking the intro movie and it’s already looking a lot better than my original attempts.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=3UmValyHOws&w=740&theme=light]
+  {{< youtube 3UmValyHOws >}}
 </div>
 
 Some great news on the video front is that I figured out a way to just play the .mov video in the game rather than programming the cut scenes. This is going to save me a ton of time, something I’m already short on.

@@ -20,7 +20,7 @@ In the last update I demoed the [latest version of the game’s battle layer][1]
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=j4beFuH_3Ho&w=740&theme=light]
+  {{< youtube j4beFuH_3Ho >}}
 </div>
 
 #### Music
@@ -41,7 +41,7 @@ I’ve asked Brendon to consider a few things while making the battle music incl
 [Wesley Slover][4] is the guy in charge of making the game sound amazing and I think he’s off to a great start. Wes started experimenting with sound effects after receiving a demo of the first battle begin played to Brendon&#8217;s music. Wes first created this demo with a couple different types off effects including Japanese RPG/Arcade sounds and a metal click/lever/switch types of sounds.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=Hw10MA0CNBg&w=740&theme=light]
+  {{< youtube Hw10MA0CNBg >}}
 </div>
 
 I really like the sound of metal tech control board sounds, so he remade the final demo using those types of sounds. There are only a handful of sounds in the game so far, but it’s amazing how much a difference they make. I love the fact that Wes didn’t just go straight for the generic medieval, realistic type of sound that I would have gone for had I been in charge. I think what he’s done has already added a ton of personality to the game and I can’t wait to see what he comes up with down the road.

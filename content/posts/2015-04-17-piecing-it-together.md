@@ -22,7 +22,7 @@ For the past year I&#8217;ve been working on a bunch of different code bases lea
 To see everything in motion, check out the video below.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=JsXEl37M_HY&w=740&theme=light]
+  {{< youtube JsXEl37M_HY >}}
 </div>
 
 #### Bringing Cutscenes To The Next Level

@@ -24,7 +24,7 @@ Even though I [missed my goal][1] of releasing a game after a year of developmen
 </div>
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=HZudQYZOd7I&w=740&theme=light]
+  {{< youtube HZudQYZOd7I >}}
 </div>
 
 I know the script is cheesy, the fonts are awful, and the interface is amateur hour, but there is a lot going on behind the scenes that is worth talking about.
@@ -62,7 +62,7 @@ I haven’t animated the water scenes yet, but you can imagine how adding some b
 If you’ve ever played a game like Final Fantasy Tactics then you understand the importance of dialogue and actions that take place on the battlefield. If you haven’t, then here’s a quick clip of what I’m talking about (skip to about 7:00).
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=o1qo4dXku1c&w=740&theme=light]
+  {{< youtube o1qo4dXku1c >}}
 </div>
 
 The use of in-game characters and animations to tell a story is perfect for my game because it doesn&#8217;t require any extra artwork. I’m already over budget so anything I can do myself is a big bonus.
@@ -90,7 +90,7 @@ The locations of the flags and the paths are all stored in JSON, and although I 
 I didn&#8217;t show the intro scene in the gameplay video and haven’t made any artistic changes to the intro scene since [the last time I discussed it][2], but here’s a look at the final sequence with a place holder voiceover and a nearly finished version of the intro music, which has turned out awesome.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=W2cFz4Hz7Mg&w=740&theme=light]
+  {{< youtube W2cFz4Hz7Mg >}}
 </div>
 
 What’s been difficult with the scene over the last couple of weeks was experimenting with the possibility of having the intro being played back as a video versus rendering the scene with code. I would prefer to just play it back as a video, but I just don’t think it’s feasible with the Corona SDK. Corona doesn’t allow you embed videos into the game and uses a device’s media player for playback. That makes it hard to make scenes skippable and a seamless part of the game experience. That’s really kind of a bummer, but I don’t see a viable workaround.

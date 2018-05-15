@@ -23,7 +23,7 @@ Story, story, story. 8 of the 10 days over the past two weeks have been spent pr
 In between story work, I was able to coordinate with Scott (illustrator) over the next drawing, start a third contract with Liron (animator), and <a href="http://battleofbrothers.com/sirryan/300-for-script-editor" target="_blank">start a contract with Mike Waterston for script editing</a>. See video for details.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=OavYEl_Lfu4&list=PLU-00W724Flc4vr1yH95AL_NcLykWi9P7&w=740&theme=light]
+  {{< youtube OavYEl_Lfu4 >}}
 </div>
 
 #### Story
@@ -62,23 +62,16 @@ Another item we started work on this week is the camp screen. The camp screen is
       &mdash; Ryan Campbell (@veeneck) <a href="https://twitter.com/veeneck/status/564072270956855298">February 7, 2015</a>
     </p>
   </blockquote>
-  
-  <p>
-    </div> 
+</div> 
     
-    <p>
-      This is quite a large scene, so it was not completely finished in time for this update. Once the scene is done, the individual menus will have to be designed. For example, if you click on the merchant cart above, what does the screen look like that it takes you to?
-    </p>
+This is quite a large scene, so it was not completely finished in time for this update. Once the scene is done, the individual menus will have to be designed. For example, if you click on the merchant cart above, what does the screen look like that it takes you to?
+
     
-    <h4>
-      Formations and AI
-    </h4>
+#### Formations and AI
     
-    <p>
-      With my remaining time, I tried to implement a few features for the battle scenes. First up, formations have been rewritten to support different layouts. The columns, max units, and spacing between units are all variables, and the code determines the proper layout. Prior to this, everything was hard coded.
-    </p>
+With my remaining time, I tried to implement a few features for the battle scenes. First up, formations have been rewritten to support different layouts. The columns, max units, and spacing between units are all variables, and the code determines the proper layout. Prior to this, everything was hard coded.
     
-    <div style="margin-left: 130px !important">
+<div style="margin-left: 130px !important">
       <blockquote class="twitter-tweet" width="550">
         <p>
           Formations can now have different shapes, sizes, and spacing. Also, hello to trebuchet. <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash">#screenshotsaturday</a> <a href="https://twitter.com/hashtag/indiedev?src=hash">#indiedev</a> <a href="http://t.co/rva4TLerEJ">pic.twitter.com/rva4TLerEJ</a>
@@ -88,25 +81,11 @@ Another item we started work on this week is the camp screen. The camp screen is
           &mdash; Ryan Campbell (@veeneck) <a href="https://twitter.com/veeneck/status/566658237983117312">February 14, 2015</a>
         </p>
       </blockquote>
-      
-      <p>
-        </div> 
+</div> 
         
-        <p>
-          After that, I began work on enemy AI. My goal is to be able to finish a battle in its most basic form. So, that&#8217;s what I&#8217;ll continue working on in between cutscene work over the upcoming two weeks. Things that have to happen:
-        </p>
-        
-        <ul>
-          <li>
-            Enemy AI is smart enough to attack.
-          </li>
-          <li>
-            Game sends enemies in waves.
-          </li>
-          <li>
-            After last wave, and last enemy killed, game knows to tell the player they won or lost.
-          </li>
-          <li>
-            Integrate that with the cutscene project.
-          </li>
-        </ul>
+After that, I began work on enemy AI. My goal is to be able to finish a battle in its most basic form. So, that&#8217;s what I&#8217;ll continue working on in between cutscene work over the upcoming two weeks. Things that have to happen:
+
+- Enemy AI is smart enough to attack.
+- Game sends enemies in waves.
+- After last wave, and last enemy killed, game knows to tell the player they won or lost.
+- Integrate that with the cutscene project.

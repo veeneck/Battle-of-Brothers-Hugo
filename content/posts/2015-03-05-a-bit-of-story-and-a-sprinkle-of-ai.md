@@ -21,7 +21,7 @@ The past two weeks have been 75% story and 25% in game work. That trend will con
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=HfiGmCYnwcQ&w=740&theme=light]
+  {{< youtube HfiGmCYnwcQ >}}
 </div>
 
 #### Battle Improvements
@@ -88,7 +88,7 @@ You can see it in action here:
 The neat part about these chat bubbles is that they can be used anywhere. Here is what they look like during travel.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=iFpZbheBEO0&list=UUFBMdeaIhG5f8l8F2PBVG6A&w=740&theme=light]
+  {{< youtube iFpZbheBEO0 >}}
 </div>
 
 Now, I may make subtle changes to the animations, but the general framework will remain the same.

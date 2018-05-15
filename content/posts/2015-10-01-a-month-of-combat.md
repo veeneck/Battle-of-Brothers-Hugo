@@ -24,7 +24,7 @@ _Note: This post has been backdated to keep the documentation accurate &#8212; t
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=Gtj9s2cUAn0&w=740&theme=light]
+  {{< youtube Gtj9s2cUAn0 >}}
 </div>
 
 #### A Sampling of Combat Issues

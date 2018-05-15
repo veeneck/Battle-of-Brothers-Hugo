@@ -21,7 +21,7 @@ At the beginning of August I challenged myself to get pathfinding under control.
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=GVu4rrOWFDM&w=740&theme=light]
+  {{< youtube GVu4rrOWFDM >}}
 </div>
 
 #### A Sampling of Pathfinding Issues

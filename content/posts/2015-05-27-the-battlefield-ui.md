@@ -18,7 +18,7 @@ Many of my UI elements have been pretty ugly so far, but those days are soon com
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=YNWhzubZDwc&w=740&theme=light]
+  {{< youtube YNWhzubZDwc >}}
 </div>
 
 The biggest change in the last few weeks is that I’ve finished my contract with [Scott Pellico][1], the game’s illustrator. I’ve been working with Scott for the last 8 months, so it’s weird to no longer have another person on my team. You can see some of the work that Scott created for both my brother and I [on his portfolio site][2], and I highly recommend hiring him if you’re looking for a talented and hard-working illustrator.

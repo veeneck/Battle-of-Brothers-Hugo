@@ -15,5 +15,5 @@ This purpose of this post is to document some of the frustrations with pathfindi
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=rDlf3wPTZqE&w=740&theme=light]
+  {{< youtube rDlf3wPTZqE >}}
 </div>

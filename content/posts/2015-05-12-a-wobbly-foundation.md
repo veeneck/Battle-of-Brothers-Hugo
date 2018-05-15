@@ -22,7 +22,7 @@ An unsteady foundation is still a foundation, right? I&#8217;ve continued my wor
 The only catch? It&#8217;s not stable yet. Memory leaks, timing issues and missing assets are still common. I&#8217;ll keep iterating on this next update. And when I get bored with that, I incrementally polish different screens. During this update, I revisited the main menu and world map.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=8wekuzwkWG0&w=740&theme=light]
+  {{< youtube 8wekuzwkWG0 >}}
 </div>
 
 #### Laying a Foundation

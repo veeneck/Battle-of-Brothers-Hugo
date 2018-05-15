@@ -25,7 +25,7 @@ I said I wouldn’t do it, but I couldn’t help myself and took another crack a
 </div>
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=4DMJj8iye_g&w=740&theme=light]
+  {{< youtube 4DMJj8iye_g >}}
 </div>
 
 The main difference between this attempt and the first try is that the storyteller only shows in the beginning and the end of the video. That in itself cuts a full minute from the video and makes it flow so much better. Doing that also allows me to highlight the artwork, which probably wasn’t being shown at a large enough scale on mobile devices. Finally, I fixed most of the timing issues so each sentence/image/transition is similar. There are still a few bugs to work out, but I’m much happier with this attempt.

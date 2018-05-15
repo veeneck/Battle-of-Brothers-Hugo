@@ -22,7 +22,7 @@ I’m happy to report that I’ve received the first 30 seconds of game music an
 Let’s start off with the most interesting part of this update &#8211; music. As a quick recap, I’ve contracted [Brendon Williams][1], a talented composer, to create the game’s music. He’ll be scoring original pieces for the intro video, start screen, world map, and battles. He’s starting with the intro video because that will set the tone for the rest of the game. The first piece of music marks the transition from a series of evil scenes to scenes featuring the heroes, so I asked Brendon to kind of make something to transition from what will be a slow evil drum sound to a more defiant and vibrant heroic sound. Something like [The Gael from The last of the Mohicans Theme][2]. There’s only about 25 seconds of music so far, but I think Brendon is off to a fantastic start.
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=oChbnCv1H1k&w=740&theme=light]
+  {{< youtube oChbnCv1H1k >}}
 </div>
 
 #### Intro Video

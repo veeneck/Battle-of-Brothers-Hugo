@@ -25,7 +25,7 @@ I have a lot to share this time around, including icons, character animations, s
 </div>
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=itQWHqEd9_U&w=740&theme=light&controls=0]
+  {{< youtube itQWHqEd9_U >}}
 </div>
 
 There isn’t any sound added to the video yet, and there are parts that I just don’t like, but it’s always good to get something relatively finished. I’m going to hold off on tweaking or even looking at this video for a solid month so my brain can decompress. I have a tendency to dislike anything I’ve 10,000 times over the course of a month, so I’ll have to come back with a fresh set of eyes. Any feedback is always appreciated.

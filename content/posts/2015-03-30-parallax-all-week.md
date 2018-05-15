@@ -20,7 +20,7 @@ I&#8217;ve spent every day of the past two weeks working on story. The good news
 <!--more-->
 
 <div class="inlineimg">
-  [youtube=https://www.youtube.com/watch?v=SXSu_bJQ4aM&w=740&theme=light]
+  {{< youtube SXSu_bJQ4aM >}}
 </div>
 
 Specifically, I went through each scene and added a few items:

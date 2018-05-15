@@ -21,7 +21,7 @@ This update is broken into three main events. First, I created spawn zones for t
 
 One interesting side note about developing games. It is nice to be able to switch gears. When I&#8217;m bored with combat work, I can play with UI. When I don&#8217;t feel like coding, I can try to implement and learn about music or sound effects. There is a huge variety of things to work on. Of course, that comes with a downside. There is a mountain of work to be done that is quite intimidating, and I really have to stop myself from focusing on that aspect.
 
-[youtube=https://www.youtube.com/watch?v=NIWS48fUkXY&w=740&theme=light]
+{{< youtube NIWS48fUkXY >}}
 
 #### Placing Units
 
