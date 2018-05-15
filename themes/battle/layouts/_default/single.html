@@ -1,7 +1,5 @@
 {{ define "main" -}}
 
-	{{ $randomShield := index (first 1 (shuffle (seq 7 12))) 0 }}
-
 	<div class="outercontent">
   	  <div class="content clear">
 
@@ -20,7 +18,30 @@
 				</div>
 			{{ end }}
 
-			<div class="post source_light">				
+			{{ range $key, $value := .Params.tags }}
+				{{ if eq $value "budget" }}
+					<p class="milestone">
+						<img src="/assets/Money.png" width="48px" class="floatleft" />
+						This post is a budget update, which is how I track spending throughout the competition. 
+						Check out <a href="/sir{{ $.Scratch.Get "knight" }}/budget" class="dotted underline">my budget</a> to see what I've spent money on.
+					</p>
+				{{ else if eq $value "status" }}
+					<p class="milestone">
+						<img src="/assets/Arrow-board.png" width="48px" class="floatleft" />
+						This post is a status update, which is how I track progress specific to my game. 
+						Check out <a href="/sir{{ $.Scratch.Get "knight" }}/timeline" class="dotted underline">my timeline</a> to see what I've recently accomplished.
+					</p>
+				{{ end }}
+			{{ end }}
+
+			<div class="post source_light">		
+				{{ if isset .Params "keyevent" }}
+					<ul class="events embed floatright">Key Events
+						{{ range $key, $value := .Params.keyevent }}
+							<li>{{ $value }}</li>
+						{{ end }}
+					</ul>		
+				{{ end }}
  				{{ .Content }}
 			</div>
 
