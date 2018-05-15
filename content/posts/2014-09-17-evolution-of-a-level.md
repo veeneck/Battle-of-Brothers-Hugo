@@ -13,7 +13,6 @@ tags:
 
 ---
 It&#8217;s amazing how long it can take to make your first level. It seems so simple at first. Just put a castle here, some grass there, and call it a day. But, questions arise. What art style should we go with? Will sprites be light or dark, so that we know what color grass and flooring to use? How wide do walkways need to be? Basically, figuring out your first level is like figuring out your entire game. Because of that, my first level continues to change. I thought it would be neat to take a look at where it started, and where it is now.
-
 <!--more-->
 
 #### Paper

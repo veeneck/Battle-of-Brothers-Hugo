@@ -7,11 +7,7 @@ url: /2014/08/04/art-working-with-others/
 featured_image: /wp-content/uploads/2014/08/orange-guy-1.png
 number:
   - 9
-  - 9
 keyevent:
-  - Swift refactor is now 100%.
-  - In trials with artists.
-  - Design document completed.
   - Swift refactor is now 100%.
   - In trials with artists.
   - Design document completed.
@@ -23,7 +19,6 @@ tags:
 
 ---
 The past two weeks did not go as planned. What started out as a coding week that would involve balancing unit attributes turned into a full on art blitz. I received a lengthy, somewhat painful, and costly introduction into the world of art. At the same time, I received the invaluable jolt of excitement and motivation that comes from working with other talented people.
-
 <!--more-->
 
 I wrote about my <a href="http://battleofbrothers.com/sirryan/my-experiences-searching-for-an-artist" target="_blank">experiences searching for an artist</a> earlier this week, and I thought that would be the end of it. I had found two talented people who I get along with, and I figured that we would be able to find a style that works. Unfortunately, one of those people was given a job offer he could not refuse, and the other had a style that was too expenses for animators to match. I talk about that in my status video of this week:

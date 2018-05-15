@@ -9,11 +9,7 @@ keyevent:
   - Catapult implemented.
   - "Combat system for DoT's and resistances."
   - 'Limitations & upgrades on spawn flags.'
-  - Catapult implemented.
-  - "Combat system for DoT's and resistances."
-  - 'Limitations & upgrades on spawn flags.'
 number:
-  - 5
   - 5
 categories:
   - sirryan
@@ -22,7 +18,6 @@ tags:
 
 ---
 Last update I had a [playable game][1]. This update has been spent trying to add as many features to the game as possible, which has been an enlightening process that has revealed two lessons. First, I [need to prototype][2] since you don&#8217;t know what&#8217;s fun until you try it. Second, while my code is getting better, it still isn&#8217;t ready to scale to an entire project. Each time I add a new asset or feature, I&#8217;m finding myself copying a lot of code. By going through the motions, it&#8217;s becoming clear what needs to be fixed up.
-
 <!--more-->
 
 Have a look at my accomplishments now that we&#8217;re 8 weeks in.

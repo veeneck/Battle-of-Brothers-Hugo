@@ -12,7 +12,6 @@ tags:
 
 ---
 Finding an artist has been my biggest fear since this competition started. There are so many things that could go wrong when you have to depend on someone you don&#8217;t know to contribute a third or more to your project. The style may not be a match, they could leave half way through the project, the budget estimations may be way off &#8212; the list goes on and on. I must say though, I&#8217;ve gained confidence in art contractors in the two weeks I&#8217;ve been speaking with them. I thought I would share some of my notes.
-
 <!--more-->
 
 #### Where to Look

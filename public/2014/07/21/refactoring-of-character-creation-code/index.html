@@ -37,8 +37,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
-		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
-		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a> 
+		<a href="/sirryan" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Ryan is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -67,7 +69,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirchris" class="blog clear">
@@ -115,7 +119,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">Jul</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield9.png')">21</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield11.png')">21</p>
 					<span class="year legacy">2014</span> 
 				</div>
 				<h3 class="grace">Refactoring of Character Creation Code</h3>
@@ -134,9 +138,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.</p>
-
-<p></p>
+ 				<p>After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.
+</p>
 
 <p>The code was originally written to extend a parent character class with sub-classes like dwarf, mage, archer, etc. Things were going great until I saw that when new attack actions and functionality were added to the sub-classes, a lot of the code amongst the sub-classes was too similar. For example, all of the sub classes had similar functions setting sprite animation, sound, and attack options. Those functions weren&#8217;t in the parent class because the animation, sound, and attack variables were all different and specific to the sub-class. Each sub-class had these values hard-coded into them, and if you were to consider that my final game may have dozens of sub-classes, it&#8217;s easy to realize that there would be way too much duplicate code.</p>
 
@@ -156,6 +159,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

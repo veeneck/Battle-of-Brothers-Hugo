@@ -8,10 +8,10 @@ categories:
   - sirchris
 tags:
   - budget
+amount: 50
 
 ---
 I thought I could avoid throwing down any cash for sprite sheet development, but I finally broke down and purchased [Texture Packer][1]. They just make sprite sheet creation too easy, and the tool spits out exactly what the Corona SDK needs to render and scale sprites.
-
 <!--more-->
 
  [1]: https://www.codeandweb.com

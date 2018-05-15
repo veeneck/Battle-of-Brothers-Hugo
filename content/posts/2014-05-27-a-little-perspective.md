@@ -9,11 +9,7 @@ keyevent:
   - Added Obstacles
   - Switched to Isometric Perspective
   - Added Isometric Artwork
-  - Added Obstacles
-  - Switched to Isometric Perspective
-  - Added Isometric Artwork
 number:
-  - 5
   - 5
 categories:
   - sirchris
@@ -22,7 +18,6 @@ tags:
 
 ---
 I was really excited after the last update because I felt like the foundation of my code was relatively solid and the core game mechanics were working. With that core work out of the way, I was free to focus on polishing what I had built and thinking about what type of game I ultimately want to build. In the last 2 weeks I was able to fix a bunch of bugs, add obstacles, add art, and switch the camera point of view. Add all of those together and you get a game that&#8217;s starting to look pretty sweet in my unbiased opinion.
-
 <!--more-->
 
 I&#8217;m going to start out with the most exciting part of this update and that is my decision to switch from an orthographic point of view to an isometric point of view. What that basically means is the game will look less flat and more 3D because of how the tiles and artwork are drawn. Visually, what that means is that my game went from this

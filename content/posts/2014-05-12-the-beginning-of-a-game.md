@@ -20,7 +20,6 @@ tags:
 I&#8217;m a little over a month into my game now and I feel like I finally have something that resembles what will one day be a playable game. When I left off last time, I was hoping to add some AI to the game, and I&#8217;m happy to report that the AI system wasn&#8217;t as hard as I had originally feared. In the last two weeks, I was able to add archer and mage characters to the game and also give the enemy characters some intelligence.
 
 To see where I&#8217;m out, check out the following video.
-
 <!--more-->
 
 https://www.youtube.com/watch?v=7GqLByw3_2A&feature=youtu.be

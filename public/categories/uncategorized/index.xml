@@ -6,19 +6,10 @@
     <description>Recent content in Uncategorized on Battle of Brothers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 May 2018 17:33:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2015 14:24:26 +0000</lastBuildDate>
     
 	<atom:link href="http://battleofbrothers.com/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello world!</title>
-      <link>http://battleofbrothers.com/2018/05/11/hello-world/</link>
-      <pubDate>Fri, 11 May 2018 17:33:43 +0000</pubDate>
-      
-      <guid>http://battleofbrothers.com/2018/05/11/hello-world/</guid>
-      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
-    </item>
     
     <item>
       <title>$7600 on Illustrations</title>
@@ -37,18 +28,8 @@
       <pubDate>Mon, 17 Nov 2014 14:10:51 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2014/11/17/1829-on-animations/</guid>
-      <description>Two more characters were completed, which brings me to a total of 4 characters. This expense was about $450 more than I had originally budgeted for due to the unexpected time associated with animating weapons. Basically, characters with weapons will cost a little bit more to animate, and I&amp;#8217;m fine with that.</description>
-    </item>
-    
-    <item>
-      <title>Pathfinding in Corona with Jumper and A Star</title>
-      <link>http://battleofbrothers.com/2014/04/24/pathfinding-in-corona-with-jumper-and-a-star/</link>
-      <pubDate>Thu, 24 Apr 2014 15:57:28 +0000</pubDate>
-      
-      <guid>http://battleofbrothers.com/2014/04/24/pathfinding-in-corona-with-jumper-and-a-star/</guid>
-      <description>&lt;p&gt;If you&amp;#8217;re making a grid based game and you need a character to move from point A to point B while avoiding obstacles, then you&amp;#8217;re going to need some type of pathfinding. Luckily for us, Roland Yonaba utilized the power of A Star, a popular pathfinding algorithm, and made it even better with his open source Jumper library. Visually, what we&amp;#8217;re trying to accomplish looks a little something like:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Two more characters were completed, which brings me to a total of 4 characters. This expense was about $450 more than I had originally budgeted for due to the unexpected time associated with animating weapons. Basically, characters with weapons will cost a little bit more to animate, and I&amp;#8217;m fine with that.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

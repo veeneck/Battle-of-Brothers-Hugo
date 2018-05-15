@@ -8,11 +8,7 @@ keyevent:
   - New Character Animations
   - Added Sound Effects
   - Basic Prototype is Playable
-  - New Character Animations
-  - Added Sound Effects
-  - Basic Prototype is Playable
 number:
-  - 6
   - 6
 categories:
   - sirchris
@@ -21,7 +17,6 @@ tags:
 
 ---
 I&#8217;ve added a lot of pretty cool changes to my prototype in the last two weeks, including new characters, attack animations, directional movement, death animations, and sound effects. The game is still a very rough prototype, but as you can see in the video below, I&#8217;m now able to actually play a complete level from start to finish.
-
 <!--more-->
 
 https://www.youtube.com/watch?v=dX6BCnXXZ7U

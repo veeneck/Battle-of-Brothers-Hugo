@@ -7,11 +7,7 @@ url: /2014/07/22/highs-and-lows/
 featured_image: /wp-content/uploads/2014/07/Screen-Shot-2014-07-22-at-11.20.15-AM-1.png
 number:
   - 8
-  - 8
 keyevent:
-  - 64 bit version working.
-  - Attack range now attached to flag instead of units.
-  - Swift rewrite is 90% complete.
   - 64 bit version working.
   - Attack range now attached to flag instead of units.
   - Swift rewrite is 90% complete.
@@ -22,7 +18,6 @@ tags:
 
 ---
 Last update marked the beginning of my conversion to Swift, and this update marks the end &#8212; almost. I continued to be plagued by conversion issues (64 bit this time) and time off (Bachelor party), but also enjoyed faster refactoring and cleaner code. I&#8217;ve now gotten the game back to playable with 10% of the code left to convert. Small details like synchronized walking animations, missing damage over time and other bugs remain, but I finally feel like I&#8217;m in the clear. This is a huge thing because for a second there I was a bit depressed and questioned my choice to convert to Swift.
-
 <!--more-->
 
 {{< youtube ZmwOnejZ6nM >}}

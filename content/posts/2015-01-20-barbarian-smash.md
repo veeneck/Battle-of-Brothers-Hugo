@@ -9,11 +9,7 @@ keyevent:
   - Barbarian Attack Animation
   - World Map Animations
   - Teleporter Animation
-  - Barbarian Attack Animation
-  - World Map Animations
-  - Teleporter Animation
 number:
-  - 18
   - 18
 categories:
   - sirchris
@@ -32,7 +28,7 @@ You can [view all of this week&#8217;s updates][1] with added commentary on YouT
 The coolest visual update I have to share are a few of the Barbarian character’s basic attack sequences, which are the first attack sequences I’ve tested in-game.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;FrightenedMenacingGentoopenguin&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="FrightenedMenacingGentoopenguin" >}}
 </div>
 
 In addition to the three attack animations, you can also see that I added the mage character’s hit and die animations, which happen after he takes a war hammer in the gut one too many times. There are still some minor kinks to work out with all of the animations, but I’m very happy with how they&#8217;re turning out. I actually just received some other great looking attack sequences, which couldn&#8217;t make it into this week&#8217;s update, but should be in the game next time.
@@ -58,7 +54,7 @@ Some of the animations need a little more work and I’ll probably add a few mor
 The other feature I started working on is the character path, which is the route that the game’s heroes take on their quest to rid the world of evil. I wanted something unique to my game’s art and not just yellow dots or footsteps and this is what we came up with.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ThinMediocreGrayfox&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ThinMediocreGrayfox" >}}
 </div>
 
 I used image masking and some brush strokes to come up with this animation, and while I&#8217;m not super happy with the animation results just yet, I&#8217;m confident it will work with a little more love.

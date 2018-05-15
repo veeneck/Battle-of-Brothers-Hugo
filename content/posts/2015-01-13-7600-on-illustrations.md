@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - budget
+amount: 7600
 
 ---
 This expense wasn&#8217;t a lump sum payment, but about 10 payments made over the course of a few months. I&#8217;m at the end of my original contract with an illustrator, and so far he&#8217;s delivered:

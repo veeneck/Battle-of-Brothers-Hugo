@@ -9,11 +9,7 @@ keyevent:
   - Refactor FSM
   - Health bars
   - Ranged Combat
-  - Refactor FSM
-  - Health bars
-  - Ranged Combat
 number:
-  - 15
   - 15
 categories:
   - sirryan
@@ -22,7 +18,6 @@ tags:
 
 ---
 I&#8217;m finally able to start writing game code, and it is fun. Now that learning and performance issues are almost behind me, I was able to implement  ranged combat and death, which is great to see in action. In addition to that, steady progress has been made on the world map, and early story boards are coming along. This update also marks the end of the first contract with Scott, my illustrator, but we&#8217;ll be entering a second contract shortly.
-
 <!--more-->
 
 {{< youtube _Ba9kK6cebw >}}
@@ -38,7 +33,7 @@ I haven&#8217;t tried max units again, but I will sometime in the near future. I
 I recently began ranged combat, but it was just a rough proof of concept instead of a proper implementation. Over the past two weeks, it has progressed nicely. Let&#8217;s start by seeing it in action.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;RightDownrightDuckbillcat&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="RightDownrightDuckbillcat" >}}
 </div>
 
 A couple of things to note:

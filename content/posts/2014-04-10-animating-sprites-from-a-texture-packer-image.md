@@ -13,7 +13,6 @@ tags:
 
 ---
 I&#8217;ve been experimenting with animation and recently ran into a little trouble with spritesheets, [TexturePacker][1], [Corona SDK][2] and animation. The problem started when I wanted to animate [some sprites][3] from opengameart.org. The download included 89 animation sequences and each animation contained 8 individual character sprites, which looked like:
-
 <!--more-->
 
 <div class="inlineimg">

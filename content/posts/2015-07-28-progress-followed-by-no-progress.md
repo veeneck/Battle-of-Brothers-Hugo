@@ -7,11 +7,7 @@ url: /2015/07/28/progress-followed-by-no-progress/
 featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-27-at-2.11.42-PM-e1438020988234-2.png
 number:
   - 23
-  - 23
 keyevent:
-  - Finished soundtrack.
-  - Fundamental menu controls.
-  - Pathfinding in iOS9
   - Finished soundtrack.
   - Fundamental menu controls.
   - Pathfinding in iOS9
@@ -22,7 +18,6 @@ tags:
 
 ---
 It&#8217;s been nearly two months since my last status update. To quickly sum up those two months, June was extremely productive while July was almost a waste. June consisted of implementing reusable menus, music, sound effects, button effects, volume controls, unit management and more. Basically, a lot of foundation type elements needed for a game. Unfortunately, I started playing with iOS9 in July, which happened to be both a necessity and a time sink. Finally, just last Friday, I finished the contract with the composer, so all of the music for the game has been completed.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -42,7 +37,7 @@ Sorry for the vague subheading, but it&#8217;s the best way I could describe the
   * Unit management in Camp screen: purchase, heal, and reform units.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;PastSmartHaddock&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="PastSmartHaddock" >}}
 </div>
 
 That&#8217;s the gist of the changes. Behind the scenes, there were also plenty of refactors. For example, all sound code had to be touched to get volume to work correctly. But most importantly, any new screens, buttons or menus now pull from reusable code.
@@ -52,7 +47,7 @@ That&#8217;s the gist of the changes. Behind the scenes, there were also plenty 
 I&#8217;ve known all along that I would have to take a 3 month chunk to work on pathfinding at some point. I&#8217;ve dreaded it, but it looks like now is the time. With the release of iOS9, pathfinding agents and dynamic navmeshes will be available to SpriteKit via GameplayKit. The great news here is that tasks like static pathfinding, ECS implementation, improved state machine and other goodies is much easier. Since all of these game development essentials are supported by Apple, they will most likely receive performance optimizations as well.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;BackFluffyBrontosaurus&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="BackFluffyBrontosaurus" >}}
 </div>
 
 So, I&#8217;m about 3 weeks into working with iOS9, and beta software always comes with complications. I&#8217;ve worked through most of them and have a proof of concept up and running. There are still plenty of obstacles to solve though.

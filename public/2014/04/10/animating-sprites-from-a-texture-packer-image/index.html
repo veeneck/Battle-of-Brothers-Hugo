@@ -37,8 +37,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
-		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
-		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a> 
+		<a href="/sirryan" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Ryan is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -67,7 +69,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirchris" class="blog clear">
@@ -115,7 +119,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">Apr</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield12.png')">10</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield8.png')">10</p>
 					<span class="year legacy">2014</span> 
 				</div>
 				<h3 class="grace">Animating Sprites from a Texture Packer Image</h3>
@@ -138,9 +142,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>I&#8217;ve been experimenting with animation and recently ran into a little trouble with spritesheets, <a href="http://www.codeandweb.com/texturepacker">TexturePacker</a>, <a href="http://coronalabs.com/products/corona-sdk/">Corona SDK</a> and animation. The problem started when I wanted to animate <a href="http://opengameart.org/content/700-sprites">some sprites</a> from opengameart.org. The download included 89 animation sequences and each animation contained 8 individual character sprites, which looked like:</p>
-
-<p></p>
+ 				<p>I&#8217;ve been experimenting with animation and recently ran into a little trouble with spritesheets, <a href="http://www.codeandweb.com/texturepacker">TexturePacker</a>, <a href="http://coronalabs.com/products/corona-sdk/">Corona SDK</a> and animation. The problem started when I wanted to animate <a href="http://opengameart.org/content/700-sprites">some sprites</a> from opengameart.org. The download included 89 animation sequences and each animation contained 8 individual character sprites, which looked like:
+</p>
 
 <div class="inlineimg">
   <img class="wp-image-266 alignnone" alt="amg1" src="http://localhost:8888/wp-content/uploads/2014/04/amg1-1.png" width="256" height="32" />
@@ -174,6 +177,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

@@ -16,7 +16,6 @@ tags:
 
 ---
 I’m at the point of development where I feel I have a rough, yet playable, version of the game’s core functionality. I’ve built the intro, menu system, world map, battle maps, and character selection. I’ve created a playable, yet not very fun, game. And that leads me to my next big challenge which is to make the game fun.
-
 <!--more-->
 
 There are no set of rules as to what makes a turn based game fun and I can already tell that my foreseeable future will be spent on a lot of trial and error. Just to give you a feel for where I’m at right now, here are some of the questions I’m going to have to answer about the combat layer.

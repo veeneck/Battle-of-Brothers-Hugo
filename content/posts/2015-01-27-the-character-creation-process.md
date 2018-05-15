@@ -12,7 +12,6 @@ tags:
 
 ---
 One of the most enjoyable parts of the game development process so far has been creating characters. Using my imagination to discover how they look, what abilities they have, where they&#8217;re from, and how they talk is immensely satisfying. Largely due to the efforts of the illustrator and animator I&#8217;m contracting, the first character of the game was just fully completed. I&#8217;m extremely happy with the outcome and thought I&#8217;d share with you the process of how he came to life.
-
 <!--more-->
 
 #### Step 1 &#8211; Rough Concepts
@@ -114,7 +113,7 @@ Now that I had the turn arounds, it was time to send them off to [Dustin Bolton]
 After Dustin worked his magic, he provided me with a series of animation sequences in .png format. I built a bunch of sprite sheets with those .png files and brought the characters to life in-game. You can see the awesomeness that is The Guardian Knight in the animations below.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ShamelessSecondBlackpanther&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ShamelessSecondBlackpanther" >}}
 </div>
 
  [1]: http://appylon.weebly.com

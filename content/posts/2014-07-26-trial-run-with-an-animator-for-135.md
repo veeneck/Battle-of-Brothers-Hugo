@@ -8,6 +8,8 @@ categories:
   - sirryan
 tags:
   - budget
+amount: 135
 
 ---
 I&#8217;ve found an animator who I like working with, so I decide to start a trial with him. The main objective is to figure out an art style that works with my illustrator, and to get a rough idea on pricing in that given style. I&#8217;ll share the result when they come in.
+<!--more-->

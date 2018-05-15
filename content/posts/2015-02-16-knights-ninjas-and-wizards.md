@@ -17,7 +17,6 @@ tags:
 
 ---
 Knights, Ninjas, and Wizards… If that title didn’t get you hooked, then you’re in the wrong place! I added some great sprites to the game in the last two weeks, but a man can only play with sprite sheets so long before he loses his sanity. I didn’t want to lose my sanity, so I also worked on my intro scenes in an attempt to regain control of my mind. I’m really happy with how everything is turning out so far, and you can see what I have so far after a quick word from our sponsors.
-
 <!--more-->
 
 Just kidding, no sponsors. Yet.
@@ -25,19 +24,19 @@ Just kidding, no sponsors. Yet.
 Before giving you more to read, here are the promised Ninja, Black Knight, Rune Mage, and Mage characters going through their attack, idle, hit, walk and die animations.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;MasculineSingleFerret&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="MasculineSingleFerret" >}}
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ZealousOblongHawaiianmonkseal&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ZealousOblongHawaiianmonkseal" >}}
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;PalatableGentleHart&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="PalatableGentleHart" >}}
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WarlikeSomberBarb&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="WarlikeSomberBarb" >}}
 </div>
 
 I think [Dustin Bolton][1], has really out done himself with these animations, and I’m really fortunate to have found such a talented person to work with.

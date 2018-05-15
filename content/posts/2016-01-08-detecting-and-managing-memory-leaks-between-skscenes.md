@@ -12,7 +12,6 @@ tags:
 
 ---
 Memory leaks suck. You know they exist, and you dread the day you have to track them down. In SpriteKit, I&#8217;ve encountered two main types of leaks. One is where the entire scene is not deallocated after transitioning to a new scene. The other is where memory is constantly being used up while interacting with a scene. For the latter, you have to use Instruments in XCode, or comb over your code, to get a handle on what is happening. But, for cleaning up scenes after you&#8217;re finished with them, here are a few tips that simplified the process for me.
-
 <!--more-->
 
 #### Identify The Leak

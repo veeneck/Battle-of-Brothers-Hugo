@@ -39,8 +39,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
+		
 		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
 		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -71,7 +73,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirryan" class="blog clear">
@@ -119,7 +123,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">Feb</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield7.png')">2</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield11.png')">2</p>
 					<span class="year legacy">2015</span> 
 				</div>
 				<h3 class="grace">All About Those Cutscenes</h3>
@@ -138,9 +142,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>I&#8217;ve done quite a lot over the past two weeks. Work has started on melee combat. I&#8217;ve hired a composer! But most of all, I&#8217;ve been consumed with cutscenes. When I started this process, I didn&#8217;t realize that the decision to add a story to my game would end up costing me ~30% of my budget and an equal amount of programming time. Now that I&#8217;m actually implementing the story, I&#8217;m starting to understand all of the implications.</p>
-
-<p></p>
+ 				<p>I&#8217;ve done quite a lot over the past two weeks. Work has started on melee combat. I&#8217;ve hired a composer! But most of all, I&#8217;ve been consumed with cutscenes. When I started this process, I didn&#8217;t realize that the decision to add a story to my game would end up costing me ~30% of my budget and an equal amount of programming time. Now that I&#8217;m actually implementing the story, I&#8217;m starting to understand all of the implications.
+</p>
 
 <p>As always, I cover all of this in the video update, so follow along there if you prefer.</p>
 
@@ -157,7 +160,7 @@
 <p>I left off last update working on ranged combat, so I carried that into the first week by working on melee combat. The good news is that the code to process combat works just fine, so no refactoring was needed. The bad news is that combat doesn&#8217;t look perfect just yet. See for yourself.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;MildNecessaryGoitered&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/MildNecessaryGoitered' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>I have to play around with making combat look more natural. For example, have soldiers feet moved when they are pushed. Or, when processing allows, have a soldier walk around someone rather than through them. Finally, if it&#8217;s 4 on 1, have the 4 properly surround the target. Right now, they just walk in a straight line directly to the closest target.</p>
@@ -187,7 +190,7 @@
 <p>Given all of that, I&#8217;m both excited and nervous about the end product. But, I&#8217;m committed. For now, I&#8217;ve got a <a href="http://battleofbrothers.com/sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions" target="_blank">basic, skippable engine in place</a> and roughly <sup>1</sup>&frasl;<sub>4</sub> of the content in there. I&#8217;ll keep working towards a finished product over the next month.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WearyEverlastingBee&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/WearyEverlastingBee' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <h4 id="scene-management">Scene Management</h4>
@@ -197,13 +200,13 @@
 <p>On the technical side, scenes have to transition into one another gracefully. This is easier said than done when working with large assets. So, to implement transitions, I have had to start a preloading system. Each scene has a tree of next scenes, and based on the state of the game will being a background thread that preloads the upcoming scene. This system allows for graceful transitions like this:</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EntireImaginativeIndianrockpython&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/EntireImaginativeIndianrockpython' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>On the logic side, there are a bunch of edge cases with players quitting the game or turning off their device. Some scenes, like story dialogue, can be marked as complete if they get shown. Other scenes, like player decisions, must have a decision made in order to not be shown again. That decision must be stored somewhere. I&#8217;ve started the process of implementing that. Another example would be the world map. If revealing a new level, zoom in and show it. Otherwise, show the entire map in its normal state.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WhirlwindMeekLacewing&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/WhirlwindMeekLacewing' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <hr class="dots" />
@@ -214,6 +217,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

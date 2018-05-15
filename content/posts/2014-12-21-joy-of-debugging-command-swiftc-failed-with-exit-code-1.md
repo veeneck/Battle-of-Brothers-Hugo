@@ -13,7 +13,6 @@ tags:
 
 ---
 I&#8217;ve been working through a particularly nasty issue, so it feels right to document it for anyone else who encounters it. Also, just to serve as a note and reminder that game development is full of unexpected, time consuming tasks on a near weekly basis. This most recent problem &#8212; releasing a build to an iOS device fails to compile, but it works on the simulator. Specifically, this occurs when I try to change the Swift compiler optimization level.
-
 <!--more-->
 
 <pre>Command /Applications/...../XcodeDefault.xctoolchain/usr/bin/swiftc failed with exit code 1</pre>
@@ -34,10 +33,10 @@ That shows me that `PinchGesture.swift` is the culprit. You can get similar help
 
 Now that the error has been isolated, let&#8217;s fix the code. I was able to fix this by trial and error, and I still don&#8217;t fully understand the differences, but here goes. My original function:
 
-https://gist.github.com/veeneck/e1875c65a9d4b5161783
+{{< gist veenecke1875c65a9d4b5161783 >}}
 
 And now the new function. Notice that I changed the variable to not be editable, and to return within the if statements.
 
-https://gist.github.com/veeneck/7af997b8e02a1d2bcc6d
+{{< gist veeneck7af997b8e02a1d2bcc6d >}}
 
 Definitely an interesting bug, and anything you encounter will most likely be a different sort of issue. But, now we know how to track something like this down.

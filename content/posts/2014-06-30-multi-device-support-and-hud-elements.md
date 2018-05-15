@@ -17,7 +17,6 @@ tags:
 
 ---
 This update was delayed by a week because I took a &#8220;[vacation][1]&#8220;, but I&#8217;m back in action and hard at work again. After the last update I had some concerns about making my game work across multiple devices, but I&#8217;m happy to say that Corona makes multi-device support pretty easy. It was actually so easy that I was not only able to make my prototype work across multiple devices, but I also had time to start adding some basic HUD elements to the game.
-
 <!--more-->
 
 #### Multi Device Support

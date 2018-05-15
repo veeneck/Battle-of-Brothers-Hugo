@@ -11,7 +11,6 @@ tags:
 
 ---
 When learning a new language or environment, some things that should be trivial seem to take forever. Once you learn how to do simple tasks, it&#8217;s hard to remember how you originally struggled. So for that reason, I&#8217;ve decided to keep a running log of useful code snippets that were stumbling blocks at some point. Anything that I think I&#8217;ll reuse, or had trouble understanding as a beginner will be added as <a href="https://gist.github.com/veeneck" target="_blank">a gist to my Github account</a>.
-
 <!--more-->
 
 A standard example would be adding video to a Sprite Kit project. Sure, it&#8217;s <a href="https://developer.apple.com/library/ios/documentation/SpriteKit/Reference/SKVideoNode/Reference/Reference.html#//apple_ref/occ/cl/SKVideoNode" target="_blank">easily found in the official docs</a>, but the docs are a bit intimidating when you&#8217;re starting out.

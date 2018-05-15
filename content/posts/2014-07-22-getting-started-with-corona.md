@@ -12,7 +12,6 @@ tags:
 
 ---
 I&#8217;ve been working on my game for about three months now and I feel like I&#8217;m in a pretty good spot. I have a good grasp of LUA and the Corona SDK and my problems are more focused on what type of game to make and not how to make a game. I&#8217;ve spent a lot of time reading documentation and taking tutorials and I want to share the resources that helped me get started with any fellow beginners out there.
-
 <!--more-->
 
 #### Coronalabs.com

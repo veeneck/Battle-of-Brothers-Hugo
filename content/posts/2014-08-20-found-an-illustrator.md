@@ -18,7 +18,6 @@ tags:
 
 ---
 When I left off last time, I was working with an illustrator to see if he could create the style of art I hope to use in my game. I&#8217;m happy to say that he exceeded my expectations and will be playing a large role in the game&#8217;s development. In addition to formally contracting the artist, I spent a little time playing with game mechanics and a lot of time preparing for the art that&#8217;s about to come rolling in.
-
 <!--more-->
 
 I wrote about what I was [looking for in an illustrator][1], and that person ended up being [Scott Pellico][2] ([@appylon][3]). Not only is Scott great artist, but he has innovative ideas, a great work ethic, experience in game design, and he&#8217;s a excellent communicator. I don&#8217;t want to show all of the art that I receive, because something needs to be saved for the eventual promotion of the game, but here&#8217;s another little teaser.

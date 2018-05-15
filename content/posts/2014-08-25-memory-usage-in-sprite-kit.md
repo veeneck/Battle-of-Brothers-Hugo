@@ -13,7 +13,6 @@ tags:
 
 ---
 Now that I&#8217;m <a href="http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks" target="_blank">receiving real art</a> for my game, I thought it would be a good time to learn about memory usage and limits. This was also prompted by my current level running at 55-60MB before any gameplay action or characters loaded on screen. That memory usage seemed a bit high, so I decided this was an issue that I needed to <a href="https://www.youtube.com/watch?v=2o1U2pWcR34" target="_blank">delve into</a>. In hindsight, most of this is basic to an experienced game developer, but I found the process to be quite fun. You can just read my lessons learned below if you don&#8217;t want to follow my detective work.
-
 <!--more-->
 
   * Product -> Clean in Xcode between each test.

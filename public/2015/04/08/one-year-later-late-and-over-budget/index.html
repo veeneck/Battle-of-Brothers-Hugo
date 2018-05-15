@@ -37,8 +37,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
-		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
-		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a> 
+		<a href="/sirryan" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Ryan is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -67,7 +69,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirchris" class="blog clear">
@@ -134,9 +138,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>Today marks the one year anniversary of our <a href="http://battleofbrothers.com">game development competition</a>, so I can now safely say that the game will be late. Not only will the game be late, but I&#8217;m also about <a href="http://battleofbrothers.com/sirchris/budget">2k over budget</a>. If you had asked me a year ago if I would be disappointed about being late and over budget, I would have absolutely said yes.</p>
-
-<p></p>
+ 				<p>Today marks the one year anniversary of our <a href="http://battleofbrothers.com">game development competition</a>, so I can now safely say that the game will be late. Not only will the game be late, but I&#8217;m also about <a href="http://battleofbrothers.com/sirchris/budget">2k over budget</a>. If you had asked me a year ago if I would be disappointed about being late and over budget, I would have absolutely said yes.
+</p>
 
 <p>In my former career as a web developer I prided myself meeting budget and time deadlines. I rarely missed any type of programming deadline (unless management screwed things up, of course) and could fairly accurately predict how long any coding task would take. Now that I have a year of game development under my belt, I can confidently say that I can in no way estimate how long it takes to develop a game.</p>
 
@@ -171,7 +174,7 @@
 <p>What I want to do is animate a yellow and green line that goes from point A to point B in order to indicate the path that the heroes take. The end result looks a little something like this:</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EmptyScaryAbalone&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/EmptyScaryAbalone' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>That small path looks easy enough, but implementing it requires going into Pixelmator, creating 20 or 30 mask images, and then sequentially animating the path with those mask images. The game has 22 of these paths, so that&#8217;s 22 path animations that have to be cut up, animated, tested, usually fixed in some way, and then tested again.</p>
@@ -194,6 +197,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

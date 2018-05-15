@@ -12,7 +12,6 @@ tags:
 
 ---
 There is an awesome article on Gamasutra about <a href="http://www.gamasutra.com/view/feature/131720/coordinated_unit_movement.php?page=1" target="_blank">Coordinated Unit Movement</a>. They also have a companion post about <a href="http://www.gamasutra.com/view/feature/131721/implementing_coordinated_movement.php?page=1" target="_blank">implementing said movement</a>. However, the posts are from 1999, and they deal mainly in pseudocode. Also, I&#8217;m convinced there is absolutely nothing else on the entire internet explaining the topic. So, an experienced developer may be able to read the ideas and know how to implement them, but it has been a bit of a struggle for me as a new developer. I&#8217;m going to try to document a step by step implementation of formations, squads, and movement for someone who hasn&#8217;t done it before. I&#8217;ll be writing in Swift / Sprite Kit, but the code should be easy enough for anyone to follow. I also welcome corrections / improvements from experts.
-
 <!--more-->
 
 #### Arrange Units in Rows and Columns

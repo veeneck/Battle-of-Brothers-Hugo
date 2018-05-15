@@ -11,7 +11,6 @@ tags:
 
 ---
 In case you&#8217;re wondering, game development is hard to keep up with when dealing with an infant. Now, I went into this knowing the first 4 weeks would be baby and family first. But, I secretly had hope that I would have some spare time to keep the game moving forward. Now that the first month is over, I&#8217;ve worked a grand total of:
-
 <!--more-->
 
 **16 hours**

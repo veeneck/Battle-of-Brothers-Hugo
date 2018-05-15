@@ -1,5 +1,48 @@
 {{ define "main" -}}
 
-{{ .Content }}
+{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirchris }}
+{{ if (in .Params.categories "sirryan") }}
+	{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirryan }}
+{{ end }}
+{{ $sortedPosts := (sort ($.Scratch.Get "allPostsInCategory") "Date" "desc") }}
+
+{{ $.Scratch.Set "tags" (slice "art")  }}
+{{ range $sortedPosts }}
+	{{ range $key, $value := .Params.tags }}
+		{{ $.Scratch.Add "tags" $value }}
+	{{ end }}
+{{ end }}
+{{ $.Scratch.Set "tags" (uniq ($.Scratch.Get "tags"))  }}
+
+<div class="outercontent">
+
+	<div class="content clear">
+
+		<div class="floatleft activity posts clear">
+			<ul class="recent">
+				{{ range $sortedPosts }}
+					{{ if and (not (in .Params.tags "status")) (not (in .Params.tags "budget")) }}
+						{{ partial "post_summary.html" . }}
+					{{ end }}
+				{{ end }}
+			</ul>
+			<span class="updatelink clear"><a href="/category/sirryan" class="subtext source_light dotted arrow">Read more blog posts in the archive</a> </span>
+		</div> <!-- #activity -->
+
+		<div class="floatleft activity right common">
+			<h4>Popular Tags</h4>
+			<p>Currently viewing posts in the category <b>Category Name</b>.</p>
+			<ul class="tagcloud clear">
+				{{ range $key, $value := ($.Scratch.Get "tags") }}
+					<li><a href="">{{ $value }}</a></li>
+				{{ end }}
+			</ul>
+			
+			{{ partial "contest.html" . }}
+		</div> <!-- #activity -->
+
+		<div class="clear:both"></div>
+	</div>
+</div> <!-- #content -->
 
 {{- end }}

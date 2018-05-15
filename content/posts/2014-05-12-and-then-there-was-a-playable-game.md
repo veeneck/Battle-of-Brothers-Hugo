@@ -19,7 +19,6 @@ tags:
 
 ---
 Don&#8217;t look now, but I think my Xcode project just turned into a playable game. That&#8217;s right, you heard me correctly. User input, gold and a game over state. I would almost say it&#8217;s time to wrap things up and call it a win for team Ryan.
-
 <!--more-->
 
 As you can see, I&#8217;ve come a long way since my <a href="http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows" target="_blank">last status update</a>. I spent a lot of time trying to understand AI and state machines in previous weeks, and now I am able to see some of the rewards.

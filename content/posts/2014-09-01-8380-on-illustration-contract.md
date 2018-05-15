@@ -8,10 +8,10 @@ categories:
   - sirryan
 tags:
   - budget
+amount: 8380
 
 ---
 Chris, Scott and I came to an agreement on an illustration contract that would involve Scott alternating weeks in which he works for us. My portion of the contract was $8,000. It ended up finishing mid-week, so I extended it the extra $380 to round it off. The goal was to finish all illustrations for the game during this time. That did not happen because I changed my game midway through. Still, a lot was accomplished.
-
 <!--more-->
 
   * Story completed (~16 illustrations)

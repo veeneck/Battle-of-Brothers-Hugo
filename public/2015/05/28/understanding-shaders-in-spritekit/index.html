@@ -39,8 +39,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
+		
 		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
 		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -71,7 +73,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirryan" class="blog clear">
@@ -119,7 +123,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">May</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield11.png')">28</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield10.png')">28</p>
 					<span class="year legacy">2015</span> 
 				</div>
 				<h3 class="grace">Understanding Shaders in SpriteKit</h3>
@@ -142,9 +146,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>If you&#8217;re new to game development, you&#8217;ve probably heard of shaders but don&#8217;t quite understand them. If you&#8217;re new to SpriteKit, you&#8217;ve probably hit a few speed bumps working with shaders. Since I&#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&#8217;ll cover two concepts:</p>
-
-<p></p>
+ 				<p>If you&#8217;re new to game development, you&#8217;ve probably heard of shaders but don&#8217;t quite understand them. If you&#8217;re new to SpriteKit, you&#8217;ve probably hit a few speed bumps working with shaders. Since I&#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&#8217;ll cover two concepts:
+</p>
 
 <ul>
 <li>Using alpha, black, and white pixel values to determine which pixels to display.</li>
@@ -154,7 +157,7 @@
 <p>Here is what it&#8217;ll look like when we&#8217;re done.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;TemptingSoreAidi&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/TemptingSoreAidi' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>If you have never worked with a shader in SpriteKit before, you should probably check out this <a href="http://chrislanguage.blogspot.com/2015/02/fragment-shaders-with-spritekit.html" target="_blank">quick introductory tutorial</a>. And if you&#8217;re interested in shaders, but not SpriteKit, you may still find a thing or two that grabs you&#8217;re attention.</p>
@@ -177,11 +180,11 @@
 
 <p>To apply a basic shader to our image, we&#8217;ll need to tell SpriteKit to attach a shader to the SKSpriteNode, and we&#8217;ll also need to create an empty text file ending in .fsh that contains our shader code. First, the shader code:</p>
 
-<p><a href="https://gist.github.com/veeneck/241ad4e3b8153b33518d">https://gist.github.com/veeneck/241ad4e3b8153b33518d</a></p>
+<script src="//gist.github.com/veeneck241ad4e3b8153b33518d/.js"></script>
 
 <p>Next, attach the shader in SpriteKit:</p>
 
-<p><a href="https://gist.github.com/veeneck/3e0292d872a3146d0620">https://gist.github.com/veeneck/3e0292d872a3146d0620</a></p>
+<script src="//gist.github.com/veeneck3e0292d872a3146d0620/.js"></script>
 
 <div class="embed floatright">
   <img class="alignnone size-full wp-image-2180" style="border: none !important" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-28-at-11.52.26-AM.png" alt="Screen Shot 2015-05-28 at 11.52.26 AM" width="135" height="136" />
@@ -193,7 +196,7 @@
 
 <p>Now that we can change the color of pixels, the next step is to only change the color of fully transparent pixels. We&#8217;ll change our shader code to the following:</p>
 
-<p><a href="https://gist.github.com/veeneck/f8601f819b5f1ac9c52e">https://gist.github.com/veeneck/f8601f819b5f1ac9c52e</a></p>
+<script src="//gist.github.com/veeneckf8601f819b5f1ac9c52e/.js"></script>
 
 <div class="embedleft floatleft">
   <img class="alignnone size-full wp-image-2191" style="margin-left: -20px !important;border: none !important" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-28-at-12.08.03-PM.png" alt="Screen Shot 2015-05-28 at 12.08.03 PM" width="133" height="137" />
@@ -215,11 +218,11 @@
 
 <p>To make these two concepts, we&#8217;ll have to attach <a href="https://developer.apple.com/library/prerelease/ios/documentation/SpriteKit/Reference/SKUniform_Ref/index.html" target="_blank">SKUniform&#8217;s</a> to the shader. Think of this as passing variables through to the shader. In this case, we&#8217;ll need two variables. One for health, and one for the image above. Our Swift code should now look like:</p>
 
-<p><a href="https://gist.github.com/veeneck/e68c62e4417bfa03a62d">https://gist.github.com/veeneck/e68c62e4417bfa03a62d</a></p>
+<script src="//gist.github.com/veenecke68c62e4417bfa03a62d/.js"></script>
 
 <p>We&#8217;re basically supplying a float and SKTexture to the shader. Then, we can modify the shader to produce our desired result.</p>
 
-<p><a href="https://gist.github.com/veeneck/23854616813f74819d66">https://gist.github.com/veeneck/23854616813f74819d66</a></p>
+<script src="//gist.github.com/veeneck23854616813f74819d66/.js"></script>
 
 <p>Here is the result:</p>
 
@@ -298,26 +301,26 @@
 <p><strong>Example 1: </strong><a href="https://www.shadertoy.com/view/Xtl3Dj" target="_blank">Bullseye</a></p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EdibleDapperDorking&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/EdibleDapperDorking' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
-<p><a href="https://gist.github.com/veeneck/8181776f76a112dce239">https://gist.github.com/veeneck/8181776f76a112dce239</a></p>
+<script src="//gist.github.com/veeneck8181776f76a112dce239/.js"></script>
 
 <p><strong>Example 2:</strong> <a href="https://www.shadertoy.com/view/XtsGDj" target="_blank">Wobble Spiral</a></p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;UnselfishRemarkableJenny&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/UnselfishRemarkableJenny' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
-<p><a href="https://gist.github.com/veeneck/eb5c947bc6d8f1efd598">https://gist.github.com/veeneck/eb5c947bc6d8f1efd598</a></p>
+<script src="//gist.github.com/veeneckeb5c947bc6d8f1efd598/.js"></script>
 
 <p><strong>Example 3: </strong><a href="https://www.shadertoy.com/view/4lB3DG" target="_blank">Glowing Thing</a></p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;MixedMildGroundbeetle&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/MixedMildGroundbeetle' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
-<p><a href="https://gist.github.com/veeneck/21d480aae49482975efe">https://gist.github.com/veeneck/21d480aae49482975efe</a></p>
+<script src="//gist.github.com/veeneck21d480aae49482975efe/.js"></script>
 
 <h4 id="further-reading-next-steps">Further Reading &amp; Next Steps</h4>
 
@@ -336,6 +339,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

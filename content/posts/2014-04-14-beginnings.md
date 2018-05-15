@@ -7,13 +7,9 @@ url: /2014/04/14/beginnings/
 featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM-1.png
 number:
   - 2
-  - 2
 keyevent:
   - Learn Corona and Lua Basics
-  - Learn Corona and Lua Basics
   - Display Scenes and Sprites
-  - Display Scenes and Sprites
-  - 'Implement A* and Allowable Movement Algorithms'
   - 'Implement A* and Allowable Movement Algorithms'
 categories:
   - sirchris
@@ -22,7 +18,6 @@ tags:
 
 ---
 I&#8217;m two weeks into game development and I&#8217;ve realized that making a game will require a lot of learning and hard work, and this is going to be a lot of fun. I know so little about game development that it&#8217;s difficult to even know where to start. What should be a seemingly simple task, like animating and moving a sprite, can be challenging due to amateur hour mistakes.
-
 <!--more-->
 
 But whenever I overcome one of those challenges, I am elated. There is something amazing about seeing your work visually come to life. I made a knight move! I&#8217;m not writing a billing system or some database software where numbers are calculated and input boxes drawn. I made a knight. And he moves! I feel like Tom Hanks in Cast Away [when he created fire][1]. Anyways, to get into the nitty gritty, here&#8217;s how things have played out for me so far.

@@ -7,6 +7,8 @@
 			<a href="/sirryan/budget" class="subtext dotted arrow">Sir Ryan's Budget</a>
 		{{ else if eq .Page.Type "contact" }}
 			<a href="/sirryan/contact" class="subtext dotted arrow">Contact Sir Ryan</a>
+		{{ else if eq .Page.Type "subscribe" }}
+			<a href="/sirryan/subscribe" class="subtext dotted arrow">See what Sir Ryan is up to</a>
 		{{ else }}
 			<a href="/sirryan/about" class="subtext dotted arrow">Learn about Sir Ryan</a>
 		{{ end }}
@@ -14,10 +16,12 @@
 	{{ else }}
 
 		<p>{{ $.Site.Params.chrisEnemy }}</p>
-			{{ if eq .Page.Type "budget" }}
+		{{ if eq .Page.Type "budget" }}
 			<a href="/sirchris/budget" class="subtext dotted arrow">Sir Chris's Budget</a>
 		{{ else if eq .Page.Type "contact" }}
 			<a href="/sirchris/contact" class="subtext dotted arrow">Contact Sir Chris</a>
+		{{ else if eq .Page.Type "subscribe" }}
+			<a href="/sirchris/subscribe" class="subtext dotted arrow">See what Sir Chris is up to</a>
 		{{ else }}
 			<a href="/sirchris/about" class="subtext dotted arrow">Learn about Sir Chris</a>
 		{{ end }}

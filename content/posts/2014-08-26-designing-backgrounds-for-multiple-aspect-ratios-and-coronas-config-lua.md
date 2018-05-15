@@ -14,7 +14,6 @@ tags:
 
 ---
 One of the reasons I chose Corona SDK as my development platform was because they support many devices across many platforms. But mo&#8217; devices means mo&#8217; problems, and one of those problems is creating artwork that scales across all devices.
-
 <!--more-->
 
 Artwork isn&#8217;t cheap, especially when you&#8217;re working with contractors, so you&#8217;d like to reuse a single piece of art on all of the devices you&#8217;re targeting. One problem with supporting multiple devices is that [different devices have different aspect ratios][1], so an image that fills the screen in one device may look bad in another device. For example, here is how an image that&#8217;s specifically created for an iPad 3 looks on an iPhone 5.

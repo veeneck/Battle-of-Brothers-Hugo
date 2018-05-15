@@ -12,7 +12,6 @@ tags:
 
 ---
 Health indicators are found in almost every game. As Chris pointed out, they come in a <a href="http://battleofbrothers.com/sirchris/health-display-roundup" target="_blank">variety of shapes and sizes</a>. When it became time to think about them in my game, I wanted to add something that was functional, but also unique or interesting in some way.
-
 <!--more-->
 
 Here are the conditions that my health bars had to meet:

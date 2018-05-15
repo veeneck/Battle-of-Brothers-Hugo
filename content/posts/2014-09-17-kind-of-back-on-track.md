@@ -7,10 +7,7 @@ url: /2014/09/17/kind-of-back-on-track/
 featured_image: /wp-content/uploads/2014/09/castle2-1.png
 number:
   - 12
-  - 12
 keyevent:
-  - Reform group of units.
-  - Fix art to work with groups.
   - Reform group of units.
   - Fix art to work with groups.
 categories:
@@ -20,7 +17,6 @@ tags:
 
 ---
 <a href="http://battleofbrothers.com/sirryan/more-difficult-than-expected" target="_blank">Last update</a> was a rough one. My original concept for a tower defense game just wouldn&#8217;t work the way I had envisioned. So, instead of moving towards a standard tower defense game, I decided to change direction and make a sort of squad based defense game. This update covers that transition. Most importantly, I feel all of my problems right now are technical ones, and that the art will work out (or be adjustable).
-
 <!--more-->
 
 Because I was out of town for 3 days, I don&#8217;t have a ton of ground breaking progress to report on, but you can see the overview of my game and the current issues I&#8217;m facing in the video:

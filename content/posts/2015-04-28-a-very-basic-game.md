@@ -7,10 +7,7 @@ url: /2015/04/28/a-very-basic-game/
 featured_image: /wp-content/uploads/2015/04/Screen-Shot-2015-04-28-at-10.31.33-AM-2.png
 number:
   - 24
-  - 24
 keyevent:
-  - Battlefield Animations
-  - Custom Battlefield Events
   - Battlefield Animations
   - Custom Battlefield Events
 categories:
@@ -20,7 +17,6 @@ tags:
 
 ---
 Even though I [missed my goal][1] of releasing a game after a year of development, I still have a pretty solid foundation to build upon. And by foundation I mean an intro video, start screen, working world map, and very basic, yet playable battlefields. There’s still a lot of work to do, but here’s a look at those key foundation areas put together in the form of a simple game.
-
 <!--more-->
 
 <div style="clear:both">
@@ -44,13 +40,13 @@ I wasn’t initially planning to add any type of background movement to the batt
 This image is completely flat and there is no movement in the background. And here’s a look at that same image with a little bit of movement added.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;SharpMagnificentAnt&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="SharpMagnificentAnt" >}}
 </div>
 
 You’ll notice that the rocks in the background are moving, their shadows are moving, and the shadows are layered behind the bridge. It’s not a huge difference, but I do think it adds a level of polish to the game. Here’s a look at another scene which not only has the floating rocks but also a portal animation.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WaryKlutzyAsianporcupine&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="WaryKlutzyAsianporcupine" >}}
 </div>
 
 There are also scenes which have water like:
@@ -82,7 +78,7 @@ Although the lines are cheesy and the interface ugly, I&#8217;ve built a solid s
 Two critical parts of the world map that are functional now are the placement of battle markers and the drawing of the hero&#8217;s path.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;HospitableBlueGodwit&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="HospitableBlueGodwit" >}}
 </div>
 
 Each battle that takes place in the world is marked by an evil flag that will take the user to the appropriate battlefield when clicked. When the battle is won, the evil flag is be replaced by a flag indicating that the battle was won. A path is then drawn to the next battle, where a new evil flag is placed.

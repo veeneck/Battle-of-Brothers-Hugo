@@ -20,7 +20,11 @@
 </nav>
 {{ else }}
 <nav>
-	<div class="container clear {{ .Type }}">
+	{{ if eq .Type "post" }}
+		<div class="container clear blog">
+	{{ else }}
+		<div class="container clear {{ .Type }}">
+	{{ end }}
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}" class="blog clear">

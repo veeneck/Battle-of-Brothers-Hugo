@@ -13,7 +13,6 @@ tags:
 
 ---
 I recently bought [The App Store Playbook][1], written by Shane Lee, because [Hunters][2] was highlighted and it&#8217;s one of my favorite iPad games. Fortunately for me, the other 9 interviews were all solid, and I came away with some good indie game dev tips that I thought I&#8217;d share.
-
 <!--more-->
 
 **Release Internationally**

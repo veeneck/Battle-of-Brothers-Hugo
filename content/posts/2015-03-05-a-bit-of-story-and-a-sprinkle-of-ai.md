@@ -18,7 +18,6 @@ tags:
 
 ---
 The past two weeks have been 75% story and 25% in game work. That trend will continue for the next few updates as I prepare to send the story of to voice and sound. The encouraging news on the story front is that the first round of polish has resulted in noticeable improvements. Most importantly, the new chat bubbles add animation and interest while also allowing me to add dialogue to travel and battle scenes. As far as battle goes, enemies now have a basic spawn service and will attack the closest target they can find.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -38,7 +37,7 @@ The biggest change to battle is that enemies now spawn and attack. This seems si
 After that was in place, I wanted to give some love to the shields that control the units. They have a long way to go, but the first step is to make sure they always remain on screen. This came with it&#8217;s own set of problems. Here it is in a broken state:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;CloudyIllustriousCuttlefish&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="CloudyIllustriousCuttlefish" >}}
 </div>
 
 As you can see, the shield disappears in the corner. It took a few hours to eventually get this right, but it is all working now as shown in the video.
@@ -83,7 +82,7 @@ Taking those icons a step further, I came up with a new chat system. It had to m
 You can see it in action here:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ShimmeringHarshGnatcatcher&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ShimmeringHarshGnatcatcher" >}}
 </div>
 
 The neat part about these chat bubbles is that they can be used anywhere. Here is what they look like during travel.

@@ -13,7 +13,6 @@ tags:
 
 ---
 One problem that I ran into with my game was that my characters and images were not being properly z-indexed. For example, the dwarf in the image below looks like he&#8217;s pasted on top of the tree, even though his position on the map suggests he should be behind the tree.
-
 <!--more-->
 
 <div class="inlineimg">

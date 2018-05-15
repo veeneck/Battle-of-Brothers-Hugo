@@ -12,7 +12,6 @@ tags:
 
 ---
 An easy way to add distinction and flavor to your game is to make seemingly standard concepts into [unique game art][1]. For example, two visual elements that pretty much all turn based tactical games contain are a means of displaying how far character can move and what enemies are within attack range. It would be easy to just make some squares green and others red, but you&#8217;d be missing an opportunity to add a little polish to your game. To visually understand what I&#8217;m talking about, here are screenshots of games that implement standard concepts in unique ways.
-
 <!--more-->
 
 **Banner Saga**

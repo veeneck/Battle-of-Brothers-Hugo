@@ -18,7 +18,6 @@ tags:
 
 ---
 Up until this update, everything that I did was basically learning and testing basic concepts that could be applied to many types of turn based games. Characters moved, attacked, died, etc. I&#8217;ve known that I wanted to make a turn based game, but I didn&#8217;t know exactly what I was going to build. That all changed this time around, because over the last two weeks I decided what game I want to build, created an art design document, and contracted an illustrator to draw preliminary sketches.
-
 <!--more-->
 
 #### It was Time to Make a Decision

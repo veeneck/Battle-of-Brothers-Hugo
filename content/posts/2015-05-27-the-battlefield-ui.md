@@ -15,7 +15,6 @@ tags:
 
 ---
 Many of my UI elements have been pretty ugly so far, but those days are soon coming to an end. I’ve now received pretty much all of the game’s artwork and in the last few weeks I started implementing the UI portion of that work. There’s still plenty of polish to add, but here’s a look at the battlefield UI in its current state.
-
 <!--more-->
 
 <div class="inlineimg">

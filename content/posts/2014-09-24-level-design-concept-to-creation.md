@@ -12,7 +12,6 @@ tags:
 
 ---
 I&#8217;ve been working on level design with an illustrator for the last couple weeks and things are really moving along nicely. What once took about 3 days of work is now condensed down into almost a day. We have 5 or so levels knocked out at this stage and I thought I&#8217;d share the process on how they come to life.
-
 <!--more-->
 
 #### World Location

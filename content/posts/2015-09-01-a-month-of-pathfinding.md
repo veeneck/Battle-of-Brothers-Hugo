@@ -18,7 +18,6 @@ tags:
 
 ---
 At the beginning of August I challenged myself to get pathfinding under control. In truth, if I couldn&#8217;t figure it out I would be forced to consider making the game turn based instead. So, I set out with a giant todo list containing many edge cases to solve. Fortunately, the main branch was merged in yesterday, so I&#8217;m in an infinitely better position than I was. It&#8217;s been an exhausting month, so I&#8217;m ready to move on. Let&#8217;s have a look at what&#8217;s been completed, and what issues still remain.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -53,7 +52,7 @@ For those of you interested, let&#8217;s break down a few of the issues.
 This is something that should rarely happen because the navmesh should have a proper turn radius set for each unit. That said, there will be edge cases. For example, catapult knocks one unit aside but doesn&#8217;t kill it. The unit will have to figure out how to catch up to his friends. I hard coded walking into a corner, and how it would be solved. Check out the gif.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;IllinformedSpanishBuffalo&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="IllinformedSpanishBuffalo" >}}
 </div>
 
 As you can see, their pathfinding eventually kicks in and they round the corner.
@@ -63,7 +62,7 @@ As you can see, their pathfinding eventually kicks in and they round the corner.
 There are multiple types of invalid positions. First, we can have the user tapping on water or a cliff. That should be detected, and provide visual feedback. Second, we have a leader who has stopped in a valid position, but tells some of his followers that their desired position is off of a cliff. Third, we have a leader who is moving, and is temporarily telling is followers to walk off of a cliff. The gif below shows how the third case was solved.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;PrestigiousUnfortunateFalcon&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="PrestigiousUnfortunateFalcon" >}}
 </div>
 
 The blue dots represent the leaders orders. Whenever the dot is in an invalid position, each follower is instructed to stay close by, but favor moving towards the dot. If the follower hits a physics edge, ignore the dot, and just try to stay close by while avoiding obstacles. That&#8217;s easy enough to type out in english, but you can imagine the math and constant checks per frame to make sure they&#8217;re doing the right thing.
@@ -73,7 +72,7 @@ The blue dots represent the leaders orders. Whenever the dot is in an invalid po
 I was trying to think of an elegant way to allow previewing rotating. I didn&#8217;t want a separate button for rotate, and I still wanted moving to be easy. So, the solution is: Tap to move, hold your finger down to preview, and move your finger while holding to rotate. Surprisingly, it feels quite natural, so I&#8217;m happy with the outcome.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;TiredRepulsiveGaur&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="TiredRepulsiveGaur" >}}
 </div>
 
 The code isn&#8217;t quite perfect yet as you can see. Units don&#8217;t face the proper direction at the end, for example. But the idea and code is there. Speaking of the code, this took quite a refactor. Tap and hold should only be registered  when a move command is active. So basically, each icon is now a full component that updates each frame. Each icon is responsible for registering its own events, updating UI with icons like the move marker, disabling itself, etc. This was a necessary refactor that feels good to have finished as well.

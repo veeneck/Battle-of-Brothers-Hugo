@@ -27,9 +27,8 @@
       <pubDate>Fri, 08 Jan 2016 20:46:40 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2016/01/08/detecting-and-managing-memory-leaks-between-skscenes/</guid>
-      <description>&lt;p&gt;Memory leaks suck. You know they exist, and you dread the day you have to track them down. In SpriteKit, I&amp;#8217;ve encountered two main types of leaks. One is where the entire scene is not deallocated after transitioning to a new scene. The other is where memory is constantly being used up while interacting with a scene. For the latter, you have to use Instruments in XCode, or comb over your code, to get a handle on what is happening. But, for cleaning up scenes after you&amp;#8217;re finished with them, here are a few tips that simplified the process for me.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Memory leaks suck. You know they exist, and you dread the day you have to track them down. In SpriteKit, I&amp;#8217;ve encountered two main types of leaks. One is where the entire scene is not deallocated after transitioning to a new scene. The other is where memory is constantly being used up while interacting with a scene. For the latter, you have to use Instruments in XCode, or comb over your code, to get a handle on what is happening. But, for cleaning up scenes after you&amp;#8217;re finished with them, here are a few tips that simplified the process for me.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -38,9 +37,8 @@
       <pubDate>Fri, 13 Nov 2015 19:38:51 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/11/13/working-with-gkobstaclegraph/</guid>
-      <description>&lt;p&gt;This purpose of this post is to document some of the frustrations with pathfinding. I&amp;#8217;m finding that it is too boring to try to implement every map at once, so I&amp;#8217;m touching pathfinding every other week or so. As a refresher, the video below has served as my primer on &lt;a href=&#34;https://developer.apple.com/library/prerelease/ios/documentation/GameplayKit/Reference/GKObstacleGraph_Class/index.html#//apple_ref/occ/cl/GKObstacleGraph&#34; target=&#34;_blank&#34;&gt;GKObstacleGraph&lt;/a&gt; whenever I need to revisit pathfinding. So, if you&amp;#8217;re a SpriteKit / GameplayKit user, you may find my approach interesting.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This purpose of this post is to document some of the frustrations with pathfinding. I&amp;#8217;m finding that it is too boring to try to implement every map at once, so I&amp;#8217;m touching pathfinding every other week or so. As a refresher, the video below has served as my primer on &lt;a href=&#34;https://developer.apple.com/library/prerelease/ios/documentation/GameplayKit/Reference/GKObstacleGraph_Class/index.html#//apple_ref/occ/cl/GKObstacleGraph&#34; target=&#34;_blank&#34;&gt;GKObstacleGraph&lt;/a&gt; whenever I need to revisit pathfinding. So, if you&amp;#8217;re a SpriteKit / GameplayKit user, you may find my approach interesting.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,9 +47,8 @@
       <pubDate>Thu, 28 May 2015 18:03:09 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/05/28/understanding-shaders-in-spritekit/</guid>
-      <description>&lt;p&gt;If you&amp;#8217;re new to game development, you&amp;#8217;ve probably heard of shaders but don&amp;#8217;t quite understand them. If you&amp;#8217;re new to SpriteKit, you&amp;#8217;ve probably hit a few speed bumps working with shaders. Since I&amp;#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&amp;#8217;ll cover two concepts:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you&amp;#8217;re new to game development, you&amp;#8217;ve probably heard of shaders but don&amp;#8217;t quite understand them. If you&amp;#8217;re new to SpriteKit, you&amp;#8217;ve probably hit a few speed bumps working with shaders. Since I&amp;#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&amp;#8217;ll cover two concepts:
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -60,9 +57,8 @@
       <pubDate>Tue, 03 Feb 2015 13:22:40 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/02/03/saving-game-data-in-spritekit/</guid>
-      <description>&lt;p&gt;When searching for tips on how to save game data in SpriteKit, most posts explain how to save one variable (high score, for example). In that regard, this &lt;a href=&#34;http://www.thinkingswiftly.com/saving-spritekit-game-data-swift-easy-nscoder/&#34; target=&#34;_blank&#34;&gt;Thinking Swiftly post&lt;/a&gt; was extremely helpful, and is where a majority of the code below comes from. I just wanted to extend that post, and look at how an entire object could be saved in a self contained way.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;When searching for tips on how to save game data in SpriteKit, most posts explain how to save one variable (high score, for example). In that regard, this &lt;a href=&#34;http://www.thinkingswiftly.com/saving-spritekit-game-data-swift-easy-nscoder/&#34; target=&#34;_blank&#34;&gt;Thinking Swiftly post&lt;/a&gt; was extremely helpful, and is where a majority of the code below comes from. I just wanted to extend that post, and look at how an entire object could be saved in a self contained way.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,9 +67,8 @@
       <pubDate>Mon, 26 Jan 2015 15:05:10 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/01/26/create-skippable-cutscenes-in-spritekit-with-timing-functions/</guid>
-      <description>&lt;p&gt;Cutscenes are a labor of love, so it is hard accepting that some people just don&amp;#8217;t care. That story that took months to bring together may be amazing to you, but to others it is just an inconvenience. So, for that reason, we have to make cutscenes skippable. However, I didn&amp;#8217;t want to just settle at skipping the entire scene. I wanted to also make it skimmable for the speed readers, or those who are mildly interested.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Cutscenes are a labor of love, so it is hard accepting that some people just don&amp;#8217;t care. That story that took months to bring together may be amazing to you, but to others it is just an inconvenience. So, for that reason, we have to make cutscenes skippable. However, I didn&amp;#8217;t want to just settle at skipping the entire scene. I wanted to also make it skimmable for the speed readers, or those who are mildly interested.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,9 +77,8 @@
       <pubDate>Tue, 20 Jan 2015 20:31:57 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/01/20/outline-text-in-spritekit/</guid>
-      <description>&lt;p&gt;It&amp;#8217;s funny how the tasks that should be easy end up consuming the most amount of time. As of this writing, there is no easy way to outline text in SpriteKit. It&amp;#8217;s common to see approach that &lt;a href=&#34;http://stackoverflow.com/questions/19211827/what-would-be-the-best-approach-for-outlining-or-dropshadowing-a-font&#34; target=&#34;_blank&#34;&gt;add a shadow node&lt;/a&gt;, but sometimes more contrast is needed. Here&amp;#8217;s what I have discovered.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&amp;#8217;s funny how the tasks that should be easy end up consuming the most amount of time. As of this writing, there is no easy way to outline text in SpriteKit. It&amp;#8217;s common to see approach that &lt;a href=&#34;http://stackoverflow.com/questions/19211827/what-would-be-the-best-approach-for-outlining-or-dropshadowing-a-font&#34; target=&#34;_blank&#34;&gt;add a shadow node&lt;/a&gt;, but sometimes more contrast is needed. Here&amp;#8217;s what I have discovered.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -12,7 +12,6 @@ tags:
 
 ---
 Hello animators, I&#8217;m currently in the beginning stages of contracting artists for my game and I&#8217;m looking for a character animator. I&#8217;ll need a number of 2D sprites created for a turn based game that&#8217;s drawn from an isometric point of view. I don&#8217;t mind if the animations are done in 2D or 3D as long as they don&#8217;t look misplaced on the 2D backgrounds. The budget is 10-12k, and the work will start as soon as possible.
-
 <!--more-->
 
 To give you an idea of what I&#8217;m looking for, I&#8217;m creating a turn based game that draws inspiration from games like Heroes of Might and Magic, Final Fantasy Tactics, and The Banner Saga. The art assets are isometric, so the character animations need to be from that point of view. Here is an example of one of the battlefields that have been created.

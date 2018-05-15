@@ -12,7 +12,6 @@ tags:
 
 ---
 Visually displaying a character&#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&#8217;m working on will include health bars, so I&#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&#8217;ve come across.
-
 <!--more-->
 
 #### Bar Above the Head

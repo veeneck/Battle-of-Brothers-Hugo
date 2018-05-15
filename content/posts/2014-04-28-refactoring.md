@@ -9,11 +9,7 @@ keyevent:
   - Make code object oriented
   - Add enemies to fight
   - Re-calculate move distance
-  - Make code object oriented
-  - Add enemies to fight
-  - Re-calculate move distance
 number:
-  - 3
   - 3
 categories:
   - sirchris
@@ -24,7 +20,6 @@ tags:
 When I left off two weeks ago, I had the goal of adding some bad guys to fight my valiant knight. The good news is that those bad guys can now be seen and attacked, but the bad news is that for every step forward, I&#8217;ve had to take about 0.9 steps back. If learning was the name of the game before my first update, refactoring is the name of the game this time around. I knew there was going to be a price to pay for plunging into my game without much thought given to organization and structure, and it was time to pay the piper.
 
 But in an effort to stay positive about game development, let&#8217;s celebrate the visual progress I&#8217;ve made.
-
 <!--more-->
 
 #### Bad Guys & Health Bars

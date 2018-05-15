@@ -37,8 +37,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
-		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
-		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a> 
+		<a href="/sirryan" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Ryan is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -67,7 +69,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirchris" class="blog clear">
@@ -115,7 +119,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">Mar</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield12.png')">31</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield7.png')">31</p>
 					<span class="year legacy">2015</span> 
 				</div>
 				<h3 class="grace">Music &amp; Memory</h3>
@@ -134,9 +138,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>I’m happy to report that I’ve received the first 30 seconds of game music and that my ears are happy with what they&#8217;re hearing. It’s amazing what a little sound can do to the intro video and I can’t wait to see how the future music adds more depth to the game. I’ve also continued to experiment with some memory concerns and making scene transitions as smooth as possible. That’s required a bit of a re-write, but the game is heavy on texture memory usage, so it’s important to tackle this issue sooner than later.</p>
-
-<p></p>
+ 				<p>I’m happy to report that I’ve received the first 30 seconds of game music and that my ears are happy with what they&#8217;re hearing. It’s amazing what a little sound can do to the intro video and I can’t wait to see how the future music adds more depth to the game. I’ve also continued to experiment with some memory concerns and making scene transitions as smooth as possible. That’s required a bit of a re-write, but the game is heavy on texture memory usage, so it’s important to tackle this issue sooner than later.
+</p>
 
 <p>Let’s start off with the most interesting part of this update &#8211; music. As a quick recap, I’ve contracted <a href="http://www.brendonwilliams.com">Brendon Williams</a>, a talented composer, to create the game’s music. He’ll be scoring original pieces for the intro video, start screen, world map, and battles. He’s starting with the intro video because that will set the tone for the rest of the game. The first piece of music marks the transition from a series of evil scenes to scenes featuring the heroes, so I asked Brendon to kind of make something to transition from what will be a slow evil drum sound to a more defiant and vibrant heroic sound. Something like <a href="https://youtu.be/mGkNHG64O-8">The Gael from The last of the Mohicans Theme</a>. There’s only about 25 seconds of music so far, but I think Brendon is off to a fantastic start.</p>
 
@@ -155,11 +158,11 @@
 <p>I plan on adding movement to the battlefield scenes where possible and I set up the code to handle how that’s going to work. Things like moving water, floating rocks, and pulsing magic will help the world feel a little more alive. I’ll need a little help from the illustrator or the first two items, but here’s a look at some of the land’s magic pulsing.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ElegantEmbarrassedGardensnake&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/ElegantEmbarrassedGardensnake' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;BewitchedTautAlleycat&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/BewitchedTautAlleycat' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <h4 id="scene-management">Scene Management</h4>
@@ -171,7 +174,7 @@
 <p>I’ve been working on the world map recently and when I load the scene without any animations, the texture memory usage comes in at about 20MB. That number jumps to about 75MB when the animations are loaded. That’s just way too much memory and the main reason why is because I have 4 high quality 90 frame water animations going on. Here’s a look at the world map with waterfalls, rapids, and waves.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ClassicDependableChanticleer&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/ClassicDependableChanticleer' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>The first thing I’m going to play around with is using fewer frames. Each waterfall cycle is 2-3 seconds, so I should be able to cut the number of frames needed in half. The other thing I’m going to try is shrinking the size of each frame and then scaling it up to the appropriate size on the world map. I’m usually hesitant to scale images up, but I think it might work out with the water animations just because there is generally more flexibly with how water works.</p>
@@ -196,6 +199,28 @@
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

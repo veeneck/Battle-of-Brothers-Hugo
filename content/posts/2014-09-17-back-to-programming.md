@@ -18,7 +18,6 @@ tags:
 
 ---
 For the first time in what feels like forever, I was able to get back into actually programming. I had no idea that hiring artists, researching art direction, building design documents, and working with contractors would take so much time, but it does. I can understand why studios have art directors and game designers because those two jobs take up just as much time as programming. Anyways, I was able to spend a full week programming, and here is a video update on where the game is at:
-
 <!--more-->
 
 https://www.youtube.com/watch?v=kXzw2NOFzjk

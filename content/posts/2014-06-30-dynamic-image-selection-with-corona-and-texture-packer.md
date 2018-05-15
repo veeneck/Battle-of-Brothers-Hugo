@@ -13,7 +13,6 @@ tags:
 
 ---
 Most mobile apps are developed to run across multiple devices, which means developers have to account for multiple screen resolutions. Image scaling is an important part of multi-device support because you want to use higher resolution images on modern, high-res devices, while using lower resolution images on low-res devices. That saves memory on the low-res devices while maximizing all of the pixel density goodness on the high-res devices. Lucky for Corona SDK developers, Corona makes image scaling a breeze with their [dynamic image selection][1] feature.
-
 <!--more-->
 
 In this tutorial I&#8217;m going to go over how to implement dynamic image selection using [Texture Packer][2] and Corona to easily scale your images across multiple devices. If you haven&#8217;t already downloaded Texture Packer, go and [download the free trial][3]. Texture Packer easily creates sprite sheets for multiple game engines and they also automatically scale sprite sheets for Corona SDK.

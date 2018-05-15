@@ -14,7 +14,6 @@ tags:
 I recently found myself wanting to animate a character&#8217;s progress path and initially I thought I would do this by creating multiple animation frames, much like a sprite. After a bit of frustration, trial and error, I realized that creating an image mask was a more efficient and effective method.
 
 To give you an example of what I was trying to accomplish, here is a picture of a portion of my game&#8217;s world map. The yellow and line is the path that my character takes.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -24,7 +23,7 @@ To give you an example of what I was trying to accomplish, here is a picture of 
 I wanted to animate the yellow path that shows the character progressing from point A to point B, kind of like this:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EmptyScaryAbalone&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EmptyScaryAbalone" >}}
 </div>
 
 At first, I thought I could accomplish my goal by cutting the path up into 50 or so tiny .png files and then placing them onto the screen. While this is technically possible, it became extremely time-consuming. Because each individual .png file was a different size and had to be placed on a pixel perfect location, animating it became an extremely tedious process. Changing the world map or the path itself would have been an excruciating process.

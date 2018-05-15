@@ -19,7 +19,6 @@ tags:
 
 ---
 Alright, so that title is sort of doom and gloom. Really though, my mood is pretty good. I&#8217;m a married man now! On the work front, the difficulty I&#8217;m encountering is programming difficulty, which I feel is in my control. That&#8217;s always better than art, story, music, sound or gameplay difficulty. Current pain points? Pathfinding, and moving units as a formation.
-
 <!--more-->
 
 That said, I have made progress on both fronts. I have a basic navmesh implemented, and formation walking and rotating. Not bad, right? Problem is that it doesn&#8217;t look or feel right. There are so many edge case left to fix. Have a watch of my status video to see what I&#8217;m talking about.

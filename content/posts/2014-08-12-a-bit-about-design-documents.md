@@ -12,7 +12,6 @@ tags:
 
 ---
 Now that I&#8217;m working with other people, all sorts of questions come up about my game. How many illustrations where there be? How many actors? Is the script finished? What tone should the game have? Pretty much every single thing you could think to ask about the game needs an answer. Everyone I have spoken to says to start art / sound / music / copy editing / storyboarding early in the process. Don&#8217;t wait until the last minute, they say. And while most people have my best interests in mind, it is still a ton of work to answer questions in a thoughtful way.
-
 <!--more-->
 
 So, going on 3 weeks now, I have done very little programming and a ton of writing. I thought it may be interesting to look at the types of design documents I&#8217;ve had to prepare.

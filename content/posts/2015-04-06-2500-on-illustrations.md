@@ -8,6 +8,7 @@ categories:
   - sirchris
 tags:
   - budget
+amount: 2500
 
 ---
 This expense wasn&#8217;t a lump sum payment, but 4 payments made over the course of a couple months. I&#8217;m extended the original contract with the illustrator because the game has more artwork than I originally anticipated. The following illustrations were done for this update:

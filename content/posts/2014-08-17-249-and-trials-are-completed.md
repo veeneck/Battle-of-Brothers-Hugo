@@ -8,6 +8,8 @@ categories:
   - sirryan
 tags:
   - budget
+amount: 249
 
 ---
 More, more, more trials. Finally, I&#8217;ve found an animator and an illustrator. Ready to begin contracts with both. This brings my trial budget up to $1,483.
+<!--more-->

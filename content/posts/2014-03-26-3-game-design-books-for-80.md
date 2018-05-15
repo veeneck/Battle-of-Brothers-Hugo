@@ -9,10 +9,10 @@ categories:
 tags:
   - budget
   - learning
+amount: 80
 
 ---
 I thought I&#8217;d kick this contest off by purchasing a little bed time reading material. I want to start prototyping games as soon as possible, so hopefully a few books on game theory and design will help me to avoid some of the mistakes beginners make.
-
 <!--more-->
 
   * [Level Up!: The Guide to Great Video Game Design][1] &#8211; By: Rogers, Scott

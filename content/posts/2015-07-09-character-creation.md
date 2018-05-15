@@ -7,9 +7,7 @@ url: /2015/07/09/character-creation/
 featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-09-at-2.43.39-PM-2.png
 keyevent:
   - First Crack at Character Creation
-  - First Crack at Character Creation
 number:
-  - 27
   - 27
 categories:
   - sirchris
@@ -18,7 +16,6 @@ tags:
 
 ---
 After working on the intro, world map, and combat layer, it was time to work on the character selection screen. My short-term goal is to have 4 playable levels and the only major missing piece is the functionality to manage your heroes. Everything is still in a bit of a rough state, but here’s a look at what I have so far.
-
 <!--more-->
 
 <div class="inlineimg">

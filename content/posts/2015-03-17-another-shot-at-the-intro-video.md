@@ -18,7 +18,6 @@ tags:
 
 ---
 I said I wouldn’t do it, but I couldn’t help myself and took another crack at the intro video. The main practical reason is because the game’s music is being composed, and it kind of all derives from the intro song. The main impractical reason is because I hated the first video and couldn’t help myself from trying again. Here’s look at the second attempt.
-
 <!--more-->
 
 <div style="clear:both">
@@ -42,7 +41,7 @@ As I said in the opening paragraph, [Brendon Williams][2] is starting to work on
 I added a button to “Begin Story” that transitions from the title screen to the first level of the game.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;CookedSpicyCoqui&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="CookedSpicyCoqui" >}}
 </div>
 
 This was important to me because I can start to actually experience the game as the end-user will. My goal right now is to create a playable game for the first 4 game levels, and the game starts with the transition from the title screen to the world map or first level.
@@ -50,7 +49,7 @@ This was important to me because I can start to actually experience the game as 
 I also played around with how the battlefield markers will be first displayed and how they will transition between states (won vs. lost etc.) There is still some work to do with this, but here’s a look so far.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EuphoricChiefAngwantibo&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EuphoricChiefAngwantibo" >}}
 </div>
 
 #### Scene Management

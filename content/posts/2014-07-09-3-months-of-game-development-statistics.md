@@ -11,7 +11,6 @@ tags:
 
 ---
 I&#8217;m hoping make my game development process transparent as possible, so on a quarterly basis I plan to publish some figures related to productivity, marketing, code count, and anything else that may be relevant to other game developers out there. So without further ado, here are some stats related to my first three months of game development.
-
 <!--more-->
 
 #### Productivity Stats

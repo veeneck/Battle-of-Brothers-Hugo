@@ -7,11 +7,7 @@ url: /2014/08/19/0-to-art-in-two-weeks/
 featured_image: /wp-content/uploads/2014/08/flag_design_05-1.jpg
 number:
   - 10
-  - 10
 keyevent:
-  - Contract with illustrator.
-  - Initial assets for Foothills level.
-  - More trials with animators.
   - Contract with illustrator.
   - Initial assets for Foothills level.
   - More trials with animators.

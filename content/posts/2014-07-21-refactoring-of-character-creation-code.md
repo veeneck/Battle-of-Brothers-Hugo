@@ -18,7 +18,6 @@ tags:
 
 ---
 After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.
-
 <!--more-->
 
 The code was originally written to extend a parent character class with sub-classes like dwarf, mage, archer, etc. Things were going great until I saw that when new attack actions and functionality were added to the sub-classes, a lot of the code amongst the sub-classes was too similar. For example, all of the sub classes had similar functions setting sprite animation, sound, and attack options. Those functions weren&#8217;t in the parent class because the animation, sound, and attack variables were all different and specific to the sub-class. Each sub-class had these values hard-coded into them, and if you were to consider that my final game may have dozens of sub-classes, it&#8217;s easy to realize that there would be way too much duplicate code.

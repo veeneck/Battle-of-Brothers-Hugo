@@ -7,11 +7,7 @@ url: /2014/04/14/on-the-shoulders-of-giants/
 featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-8.06.58-AM-1.png
 number:
   - 2
-  - 2
 keyevent:
-  - Finished video tutorials
-  - Proof of concept completed
-  - Double dispatch working for physics
   - Finished video tutorials
   - Proof of concept completed
   - Double dispatch working for physics
@@ -22,7 +18,6 @@ tags:
 
 ---
 Game development has always been intimidating to me. There have always been so many unknowns that learning how make a game, let alone write in C, seemed unachievable. The past two weeks have been shocking to me because the tools and libraries available have come so far that game development is now accessible. I feel like I did when developing for the web and <a href="http://jquery.com" target="_blank">jQuery</a>/<a href="http://prototypejs.org" target="_blank">Prototype.js</a> came out. It&#8217;s an amazing time and indie games will only become easier to produce.
-
 <!--more-->
 
 Now, don&#8217;t get me wrong. There is still a ton of work ahead. Fortunately, most of my work will be adding polish, levels and enemies to my world instead of struggling to draw something to the screen. There will also be a learning curve organizing a code base that needs to be so flexible and always changing. But enough about my concerns &#8212; let&#8217;s celebrate what I&#8217;ve accomplished in the first two weeks by watching the video below.

@@ -11,7 +11,6 @@ tags:
 
 ---
 The official winner of this competition (and bragging rights) is going to be the brother whose game makes the most money, but all won&#8217;t be lost if I come closer to my end goal of becoming a game developer. [Bruce Lee][1] said that, &#8220;a goal is not always meant to be reached, it often serves simply as something to aim at&#8221;, and here are the targets that I&#8217;ve set out to hit.
-
 <!--more-->
 
 #### Product

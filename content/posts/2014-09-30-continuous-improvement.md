@@ -7,11 +7,7 @@ url: /2014/09/30/continuous-improvement/
 featured_image: /wp-content/uploads/2014/09/ortho_blackKnight_03-1.png
 number:
   - 13
-  - 13
 keyevent:
-  - Added Disengage/Bash
-  - Added Abilities Over Time
-  - Added New Class
   - Added Disengage/Bash
   - Added Abilities Over Time
   - Added New Class

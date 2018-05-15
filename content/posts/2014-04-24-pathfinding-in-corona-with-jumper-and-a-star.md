@@ -6,7 +6,6 @@ date: 2014-04-24T15:57:28+00:00
 url: /2014/04/24/pathfinding-in-corona-with-jumper-and-a-star/
 categories:
   - sirchris
-  - Uncategorized
 tags:
   - code
   - corona
@@ -14,7 +13,6 @@ tags:
 
 ---
 If you&#8217;re making a grid based game and you need a character to move from point A to point B while avoiding obstacles, then you&#8217;re going to need some type of pathfinding. Luckily for us, Roland Yonaba utilized the power of A Star, a popular pathfinding algorithm, and made it even better with his open source Jumper library. Visually, what we&#8217;re trying to accomplish looks a little something like:
-
 <!--more-->
 
 <div class="inlineimg">

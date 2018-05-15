@@ -17,9 +17,8 @@
       <pubDate>Thu, 28 May 2015 18:03:09 +0000</pubDate>
       
       <guid>http://battleofbrothers.com/2015/05/28/understanding-shaders-in-spritekit/</guid>
-      <description>&lt;p&gt;If you&amp;#8217;re new to game development, you&amp;#8217;ve probably heard of shaders but don&amp;#8217;t quite understand them. If you&amp;#8217;re new to SpriteKit, you&amp;#8217;ve probably hit a few speed bumps working with shaders. Since I&amp;#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&amp;#8217;ll cover two concepts:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you&amp;#8217;re new to game development, you&amp;#8217;ve probably heard of shaders but don&amp;#8217;t quite understand them. If you&amp;#8217;re new to SpriteKit, you&amp;#8217;ve probably hit a few speed bumps working with shaders. Since I&amp;#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&amp;#8217;ll cover two concepts:
+&lt;/p&gt;</description>
     </item>
     
   </channel>

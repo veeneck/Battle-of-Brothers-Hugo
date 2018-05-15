@@ -17,7 +17,6 @@ tags:
 
 ---
 I’m happy to report that I’ve received the first 30 seconds of game music and that my ears are happy with what they&#8217;re hearing. It’s amazing what a little sound can do to the intro video and I can’t wait to see how the future music adds more depth to the game. I’ve also continued to experiment with some memory concerns and making scene transitions as smooth as possible. That’s required a bit of a re-write, but the game is heavy on texture memory usage, so it’s important to tackle this issue sooner than later.
-
 <!--more-->
 
 Let’s start off with the most interesting part of this update &#8211; music. As a quick recap, I’ve contracted [Brendon Williams][1], a talented composer, to create the game’s music. He’ll be scoring original pieces for the intro video, start screen, world map, and battles. He’s starting with the intro video because that will set the tone for the rest of the game. The first piece of music marks the transition from a series of evil scenes to scenes featuring the heroes, so I asked Brendon to kind of make something to transition from what will be a slow evil drum sound to a more defiant and vibrant heroic sound. Something like [The Gael from The last of the Mohicans Theme][2]. There’s only about 25 seconds of music so far, but I think Brendon is off to a fantastic start.
@@ -37,11 +36,11 @@ We haven’t finalized anything yet, but I believe he’ll be on board soon to h
 I plan on adding movement to the battlefield scenes where possible and I set up the code to handle how that’s going to work. Things like moving water, floating rocks, and pulsing magic will help the world feel a little more alive. I’ll need a little help from the illustrator or the first two items, but here’s a look at some of the land’s magic pulsing.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ElegantEmbarrassedGardensnake&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ElegantEmbarrassedGardensnake" >}}
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;BewitchedTautAlleycat&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="BewitchedTautAlleycat" >}}
 </div>
 
 #### Scene Management
@@ -53,7 +52,7 @@ I wrote about scene management a little bit last time and how scene transitions 
 I’ve been working on the world map recently and when I load the scene without any animations, the texture memory usage comes in at about 20MB. That number jumps to about 75MB when the animations are loaded. That’s just way too much memory and the main reason why is because I have 4 high quality 90 frame water animations going on. Here’s a look at the world map with waterfalls, rapids, and waves.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ClassicDependableChanticleer&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ClassicDependableChanticleer" >}}
 </div>
 
 The first thing I’m going to play around with is using fewer frames. Each waterfall cycle is 2-3 seconds, so I should be able to cut the number of frames needed in half. The other thing I’m going to try is shrinking the size of each frame and then scaling it up to the appropriate size on the world map. I’m usually hesitant to scale images up, but I think it might work out with the water animations just because there is generally more flexibly with how water works.

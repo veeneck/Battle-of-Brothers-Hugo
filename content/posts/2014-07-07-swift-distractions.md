@@ -17,7 +17,6 @@ tags:
 
 ---
 It has been awhile since my last update. 4 weeks to be exact. And to top it off, my game has fewer features than it did the last time you heard from me. There are two reasons for this: The introduction of <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, and the perfect storm of distractions.
-
 <!--more-->
 
 #### Two Weeks Vacation

@@ -11,7 +11,6 @@ tags:
 
 ---
 I just finished up my second quarter of game development and have fresh round of statistics to share with you all. Numbers never lie and the numbers say that while my productivity stayed consistent, less time was spent on programming and more was spent on game design. My marketing efforts stayed about the same and both the blog and Twitter readership grew at a slow and steady rate.
-
 <!--more-->
 
 #### Productivity Status

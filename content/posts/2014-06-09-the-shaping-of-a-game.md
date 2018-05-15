@@ -17,7 +17,6 @@ tags:
 
 ---
 If last week was a <a href="http://battleofbrothers.com/sirryan/feature-rush" target="_blank">feature rush</a>, this week was a feature overload. I&#8217;ve slowly been breaking out of the learning phase and into the implementation phase. I definitely know what needs to happen now &#8212; it&#8217;s just a matter of doing it. Exciting times are ahead because I can now begin testing features that will make my game unique. My update this week introduces a lot of those features, including a defendable castle and dynamic spawn points.
-
 <!--more-->
 
 Video may do this weeks update the most justice since the UI and map have gotten a complete overhaul (thanks again <a href="http://www.kenney.nl/assets" target="_blank">Kenney&#8217;s assets</a>). Have a look below:

@@ -39,8 +39,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
+		
 		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
 		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -71,7 +73,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirryan" class="blog clear">
@@ -119,7 +123,7 @@
 			<div class="title clear">
 				<div class="floatleft">
 					<span class="month legacy">Dec</span> 
-					<p class="shield legacy" style="background-image:url('/assets/Shield9.png')">21</p>
+					<p class="shield legacy" style="background-image:url('/assets/Shield10.png')">21</p>
 					<span class="year legacy">2014</span> 
 				</div>
 				<h3 class="grace">Joy of Debugging: Command swiftc failed with exit code 1</h3>
@@ -142,9 +146,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>I&#8217;ve been working through a particularly nasty issue, so it feels right to document it for anyone else who encounters it. Also, just to serve as a note and reminder that game development is full of unexpected, time consuming tasks on a near weekly basis. This most recent problem &#8212; releasing a build to an iOS device fails to compile, but it works on the simulator. Specifically, this occurs when I try to change the Swift compiler optimization level.</p>
-
-<p></p>
+ 				<p>I&#8217;ve been working through a particularly nasty issue, so it feels right to document it for anyone else who encounters it. Also, just to serve as a note and reminder that game development is full of unexpected, time consuming tasks on a near weekly basis. This most recent problem &#8212; releasing a build to an iOS device fails to compile, but it works on the simulator. Specifically, this occurs when I try to change the Swift compiler optimization level.
+</p>
 
 <pre>Command /Applications/...../XcodeDefault.xctoolchain/usr/bin/swiftc failed with exit code 1</pre>
 
@@ -164,16 +167,38 @@ The following build commands failed:
 
 <p>Now that the error has been isolated, let&#8217;s fix the code. I was able to fix this by trial and error, and I still don&#8217;t fully understand the differences, but here goes. My original function:</p>
 
-<p><a href="https://gist.github.com/veeneck/e1875c65a9d4b5161783">https://gist.github.com/veeneck/e1875c65a9d4b5161783</a></p>
+<script src="//gist.github.com/veenecke1875c65a9d4b5161783/.js"></script>
 
 <p>And now the new function. Notice that I changed the variable to not be editable, and to return within the if statements.</p>
 
-<p><a href="https://gist.github.com/veeneck/7af997b8e02a1d2bcc6d">https://gist.github.com/veeneck/7af997b8e02a1d2bcc6d</a></p>
+<script src="//gist.github.com/veeneck7af997b8e02a1d2bcc6d/.js"></script>
 
 <p>Definitely an interesting bug, and anything you encounter will most likely be a different sort of issue. But, now we know how to track something like this down.</p>
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

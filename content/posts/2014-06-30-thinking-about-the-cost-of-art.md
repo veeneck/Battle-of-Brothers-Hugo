@@ -12,7 +12,6 @@ tags:
 
 ---
 I&#8217;ve ventured into the unknown while working on my game &#8212; I don&#8217;t know what art costs. This is becoming an issue because I have all sorts of grand ideas for levels, characters and features. It is clear that art, or more directly my budget, will be the deciding factor on the scope of my game.
-
 <!--more-->
 
 For [our competition][1], Chris and I each have a $25,000 budget. I&#8217;m planning to spend roughly $20,000 on art, and to leave $5,000 for sound, music and miscellaneous. I know I&#8217;ll need an animator and an illustrator, so the actual scope of my project will be comparable to the amount of work one artist can do for $10,000. Let&#8217;s try to find out what I can expect from an animator.

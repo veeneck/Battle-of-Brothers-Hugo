@@ -13,7 +13,6 @@ tags:
 
 ---
 If you&#8217;re new to game development, you&#8217;ve probably heard of shaders but don&#8217;t quite understand them. If you&#8217;re new to SpriteKit, you&#8217;ve probably hit a few speed bumps working with shaders. Since I&#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&#8217;ll cover two concepts:
-
 <!--more-->
 
   * Using alpha, black, and white pixel values to determine which pixels to display.
@@ -22,7 +21,7 @@ If you&#8217;re new to game development, you&#8217;ve probably heard of shaders 
 Here is what it&#8217;ll look like when we&#8217;re done.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;TemptingSoreAidi&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="TemptingSoreAidi" >}}
 </div>
 
 If you have never worked with a shader in SpriteKit before, you should probably check out this <a href="http://chrislanguage.blogspot.com/2015/02/fragment-shaders-with-spritekit.html" target="_blank">quick introductory tutorial</a>. And if you&#8217;re interested in shaders, but not SpriteKit, you may still find a thing or two that grabs you&#8217;re attention.
@@ -43,11 +42,11 @@ The first thing to do is find an image that you would like to mask or modify in 
 
 To apply a basic shader to our image, we&#8217;ll need to tell SpriteKit to attach a shader to the SKSpriteNode, and we&#8217;ll also need to create an empty text file ending in .fsh that contains our shader code. First, the shader code:
 
-https://gist.github.com/veeneck/241ad4e3b8153b33518d
+{{< gist veeneck241ad4e3b8153b33518d >}}
 
 Next, attach the shader in SpriteKit:
 
-https://gist.github.com/veeneck/3e0292d872a3146d0620
+{{< gist veeneck3e0292d872a3146d0620 >}}
 
 <div class="embed floatright">
   <img class="alignnone size-full wp-image-2180" style="border: none !important" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-28-at-11.52.26-AM.png" alt="Screen Shot 2015-05-28 at 11.52.26 AM" width="135" height="136" />
@@ -59,7 +58,7 @@ As you can see to the right, the shader turns every pixel green. This is because
 
 Now that we can change the color of pixels, the next step is to only change the color of fully transparent pixels. We&#8217;ll change our shader code to the following:
 
-https://gist.github.com/veeneck/f8601f819b5f1ac9c52e
+{{< gist veeneckf8601f819b5f1ac9c52e >}}
 
 <div class="embedleft floatleft">
   <img class="alignnone size-full wp-image-2191" style="margin-left: -20px !important;border: none !important" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-28-at-12.08.03-PM.png" alt="Screen Shot 2015-05-28 at 12.08.03 PM" width="133" height="137" />
@@ -81,11 +80,11 @@ Second, let&#8217;s talk about the **gradient**. Notice that a radial gradient h
 
 To make these two concepts, we&#8217;ll have to attach <a href="https://developer.apple.com/library/prerelease/ios/documentation/SpriteKit/Reference/SKUniform_Ref/index.html" target="_blank">SKUniform&#8217;s</a> to the shader. Think of this as passing variables through to the shader. In this case, we&#8217;ll need two variables. One for health, and one for the image above. Our Swift code should now look like:
 
-https://gist.github.com/veeneck/e68c62e4417bfa03a62d
+{{< gist veenecke68c62e4417bfa03a62d >}}
 
 We&#8217;re basically supplying a float and SKTexture to the shader. Then, we can modify the shader to produce our desired result.
 
-https://gist.github.com/veeneck/23854616813f74819d66
+{{< gist veeneck23854616813f74819d66 >}}
 
 Here is the result:
 
@@ -164,26 +163,26 @@ Now that we know how to port from Shadertoy, let&#8217;s try it with a few examp
 **Example 1: **<a href="https://www.shadertoy.com/view/Xtl3Dj" target="_blank">Bullseye</a>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EdibleDapperDorking&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EdibleDapperDorking" >}}
 </div>
 
-https://gist.github.com/veeneck/8181776f76a112dce239
+{{< gist veeneck8181776f76a112dce239 >}}
   
 **Example 2:** <a href="https://www.shadertoy.com/view/XtsGDj" target="_blank">Wobble Spiral</a>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;UnselfishRemarkableJenny&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="UnselfishRemarkableJenny" >}}
 </div>
 
-https://gist.github.com/veeneck/eb5c947bc6d8f1efd598
+{{< gist veeneckeb5c947bc6d8f1efd598 >}}
   
 **Example 3: **<a href="https://www.shadertoy.com/view/4lB3DG" target="_blank">Glowing Thing</a>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;MixedMildGroundbeetle&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="MixedMildGroundbeetle" >}}
 </div>
 
-https://gist.github.com/veeneck/21d480aae49482975efe
+{{< gist veeneck21d480aae49482975efe >}}
 
 #### Further Reading & Next Steps
 

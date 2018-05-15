@@ -12,7 +12,6 @@ tags:
 
 ---
 I was going to sit down this morning and write a post on why I&#8217;m choosing Sprite Kit, but instead I feel the need to express how fun game development has been so far. It will be interesting to track my mood over time because I do see the tedious nature of the craft lurking around the corner, but for now I&#8217;m loving life.
-
 <!--more-->
 
 The first 6 days of development have touched both extremes &#8212; incredibly frustrating to amazingly rewarding. The learning curve is steep, but not impossible. And what makes it bearable is the payoff of seeing a character animate, fight or perform some other action. It&#8217;s almost as if I&#8217;m emotionally attached to these little sprites and get proud of them when they choose the correct target to attack. Something about it is more rewarding than pulling data from a database and displaying it on view even though the actual technical procedure is nearly identical.

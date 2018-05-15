@@ -11,7 +11,6 @@ tags:
 
 ---
 Since this contest is in the spirit of sharing and learning, it makes sense that my first post should report on our launch traffic, and how many users will come back to read more. We primarily reached out to people on Reddit, Hacker News, Facebook and Twitter and saw varying levels of success.
-
 <!--more-->
 
 #### Traffic

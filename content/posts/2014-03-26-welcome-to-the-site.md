@@ -12,7 +12,6 @@ tags:
 
 ---
 Hi there, I&#8217;m Chris and welcome to my game development blog. In case you came directly to this site and not through the [splash page][1], let me give you a quick intro as to what&#8217;s going on.
-
 <!--more-->
 
 A few months ago, [my brother][2] and I decided to turn a long-standing dream of launching a game development company into a reality. While we&#8217;re not new to [creating a software company][3], we are new to game programming and game development. To jump-start our learning we&#8217;re doing what comes naturally to brothers. Compete! We&#8217;re hosting a competition between the two of us to determine who can make the better game. The rules are pretty simple. We have one year to develop a game from scratch and on a budget of $25k. We&#8217;ll then have 6 months to market our games. Whoever makes the most profit wins.

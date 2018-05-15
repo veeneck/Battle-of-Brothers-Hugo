@@ -12,7 +12,6 @@ tags:
 
 ---
 A couple commonly used projection techniques for turn based video games are [orthographic][1] and [isometric][2] projection. I&#8217;m in the process of figuring out which technique I&#8217;ll be using for my tactics game and I&#8217;ve been looking into the pros and cons of each method and how they&#8217;ve been used in previous games. Here&#8217;s what I&#8217;ve discovered so far.
-
 <!--more-->
 
 #### Orthographic Projection

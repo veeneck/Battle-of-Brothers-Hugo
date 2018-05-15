@@ -17,7 +17,6 @@ tags:
 
 ---
 It&#8217;s been a little while since the last status update, due to the holidays and a mean case of strep, but I have some pretty cool stuff to share. I had hoped to add the functionality for dialogue into the game, but my animator got back to me with some awesome animations and I just couldn&#8217;t wait to implement them. So here&#8217;s a look at 4 of the hero character animations hot off the assembly line.
-
 <!--more-->
 
 https://www.youtube.com/watch?v=rZ1c3yvxv1Q&feature=youtu.be

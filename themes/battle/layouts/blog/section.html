@@ -22,14 +22,10 @@
 					{{ end }}
 				{{ end }}
 			</ul>
-			<span class="updatelink clear"><a href="/category/sirryan" class="subtext source_light dotted arrow">Read more blog posts in the archive</a> </span>
+			<span class="updatelink clear"><a href="/{{ $.Scratch.Get "knight" }}/archive" class="subtext source_light dotted arrow">Read more blog posts in the archive</a> </span>
 		</div> <!-- #activity -->
 
 		<div class="floatleft activity right clear">
-
-
-			<span class="updatelink clear"><a href="https://twitter.com/veeneck" class="subtext source_light dotted arrow" target="_blank">Follow me on twitter</a> </span>
-
 
 			{{ $.Scratch.Set "count" 0 }}
 				{{ range $sortedPosts }}

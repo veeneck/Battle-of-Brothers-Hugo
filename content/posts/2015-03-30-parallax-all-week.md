@@ -17,7 +17,6 @@ tags:
 
 ---
 I&#8217;ve spent every day of the past two weeks working on story. The good news is that it was worth the effort. There is a noticeable jump in quality, and it makes me feel a bit of pride for the product. I&#8217;m now optimistic that one or two more rounds of polish along with some sound and music will make it a worthy purchase for gamers. The bad news is that I still have one or two more rounds of polish to go, which turns into 2-4 weeks of work. Music starts on May 4th, so at least I have a concrete deadline driving me. Otherwise, I fear that I could tinker on this forever.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -35,13 +34,13 @@ Specifically, I went through each scene and added a few items:
 The best way to illustrate this is to look at a scene before and after that changes. Here is the first version with no rounds of polish:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;OldfashionedGranularFattaileddunnart&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="OldfashionedGranularFattaileddunnart" >}}
 </div>
 
 And now, here is that same scene with movement:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EssentialPiercingArmednylonshrimp&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EssentialPiercingArmednylonshrimp" >}}
 </div>
 
 As you can see, it already feels more alive. Imagine another round or two of incremental improvement and you&#8217;re left with a decent end product.

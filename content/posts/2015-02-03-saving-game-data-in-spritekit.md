@@ -13,7 +13,6 @@ tags:
 
 ---
 When searching for tips on how to save game data in SpriteKit, most posts explain how to save one variable (high score, for example). In that regard, this <a href="http://www.thinkingswiftly.com/saving-spritekit-game-data-swift-easy-nscoder/" target="_blank">Thinking Swiftly post</a> was extremely helpful, and is where a majority of the code below comes from. I just wanted to extend that post, and look at how an entire object could be saved in a self contained way.
-
 <!--more-->
 
 **NOTE: This article has been updated. Refer to [SpriteKit Saving with Swift 3][1]**
@@ -41,7 +40,7 @@ The only major difference from other posts I&#8217;ve seen is in the actual save
 
 Have a look at the entire `GameData` class below, which should act as a self contained, lazy loading class to hold game data of standard variable types.
 
-https://gist.github.com/veeneck/98c0c46e70ba533c0c08
+{{< gist veeneck98c0c46e70ba533c0c08 >}}
 
 &nbsp;
 

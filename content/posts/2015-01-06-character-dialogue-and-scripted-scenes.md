@@ -16,7 +16,6 @@ tags:
 
 ---
 With the holidays upon us, I wasn&#8217;t able to get much done over the last couple of weeks. But when I did get the chance to work, I made it count. I&#8217;ve been putting off character dialogue and scripted scenes for a while now, but I&#8217;m happy to say the framework to achieve that is now in place. Here is a brief example of a couple of characters engaging in a well written scripted scene, full of deception, intrigue, and suspense.
-
 <!--more-->
 
 https://www.youtube.com/watch?v=c5m8cC1tk7Y&feature=youtu.be

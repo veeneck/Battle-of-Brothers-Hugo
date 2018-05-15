@@ -4,14 +4,10 @@ author: Ryan
 type: post
 date: 2016-01-04T16:06:23+00:00
 url: /2016/01/04/abilities-modifiers-frameworks-scripting-engine/
-featured_image: /static/wp-content/uploads/2016/01/Screen-Shot-2016-01-04-at-11.04.37-AM-e1451923520630-2.png
+featured_image: /wp-content/uploads/2016/01/Screen-Shot-2016-01-04-at-11.04.37-AM-e1451923520630-2.png
 number:
   - 26
-  - 26
 keyevent:
-  - 'Abilities & Modifiers'
-  - Split code into frameworks
-  - In battle cutscene engine
   - 'Abilities & Modifiers'
   - Split code into frameworks
   - In battle cutscene engine
@@ -22,7 +18,6 @@ tags:
 
 ---
 It&#8217;s been quite the 2 months. In anticipation of becoming a father, I&#8217;ve significantly picked up my work efforts. It&#8217;s not that I wasn&#8217;t trying before &#8212; it&#8217;s just that deadlines have a way of motivating me further. I&#8217;ve tackled a few major rewrites / problems with the foundation of my code, and I now have a working &#8220;game&#8221; that is actually installed on 3 devices via Testflight! With all of this in place, I can iterate on the platform and slowly work towards a rough alpha and then polished beta.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -45,7 +40,7 @@ Things start to get more technical quickly, so the important part to note is tha
 Up until now I have been writing code in one large project so that I can quickly iterate and learn. Now that I halfway know what I&#8217;m doing, I feel comfortable making reusable frameworks that I can use in any game I wish to make. The main benefit of frameworks is that they force you to think of code as an API that anyone can use, and this often leads to testable, flexible, focused code. Additionally, it forces you to think about documenting your code.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-2349" src="http://localhost:8888/static/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3.png" alt="RyanDocs" width="800" height="514" srcset="http://localhost:8888/static/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3.png 800w, http://localhost:8888/static/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3-300x193.png 300w, http://localhost:8888/static/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3-768x493.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
+  <img class="alignnone size-full wp-image-2349" src="http://localhost:8888/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3.png" alt="RyanDocs" width="800" height="514" srcset="http://localhost:8888/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3.png 800w, http://localhost:8888/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3-300x193.png 300w, http://localhost:8888/wp-content/uploads/2015/12/RyanDocs-e1451413833718-3-768x493.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
 </div>
 
 So, I&#8217;ve begun this process. Here is what I have so far:
@@ -59,7 +54,7 @@ So, I&#8217;ve begun this process. Here is what I have so far:
 #### Scripting Engine
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;AccomplishedIndolentKusimanse&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="AccomplishedIndolentKusimanse" >}}
 </div>
 
 Cutscenes seem simple, but like everything they have their quirks and challenges. Here are a few to show you what I mean:
@@ -76,7 +71,7 @@ So, through state machines, delegates and my new ability system, I&#8217;ve been
 #### Adding New Units
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-2357" src="http://localhost:8888/static/wp-content/uploads/2016/01/xEe9StP5lOTkWmBuO6p2jMS-hDbFAiv3Kelf6EbJtdg-e1451923146393-3.png" alt="xEe9StP5lOTkWmBuO6p2jMS-hDbFAiv3Kelf6EbJtdg" width="600" height="679" />
+  <img class="alignnone size-full wp-image-2357" src="http://localhost:8888/wp-content/uploads/2016/01/xEe9StP5lOTkWmBuO6p2jMS-hDbFAiv3Kelf6EbJtdg-e1451923146393-3.png" alt="xEe9StP5lOTkWmBuO6p2jMS-hDbFAiv3Kelf6EbJtdg" width="600" height="679" />
 </div>
 
 I&#8217;ve added another unit to the game. For now, we&#8217;ll call them the Ice Guard. Two major positives came out of this.
@@ -90,7 +85,7 @@ Second, it caused me to give Heraldry a second look. I&#8217;m using a SKCropNod
 Slowly but surely, the story is coming together. About 3 of 15 minutes has been through the video editing process. Here is a recent still image:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;DefensiveBothAppaloosa&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="DefensiveBothAppaloosa" >}}
 </div>
 
 Late in the alpha process we would like to have everything completed so that it can be sent to voice and sound. That will also give us an idea of any art is missing, and we can follow up with our illustrator.

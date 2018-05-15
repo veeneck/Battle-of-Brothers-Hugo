@@ -17,21 +17,20 @@ tags:
 
 ---
 The good news is that I’ve received a ton of artwork over the last two weeks. The bad news is that I can only demo a small portion of it because there just isn’t enough time to get it all into the game. That’s a good problem to have, though, and what I can show you is some pretty cool cut scenes, some character animations, and this sweet footage of a knight putting the beat down on an evil ogre.
-
 <!--more-->
 
 <div class="inlineimg" style="clear:both">
-  [gfycat data_id=&#8221;CoarseWeakKagu&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="CoarseWeakKagu" >}}
 </div>
 
 You can’t see all of the animations in that .png sequence, but you can see 3 of the knight’s 4 attack moves, the ogre’s hit animation and the ogre’s death animation. For debugging purposes, I built a tool to display all of a character’s animations at once, and here are those two characters going through all of their moves.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ShamelessSecondBlackpanther&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ShamelessSecondBlackpanther" >}}
 </div>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EmbellishedSpitefulCuttlefish&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EmbellishedSpitefulCuttlefish" >}}
 </div>
 
 #### Memory Considerations

@@ -11,7 +11,6 @@ tags:
 
 ---
 One of the interesting parts of documenting a journey is seeing how wrong (or right) you can be in the beginning. Whether it be budget, timing, quality, success, enjoyment or one of the many other measurements &#8212; something will not go as planned. I thought it would be fun to try to write out some concrete guesses about the future so that they can be revisited.
-
 <!--more-->
 
 #### Will I finish a game on time?

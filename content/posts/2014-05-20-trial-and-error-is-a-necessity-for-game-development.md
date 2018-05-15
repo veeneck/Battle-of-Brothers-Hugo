@@ -11,7 +11,6 @@ tags:
 
 ---
 While working on the catapult for my game, I came across the first of many design problems I will face. Turns out it is much easier to critique another game&#8217;s design than it is to create your own with confidence. In my situation, I was deciding between a player controlled catapult and an automated catapult. I was so torn that I <a href="http://www.reddit.com/r/gamedesign/comments/25eakp/when_is_player_control_no_longer_fun/" target="_blank">posed the question to /r/gamedesign</a> and had to write the code for each. Let&#8217;s look at the results.
-
 <!--more-->
 
 #### Player Controlled Catapult

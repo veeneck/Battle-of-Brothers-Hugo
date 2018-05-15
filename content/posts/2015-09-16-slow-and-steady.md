@@ -18,7 +18,6 @@ tags:
 
 ---
 I’ve been able to get a bunch done in the last month and I’m getting closer and closer to my short-term goal of having a playable first 4 levels. This update includes new character animations, new attack icons, an updated character select screen, intro movie updates, and pinch/zoom functionality.
-
 <!--more-->
 
 #### Character Updates
@@ -26,13 +25,13 @@ I’ve been able to get a bunch done in the last month and I’m getting closer 
 I’d like to introduce you to two new characters that are fully animated and now in the game. The first is the barbarian warrior, a giant of a man who hails from the northland and loves to dish out damage.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;BlondAccomplishedCoyote&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="BlondAccomplishedCoyote" >}}
 </div>
 
 And in the right corner we have the halfman, a creature controlled by evil wizardry who cares for nothing other than death and destruction.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;AgreeableHiddenDotterel&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="AgreeableHiddenDotterel" >}}
 </div>
 
 There were also some cosmetic fixes and new attack animations added to the previous characters that you’ve seen in-game.
@@ -42,7 +41,7 @@ There were also some cosmetic fixes and new attack animations added to the previ
 Before this update a character could only perform a single base attack. Characters will all have multiple attack options and I’ve just added the ability for a character to perform those different attacks. As you can see in the demo below, the Guardian Knight’s various attack icons pop up after the initial attack icon is clicked. Let&#8217;s click on double attack and see what happens.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;AgitatedUnrealisticCurlew&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="AgitatedUnrealisticCurlew" >}}
 </div>
 
 Right now I have things set up so that attacks only show when they’ve been unlocked in the [character selection screen][1]. I don’t yet know the details of how the attacks work, how much damage they do, etc., but I can experiment with all that now that the icons and animations are in there.

@@ -7,11 +7,7 @@ url: /2014/04/28/its-not-all-sunshine-and-rainbows/
 featured_image: /wp-content/uploads/2014/04/FSM7-1.png
 number:
   - 3
-  - 3
 keyevent:
-  - Varied enemy movement.
-  - Progress timer implemented.
-  - Groundwork for finite state machine.
   - Varied enemy movement.
   - Progress timer implemented.
   - Groundwork for finite state machine.
@@ -22,7 +18,6 @@ tags:
 
 ---
 With update #3, I bring you my most challenging two weeks so far. As you can see from the featured image, working with Finite State Machines, and AI in general, plays a big part in my frustrations. When this cycle began, I was hoping to have wave movement, group formations and melee combat working. Since only one of those three goals was accomplished, let&#8217;s take a look at what went right and what went wrong.
-
 <!--more-->
 
 As always, the status update is available in video format. Check it out below:

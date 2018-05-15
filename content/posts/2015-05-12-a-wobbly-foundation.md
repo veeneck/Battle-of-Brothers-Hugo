@@ -17,7 +17,6 @@ tags:
 
 ---
 An unsteady foundation is still a foundation, right? I&#8217;ve continued my work of porting all code into a single project. You can roughly play the game from start to level 2 right now. This means loading, saving, world map, placing troops, enemy waves, game over state, resuming, story, and more. There is a lot of core code in place.
-
 <!--more-->
 
 The only catch? It&#8217;s not stable yet. Memory leaks, timing issues and missing assets are still common. I&#8217;ll keep iterating on this next update. And when I get bored with that, I incrementally polish different screens. During this update, I revisited the main menu and world map.
@@ -53,7 +52,7 @@ Since I now have all of the art and music for a main menu, I decided to start ma
 Have a look at the first draft below. Everything, including the title, are subject to change. But, I now have a decent foundation to work with here.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;NeedyPositiveKiskadee&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="NeedyPositiveKiskadee" >}}
 </div>
 
 One of the nice things about implementing the main menu is that I took my time. I set no deadlines, so I was not rushed. I played around with movement and light. I learned tricks in Pixelmator. The code is clean and reusable. Overall, it felt really good to get something to a decent state. So much in game development is overwhelming that this was a welcome change.
@@ -65,13 +64,13 @@ The problem with the world map is that it is too cartoony when compared to the r
 The old world map.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ColossalFemaleCobra&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ColossalFemaleCobra" >}}
 </div>
 
 The new world map.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;PertinentFamousGlowworm&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="PertinentFamousGlowworm" >}}
 </div>
 
 There is definitely some progress, but it isn&#8217;t there yet. Having icons designed could be a huge help. Also, I&#8217;ll be reaching out to Brian for help on this one to see if he has any tricks up his sleeves.

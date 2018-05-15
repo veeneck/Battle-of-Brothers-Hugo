@@ -18,7 +18,6 @@ tags:
 
 ---
 As planned after the last update, I was able to add scene management, loading and saving functionality, and the ability to view the game on a physical device. There are also some pretty cool new battleground maps and my first character sprite .png animation to check out below.
-
 <!--more-->
 
 https://www.youtube.com/watch?v=WU4BMbqniDU&feature=youtu.be

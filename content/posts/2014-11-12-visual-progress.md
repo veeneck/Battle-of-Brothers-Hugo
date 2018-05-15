@@ -18,7 +18,6 @@ tags:
 
 ---
 I really enjoyed working on the game over the last few weeks because pretty much everything I did resulted in visual progress. Adding code and manipulating JSON files is good and dandy, but programming is a lot more exciting when I&#8217;m working on something that my family and friends can visually experience.
-
 <!--more-->
 
 In this update, I was able to add battlefield markers to the world map, add tiles to those battlefields, and get started on the character management screen. Check out the video below to see where things are at.

@@ -12,7 +12,6 @@ tags:
 
 ---
 Whether it be video games, web development or mobile software, coding is coding. And launching something is hard. Every developer knows that. One of the main difficulties comes from design. Or, more specifically, polish. Anytime I can exercise my design muscles, I&#8217;ll be better prepared the next time around.
-
 <!--more-->
 
 Just in case there is any doubt on how hard it is to ship, let&#8217;s take a quote from Ben Serviss:

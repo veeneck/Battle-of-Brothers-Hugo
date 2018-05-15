@@ -17,7 +17,6 @@ tags:
 
 ---
 For the past year I&#8217;ve been working on a bunch of different code bases learning new concepts. For this update, I decided to piece together a first build of my &#8220;game&#8221; to get rid of redundant bits of code. I&#8217;m left with an app that has menus, navigation, saving, loading, and cutscenes. While it&#8217;s still far from an enjoyable game, it&#8217;s cool stuff to have a foundation to work with.
-
 <!--more-->
 
 To see everything in motion, check out the video below.
@@ -31,7 +30,7 @@ To see everything in motion, check out the video below.
 The original plan for this update was to do another round of polish on the story. Fortunately, I had a friend in town &#8212; Brian from <a href="http://secretpowers.com" target="_blank">Secret Powers</a>. He specializes in trailer / movie making / special effects, so was able to provide just the critique I needed. He actually came up with the gif below to show how much better the story could be.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;OddballTastyEgg&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="OddballTastyEgg" >}}
 </div>
 
 Now that I&#8217;ve seen the true potential, I have a better idea of what direction to go. Also, I&#8217;m considering working with Brian on trailers and cutscenes for the game because the improvement is so noticeable.
@@ -41,7 +40,7 @@ Now that I&#8217;ve seen the true potential, I have a better idea of what direct
 Because I&#8217;m on hold until I find out to what extent I&#8217;ll be working with Brian, I decided to move back to code. I took each of my separate projects (story, battle, tests) and started merging them into one code base. That provided the appearance of a game as you can see below:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ColossalFemaleCobra&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="ColossalFemaleCobra" >}}
 </div>
 
 The cool part about this is that the following now work reliably:

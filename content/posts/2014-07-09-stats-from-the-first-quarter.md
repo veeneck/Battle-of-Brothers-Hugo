@@ -12,7 +12,6 @@ tags:
 
 ---
 It&#8217;s hard to believe that we&#8217;re already 3 months into the competition. My first quarter of game development consisted of many <a href="http://battleofbrothers.com/sirryan/the-shaping-of-a-game" target="_blank">highs</a> and <a href="http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows" target="_blank">lows</a>, but most importantly I still consider it <a href="http://battleofbrothers.com/sirryan/possibly-the-most-fun-ive-had-professionally" target="_blank">among the most rewarding things I&#8217;ve done</a>. From a purely stats perspective, I think my productivity can be summed up as a strong start, medium middle, and lacking end. I thought it would be fun to look at some concrete numbers, so here is what I came up with.
-
 <!--more-->
 
 [ <a href="http://t.co/aIlXQjHDEy" target="_blank">Full Infographic</a> ]          [ <a href="https://www.youtube.com/watch?v=awgofqGLrLY" target="_blank">Current state of my game</a> ]

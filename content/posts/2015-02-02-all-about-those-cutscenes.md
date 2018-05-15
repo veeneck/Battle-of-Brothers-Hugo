@@ -19,7 +19,6 @@ tags:
 
 ---
 I&#8217;ve done quite a lot over the past two weeks. Work has started on melee combat. I&#8217;ve hired a composer! But most of all, I&#8217;ve been consumed with cutscenes. When I started this process, I didn&#8217;t realize that the decision to add a story to my game would end up costing me ~30% of my budget and an equal amount of programming time. Now that I&#8217;m actually implementing the story, I&#8217;m starting to understand all of the implications.
-
 <!--more-->
 
 As always, I cover all of this in the video update, so follow along there if you prefer.
@@ -33,7 +32,7 @@ Let&#8217;s break down each of the tasks I took on over the past two weeks.
 I left off last update working on ranged combat, so I carried that into the first week by working on melee combat. The good news is that the code to process combat works just fine, so no refactoring was needed. The bad news is that combat doesn&#8217;t look perfect just yet. See for yourself.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;MildNecessaryGoitered&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="MildNecessaryGoitered" >}}
 </div>
 
 I have to play around with making combat look more natural. For example, have soldiers feet moved when they are pushed. Or, when processing allows, have a soldier walk around someone rather than through them. Finally, if it&#8217;s 4 on 1, have the 4 properly surround the target. Right now, they just walk in a straight line directly to the closest target.
@@ -61,7 +60,7 @@ Cutscenes are hard. Here&#8217;s why:
 Given all of that, I&#8217;m both excited and nervous about the end product. But, I&#8217;m committed. For now, I&#8217;ve got a <a href="http://battleofbrothers.com/sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions" target="_blank">basic, skippable engine in place</a> and roughly 1/4 of the content in there. I&#8217;ll keep working towards a finished product over the next month.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WearyEverlastingBee&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="WearyEverlastingBee" >}}
 </div>
 
 #### Scene Management
@@ -71,13 +70,13 @@ While working on cutscenes, I received quite the education in scene management. 
 On the technical side, scenes have to transition into one another gracefully. This is easier said than done when working with large assets. So, to implement transitions, I have had to start a preloading system. Each scene has a tree of next scenes, and based on the state of the game will being a background thread that preloads the upcoming scene. This system allows for graceful transitions like this:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EntireImaginativeIndianrockpython&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EntireImaginativeIndianrockpython" >}}
 </div>
 
 On the logic side, there are a bunch of edge cases with players quitting the game or turning off their device. Some scenes, like story dialogue, can be marked as complete if they get shown. Other scenes, like player decisions, must have a decision made in order to not be shown again. That decision must be stored somewhere. I&#8217;ve started the process of implementing that. Another example would be the world map. If revealing a new level, zoom in and show it. Otherwise, show the entire map in its normal state.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WhirlwindMeekLacewing&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="WhirlwindMeekLacewing" >}}
 </div>
 
 <hr class="dots" />

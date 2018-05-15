@@ -11,7 +11,6 @@ tags:
 
 ---
 I&#8217;ve spent the last couple of weeks testing out different 2d game development frameworks, and I&#8217;ve decided that the [Corona SDK][1] is the tool for me. I was hoping there would be a standout framework that could make basic 2d games much better than the others, but I feel they each have pros and cons and they can all make games just fine. What it really comes down to is what makes me comfortable and excited about game development. I&#8217;m not qualified to list out the [pros and cons of each environment][2], since I&#8217;ve been developing games for all of two weeks, but I can tell you why Corona won my business.
-
 <!--more-->
 
 **Ease of Use**

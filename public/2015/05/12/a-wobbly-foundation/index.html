@@ -39,8 +39,10 @@
 <div class="top">
 	<p class="breadcrumb">
 		Currently following
+		
 		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a> 
 		<a href="/sirchris" title="To see what the losing team is up to." class="switch floatright sirchris">See what Sir Chris is up to &#8611;</a>
+		
 	</p>
 </div>
 
@@ -71,7 +73,9 @@
 
   	
 <nav>
-	<div class="container clear post">
+	
+		<div class="container clear blog">
+	
   		<div class="leftnav clear">
   			<span>
 	  			<a href="/sirryan" class="blog clear">
@@ -138,9 +142,8 @@
 			</div>
 
 			<div class="post source_light">				
- 				<p>An unsteady foundation is still a foundation, right? I&#8217;ve continued my work of porting all code into a single project. You can roughly play the game from start to level 2 right now. This means loading, saving, world map, placing troops, enemy waves, game over state, resuming, story, and more. There is a lot of core code in place.</p>
-
-<p></p>
+ 				<p>An unsteady foundation is still a foundation, right? I&#8217;ve continued my work of porting all code into a single project. You can roughly play the game from start to level 2 right now. This means loading, saving, world map, placing troops, enemy waves, game over state, resuming, story, and more. There is a lot of core code in place.
+</p>
 
 <p>The only catch? It&#8217;s not stable yet. Memory leaks, timing issues and missing assets are still common. I&#8217;ll keep iterating on this next update. And when I get bored with that, I incrementally polish different screens. During this update, I revisited the main menu and world map.</p>
 
@@ -179,7 +182,7 @@
 <p>Have a look at the first draft below. Everything, including the title, are subject to change. But, I now have a decent foundation to work with here.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;NeedyPositiveKiskadee&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/NeedyPositiveKiskadee' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>One of the nice things about implementing the main menu is that I took my time. I set no deadlines, so I was not rushed. I played around with movement and light. I learned tricks in Pixelmator. The code is clean and reusable. Overall, it felt really good to get something to a decent state. So much in game development is overwhelming that this was a welcome change.</p>
@@ -191,19 +194,41 @@
 <p>The old world map.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;ColossalFemaleCobra&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/ColossalFemaleCobra' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>The new world map.</p>
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;PertinentFamousGlowworm&#8221; data_autoplay=true data_controls=false]
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/PertinentFamousGlowworm' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 </div>
 
 <p>There is definitely some progress, but it isn&#8217;t there yet. Having icons designed could be a huge help. Also, I&#8217;ll be reaching out to Brian for help on this one to see if he has any tricks up his sleeves.</p>
 			</div>
 
 		</article>
+
+		<h2>Comments</h2>
+			<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 	</div>
 </div>

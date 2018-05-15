@@ -12,5 +12,5 @@ tags:
 
 ---
 I found an [illustrator for my game][1], and he started out by creating some character concepts and a couple of battlefield scenes.
-
+<!--more-->
  [1]: http://battleofbrothers.com/sirchris/found-an-illustrator

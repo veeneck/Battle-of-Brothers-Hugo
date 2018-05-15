@@ -11,7 +11,6 @@ tags:
 
 ---
 Last year I wrote about [saving game data in SpriteKit][1], and that code is now completely out of date. Swift 3 has brought about all sorts of fun changes, so it&#8217;s time for me to provided some updated code.
-
 <!--more-->
 
 The general approach remains the same &#8212; conform save data to NSCoding and write to a plist file. The main changes / improvements are:

@@ -14,7 +14,6 @@ tags:
 
 ---
 The introduction of [Swift][1] comes at a perfect time for me. I’ve been working on a SpriteKit game in Objective-C for 10 weeks now, and some of the code is definitely in need of refactoring. Refactoring is known to be tedious, so being able to learn a new language during the process is a plus. I’ve been taking notes of any challenge I’ve come across during the conversion.
-
 <!--more-->
 
 #### Preloading Assets

@@ -18,7 +18,6 @@ tags:
 
 ---
 I had just started working with an illustrator when I last left off, and most of my time over the last two weeks was spent designing some pretty cool characters and battlefields. I was also able to contract a character animator, who is now working on the game&#8217;s first character animations.
-
 <!--more-->
 
 My first goals with Scott, my illustrator, was to design the game&#8217;s first level and character. Those two assets will set the tone for the game&#8217;s art direction, so getting that right was pretty important. I wanted the first level to answer a few questions about workflow and artwork, including:

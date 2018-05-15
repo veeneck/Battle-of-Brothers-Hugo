@@ -7,14 +7,9 @@ url: /2015/01/05/now-were-rolling/
 featured_image: /wp-content/uploads/2014/12/B4wQf2AIIAA8hjZ-3.png-large-3.png
 number:
   - 14
-  - 14
 keyevent:
   - 90 Units at 50% CPU
   - Basics attacks
-  - 90 Units at 50% CPU
-  - Story fully illustrated
-  - Basics attacks
-  - Started world map
   - Story fully illustrated
   - Started world map
 categories:
@@ -24,7 +19,6 @@ tags:
 
 ---
 Things are moving along much better now. I wouldn&#8217;t say moving quickly just yet, but they&#8217;re at least moving. I&#8217;ve overcome a lot of technical hurdles and learning curves in the past 3 months. The latest of those was how to support 100-150 units on the screen at once. Serious progress has been made in that department. And, as always, I&#8217;ve received amazing illustrations and animations from Scott and Liron. Lastly, I&#8217;ve dabbled a bit in icon making.
-
 <!--more-->
 
 Let&#8217;s jump to the video for more.

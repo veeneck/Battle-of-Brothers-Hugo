@@ -9,11 +9,7 @@ keyevent:
   - Added Battle Markers
   - Spearman Animated
   - Intro First Take
-  - Added Battle Markers
-  - Spearman Animated
-  - Intro First Take
 number:
-  - 21
   - 21
 categories:
   - sirchris
@@ -22,7 +18,6 @@ tags:
 
 ---
 I have a lot to share this time around, including icons, character animations, splash screens, world map animations, music and sound, and cut scenes. But the biggest achievement over the last two weeks was completing the first take of the game’s intro video, which you can see below.
-
 <!--more-->
 
 <div style="clear:both">
@@ -40,7 +35,7 @@ There isn’t any sound added to the video yet, and there are parts that I just 
 I have about 11 of 18 full character animations completed now, and the latest addition is the spearman character.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;RevolvingInfantileArkshell&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="RevolvingInfantileArkshell" >}}
 </div>
 
 He’s from the desert area in the map and the inspiration for his design was the [Aiel race][1], from the Wheel of Time. I&#8217;ve always liked the idea of this character and [Dustin Bolton][2] did a fantastic job bringing him to life.
@@ -60,7 +55,7 @@ Now that the large illustrations are complete, it’s time to move onto some of 
 I wasn’t completely happy with how the waterfall looked during the first pass because it looked a little too chunky, for lack of a better word. [Scott][3] took another shot at it and I’m happy with the second take.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;IcySecondaryAsiaticlesserfreshwaterclam&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="IcySecondaryAsiaticlesserfreshwaterclam" >}}
 </div>
 
 Similar animations were created for the other waterfalls on the world map, so I think we can scratch world map animations off of the to-do list.

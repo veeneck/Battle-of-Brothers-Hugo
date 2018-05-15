@@ -7,11 +7,7 @@ url: /2015/10/01/a-month-of-combat/
 featured_image: /wp-content/uploads/2015/11/Screen-Shot-2015-11-13-at-4.45.05-PM-e1447451181588-3.png
 number:
   - 25
-  - 25
 keyevent:
-  - Port combat to iOS9
-  - Line of sight for melee.
-  - 100 units fighting.
   - Port combat to iOS9
   - Line of sight for melee.
   - 100 units fighting.
@@ -64,7 +60,7 @@ One of the more interesting tasks with line of sight for combat. Each unit shoul
 Units will often be close to one another, so combat between multiple squads has to look decent. I started by tackling a unit surrounded on both sides.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;GleefulSameFinwhale&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="GleefulSameFinwhale" >}}
 </div>
 
 While not finished, the results are promising. To take it a step further, I had to run the simulation multiple times from multiple directions because it has to always work. The end goal is for squads to keep their shape to some extent, which will also have the side effect of keeping things balanced.

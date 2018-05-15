@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://battleofbrothers.com/2018/05/11/hello-world/</loc>
-    <lastmod>2018-05-11T17:33:43+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</loc>
     <lastmod>2016-07-12T18:08:19+00:00</lastmod>
   </url>
@@ -722,7 +717,7 @@
   
   <url>
     <loc>http://battleofbrothers.com/posts/</loc>
-    <lastmod>2018-05-11T17:33:43+00:00</lastmod>
+    <lastmod>2016-07-12T18:08:19+00:00</lastmod>
   </url>
   
   <url>
@@ -739,7 +734,7 @@
   
   <url>
     <loc>http://battleofbrothers.com/</loc>
-    <lastmod>2018-05-11T17:33:43+00:00</lastmod>
+    <lastmod>2016-07-12T18:08:19+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -930,7 +925,7 @@
   
   <url>
     <loc>http://battleofbrothers.com/categories/uncategorized/</loc>
-    <lastmod>2018-05-11T17:33:43+00:00</lastmod>
+    <lastmod>2015-01-13T14:24:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   

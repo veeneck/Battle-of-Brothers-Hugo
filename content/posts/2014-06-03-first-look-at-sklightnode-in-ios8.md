@@ -12,7 +12,6 @@ tags:
 
 ---
 Lighting effects were curiously missing from SpriteKit in iOS7, so I&#8217;m happy to see them appear in iOS8. Here&#8217;s a quick look at what you can expect from the light source / raycasting implementation.
-
 <!--more-->
 
 [SKLightNode][1] is the API object of interest today, and we can initialize one with some defaults.

@@ -14,7 +14,6 @@ tags:
 
 ---
 It&#8217;s common to see [health bars attached to a characters][1] in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.
-
 <!--more-->
 
 <div class="inlineimg">

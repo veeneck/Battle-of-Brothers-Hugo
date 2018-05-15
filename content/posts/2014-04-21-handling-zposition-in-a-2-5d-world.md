@@ -12,7 +12,6 @@ tags:
 
 ---
 Not surprisingly, dealing with zPosition in a 2.5d game is about as complicated as everything else in game development &#8212; it will be harder to handle than you think it should be. For example, how should you handle moving a sprite from behind a tree to in front of a tree in perceived depth. While the initial drawing of objects is straightforward, things become tricky once they start moving around. Let&#8217;s take a look at how I&#8217;m approaching zPosition in my Sprite Kit game.
-
 <!--more-->
 
 #### An Enum for World Layers

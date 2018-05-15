@@ -7,10 +7,7 @@ url: /2015/06/10/sound-and-music/
 featured_image: /wp-content/uploads/2015/06/Screen-Shot-2015-06-09-at-11.55.26-AM-2.png
 number:
   - 26
-  - 26
 keyevent:
-  - Added first sound effects.
-  - Level 1 Music Take 1
   - Added first sound effects.
   - Level 1 Music Take 1
 categories:
@@ -20,7 +17,6 @@ tags:
 
 ---
 In the last update I demoed the [latest version of the game’s battle layer][1] and I&#8217;m comfortable with how that part of the game is progressing. There are still bugs to squish and polish to add, but now that I’m confident in the game’s art, animation, and general flow, it’s time to give audio some love. I’ve contracted the pros to help me out in this area, and with their help the game has gotten some fantastic ear candy. Here’s a look at the latest build with the new audio enhancements.
-
 <!--more-->
 
 <div class="inlineimg">
@@ -55,13 +51,13 @@ I really like the sound of metal tech control board sounds, so he remade the fin
 In addition to sound, music, and squashing a lot of bugs, I spent a good amount adding flexibility to the combat layer. If you take a look at this attack sequence, you’ll notice that the sound effects, text effects, damage effects, and flinch all happen at the (relatively) appropriate times.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;GroundedCloudyGar&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="GroundedCloudyGar" >}}
 </div>
 
 Those actions all used to be hard-coded, but that&#8217;s not scalable when the game has a variety of unique melee attacks requiring custom sequences and timing. For example, here’s a look at the knight on the receiving end of a double attack.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;GoldenSilverHusky&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="GoldenSilverHusky" >}}
 </div>
 
 I can tweak the timing of all the attack variables in JSON, which saves me a ton of time making the melee sequences look and sound right.
@@ -71,7 +67,7 @@ I can tweak the timing of all the attack variables in JSON, which saves me a ton
 Wizards don’t swing words, so I also had to work on how ranged combat works. Here’s a look at a couple of wizards going at it.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;FeistyRawAlpineroadguidetigerbeetle&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="FeistyRawAlpineroadguidetigerbeetle" >}}
 </div>
 
 There are a three major parts to the ranged combat.

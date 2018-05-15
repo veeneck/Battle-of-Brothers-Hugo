@@ -8,6 +8,8 @@ categories:
   - sirryan
 tags:
   - budget
+amount: 424
 
 ---
 It turns out finding a final style is harder than I thought. Ran more experiments with both an animator and illustrator this week to try to merge their styles / find a final appearance for the game.
+<!--more-->

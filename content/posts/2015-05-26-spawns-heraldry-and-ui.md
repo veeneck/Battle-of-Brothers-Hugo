@@ -17,7 +17,6 @@ tags:
 
 ---
 This update is broken into three main events. First, I created spawn zones for the player to place their troops before battle. Second, I fixed off screen heraldry, and refactored the code to make it more flexible. Lastly, I played with consistent UI classes that will work for every screen. And in between all of that, I fixed bugs and worked with the composer (<a href="http://www.manfredoniamusic.com" target="_blank">Tony Manfredonia</a>).
-
 <!--more-->
 
 One interesting side note about developing games. It is nice to be able to switch gears. When I&#8217;m bored with combat work, I can play with UI. When I don&#8217;t feel like coding, I can try to implement and learn about music or sound effects. There is a huge variety of things to work on. Of course, that comes with a downside. There is a mountain of work to be done that is quite intimidating, and I really have to stop myself from focusing on that aspect.
@@ -29,7 +28,7 @@ One interesting side note about developing games. It is nice to be able to switc
 The task here was to create a region that allows troop placement. If the user taps outside of that region, it won&#8217;t work. The code had to be flexible for every map, and also allow a limit to the amount of units that could be placed in a particular region. Here is a working draft.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;TightDamagedGull&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="TightDamagedGull" >}}
 </div>
 
 Once all units are placed, the game begins. In the future, there may be a button to being battle if it is optional to use every unit. Another cool thing to note is the direction the archers are facing when placed. I have a few hidden nodes with rotation sitting inside of the placement zone. When a unit is placed, the code finds the closest node. Whatever the rotation of that node is, the unit is set to that heading. I will allow the player to rotate units, but this is a nice touch for convenience.
@@ -42,7 +41,7 @@ I refer to the shields that identify the squads as Heraldry. They are ket to the
   * When a unit is offscreen, the Heraldry shrinks but still indicates the location of the unit.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;SpiritedAgitatedBarbet&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="SpiritedAgitatedBarbet" >}}
 </div>
 
 Technically, the offscreen placement has been a pain. Weeks ago, I was able to get the location of the intersection with the edge of the screen. Everything worked until there were a bunch of units. The Heraldry started to overlap, and I have to avoid this as much as possible. So, we now have a grid of dots that sit at the edge of the screen. Each Heraldry can only be on one unique dot. If that dot is occupied, the next dot is selected. Now, we no long have off screen overlapping. On screen overlapping still does occur, but that&#8217;s a challenge for another week.
@@ -69,7 +68,7 @@ Functionally, it works. In the future I&#8217;ll spend time on appearance. I&#82
 Another UI task that was accomplished this week was settings and pausing. I thought pausing would take me forever, but I was lucky that everything &#8220;just worked.&#8221; All of my game nodes were already in a separate World layer, so pausing just that layer stops the game while the UI layer is still active. See it in action below.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;UnsteadyUnlinedFlicker&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="UnsteadyUnlinedFlicker" >}}
 </div>
 
 #### Music

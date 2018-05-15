@@ -18,7 +18,6 @@ tags:
 
 ---
 Story, story, story. 8 of the 10 days over the past two weeks have been spent preparing story assets, implementing them into the game engine, revising dialogue, and getting the cutscenes to work. It has been extremely tedious, but it feels great to have finished a first pass.
-
 <!--more-->
 
 In between story work, I was able to coordinate with Scott (illustrator) over the next drawing, start a third contract with Liron (animator), and <a href="http://battleofbrothers.com/sirryan/300-for-script-editor" target="_blank">start a contract with Mike Waterston for script editing</a>. See video for details.
@@ -42,7 +41,7 @@ Story is a vague term. In order to implement the story, here is what had to happ
   * &#8220;Scene Switchboard&#8221; to handle navigation between game scenes.
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;FineFarBichonfrise&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="FineFarBichonfrise" >}}
 </div>
 
 For example, what happens if someone finishes the first level, but turns their iPad off before the &nbsp;cutscene finishes immediately after the level? I tried to handle as many edge cases like this as I could.

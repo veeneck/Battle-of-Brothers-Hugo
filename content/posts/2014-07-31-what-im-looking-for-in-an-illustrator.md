@@ -12,7 +12,6 @@ tags:
 
 ---
 I&#8217;m in the process of contracting an illustrator and so far I&#8217;ve looked at more profiles on [deviantART][1] and [Behance][2] than I can remember. I thought this would be an easy process, but I&#8217;ve never worked with an illustrator before and I never realized how many variables would come into play when searching for the right person. I know I won&#8217;t find everything I&#8217;m looking for, but here are some of the variables I&#8217;m taking into consideration while looking for the right person.
-
 <!--more-->
 
 #### Range of Style

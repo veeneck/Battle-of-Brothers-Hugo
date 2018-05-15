@@ -13,7 +13,6 @@ tags:
 
 ---
 Those of you who follow me know that I&#8217;m working on a game that will have ~200 nodes on the screen updating every frame. Because of that requirement, I&#8217;m <a href="http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1" target="_blank">constantly looking</a> at <a href="http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit" target="_blank">how I can</a> incrementally <a href="http://battleofbrothers.com/sirryan/now-were-rolling" target="_blank">improve performance</a>. Slowly but surely, I&#8217;m making this game a well oiled machine. Today, I stumbled on a significant slow down, and the resulting fix that shaved off 16% CPU usage: caching `enumerateChildNodesWithName`.
-
 <!--more-->
 
 This discovery came from reading WWDC 2014 transcripts while discussing said function.
@@ -44,7 +43,7 @@ Here is an example of what one of those callbacks would look like:
 
 With that in place, all we have to do is cache the callback functions on the first run through of `enumerateChildNodesWithName<strong>` in the Scenes update loop.</strong>
 
-https://gist.github.com/veeneck/a5f2dd16bf11843141cd
+{{< gist veenecka5f2dd16bf11843141cd >}}
 
 Now, let&#8217;s say one of our characters dies. We don&#8217;t want the update function to keep running on that character. We&#8217;ll have to clear the cache by emptying the array. Then, it will automatically rebuild on the next update loop.
 
@@ -52,7 +51,7 @@ Now, let&#8217;s say one of our characters dies. We don&#8217;t want the update 
 
 I&#8217;ve consolidated all of this into a small class that I call from my scene object in case it gets more complicated down the road. You can see my full code here:
 
-https://gist.github.com/veeneck/f1d534a87133415bfd6d
+{{< gist veeneckf1d534a87133415bfd6d >}}
 
 #### Notes & Concerns
 

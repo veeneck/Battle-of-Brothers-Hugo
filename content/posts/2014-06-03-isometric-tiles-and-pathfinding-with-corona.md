@@ -13,7 +13,6 @@ tags:
 
 ---
 I previously wrote a tutorial on how to create a square grid and [implement pathfinding with Corona SDK][1] and the Jumper library, but now we&#8217;re going to take things up a notch and do the same thing on an isometric grid. Isometric grids use rhombus, or diamond shaped tiles, as opposed to square tiles. The introduction of angled tiles adds the perception of depth and can dramatically change the visuals of your game without adding much complexity to your code.
-
 <!--more-->
 
 For a comparison, here is what a simple map looks like in isometric (2.5D) vs orthographic (flat) projection.

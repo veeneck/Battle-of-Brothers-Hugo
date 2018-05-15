@@ -11,7 +11,6 @@ tags:
 
 ---
 Today marks the one year anniversary of our [game development competition][1], so I can now safely say that the game will be late. Not only will the game be late, but I&#8217;m also about [2k over budget][2]. If you had asked me a year ago if I would be disappointed about being late and over budget, I would have absolutely said yes.
-
 <!--more-->
 
 In my former career as a web developer I prided myself meeting budget and time deadlines. I rarely missed any type of programming deadline (unless management screwed things up, of course) and could fairly accurately predict how long any coding task would take. Now that I have a year of game development under my belt, I can confidently say that I can in no way estimate how long it takes to develop a game.
@@ -47,7 +46,7 @@ A recent example to illustrate what I&#8217;m talking about is what I&#8217;ve g
 What I want to do is animate a yellow and green line that goes from point A to point B in order to indicate the path that the heroes take. The end result looks a little something like this:
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;EmptyScaryAbalone&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="EmptyScaryAbalone" >}}
 </div>
 
 That small path looks easy enough, but implementing it requires going into Pixelmator, creating 20 or 30 mask images, and then sequentially animating the path with those mask images. The game has 22 of these paths, so that&#8217;s 22 path animations that have to be cut up, animated, tested, usually fixed in some way, and then tested again.

@@ -12,11 +12,10 @@ tags:
 
 ---
 Before I wrote a line of code, I knew that I wanted my game to have a story. And, of course, not just any story. It had to be a decent story with sound, art, movement and voice overs. Basically, a movie. Now that I&#8217;m 75% through the process of creating and implementing a story, I thought I&#8217;d share some lessons learned about this surprisingly difficult task that cost me around **$7,600 and nearly 3 months**&nbsp;of my development time.
-
 <!--more-->
 
 <div class="inlineimg">
-  [gfycat data_id=&#8221;WearyEverlastingBee&#8221; data_autoplay=true data_controls=false]
+  {{< gfycat data_id="WearyEverlastingBee" >}}
 </div>
 
 _Quick scale note&nbsp;to provide&nbsp;perspective &#8212;&nbsp;my story is ~13 minutes long, and contains ~250&nbsp;sentences&nbsp;of dialogue over ~20 illustrations. Your mileage will vary, but this will hopefully provide some insight that you can plan against._
@@ -126,7 +125,7 @@ That, combined with his other feedback, forced me to figure out the world. Provi
     </p>
     
     <div class="inlineimg">
-      [gfycat data_id=&#8221;FineFarBichonfrise&#8221; data_autoplay=true data_controls=false]
+      {{< gfycat data_id="FineFarBichonfrise" >}}
     </div>
     
     <p>
