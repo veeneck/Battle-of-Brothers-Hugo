@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2014-05-12T15:49:28+00:00
 url: /sirryan/and-then-there-was-a-playable-game/
-featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-12-at-11.49.52-AM-1.png
+featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-12-at-11.49.52-AM.png
 keyevent:
   - Behaviors for units.
   - pList driven spawn points.

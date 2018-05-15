@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2015-01-05T13:43:10+00:00
 url: /sirryan/now-were-rolling/
-featured_image: /wp-content/uploads/2014/12/B4wQf2AIIAA8hjZ-3.png-large-3.png
+featured_image: /wp-content/uploads/2014/12/B4wQf2AIIAA8hjZ-large.png
 number:
   - 14
 keyevent:

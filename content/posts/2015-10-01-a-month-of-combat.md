@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2015-10-01T20:46:47+00:00
 url: /sirryan/a-month-of-combat/
-featured_image: /wp-content/uploads/2015/11/Screen-Shot-2015-11-13-at-4.45.05-PM-e1447451181588-3.png
+featured_image: /wp-content/uploads/2015/11/Screen-Shot-2015-11-13-at-4.45.05-PM-e1447451181588.png
 number:
   - 25
 keyevent:

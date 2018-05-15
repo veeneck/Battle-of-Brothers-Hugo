@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2016-01-04T16:06:23+00:00
 url: /sirryan/abilities-modifiers-frameworks-scripting-engine/
-featured_image: /wp-content/uploads/2016/01/Screen-Shot-2016-01-04-at-11.04.37-AM-e1451923520630-2.png
+featured_image: /wp-content/uploads/2016/01/Screen-Shot-2016-01-04-at-11.04.37-AM-e1451923520630.png
 number:
   - 26
 keyevent:

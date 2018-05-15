@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2014-03-27T15:04:17+00:00
 url: /sirryan/lets-do-this/
-featured_image: /wp-content/uploads/2014/03/ryanintro-1.png
+featured_image: /wp-content/uploads/2014/03/ryanintro.png
 keyevent:
   - '<a href="http://battleofbrothers.com/sirryan/spent-15-on-video-tutorials">$15 on video tutorials</a>'
   - Competition started!

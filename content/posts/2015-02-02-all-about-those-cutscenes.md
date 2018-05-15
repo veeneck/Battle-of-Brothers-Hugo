@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2015-02-02T13:41:07+00:00
 url: /sirryan/all-about-those-cutscenes/
-featured_image: /wp-content/uploads/2015/01/Screen-Shot-2015-01-30-at-1.26.23-PM-3.png
+featured_image: /wp-content/uploads/2015/01/Screen-Shot-2015-01-30-at-1.26.23-PM.png
 number:
   - 16
 keyevent:

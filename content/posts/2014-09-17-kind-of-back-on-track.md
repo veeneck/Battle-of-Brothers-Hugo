@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2014-09-17T15:04:18+00:00
 url: /sirryan/kind-of-back-on-track/
-featured_image: /wp-content/uploads/2014/09/castle2-1.png
+featured_image: /wp-content/uploads/2014/09/castle2.png
 number:
   - 12
 keyevent:
