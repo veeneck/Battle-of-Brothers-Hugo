@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-05-27T15:40:58+00:00
 url: /sirchris/a-little-perspective/
-featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png
+featured_image: /wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM.png
 keyevent:
   - Added Obstacles
   - Switched to Isometric Perspective

@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-09-17T13:59:22+00:00
 url: /sirchris/back-to-programming/
-featured_image: /wp-content/uploads/2014/09/code-1.png
+featured_image: /wp-content/uploads/2014/09/code.png
 number:
   - 12
 keyevent:

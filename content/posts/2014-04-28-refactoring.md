@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-04-28T18:24:53+00:00
 url: /sirchris/refactoring/
-featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM-1.png
+featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM.png
 keyevent:
   - Make code object oriented
   - Add enemies to fight

@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2015-02-04T16:15:28+00:00
 url: /sirchris/fights-cut-scenes-and-texture-memory/
-featured_image: /wp-content/uploads/2015/01/SC01_011-e1423929268304-3.jpg
+featured_image: /wp-content/uploads/2015/01/SC01_011-e1423929268304.jpg
 number:
   - 19
 keyevent:

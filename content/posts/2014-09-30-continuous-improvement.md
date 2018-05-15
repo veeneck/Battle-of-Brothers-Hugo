@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-09-30T19:37:01+00:00
 url: /sirchris/continuous-improvement/
-featured_image: /wp-content/uploads/2014/09/ortho_blackKnight_03-1.png
+featured_image: /wp-content/uploads/2014/09/ortho_blackKnight_03.png
 number:
   - 13
 keyevent:

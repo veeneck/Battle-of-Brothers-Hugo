@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-08-05T17:29:33+00:00
 url: /sirchristhe-start-of-my-game/
-featured_image: /wp-content/uploads/2014/08/WorldMap_Island_demo01-1.jpg
+featured_image: /wp-content/uploads/2014/08/WorldMap_Island_demo01.jpg
 keyevent:
   - Finished refactoring
   - Created Art Design Document

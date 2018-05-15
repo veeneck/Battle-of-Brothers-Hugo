@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2015-03-03T16:21:27+00:00
 url: /sirchris/intro-video-artwork-and-audio/
-featured_image: /wp-content/uploads/2015/03/SC07_05-e1425399999265-3.jpg
+featured_image: /wp-content/uploads/2015/03/SC07_05-e1425399999265.jpg
 keyevent:
   - Added Battle Markers
   - Spearman Animated

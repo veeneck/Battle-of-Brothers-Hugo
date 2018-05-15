@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-04-14T17:48:47+00:00
 url: /sirchris/beginnings/
-featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM-1.png
+featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM.png
 number:
   - 2
 keyevent:

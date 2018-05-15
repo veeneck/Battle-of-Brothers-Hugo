@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2015-07-09T19:08:47+00:00
 url: /sirchris/character-creation/
-featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-09-at-2.43.39-PM-2.png
+featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-09-at-2.43.39-PM.png
 keyevent:
   - First Crack at Character Creation
 number:

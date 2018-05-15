@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2015-09-16T17:07:22+00:00
 url: /sirchris/slow-and-steady/
-featured_image: /wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-12.56.00-PM-2.png
+featured_image: /wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-12.56.00-PM.png
 keyevent:
   - Multiple Attack Support
   - Intro Movie Update

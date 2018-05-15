@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2014-11-12T17:00:53+00:00
 url: /sirchris/visual-progress/
-featured_image: /wp-content/uploads/2014/11/characterscreen-2.png
+featured_image: /wp-content/uploads/2014/11/characterscreen.png
 keyevent:
   - Added Level Markers
   - Added Battlefield Tiles
