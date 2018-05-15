@@ -1,0 +1,84 @@
+{{ define "main" -}}
+
+{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirchris }}
+{{ if (in .Params.categories "sirryan") }}
+	{{ $.Scratch.Set "allPostsInCategory" .Site.Taxonomies.categories.sirryan }}
+{{ end }}
+{{ $sortedPosts := (sort ($.Scratch.Get "allPostsInCategory") "Date" "desc") }}
+
+{{ $.Scratch.Set "budget" 25000 }}
+
+<div class="outercontent">
+  	<div class="content clear">
+
+  		<div class="floatleft activity posts">
+  	  		<ul class="recent">
+  	  		
+  	  		{{ range $sortedPosts }}
+	  	  		{{ if in .Params.tags "budget" }}
+
+	  	  			{{ if isset .Params "amount" }}
+	  	  				{{ $currentAmount := float .Params.amount }}
+	  	  				{{ $newAmount := sub ($.Scratch.Get "budget") $currentAmount }}
+	  	  				{{ $.Scratch.Set "budget" $newAmount }}
+	  	  			{{ end }}
+
+	  	  			{{ $randomShield := index (first 1 (shuffle (seq 7 12))) 0 }}
+
+	  	  			<li class="clear">
+	  	  				<div class="status floatleft clear">
+	  	  					<div class="floatleft timestamp">
+								<span class="month">{{ .Date.Format "Jan" }}</span>
+								<p class="shield" style="background-image:url('/assets/Shield{{ $randomShield }}.png')">{{ .Date.Format "2" }}</p>
+							</div>
+							<a href="{{ .Page.RelPermalink }}" class="title grace">{{ .Page.Title }}</a>
+
+							<span class="comments floatright">
+								<img class="icon" src="/assets/Chat-6.png" width="16px" />
+								<small><a href="/" class="dotted">X Comments</a></small>
+							</span>
+							<img class="icon" src="/assets/Tag-star.png" width="16px">
+							<small>
+								{{ range $key, $value := .Params.tags }}
+									<a href="" class="dotted">{{ $value }}</a>
+								{{ end }}
+							</small>
+							<span class="more source_light">{{- .Page.Summary -}}</span>
+
+							<a class="more-link" href="{{ .RelPermalink }}">Read More…</a>
+						</div>
+
+
+					</li>
+				{{ end }}
+  	  		{{ end }}
+			
+  	  		</ul>	
+  	  	</div>
+  	  	<div class="floatleft activity right common">
+			<h3 class="remaining">${{ lang.NumFmt 0 ($.Scratch.Get "budget")  }} Left</h3>
+
+			<h4>What is the budget?</h4>
+			<p>Each brother has $25,000 to spend. Anything over that will count against the final profits when determining a winner. To the left, you can find a log of all of Chris's expenses.</p>
+
+			<div class="callout clear">
+				<h4>What's this contest about?</h4>
+				<p>Armed with little to no game development experience, the Brothers Campbell are attempting to make video games for a living.
+				We believe the best way for us to learn is to do what comes naturally to brothers &#8212; Compete! 
+				The challenge is to see who can make the most successful video game on a budget of $25,000 and in one year’s time. 
+				The duel begins on April 7th, 2014 and we'll be documenting the journey.</p>
+
+				<hr class="dots" />
+
+				<h4>How will you determine the winner?</h4>
+				<p>It’s simple. The most profitable game wins. We’ll have 6 months to market the game after the one year development deadline on April 7th, 2015.</p>
+				<a href="/#faq" class="subtext dotted arrow">Learn more about the competition</a>
+			</div>
+			{{ partial "enemy.html" . }}
+		</div> <!-- #activity -->
+	</div>
+
+
+  </div> <!-- #content -->
+
+{{- end }}

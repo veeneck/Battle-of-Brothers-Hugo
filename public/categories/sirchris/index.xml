@@ -720,6 +720,51 @@
     
     <item>
       <title>Timeline</title>
+      <link>http://battleofbrothers.com/sirchris/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/about/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>http://battleofbrothers.com/sirchris/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/archive/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>http://battleofbrothers.com/sirchris/budget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/budget/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>http://battleofbrothers.com/sirchris/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/contact/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>http://battleofbrothers.com/sirchris/subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/subscribe/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
       <link>http://battleofbrothers.com/sirchris/timeline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

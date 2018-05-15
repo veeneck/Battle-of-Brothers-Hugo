@@ -1,3 +1,8 @@
+{{ $.Scratch.Set "knight" "sirchris" }}
+{{ if (in .Params.categories "sirryan") }}
+	{{ $.Scratch.Set "knight" "sirryan" }}
+{{ end }}
+
 {{ partial "header.html" . }}
   <body class="home gradient">
 

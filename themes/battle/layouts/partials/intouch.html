@@ -1,0 +1,23 @@
+<h4>Stay in touch</h4>
+<ul class="intouch">
+
+	{{ if eq ($.Scratch.Get "knight") "sirchris" }}
+		<li class="clear">
+			<img class="" src="/assets/twitter.png" width="24px"  />
+			<a class="dotted" href="https://twitter.com/codepaladin">@codepaladin</a>
+		</li>
+		<li class="clear">
+			<img class="" src="/assets/RSS.png" width="24px"  />
+			<a class="dotted" href="http://feeds.feedburner.com/SirChris" target="_blank">Subscribe to my RSS feed</a>
+		</li>
+	{{ else }}
+		<li class="clear">
+			<img class="" src="/assets/twitter.png" width="24px"  />
+			<a class="dotted" href="https://twitter.com/veeneck">@veeneck</a>
+		</li>
+		<li class="clear">
+			<img class="" src="/assets/RSS.png" width="24px"  />
+			<a class="dotted" href="http://feeds.feedburner.com/SirRyan" target="_blank">Subscribe to my RSS feed</a>
+		</li>
+	{{ end }}
+</ul>

@@ -19,17 +19,11 @@
 	</div>
 </nav>
 {{ else }}
-
-{{ $.Scratch.Set "knight" "sirchris" }}
-{{ if (in .Params.categories "sirryan") }}
-	{{ $.Scratch.Set "knight" "sirryan" }}
-{{ end }}
-
 <nav>
-	<div class="container clear">
+	<div class="container clear {{ .Type }}">
   		<div class="leftnav clear">
   			<span>
-	  			<a href="/{{ $.Scratch.Get "knight" }}" class="main clear">
+	  			<a href="/{{ $.Scratch.Get "knight" }}" class="blog clear">
 	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
 	  			</a>
   			</span>

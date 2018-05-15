@@ -27,6 +27,7 @@
 
 {{ if eq .Page.Section "posts" }}
   <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+{{ else if eq .Page.Type "contact" }}
 {{ else }}
   <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen" />
 {{ end }}
