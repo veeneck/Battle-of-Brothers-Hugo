@@ -53,6 +53,7 @@
 <div class="outercontentalt">
   	<div class="content clear">
 
+  	  {{ .File.BaseFileName }}
 	  {{ $entryId := .File.BaseFileName }}
 	  {{ $commentsForPost := index $.Site.Data.comments $entryId }}
 	  {{ with $commentsForPost }}

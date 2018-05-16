@@ -1,6 +1,18 @@
+{{ $entryId := .File.BaseFileName }}
+{{ $commentsForPost := index $.Site.Data.comments $entryId }}
+{{ $.Scratch.Set "comment_count" "0 comments" }}
+{{ with $commentsForPost }}
+	{{ $count := len $commentsForPost }}
+	{{ if eq $count 1 }}
+		{{ $.Scratch.Set "comment_count" (printf "%s" (print 1 " comment")) }}
+	{{ else }}
+		{{ $.Scratch.Set "comment_count" (printf "%s" (print $count " comments")) }}
+	{{ end }}
+{{ end }}
+
 <span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com{{ .RelPermalink }}"></span></a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com{{ .RelPermalink }}"></span>{{ $.Scratch.Get "comment_count" }}</a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
