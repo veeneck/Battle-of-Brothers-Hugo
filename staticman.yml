@@ -37,12 +37,12 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "Network Hobo"
+  name: "Battle of Brothers"
 
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "data/comments/{options.slug}"
+  path: "data/comments/{options.entryId}"
 
   # (*) REQUIRED
   #

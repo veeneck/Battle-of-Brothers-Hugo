@@ -53,16 +53,18 @@
 <div class="outercontent">
   	  <div class="content clear">
 
-  	  	<form method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments}">
-		  <input name="options[redirect]" type="hidden" value="https://battleofbrothers.com">
-		  <input name="options[slug]" type="hidden" value="{{ .Params.url }}">
-		  <!-- e.g. "2016-01-02-this-is-a-post" -->
-		  <label><input name="fields[name]" type="text">Name</label>
-		  <label><input name="fields[email]" type="email">E-mail</label>
-		  <label><textarea name="fields[message]"></textarea>Message</label>
-		  
-		  <button type="submit">Go!</button>
-		</form>
+  	  	 <h3>Comments</h3>
+
+		  {{ $.Scratch.Add "hasComments" 0 }}
+		  {{ $entryId := .File.BaseFileName }}
+  
+
+
+  {{ if eq ($.Scratch.Get "hasComments") 0 }}
+    <p>Nothing yet.</p>
+  {{ end }}
+
+  		{{ partial "comment-form.html" . }}
       </div>
 	</div> <!-- #content -->
 
