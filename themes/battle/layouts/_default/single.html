@@ -50,19 +50,40 @@
 	</div>
 </div>
 
-<div class="outercontent">
+<div class="outercontentalt">
   	  <div class="content clear">
 
   	  	 <h3>Comments</h3>
+  {{ $.Scratch.Add "hasComments" 0 }}
+  {{ $entryId := .File.BaseFileName }}
 
-		  {{ $.Scratch.Add "hasComments" 0 }}
-		  {{ $entryId := .File.BaseFileName }}
-  
+  <h5 class="grace comment-count"><span class="legacy"><?php echo $comment_count ?></span> of you did not hold your tongue!</h5>
+		<ol id="comments" class="commentlist">
 
+  {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
+    {{ $.Scratch.Add "hasComments" 1 }}
+    {{ if not .reply_to }}
 
-  {{ if eq ($.Scratch.Get "hasComments") 0 }}
-    <p>Nothing yet.</p>
-  {{ end }}
+    	<li >
+    		<div class="comment-body">
+    			<div class="comment-author vcard">
+    				<img src="https://www.gravatar.com/avatar/{{ .email }}?s=100" alt="" class="avatar avatar-64 photo" height="118" width="118">
+    			</div>
+    			<div class="comment-wrapper">
+    				<p>{{ .body | markdownify }}</p>
+				</div>
+				<div class="comment-meta commentmetadata">
+					<a href="{{ .Permalink }}#{{ ._id }}">#</a> by <cite class="fn"><a href="http://twitter.com/veeneck" rel="external nofollow" class="url">{{ .name }}</a></cite> {{ dateFormat "Monday, Jan 2, 2006" .date }}
+				</div>
+				<div class="reply">
+					<a id="{{ ._id }}" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ ._id }}')">Reply</a>
+				</div>
+			</div>
+		</li>
+
+    {{ end }}
+  {{ end }}     
+  </ol>  
 
   		{{ partial "comment-form.html" . }}
       </div>
