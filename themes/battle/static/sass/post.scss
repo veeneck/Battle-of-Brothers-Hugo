@@ -521,6 +521,15 @@ cite.fn {
 	text-align: left;
 	clear: both;
 	color: #454545;
+
+	label {
+		font-weight: bold;
+	}
+}
+
+.comment-form ::placeholder {
+	color: #fff;
+	font-style: italic;
 }
 
 .comment-form-author, .comment-form-email, .comment-form-url, .logged-in-as {
@@ -535,7 +544,6 @@ cite.fn {
 .comment-form-comment {
 	width: 450px;
 	float: right;
-	margin-top: -259px;
 	display: block;
 	height: 233px;
 	padding: 0px 0px 0px 30px;

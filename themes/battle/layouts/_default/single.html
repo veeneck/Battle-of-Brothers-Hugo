@@ -53,20 +53,28 @@
 <div class="outercontentalt">
   	<div class="content clear">
 
-  	  {{ .File.BaseFileName }}
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
 	  {{ $entryId := .File.BaseFileName }}
 	  {{ $commentsForPost := index $.Site.Data.comments $entryId }}
 	  {{ with $commentsForPost }}
-	    <h5 class="grace comment-count"><span class="legacy">{{ len $commentsForPost }}</span> of you did not hold your tongue!</h5>
-		<ol id="comments" class="commentlist">
-	  		{{ range $index, $comments := $commentsForPost }}
-	    		{{ if not .reply_to }}
+	  	{{ $count := len $commentsForPost}}
+	  	{{ if gt $count 0 }}
+		    <h5 class="grace comment-count"><span class="legacy">{{ $count }}</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		{{ range $index, $comments := $commentsForPost }}
+		    		{{ if not .reply_to }}
 
-	    			{{ partial "comment-display.html" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }} 
+		    			{{ partial "comment-display.html" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }} 
 
-	    		{{ end }}
-	  		{{ end }}     
-	  	</ol>  
+		    		{{ end }}
+		  		{{ end }}     
+		  	</ol>  
+		 {{ end }}
+
+		 <hr />
 	  {{ end }}
  
 	  {{ partial "comment-form.html" . }}
