@@ -53,15 +53,16 @@
 <div class="outercontent">
   	  <div class="content clear">
 
-  	  	{{ if .Site.DisqusShortname -}}
-			<div id="discuss" class="discuss">
-				<img class="" src="/assets/discuss.png" />
-			</div>
-		
-			<div class="disqus">
-				{{ template "_internal/disqus.html" . }}
-			</div>
-		{{- end }}
+  	  	<form method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-Of-Brothers-Hugo/master/comments}">
+		  <input name="options[redirect]" type="hidden" value="https://battleofbrothers.com">
+		  <!-- e.g. "2016-01-02-this-is-a-post" -->
+		  <input name="options[slug]" type="hidden" value="{{ .Params.slug }}">
+		  <label><input name="fields[name]" type="text">Name</label>
+		  <label><input name="fields[email]" type="email">E-mail</label>
+		  <label><textarea name="fields[message]"></textarea>Message</label>
+		  
+		  <button type="submit">Go!</button>
+		</form>
       </div>
 	</div> <!-- #content -->
 
