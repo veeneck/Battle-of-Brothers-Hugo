@@ -1,0 +1,10 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1595
+name: BadgerBadger
+email: 3d5d99c17fdbfd705b0182e9866d3a77
+body: 'Thanks a lot for that article!  I&#39;m quite new to game developement (i&#39;ve been coding for years though), Swift and SpriteKit so we are pretty much in the same spot.  I&#39;m working on a space exploration game and I was wondering if shaders would be helpful for a few things.  I&#39;m not quite there yet, but when I start attacking the subject, maybe I can share some of my findings since I would be probably using shaders along with SKShapeNodes and SKEmitterNodes.
+
+Anyway, thanks a lot for the insight!  Very helpful!
+
+One question though:  in your case, do you create the textures and shader every time the player&#39;s health change?  Can you simply change the uniform&#39;s values and the shader will adjust everything by itself every frame?'
+date: '2016-11-26 21:47:39'

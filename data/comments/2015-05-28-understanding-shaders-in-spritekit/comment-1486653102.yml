@@ -1,0 +1,12 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1652
+name: Chris
+email: 41ac589346578bab5977a45662754869
+body: 'By the way, it seems the u_sprite_size uniform has been removed as of iOS10, at least according to Apples docs:
+
+https://developer.apple.com/reference/spritekit/skshader
+
+&quot;Since the removal of u_sprite_size, if your shader requires the size of the sprite in pixels, you are responsible for creating the necessary uniform or attribute.&quot;
+
+There is sample code for recreating this in the docs themselves, but thought it was worth pointing out.'
+date: '2017-02-09 10:11:42'

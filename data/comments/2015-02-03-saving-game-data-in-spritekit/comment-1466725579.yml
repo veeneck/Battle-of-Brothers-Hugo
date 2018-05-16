@@ -1,0 +1,8 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1295
+name: Noah Covey
+email: 2d1c54d5c6c3c63ccdad1a814f942a85
+body: 'I have a real question now: In your code, the file you are copying to &quot;GameData.plist&quot; is called &quot;DefaultFile.plist.&quot; However, there is no such thing as &quot;DefaultFile.plist&quot;. I assume this is just a placeholder, so what do put there instead? I tried &quot;Info.plist&quot;, but that gives me an error.
+
+Thanks'
+date: '2016-06-23 19:46:19'

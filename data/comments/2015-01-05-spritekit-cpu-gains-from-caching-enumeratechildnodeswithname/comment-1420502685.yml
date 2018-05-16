@@ -1,0 +1,12 @@
+_parent: 2015-01-05-spritekit-cpu-gains-from-caching-enumeratechildnodeswithname
+_id: 1118
+name: Christopher
+email: 0c2c3aadfe48fb60acf9ab2ba52a8c2f
+body: 'You should keep a cache of items so you can remove them via key/value this is what I do with over 2k objects and only use about 2% cpu resources while swapping in/out all the time. 
+
+Granted I use sprite sheets so the reload of images, sprites etc. is no drastic hit because the actual image is already loaded into openGL.
+
+I think you will find it will make your life easier by keeping a cache and if you are like me I keep a json cache so i can add stuff like &quot;destroyed&quot; : true, &quot;currentstate&quot; : 1, etc. and so forth.
+
+It allows me to expand the object out in real time without having to reload anything.'
+date: '2015-01-05 19:04:45'

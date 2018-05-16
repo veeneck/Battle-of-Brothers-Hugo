@@ -133,10 +133,15 @@
 
 
 
+	
+	
+		
+	
+
 
 <span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/"></span>0 comments</a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/"></span>7 comments</a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
@@ -285,6 +290,369 @@
 
 	  
 	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">7</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/cfc55e6d9b571f4e65f3d2a608aae3f5?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Ryan,
+Try and keep your images in multiple of 2 so 256, 512, 768, 1024 etc. the &quot;actual file size&quot; has nothing to do with how OpenGL caches your file in memory but if you have an image that is 1025 it is going to move up to the next power resulting in more memory.
+Using the textureTool is fine but will not give you the kind of performance gains you are looking for.
+Spritekit will help with a lot of your resources, try and get as many things as you can in a <sup>1024</sup>&frasl;<sub>1024</sub> sheet because you only have to load it the one time and will not take another memory hit for loading images multiple times from the sheet.
+The biggest mistake I see when people make games (in any platform) is not understanding the power of 2 when it comes to resources, if you stick to this you will see your memory drop tremendously.
+I normally use a <sup>2048</sup>&frasl;<sub>1536</sub> background image and then put every other resource (&quot;that i can&quot;) inside of sprite sheets.
+Christopher</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Christopher
+				
+			</cite> Aug 29, 2014
+		</div>
+		<div class="reply">
+			<a id="797" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '797')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/54dfb1e19651d37c213d699007557d6b?s=118&d=http://battleofbrothers.com/assets/comment_av_8.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Good point, and thanks for the detailed post. In my tiled example, I could have shaved a few more mbs by sticking with powers of 2. In general though, your last paragraph sums up exactly what I have to do.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan
+				
+			</cite> Aug 31, 2014
+		</div>
+		<div class="reply">
+			<a id="812" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '812')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/4d5d78cbd19120f7412f553a6fed79c2?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    nilart
+				
+			</cite> Sep 5, 2014
+		</div>
+		<div class="reply">
+			<a id="818" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '818')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/c2ca3e5dc778ea9fe181dae1f36d6ab1?s=118&d=http://battleofbrothers.com/assets/comment_av_12.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Great tips, thanks! I&#39;ll see what post action scripts I can come up with. Let me know if you have a particular reference. As for batch nodes, the official Apple video covers that well. I&#39;ll dig up the link and leave it here for future readers.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan
+				
+			</cite> Sep 6, 2014
+		</div>
+		<div class="reply">
+			<a id="860" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '860')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/7718c0452b5a6012b43523fe60d30043?s=118&d=http://battleofbrothers.com/assets/comment_av_5.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>The link: <a href="https://developer.apple.com/videos/wwdc/2014/">https://developer.apple.com/videos/wwdc/2014/</a></p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan
+				
+			</cite> Sep 6, 2014
+		</div>
+		<div class="reply">
+			<a id="869" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '869')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/684d633820401f665b9d058647099a96?s=118&d=http://battleofbrothers.com/assets/comment_av_9.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>First of all, I want to congratulate both you and your brother for this awesome ideea and intiative. I think this blog is a great resource of usefull things to take into consideration when venturing into the indie gamedev world. I&#39;ve read all your blog posts (and some posts written by Chris) - mainly because I&#39;m an iOS developer and in my spare time I fiddle around with SpriteKit too. I&#39;m from Romania (east Europe) and I don&#39;t currently have the resources to start such a project on my own, but some day I hope to do something like this.
+I also apreciate the honesty of your thought process. I watched all your youtube videos and I can&#39;t wait to see what&#39;s next. It&#39;s fascinating to see all this progress.
+There are developers who are shy or take too much pride in their work and do not want to share any WIP (being afraid of criticism). I also tend to fall in this category of people (sadly) and I am truly jelous of your openess. Maybe I sound stalky but I am curious to know more about your background.
+I think the youtube initiative is really awesome and I would encourage your brother to do the same thing (even though you have only a few views for the moment). I really have a sense of how your game takes shape compared to Chris&#39; game.
+Keep up the good work!
+P.S.: Sorry to be so off-topic, but I didn&#39;t really know where to post this (I guess not many people go to the very first post).</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Cristian Ilea
+				
+			</cite> Sep 6, 2014
+		</div>
+		<div class="reply">
+			<a id="881" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '881')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/3f0c47eee344f69e66cc6a7e6e42bbcc?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Thanks for the comments &ndash; it&#39;s great to hear when people enjoy the site / info. Right now, everything I do is for documentation. It will be neat to look back at the past year+ when this is finished. Also, I haven&#39;t found any consolidated info that sets real expectations for indies, so hoefully we&#39;ll have a wealth of knowledge to share at the end. I can already tell this process is / will continue to be much harder than I expected. Putting myself out there isn&#39;t much of an issue because in my experience, most devs struggle with similar things at some point in time. It&#39;s more about learning, and getting things done. The smartest guy in the room isn&#39;t always the best project lead.
+If you have any specific questions, you can reach me on twitter, or through the contact from (link at top of page).</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan
+				
+			</cite> Sep 7, 2014
+		</div>
+		<div class="reply">
+			<a id="887" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '887')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
 	  
  
 	  <div class="comment-form">

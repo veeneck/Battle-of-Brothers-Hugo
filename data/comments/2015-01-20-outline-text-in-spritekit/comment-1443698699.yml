@@ -1,0 +1,6 @@
+_parent: 2015-01-20-outline-text-in-spritekit
+_id: 1190
+name: Dominique
+email: 39d75a367d4f3e6e8b7440ab6db24d5a
+body: 'I use ASAttributedLabelNode for a need to create 1/ multiline text with 2/ text formatting. Otherwise I use PaintCode to generate UIImage of given text.'
+date: '2015-10-01 07:24:59'

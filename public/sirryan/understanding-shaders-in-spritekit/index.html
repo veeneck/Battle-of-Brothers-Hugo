@@ -124,7 +124,7 @@
 				
 <div class="floatleft timestamp">
 	<span class="month">May</span>
-	<p class="shield" style="background-image:url('/assets/Shield7.png')">28</p>
+	<p class="shield" style="background-image:url('/assets/Shield10.png')">28</p>
 	<span class="year legacy">2015</span>
 </div>
 				<h3 class="grace">Understanding Shaders in SpriteKit</h3>
@@ -133,10 +133,15 @@
 
 
 
+	
+	
+		
+	
+
 
 <span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/understanding-shaders-in-spritekit/"></span>0 comments</a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/understanding-shaders-in-spritekit/"></span>9 comments</a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
@@ -369,6 +374,502 @@
 
 	  
 	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">9</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/2838fd8cbe83af733dfb3658a886324b?s=118&d=http://battleofbrothers.com/assets/comment_av_12.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>As far as the 6th shader is concerned, the common wisdom, as far as I know, is to avoid if conditionals (seems to be less of a problem now), trigonometric functions, since those take a lot of instructions to execute (quite often people use look up textures to skip those computations on the GPU and some say that trigonometric on the GPU aren&#39;t that bad any more) and doing too many calculations in one line, since the driver is probably generating a lot of temporary variables to perform those (if you&#39;re interested, check out these GDC slides <a href="http://www.gdcvault.com/play/1018182/Low-Level-Thinking-in-High">http://www.gdcvault.com/play/1018182/Low-Level-Thinking-in-High</a>).
+If I had to guess where the lag is coming from, I&#39;d say it&#39;s either a precision issue with the time float or the trigonometric function start to get wonky with higher number ranges.
+To answer your larger question, in my opinion using shaders is great if you want to use less memory and want a smooth animation, I also think it&#39;s nice, that all that&#39;s needed, is setting just one uniform in a shader.
+If your shaders are getting too complex or you want to add special details by hand a sprite sheet may be better. I also prefer shaders since there has to be less redundant data in memory, given that a lot of the pixels in a sprite sheet probably aren&#39;t changing.
+If your shaders are performing badly look into calculating data higher up the chain, for instance maybe you can do calculations per vertex and have the results interpolated over the fragments or calculate data on the cpu and save the results in a look up texture, so that the gpu just has to do a texture lookup.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Stefan Kernjak
+				
+			</cite> Jun 13, 2015
+		</div>
+		<div class="reply">
+			<a id="1577" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1577')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/05978af77955fdd863082dbae2ec8b8c?s=118&d=http://battleofbrothers.com/assets/comment_av_8.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Thanks for the detailed reply. That&#39;s helpful to place some rules into the thought process. The link you provided is a bit above my head right now. Still some work to do before I can comfortably process that. I&#39;ll get there eventually.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    veeeneck
+				
+			</cite> Jun 15, 2015
+		</div>
+		<div class="reply">
+			<a id="1586" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1586')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/3d5d99c17fdbfd705b0182e9866d3a77?s=118&d=http://battleofbrothers.com/assets/comment_av_11.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Thanks a lot for that article!  I&#39;m quite new to game developement (i&#39;ve been coding for years though), Swift and SpriteKit so we are pretty much in the same spot.  I&#39;m working on a space exploration game and I was wondering if shaders would be helpful for a few things.  I&#39;m not quite there yet, but when I start attacking the subject, maybe I can share some of my findings since I would be probably using shaders along with SKShapeNodes and SKEmitterNodes.
+Anyway, thanks a lot for the insight!  Very helpful!
+One question though:  in your case, do you create the textures and shader every time the player&#39;s health change?  Can you simply change the uniform&#39;s values and the shader will adjust everything by itself every frame?</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    BadgerBadger
+				
+			</cite> Nov 26, 2016
+		</div>
+		<div class="reply">
+			<a id="1595" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1595')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/5e98cd902659f82e19065c13ef80356c?s=118&d=http://battleofbrothers.com/assets/comment_av_1.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>You should be able to just update the uniforms. I don&#39;t remember recreating the shader, but I don&#39;t have my sample code handy. Would definitely love to see what you come up with &ndash; there isn&#39;t much activity with advanced SpriteKit out there, so any content you come up with would be nice to read.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    veeeneck
+				
+			</cite> Nov 27, 2016
+		</div>
+		<div class="reply">
+			<a id="1604" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1604')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/1cec8256586ca35bb538a6ecafb35f4b?s=118&d=http://battleofbrothers.com/assets/comment_av_11.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>I might be completely wrong but it seems like the gradient or something does not work since iOS 10. Or something has changed. Or my implementation (a bit different) is incorrect. Can you confirm that this works in iOS 10 (iOS 10.2 etc) still?</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    
+				
+			</cite> Jan 25, 2017
+		</div>
+		<div class="reply">
+			<a id="1616" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1616')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/3b44126f7916d3aa1dc62107036151d0?s=118&d=http://battleofbrothers.com/assets/comment_av_10.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Btw I am referring to a possible problem with shader3.fsh&hellip; val and/or grad does not read in properly, it seems.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    
+				
+			</cite> Jan 25, 2017
+		</div>
+		<div class="reply">
+			<a id="1628" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1628')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/38633b50b57cc6edb8b108753812babd?s=118&d=http://battleofbrothers.com/assets/comment_av_9.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>I just tried your code again, using your exact same swift/shader code, and yes there is a problem starting from shader3.fsh, ie where you first use the gradient. It works on iOS 9ish, but not on a iOS 10.2.1 device. And I think I found a way to get away the problem on iOS 10.2: do NOT put the textures inside a sprite atlas in a .xcassets folder. If I put the sprite image files outside of a sprite atlas (still inside the .xcassets folder) things work OK/the same way even on iOS 10.2. Maybe the reason is related to app thinning, or the atlas, or something else.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    
+				
+			</cite> Jan 25, 2017
+		</div>
+		<div class="reply">
+			<a id="1634" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1634')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/713649661ac2944ae373c9078d9e24ba?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Interesting, I haven&#39;t tried it yet in iOS10. If it is asset related, that wouldn&#39;t be the first time a sprite atlas vs .xcassets vs image in directory has broken things in SpriteKit. If I find a specific answer, I&#39;ll update it here. Thanks for the note.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    veeeneck
+				
+			</cite> Jan 26, 2017
+		</div>
+		<div class="reply">
+			<a id="1640" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1640')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/41ac589346578bab5977a45662754869?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>By the way, it seems the u_sprite_size uniform has been removed as of iOS10, at least according to Apples docs:
+<a href="https://developer.apple.com/reference/spritekit/skshader">https://developer.apple.com/reference/spritekit/skshader</a>
+&quot;Since the removal of u_sprite_size, if your shader requires the size of the sprite in pixels, you are responsible for creating the necessary uniform or attribute.&quot;
+There is sample code for recreating this in the docs themselves, but thought it was worth pointing out.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Chris
+				
+			</cite> Feb 9, 2017
+		</div>
+		<div class="reply">
+			<a id="1652" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1652')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
 	  
  
 	  <div class="comment-form">

@@ -1,0 +1,6 @@
+_parent: 2015-01-05-spritekit-cpu-gains-from-caching-enumeratechildnodeswithname
+_id: 1124
+name: Ryan Campbell
+email: 73c8086c5642d4f97ab4e403fbc2c04b
+body: 'Good stuff. Do you have 2k SKSpriteNodes actively computing each frame (i.e: performing some sort of math in the update call), and still only using 2% CPU? On iPad Air 1, with 200 active nodes, I can&#39;t come close to 2% even if I hard code the calls.'
+date: '2015-01-05 19:12:42'

@@ -1,0 +1,6 @@
+_parent: 2014-08-18-handling-z-index-by-screen-coordinates
+_id: 608
+name: Harry Tran
+email: 326b329e17bec94cfc3300bc2f567688
+body: 'That&#39;s a great technique and I use Corona too, but haven&#39;t done this before myself. How does this work when it comes to using up the CPU since it has to reorganize so many objects?'
+date: '2014-08-23 05:17:44'

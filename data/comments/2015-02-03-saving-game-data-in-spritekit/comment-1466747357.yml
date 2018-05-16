@@ -1,0 +1,6 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1307
+name: veeeneck
+email: 449c95eb1b6c8ae006c217f52e1a102f
+body: 'Hmm, I&#39;m not 100% sure why DefaultFile works, but it does. I&#39;m going to dig around and see if it is only there in certain projects. I can tell you that it is not visible in my project folder, so I assume it is always an underlying file. Seems all answers on stack overflow assume it is present as well. What platform are you working with?'
+date: '2016-06-24 01:49:17'

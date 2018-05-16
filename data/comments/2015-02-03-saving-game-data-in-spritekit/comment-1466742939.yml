@@ -1,0 +1,6 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1298
+name: Noah Covey
+email: b5df5757a59b4a44661f4151e685a471
+body: 'What I don&#39;t understand is how a new file is being created by copying &quot;DefaultFile.plist&quot; to &quot;HighScores.plist&quot;. Don&#39;t we need to create &quot;HighScores.plist&quot; first?'
+date: '2016-06-24 00:35:39'

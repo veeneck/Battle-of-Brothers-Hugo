@@ -1,0 +1,16 @@
+_parent: 2015-02-04-fights-cut-scenes-and-texture-memory
+_id: 1229
+name: Christopher
+email: b6b75668ea7ba1c1e5a1d8f0ec19a3b5
+body: 'Chris,
+
+I think you may have overlooked a 4th option :)
+
+So I have been looking at your animations and I think you could drop A LOT of that sprite sheet by using Spine and just add bones an do the animation that way there software site is here http://esotericsoftware.com/
+
+Which would drop you down to 1 spritesheet for the actual body parts more than likely and then using spine you can animated them and run them in corona just like you would a 3d model.
+
+I would look into this type of setup asap before moving forward on more characters because if you use this method you can add more characters and even animations etc. 
+
+Not to say anything about any extra texture memory you are going to put on the system like dialogs, ui, effects etc. and so forth.'
+date: '2015-02-04 16:26:39'

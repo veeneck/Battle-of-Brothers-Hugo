@@ -1,0 +1,6 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1253
+name: veeeneck
+email: b9ee9681efd5f3933ce07bd9bb04fe8d
+body: 'The problem is likely how I glossed over the need for NSCoding. After I wrote this, I realized that you have to fully implement encodeWithCoder, so the line above that encodes the entire sharedInstance is wrong. While you can save the entire shared instance in the save() function, you still have to encode each member variable individually. You can see this example as a reference: http://nshipster.com/nscoding/. I&#39;ve also uploaded a gist of my current working example here: https://gist.github.com/veeneck/724ad57982e7fa6214a3'
+date: '2015-04-02 16:37:43'

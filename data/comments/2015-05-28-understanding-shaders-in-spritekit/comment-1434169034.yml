@@ -1,0 +1,17 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1577
+name: Stefan Kernjak
+email: 2838fd8cbe83af733dfb3658a886324b
+body: 'As far as the 6th shader is concerned, the common wisdom, as far as I know, 
+is to avoid if conditionals (seems to be less of a problem now), 
+trigonometric functions, since those take a lot of instructions to execute (quite often people use look up textures to skip those computations on the GPU and some say that trigonometric on the GPU aren&#39;t that bad any more) 
+and doing too many calculations in one line, since the driver is probably generating a lot of temporary variables to perform those (if you&#39;re interested, check out these GDC slides http://www.gdcvault.com/play/1018182/Low-Level-Thinking-in-High). 
+
+If I had to guess where the lag is coming from, I&#39;d say it&#39;s either a precision issue with the time float or the trigonometric function start to get wonky with higher number ranges.
+
+To answer your larger question, in my opinion using shaders is great if you want to use less memory and want a smooth animation, I also think it&#39;s nice, that all that&#39;s needed, is setting just one uniform in a shader. 
+
+If your shaders are getting too complex or you want to add special details by hand a sprite sheet may be better. I also prefer shaders since there has to be less redundant data in memory, given that a lot of the pixels in a sprite sheet probably aren&#39;t changing.
+
+If your shaders are performing badly look into calculating data higher up the chain, for instance maybe you can do calculations per vertex and have the results interpolated over the fragments or calculate data on the cpu and save the results in a look up texture, so that the gpu just has to do a texture lookup.'
+date: '2015-06-13 00:17:14'

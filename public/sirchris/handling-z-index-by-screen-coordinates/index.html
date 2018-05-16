@@ -120,7 +120,7 @@
 				
 <div class="floatleft timestamp">
 	<span class="month">Aug</span>
-	<p class="shield" style="background-image:url('/assets/Shield11.png')">18</p>
+	<p class="shield" style="background-image:url('/assets/Shield7.png')">18</p>
 	<span class="year legacy">2014</span>
 </div>
 				<h3 class="grace">Handling Z-Index by Screen Coordinates</h3>
@@ -129,10 +129,15 @@
 
 
 
+	
+	
+		
+	
+
 
 <span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/"></span>0 comments</a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/"></span>4 comments</a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
@@ -195,6 +200,199 @@
 
 	  
 	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">4</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/326b329e17bec94cfc3300bc2f567688?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>That&#39;s a great technique and I use Corona too, but haven&#39;t done this before myself. How does this work when it comes to using up the CPU since it has to reorganize so many objects?</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Harry Tran
+				
+			</cite> Aug 23, 2014
+		</div>
+		<div class="reply">
+			<a id="608" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '608')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/a7914e6231758ed5cdd4a8d31d9979a1?s=118&d=http://battleofbrothers.com/assets/comment_av_3.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>It&#39;s working for me so far, but I don&#39;t have a ton of objects on the screen. I have seen it slow down when I add some extra logic to the redrawing functions, though. I may end up not indexing the objects on every frame, but only when they really need to be indexed. For me, that means when characters are moving across the screen.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Chris
+				
+			</cite> Aug 25, 2014
+		</div>
+		<div class="reply">
+			<a id="617" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '617')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/900fabef3d769338b0de476d456ce7b9?s=118&d=http://battleofbrothers.com/assets/comment_av_8.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p><p>Chris,
+First I would move your compare and table.sort functions &quot;outside&quot; of your enterFrame event and just call them once all the objects are loaded, calling these functions inside of your frame event is going to end up biting you in the butt :)
+Without giving you to much of a leg up on your brother I would implement something like this.
+function Reindex() for i = 1, #allImages do allImages[i]:toBack() end end
+function FrameLoop() Reindex() end
+function FinishedLoadingResources() local function compare( a, b ) return a.y &amp;gt; b.y end
+table.sort(allImages, compare ) Runtime:addEventListener( &quot;enterFrame&quot;, FrameLoop ) end</p>
+
+<p>Call FinishedLoadingResources after you have loaded up all your objects, the reason for the function is so you can put anything else you need in there like timers etc. and don&#39;t declare a local function inside of frame event :)
+There are a lot of easier and faster ways to do this but if I wrote that code that would be cheating :)
+Christopher</p>
+</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Christopher Bishop
+				
+			</cite> Aug 29, 2014
+		</div>
+		<div class="reply">
+			<a id="623" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '623')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/2b1b8b274d4da7821241a784486953d2?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Thanks, Christopher! That makes perfect sense. I&#39;m pretty sure you just gave me the edge I need to win this thing =)</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Chris Campbell
+				
+			</cite> Aug 29, 2014
+		</div>
+		<div class="reply">
+			<a id="644" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '644')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
 	  
  
 	  <div class="comment-form">

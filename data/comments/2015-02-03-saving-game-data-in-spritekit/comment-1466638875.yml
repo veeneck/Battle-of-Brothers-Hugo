@@ -1,0 +1,12 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1271
+name: Noah Covey
+email: 90b3895b6547094ad86d691f9c508d63
+body: 'I know this has been posted for a while...I am just having one problem. 
+
+When I try to call GameData.save(), Xcode thinks the save() function has a parameter of type &quot;GameData.&quot; Additionally, Xcode gives the following error: &quot;Use of instance member &#39;save&#39; on type &#39;GameData&#39;; did you mean to use a value of type &#39;GameData&#39; instead?&quot;
+ 
+I try putting GameData.save(GameData). When I do that, however, Xcode throws the same error as above.
+
+I can&#39;t figure out how to make it work. thanks'
+date: '2016-06-22 19:41:15'

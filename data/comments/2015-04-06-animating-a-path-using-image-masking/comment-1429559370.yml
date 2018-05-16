@@ -1,0 +1,6 @@
+_parent: 2015-04-06-animating-a-path-using-image-masking
+_id: 1472
+name: Chris Campbell
+email: ebee8bcae5ac7ff2ffd93be20aa9780f
+body: 'Thanks for the detailed reply, Stefan. When I wrote this post Corona didn&#39;t support custom shaders, but they actually just launched that feature last week - https://coronalabs.com/blog/2015/04/15/custom-shader-effects/. I should be able to now use your example to make my path animation a bit easier.'
+date: '2015-04-20 15:49:30'

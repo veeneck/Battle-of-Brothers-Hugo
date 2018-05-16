@@ -1,0 +1,6 @@
+_parent: 2014-08-18-handling-z-index-by-screen-coordinates
+_id: 617
+name: Chris
+email: a7914e6231758ed5cdd4a8d31d9979a1
+body: 'It&#39;s working for me so far, but I don&#39;t have a ton of objects on the screen. I have seen it slow down when I add some extra logic to the redrawing functions, though. I may end up not indexing the objects on every frame, but only when they really need to be indexed. For me, that means when characters are moving across the screen.'
+date: '2014-08-25 13:54:17'

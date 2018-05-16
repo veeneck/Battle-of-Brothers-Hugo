@@ -1,0 +1,36 @@
+_parent: 2014-08-18-handling-z-index-by-screen-coordinates
+_id: 623
+name: Christopher Bishop
+email: 900fabef3d769338b0de476d456ce7b9
+body: 'Chris,
+
+First I would move your compare and table.sort functions &quot;outside&quot; of your enterFrame event and just call them once all the objects are loaded, calling these functions inside of your frame event is going to end up biting you in the butt :)
+
+Without giving you to much of a leg up on your brother I would implement something like this.
+
+function Reindex()
+	for i = 1, #allImages do
+		allImages[i]:toBack()
+	end
+end
+
+function FrameLoop()
+   Reindex()
+end
+
+function FinishedLoadingResources()
+   local function compare( a, b )
+      return a.y &amp;gt; b.y
+   end
+ 
+   table.sort(allImages, compare )
+   Runtime:addEventListener( &quot;enterFrame&quot;, FrameLoop )
+end
+ 
+
+Call FinishedLoadingResources after you have loaded up all your objects, the reason for the function is so you can put anything else you need in there like timers etc. and don&#39;t declare a local function inside of frame event :)
+
+There are a lot of easier and faster ways to do this but if I wrote that code that would be cheating :)
+
+Christopher'
+date: '2014-08-29 09:38:20'

@@ -1,0 +1,6 @@
+_parent: 2015-01-20-outline-text-in-spritekit
+_id: 1187
+name: Joey
+email: 07e842a8cf4094454c217337111af47f
+body: 'One problem I&#39;m seeing with this is that it&#39;s actually stroking both the inside and the outside of the text. Do you know of a solution that has just the shadow and preserves the letterforms it&#39;s stroking without actually overlapping it?'
+date: '2015-09-25 21:50:34'

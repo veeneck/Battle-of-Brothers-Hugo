@@ -1,0 +1,6 @@
+_parent: 2014-08-25-memory-usage-in-sprite-kit
+_id: 812
+name: Ryan
+email: 54dfb1e19651d37c213d699007557d6b
+body: 'Good point, and thanks for the detailed post. In my tiled example, I could have shaved a few more mbs by sticking with powers of 2. In general though, your last paragraph sums up exactly what I have to do.'
+date: '2014-08-31 19:55:42'

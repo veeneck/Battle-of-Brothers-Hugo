@@ -1,0 +1,5 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1616
+email: 1cec8256586ca35bb538a6ecafb35f4b
+body: 'I might be completely wrong but it seems like the gradient or something does not work since iOS 10. Or something has changed. Or my implementation (a bit different) is incorrect. Can you confirm that this works in iOS 10 (iOS 10.2 etc) still?'
+date: '2017-01-25 10:59:54'

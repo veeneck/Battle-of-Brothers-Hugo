@@ -1,0 +1,6 @@
+_parent: 2015-01-12-my-take-on-health-bars
+_id: 1163
+name: veeeneck
+email: 4d58a4ddcfb905a76378d48817159498
+body: 'Good old refactors :) Trying to do phone, tablet and OS X. In my testing 2800x1880 is the best to fit all 3 of those. Part swill get cut off, so there is a region that will contain all of the important details to make sure it shows up on every device. Kind of like this: http://battleofbrothers.com/sirchris/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua'
+date: '2015-01-22 14:05:56'

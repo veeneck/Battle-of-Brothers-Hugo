@@ -124,7 +124,7 @@
 				
 <div class="floatleft timestamp">
 	<span class="month">Jan</span>
-	<p class="shield" style="background-image:url('/assets/Shield8.png')">5</p>
+	<p class="shield" style="background-image:url('/assets/Shield12.png')">5</p>
 	<span class="year legacy">2015</span>
 </div>
 				<h3 class="grace">SpriteKit: CPU gains from caching enumerateChildNodesWithName</h3>
@@ -133,10 +133,15 @@
 
 
 
+	
+	
+		
+	
+
 
 <span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/"></span>0 comments</a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/"></span>2 comments</a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
@@ -236,6 +241,97 @@
 
 	  
 	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">2</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/0c2c3aadfe48fb60acf9ab2ba52a8c2f?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>You should keep a cache of items so you can remove them via key/value this is what I do with over 2k objects and only use about 2% cpu resources while swapping in/out all the time.
+Granted I use sprite sheets so the reload of images, sprites etc. is no drastic hit because the actual image is already loaded into openGL.
+I think you will find it will make your life easier by keeping a cache and if you are like me I keep a json cache so i can add stuff like &quot;destroyed&quot; : true, &quot;currentstate&quot; : 1, etc. and so forth.
+It allows me to expand the object out in real time without having to reload anything.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Christopher
+				
+			</cite> Jan 5, 2015
+		</div>
+		<div class="reply">
+			<a id="1118" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1118')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/73c8086c5642d4f97ab4e403fbc2c04b?s=118&d=http://battleofbrothers.com/assets/comment_av_10.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Good stuff. Do you have 2k SKSpriteNodes actively computing each frame (i.e: performing some sort of math in the update call), and still only using 2% CPU? On iPad Air 1, with 200 active nodes, I can&#39;t come close to 2% even if I hard code the calls.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan Campbell
+				
+			</cite> Jan 5, 2015
+		</div>
+		<div class="reply">
+			<a id="1124" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1124')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
 	  
  
 	  <div class="comment-form">

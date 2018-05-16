@@ -1,0 +1,5 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1634
+email: 38633b50b57cc6edb8b108753812babd
+body: 'I just tried your code again, using your exact same swift/shader code, and yes there is a problem starting from shader3.fsh, ie where you first use the gradient. It works on iOS 9ish, but not on a iOS 10.2.1 device. And I think I found a way to get away the problem on iOS 10.2: do NOT put the textures inside a sprite atlas in a .xcassets folder. If I put the sprite image files outside of a sprite atlas (still inside the .xcassets folder) things work OK/the same way even on iOS 10.2. Maybe the reason is related to app thinning, or the atlas, or something else.'
+date: '2017-01-25 18:00:30'

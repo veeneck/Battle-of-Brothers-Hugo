@@ -1,0 +1,6 @@
+_parent: 2015-05-28-understanding-shaders-in-spritekit
+_id: 1640
+name: veeeneck
+email: 713649661ac2944ae373c9078d9e24ba
+body: 'Interesting, I haven&#39;t tried it yet in iOS10. If it is asset related, that wouldn&#39;t be the first time a sprite atlas vs .xcassets vs image in directory has broken things in SpriteKit. If I find a specific answer, I&#39;ll update it here. Thanks for the note.'
+date: '2017-01-26 16:38:00'

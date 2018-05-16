@@ -1,0 +1,39 @@
+_parent: 2015-04-06-animating-a-path-using-image-masking
+_id: 1469
+name: Stefan Kernjak
+email: d881f28be947b592f3b5a0cd55a84dc7
+body: 'Hi there, 
+depending on your needs I believe there is a better way. 
+Instead of using and creating multiple images for the mask, you could use a single image with a gradient and then use a shader to animate it smoothly, with a single uniform. Furthermore you could also add a noise texture to make it visually more interesting.
+
+I also did a quick and dirty test in Unity3d (https://dl.dropboxusercontent.com/u/768434/pathAnimation.zip), so you can check it out yourself
+
+The textures I used http://imgur.com/1Hjht5A
+What the end result looks like http://imgur.com/2HE3Ilt
+(please note that the gradient isn&#39;t perfectly smooth, because the steps aren&#39;t spaced evenly, since I created the texture rather quickly. 
+With a smooth, evenly spaced gradient the result would be much nicer)
+
+The fragment shader:
+float4 frag (v2f i) : COLOR 
+{
+	// set color
+	float4 col = _Color;
+	
+	// apply mask
+	col.a = tex2D( _MaskTex, i.uv ).r * 1.2; // mutliply by 1.2 so _NoiseTex can&#39;t hide passed positions
+	
+	// if gradient is smaller than _Position + _FadeAmount col.a is zero
+	// if gradient is bigger than _Position col.a is one
+	// values in between get smoothly interpolated
+	col.a *= smoothstep(_Position + _FadeAmount, _Position, tex2D( _GradientTex, i.uv ).r);
+	
+	col.a -= tex2D( _NoiseTex, i.uv ).r * 0.4; // mutliply by 1.4 to reduce _NoiseTex&#39;s effect
+	
+	return col;
+}
+
+with _FadeAmount you can set how large the transition should be and with _Position you can set how far the line should be drawn (please note, _Position doesn&#39;t perfectly go from 0 to 1 here, since _FadeAmount adds a small offset and the lowest and highest values in the gradient aren&#39;t either)
+
+
+Once the paths are less likely to change, a good way to improve performance would then be to put thetextures in the r,g,b,a channels of a single texture, thereby also reducing memory footprint and tex2D calls'
+date: '2015-04-18 14:56:35'

@@ -1,0 +1,6 @@
+_parent: 2014-12-21-joy-of-debugging-command-swiftc-failed-with-exit-code-1
+_id: 1079
+name: Simon Gladman
+email: 1d97ce5e04132927b2a71acf8a1e81e1
+body: 'Thanks to the pointer to that command  line build Stack Overflow question. It appears that using min() or max() with values that were nil coalesced broke the compiler when the optimisation level was fastest. Hey ho!'
+date: '2015-01-04 06:28:53'

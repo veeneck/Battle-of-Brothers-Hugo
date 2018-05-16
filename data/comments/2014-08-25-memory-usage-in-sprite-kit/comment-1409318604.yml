@@ -1,0 +1,18 @@
+_parent: 2014-08-25-memory-usage-in-sprite-kit
+_id: 797
+name: Christopher
+email: cfc55e6d9b571f4e65f3d2a608aae3f5
+body: 'Ryan, 
+
+Try and keep your images in multiple of 2 so 256, 512, 768, 1024 etc. the &quot;actual file size&quot; has nothing to do with how OpenGL caches your file in memory but if you have an image that is 1025 it is going to move up to the next power resulting in more memory.
+
+Using the textureTool is fine but will not give you the kind of performance gains you are looking for.
+
+Spritekit will help with a lot of your resources, try and get as many things as you can in a 1024/1024 sheet because you only have to load it the one time and will not take another memory hit for loading images multiple times from the sheet.
+
+The biggest mistake I see when people make games (in any platform) is not understanding the power of 2 when it comes to resources, if you stick to this you will see your memory drop tremendously.
+
+I normally use a 2048/1536 background image and then put every other resource (&quot;that i can&quot;) inside of sprite sheets.
+
+Christopher'
+date: '2014-08-29 09:23:24'

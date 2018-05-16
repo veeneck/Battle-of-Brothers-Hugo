@@ -1,0 +1,6 @@
+_parent: 2015-01-26-create-skippable-cutscenes-in-spritekit-with-timing-functions
+_id: 1208
+name: veeeneck
+email: 2387ef875850ecb65e017b868cb1841e
+body: 'Yep. Bunch of libraries on GitHub that have custom easing functions. You just set the timingFunction of the SKAction to one of those custom functions.'
+date: '2017-09-14 12:52:21'

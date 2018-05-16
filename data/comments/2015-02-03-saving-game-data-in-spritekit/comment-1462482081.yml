@@ -1,0 +1,6 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1268
+name: stan
+email: bcf50e25ab26a52aa352b4fde504f557
+body: 'Is it possible to save entire objects with this method? I&#39;m trying to save my entire player object and it seems to work but none of the custom properties I have on him are saving (like health) It&#39;s just a subclassed SKNode with a few properties. Trying to save the entire thing instead of each variable.'
+date: '2016-05-05 17:01:21'

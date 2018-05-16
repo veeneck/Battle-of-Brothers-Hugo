@@ -1,0 +1,7 @@
+_parent: 2014-05-15-learning-sprite-kit-by-example
+_id: 407
+name: Hasan Edain
+email: c73c8d9b55afcefec35c036d26ef4d3d
+body: 'Thanks for putting this together, after a year of using Cocoapods at work, I will say that I vastly prefer Carthage: https://github.com/Carthage/Carthage
+It does the dependency management without messing with my project, or creating a workspace.'
+date: '2017-02-20 17:54:36'

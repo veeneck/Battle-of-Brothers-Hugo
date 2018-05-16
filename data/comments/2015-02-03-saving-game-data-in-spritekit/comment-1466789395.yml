@@ -1,0 +1,11 @@
+_parent: 2015-02-03-saving-game-data-in-spritekit
+_id: 1316
+name: Noah Covey
+email: 4c063ade9cee50ab4352c1f8cde4d2d7
+body: 'What I decided to do is make my own file called &quot;DefaultGameData&quot; and replace &quot;DefaultFile&quot; in code with &quot;DefaultGameData.&quot; Also, I had to update some of the code with swift 2 and I used your gist in the comment down below. After a few hours of testing and googling, I got it all working. If I post my code online, I&#39;ll put a link here so that people can see how to implement your class in swift 2.
+
+Thank you SO MUCH for this great tutorial. It makes saving data in SpriteKit so easy!
+
+Thanks again,
+Noah'
+date: '2016-06-24 13:29:55'
