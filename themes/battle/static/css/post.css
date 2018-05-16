@@ -375,12 +375,11 @@ cite.fn {
 
 .comment-author img {
   height: 118px;
-  width: 118px;
-  border: 10px solid #fff; }
+  width: 118px; }
 
 .comment-author img.avatar-64 {
-  height: 78px;
-  width: 78px;
+  height: 85px;
+  width: 85px;
   padding-top: 30px;
   border: none !important; }
 
@@ -516,3 +515,9 @@ input {
 #submit:hover {
   text-decoration: underline;
   cursor: pointer; }
+
+#post-submitted {
+  display: none; }
+
+#post-submitted:target {
+  display: block; }

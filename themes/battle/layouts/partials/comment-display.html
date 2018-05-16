@@ -1,7 +1,10 @@
+{{ $randomGravatar := index (first 1 (shuffle (seq 1 12))) 0 }}
+
+
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/{{ .email }}?s=100" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/{{ $.context.email }}?s=118&d=http://battleofbrothers.com/assets/comment_av_{{ $randomGravatar }}.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			<p>{{ $.context.body | markdownify }}</p>
