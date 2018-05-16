@@ -189,32 +189,15 @@
 <div class="outercontent">
   	  <div class="content clear">
 
-  	  	<div id="discuss" class="discuss">
-				<img class="" src="/assets/discuss.png" />
-			</div>
-		
-			<div class="disqus">
-				<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "battle-of-brothers" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-			</div>
+  	  	<form method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments}">
+		  <input name="options[redirect]" type="hidden" value="https://battleofbrothers.com">
+		  
+		  <label><input name="fields[name]" type="text">Name</label>
+		  <label><input name="fields[email]" type="email">E-mail</label>
+		  <label><textarea name="fields[body]"></textarea>Message</label>
+		  
+		  <button type="submit">Go!</button>
+		</form>
       </div>
 	</div> 
 
