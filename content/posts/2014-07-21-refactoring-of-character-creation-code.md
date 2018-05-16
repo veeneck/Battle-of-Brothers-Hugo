@@ -3,7 +3,7 @@ title: Refactoring of Character Creation Code
 author: chris
 type: post
 date: 2014-07-21T16:37:29+00:00
-url: /sirchrisrefactoring-of-character-creation-code/
+url: /sirchris/refactoring-of-character-creation-code/
 featured_image: /wp-content/uploads/2014/07/refactoring-1.jpg
 keyevent:
   - Added Settings to HUD

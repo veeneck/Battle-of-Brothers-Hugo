@@ -120,15 +120,15 @@
 			<div class="title clear">
 				
 <div class="floatleft timestamp">
-	<span class="month">Jul</span>
-	<p class="shield" style="background-image:url('/assets/Shield10.png')">21</p>
+	<span class="month">Aug</span>
+	<p class="shield" style="background-image:url('/assets/Shield9.png')">5</p>
 	<span class="year legacy">2014</span>
 </div>
-				<h3 class="grace">Refactoring of Character Creation Code</h3>
+				<h3 class="grace">The Start of My Game</h3>
 				<div class="subhead">
 					<span class="comments floatright">
 	<img class="icon" src="/assets/Chat-6.png" width="16px" />
-	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sirchrisrefactoring-of-character-creation-code/"></span></a></small>
+	<small><a href="/" class="dotted"><span class="my-class" data-disqus-url="http://battleofbrothers.com/sir/christhe-start-of-my-game/"></span></a></small>
 </span>
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
@@ -141,7 +141,7 @@
 
 			
 				<div class="thumbnail">
-					<img src="/wp-content/uploads/2014/07/refactoring-1.jpg" width="660" />
+					<img src="/wp-content/uploads/2014/08/WorldMap_Island_demo01.jpg" width="660" />
 				</div>
 			
 
@@ -159,32 +159,62 @@
 				
 					<ul class="events embed floatright">Key Events
 						
-							<li>Added Settings to HUD</li>
+							<li>Finished refactoring</li>
 						
-							<li>Added Action Item to HUD</li>
+							<li>Created Art Design Document</li>
 						
-							<li>Refactored Character Creation Code</li>
+							<li>Began Illustrations</li>
 						
 					</ul>		
 				
- 				<p>After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.
+ 				<p>Up until this update, everything that I did was basically learning and testing basic concepts that could be applied to many types of turn based games. Characters moved, attacked, died, etc. I&#8217;ve known that I wanted to make a turn based game, but I didn&#8217;t know exactly what I was going to build. That all changed this time around, because over the last two weeks I decided what game I want to build, created an art design document, and contracted an illustrator to draw preliminary sketches.
 </p>
 
-<p>The code was originally written to extend a parent character class with sub-classes like dwarf, mage, archer, etc. Things were going great until I saw that when new attack actions and functionality were added to the sub-classes, a lot of the code amongst the sub-classes was too similar. For example, all of the sub classes had similar functions setting sprite animation, sound, and attack options. Those functions weren&#8217;t in the parent class because the animation, sound, and attack variables were all different and specific to the sub-class. Each sub-class had these values hard-coded into them, and if you were to consider that my final game may have dozens of sub-classes, it&#8217;s easy to realize that there would be way too much duplicate code.</p>
+<h4 id="it-was-time-to-make-a-decision">It was Time to Make a Decision</h4>
 
-<p>I decided that instead of having individual .lua files for each sub-classe, I would have a base character class that creates a character object by loading in data from a JSON file. So instead of having a <code>dwarf.lua</code> file that has all of a dwarf&#8217;s attributes hard-coded into it, now a universal <code>character.lua</code> file reads in a dwarf&#8217;s data from a JSON file. That data looks something like</p>
+<p>The goals at the end of my last status update were to finish refactoring my code and add more functionality to the game. I finished the refactoring part, but once I got back to my game, I realized that any new features that were added might not make it into an actual game. I didn&#8217;t want to waste time on unnecessary features, so I wanted to figure out exactly what I wanted to build.</p>
 
-<p><a href="https://gist.github.com/codepaladin/5feeb738ac9764157360">https://gist.github.com/codepaladin/5feeb738ac9764157360</a></p>
+<p>To be honest with you, I was kind of hoping that I would have some sort of ah-ha moment where I just absolutely know what game to build. I hear stories about artists being struck by inspiration at <a href="http://www.jkrowling.com/en_GB/timeline/it-all-started/">completely random times</a>, and like J.K. Rowling, I was pretty sure that was going to happen to me. Maybe it would happen while lying in bed, or running, or in the shower. It would just be a magical bolt of inspiration that entered my head and had to be made into a game. Well, after 4 months of running, showering and sleeping, I still had no clue as to what I really wanted to make.</p>
 
-<p>That same base character reads in data from archers, mages, zombies, and any other characters I create in the future. This will theoretically allow me to eliminate every sub-class and only have a single base character class.</p>
+<p>So last week I sat down with a pen and paper and started to write down ideas. And for 4 days every idea that I came up with just didn&#8217;t feel right. Many of the ideas weren&#8217;t bad, but they were too costly, or too hard, or too abstract. I was actually getting pretty disheartened with this entire process, because I felt like I was getting nowhere and wasting time. To make things worse, <a href="http://battleofbrothers.com/sirryan">the competition</a> has known exactly what he wanted to build since day 1. But something changed halfway through the 5th day of brainstorming. Something clicked and I furiously wrote down what I now think is a solid start to what I&#8217;m going build.</p>
 
-<p>While that&#8217;s great for the sub-class code that is similar, it doesn&#8217;t solve all of my problems. The next issue is that some sub-class functions are similar to only some sub-classes and not others. For example, ranged characters have functions to set the speed, angle, and end point to the projectile they fired. Melee characters do not need those functions. And to confuse things a little more, NPC ranged characters and PC ranged characters also have some separate functions specific to their player character type. To solve this issue, I&#8217;ve created a <code>characterFactory.lua</code> file that is responsible for reading in the JSON, creating the character, and then adding any character-specific functionality to the character created. To give you a visual, here is how the character creation process works now.</p>
+<h4 id="my-game">My Game</h4>
 
-<div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/07/characterCreation-1.png" alt="characterCreation" width="485" height="690" class="alignnone size-full wp-image-859" srcset="http://localhost:8888/wp-content/uploads/2014/07/characterCreation-1.png 485w, http://localhost:8888/wp-content/uploads/2014/07/characterCreation-1-211x300.png 211w" sizes="(max-width: 485px) 100vw, 485px" />
+<p>What I want to do build is a game that tells a short story. There will be a beautiful world, unique characters, and small-scale turn based combat to help tell that story. The story takes place in a high fantasy/medieval type of world and it&#8217;s ultimately about good vs. evil. Although I don&#8217;t have the time or money to make a game similar to The Banner Saga or Final Fantasy Tactics, those two game are where I&#8217;m drawing a lot of my inspiration.</p>
+
+<p>I know that all sounds cliché, and I don&#8217;t know all of the game&#8217;s details, but I did make a 20 page art design document that explains what my world looks like and the outline of my story. I am so happy with the world and the story that I contacted an illustrator to start brining this thing to life. We&#8217;re still in the trial phase to see if his style matches what I have in my mind, but things are looking promising. The image at the top of this page is still a rough sketch and where we&#8217;re currently at, but here are some of the pieces that got us to that concept.</p>
+
+<div id='gallery-8' class='gallery galleryid-935 gallery-columns-4 gallery-size-thumbnail'>
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/screen-shot-2014-08-05-at-11-58-57-am/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/image/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/image-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/image-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/08/image-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon landscape'>
+      <a href='http://localhost:8888/worldmap_sketch_03/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/WorldMap_sketch_03-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/WorldMap_sketch_03-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/08/WorldMap_sketch_03-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <dl class='gallery-item'>
+    <dt class='gallery-icon portrait'>
+      <a href='http://localhost:8888/worldmap_island_demo01/'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/WorldMap_Island_demo01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/WorldMap_Island_demo01-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/08/WorldMap_Island_demo01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
 </div>
 
-<p>So the bad news is that I lost a couple of weeks of development. The good news is that I&#8217;ve probably removed a third of my code and made the character creation process much more efficient. I&#8217;m almost back to where I was at a couple of weeks ago, so I should be able to get back to adding functionality to my game in the near future.</p>
+<h4 id="what-8217-s-next">What&#8217;s Next</h4>
+
+<p>I&#8217;m will continue working with the illustrator to see if his style is the right fit for my idea, and if it does then we&#8217;ll continue to build the world map. I need start doing a little less thinking and a little more programming, because I now have a better sense of what features I&#8217;m going to need. A major challenge that I see coming up is how to make the combat interesting and balanced, but I&#8217;m ready to start experimenting.</p>
 			</div>
 
 		</article>

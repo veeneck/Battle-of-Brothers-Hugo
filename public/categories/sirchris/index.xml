@@ -411,10 +411,10 @@
     
     <item>
       <title>The Start of My Game</title>
-      <link>http://battleofbrothers.com/sirchristhe-start-of-my-game/</link>
+      <link>http://battleofbrothers.com/sir/christhe-start-of-my-game/</link>
       <pubDate>Tue, 05 Aug 2014 17:29:33 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/sirchristhe-start-of-my-game/</guid>
+      <guid>http://battleofbrothers.com/sir/christhe-start-of-my-game/</guid>
       <description>&lt;p&gt;Up until this update, everything that I did was basically learning and testing basic concepts that could be applied to many types of turn based games. Characters moved, attacked, died, etc. I&amp;#8217;ve known that I wanted to make a turn based game, but I didn&amp;#8217;t know exactly what I was going to build. That all changed this time around, because over the last two weeks I decided what game I want to build, created an art design document, and contracted an illustrator to draw preliminary sketches.
 &lt;/p&gt;</description>
     </item>
@@ -441,10 +441,10 @@
     
     <item>
       <title>Refactoring of Character Creation Code</title>
-      <link>http://battleofbrothers.com/sirchrisrefactoring-of-character-creation-code/</link>
+      <link>http://battleofbrothers.com/sirchris/refactoring-of-character-creation-code/</link>
       <pubDate>Mon, 21 Jul 2014 16:37:29 +0000</pubDate>
       
-      <guid>http://battleofbrothers.com/sirchrisrefactoring-of-character-creation-code/</guid>
+      <guid>http://battleofbrothers.com/sirchris/refactoring-of-character-creation-code/</guid>
       <description>&lt;p&gt;After the last update, I had plans to build out the HUD and add new attack actions to my characters. I added a new attack action to the archer and was feeling excited about all the new awesomeness about to go into my game. Unfortunately, my excitement was short-lived because I quickly realized that my code needed to be refactored before adding new action functionality to all my characters. Warning: This article gets technical.
 &lt;/p&gt;</description>
     </item>
