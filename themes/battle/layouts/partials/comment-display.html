@@ -7,7 +7,14 @@
 			<p>{{ $.context.body | markdownify }}</p>
 		</div>
 		<div class="comment-meta commentmetadata">
-			<a href="{{ .Permalink }}#{{ ._id }}">#</a> by <cite class="fn"><a href="http://twitter.com/veeneck" rel="external nofollow" class="url">{{ $.context.name }}</a></cite> {{ dateFormat "Monday, Jan 2, 2006" $.context.date }}
+			<a href="{{ .Permalink }}#{{ ._id }}">#</a> by 
+			<cite class="fn">
+				{{ with $.context.website }}
+					<a href="{{ $.context.website }}" rel="external nofollow" class="url">{{ $.context.name }}</a>
+				{{ else }}
+				    {{ $.context.name }}
+				{{ end }}
+			</cite> {{ dateFormat "Jan 2, 2006" $.context.date }}
 		</div>
 		<div class="reply">
 			<a id="{{ $.context._id }}" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ $.context._id }}')">Reply</a>
