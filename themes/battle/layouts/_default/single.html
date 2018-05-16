@@ -64,9 +64,7 @@
     {{ $.Scratch.Add "hasComments" 1 }}
     {{ if not .reply_to }}
 
-    	{{ partial "comment-display.html" . }}
-
-		{{ partial "comment-replies" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
+    	{{ partial "comment-display.html" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }} 
 
     {{ end }}
   {{ end }}     

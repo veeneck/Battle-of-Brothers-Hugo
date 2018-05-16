@@ -4,13 +4,15 @@
 			<img src="https://www.gravatar.com/avatar/{{ .email }}?s=100" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
-			<p>{{ .body | markdownify }}</p>
+			<p>{{ $.context.body | markdownify }}</p>
 		</div>
 		<div class="comment-meta commentmetadata">
-			<a href="{{ .Permalink }}#{{ ._id }}">#</a> by <cite class="fn"><a href="http://twitter.com/veeneck" rel="external nofollow" class="url">{{ .name }}</a></cite> {{ dateFormat "Monday, Jan 2, 2006" .date }}
+			<a href="{{ .Permalink }}#{{ ._id }}">#</a> by <cite class="fn"><a href="http://twitter.com/veeneck" rel="external nofollow" class="url">{{ $.context.name }}</a></cite> {{ dateFormat "Monday, Jan 2, 2006" $.context.date }}
 		</div>
 		<div class="reply">
-			<a id="{{ ._id }}" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ ._id }}')">Reply</a>
+			<a id="{{ $.context._id }}" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ $.context._id }}')">Reply</a>
 		</div>
 	</div>
 </li>
+
+{{ partial "comment-replies" (dict "entryId_parent" $.entryId_parent "SiteDataComments_parent" $.SiteDataComments_parent "parentId" $.context._id "parentName" .name "context" $.context) }}

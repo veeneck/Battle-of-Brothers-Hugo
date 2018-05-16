@@ -1,7 +1,7 @@
 <ul class="children">
 {{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) }}
   {{ if eq .reply_to $.parentId }}
-    {{ partial "comment-display.html" . }}
+     	{{ partial "comment-display.html" (dict "entryId_parent" $.entryId_parent "SiteDataComments_parent" $.SiteDataComments_parent "parentId" ._id "parentName" .name "context" .) }} 
   {{ end }}
 {{ end }}
 </ul>
