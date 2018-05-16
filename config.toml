@@ -1,7 +1,7 @@
 baseURL = "http://battleofbrothers.com"
 languageCode = "en-us"
 title = "Battle of Brothers"
-theme = "Battle"
+theme = "battle"
 relativeURLs = "false"
 DisqusShortname = "battle-of-brothers"
 [params]
