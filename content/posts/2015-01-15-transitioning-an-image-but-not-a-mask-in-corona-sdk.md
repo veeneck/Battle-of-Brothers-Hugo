@@ -19,13 +19,13 @@ https://www.youtube.com/watch?v=8DhcjrqaqO0&feature=youtu.be
 In this example, I have a base image that looks like:
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2015/01/base-image-3.png" alt="base-image" width="600" height="300" class="alignnone size-full wp-image-1629" />
+  <img src="/wp-content/uploads/2015/01/base-image.png" alt="base-image" width="600" height="300" class="alignnone size-full wp-image-1629" />
 </div>
 
 and a mask that looks like:
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2015/01/example-mask-3.png" alt="example-mask" width="600" height="300" class="alignnone size-full wp-image-1630" />
+  <img src="/wp-content/uploads/2015/01/example-mask.png" alt="example-mask" width="600" height="300" class="alignnone size-full wp-image-1630" />
 </div>
 
 In order to move the base image and not the mask over the image, I created a [new display group][2], placed the image inside of the group, and then masked the group instead of the image. I was then able to move the image inside of the group without moving the mask in order to achieve my desired effect. Here&#8217;s the code that I used for anybody who&#8217;s interested.

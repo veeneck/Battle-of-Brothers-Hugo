@@ -17,7 +17,7 @@ To give you an example of what I was trying to accomplish, here is a picture of 
 <!--more-->
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2015/04/Screen-Shot-2015-04-06-at-2.05.01-PM-3-1024x608.png" alt="Screen Shot 2015-04-06 at 2.05.01 PM" width="625" height="371" class="alignnone size-large wp-image-2022" />
+  <img src="/wp-content/uploads/2015/04/Screen-Shot-2015-04-06-at-2.05.01-PM.png" alt="Screen Shot 2015-04-06 at 2.05.01 PM" width="625" height="371" class="alignnone size-large wp-image-2022" />
 </div>
 
 I wanted to animate the yellow path that shows the character progressing from point A to point B, kind of like this:
@@ -35,7 +35,7 @@ Lucky for me, [Ryan][1] told me to take a look at masking, which proved to be mu
 To illustrate this, take a look at the image below:
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2015/04/masking-path1-2-554x1024.png" alt="masking path" width="554" height="1024" class="alignnone size-large wp-image-2027" />
+  <img src="/wp-content/uploads/2015/04/masking-path.png" alt="masking path" width="554" height="1024" class="alignnone size-large wp-image-2027" />
 </div>
 
 The base image is what the path looks like when it&#8217;s fully drawn. If you use the first mask image, labeled &#8220;Nothing Shows&#8221;, as a mask over the base image, then none of the base image shows. If you lay the second image, labeled &#8220;Path 1&#8221;, as a mask image, then a tiny part of the base image shows. What is in white on the mask images is what will show when laid on top of the base image.

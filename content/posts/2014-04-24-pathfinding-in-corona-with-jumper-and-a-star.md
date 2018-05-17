@@ -16,7 +16,7 @@ If you&#8217;re making a grid based game and you need a character to move from p
 <!--more-->
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-371" src="/wp-content/uploads/2014/04/Jumper-Grid1-1.png" alt="Jumper Grid" width="500" height="499" srcset="/wp-content/uploads/2014/04/Jumper-Grid1-1.png 500w, /wp-content/uploads/2014/04/Jumper-Grid1-1-150x150.png 150w, /wp-content/uploads/2014/04/Jumper-Grid1-1-300x300.png 300w, /wp-content/uploads/2014/04/Jumper-Grid1-1-100x100.png 100w" sizes="(max-width: 500px) 100vw, 500px" />
+  <img class="alignnone size-full wp-image-371" src="/wp-content/uploads/2014/04/Jumper-Grid.png" alt="Jumper Grid" width="500" height="499"  />
 </div>
 
 The first thing you&#8217;ll want to do is download and install [Jumper][1]. I&#8217;m using the latest development version in this example. After that, let&#8217;s do some basic setup by declaring local variables and drawing a background to the screen.

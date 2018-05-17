@@ -17,17 +17,17 @@ Hello animators, I&#8217;m currently in the beginning stages of contracting arti
 To give you an idea of what I&#8217;m looking for, I&#8217;m creating a turn based game that draws inspiration from games like Heroes of Might and Magic, Final Fantasy Tactics, and The Banner Saga. The art assets are isometric, so the character animations need to be from that point of view. Here is an example of one of the battlefields that have been created.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/08/bridgetest-1-1024x646.jpg" alt="bridgetest" width="625" height="394" class="alignnone size-large wp-image-1049" />
+  <img src="/wp-content/uploads/2014/08/bridgetest.jpg" alt="bridgetest" width="625" height="394" class="alignnone size-large wp-image-1049" />
 </div>
 
 The number of characters that will be in the game will depend on the animation costs, but here are some character concepts to give you an example of the type of characters I&#8217;d like animated.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/08/concepts_runemage_01.jpg" alt="concepts_runemage_01" width="751" height="250" class="alignnone size-full wp-image-1072" srcset="/wp-content/uploads/2014/08/concepts_runemage_01.jpg 751w, /wp-content/uploads/2014/08/concepts_runemage_01-300x100.jpg 300w" sizes="(max-width: 751px) 100vw, 751px" />
+  <img src="/wp-content/uploads/2014/08/concepts_runemage_01.jpg" alt="concepts_runemage_01" width="751" height="250" class="alignnone size-full wp-image-1072"  />
 </div>
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/08/concepts_02-1.jpg" alt="concepts_02" width="612" height="300" class="alignnone size-full wp-image-1073" srcset="/wp-content/uploads/2014/08/concepts_02-1.jpg 612w, /wp-content/uploads/2014/08/concepts_02-1-300x147.jpg 300w" sizes="(max-width: 612px) 100vw, 612px" />
+  <img src="/wp-content/uploads/2014/08/concepts_02.jpg" alt="concepts_02" width="612" height="300" class="alignnone size-full wp-image-1073"  />
 </div>
 
 The characters will each need the following animations
