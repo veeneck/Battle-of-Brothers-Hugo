@@ -55,25 +55,25 @@ Don&#8217;t let style be your determining factor for ruling out a potential art
 <div id='gallery-7' class='gallery galleryid-898 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/07/foothills_washedout-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/07/foothills_washedout-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/07/foothills_washedout-1-150x150.jpg 150w, /wp-content/uploads/2014/07/foothills_washedout-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/07/foothills_washedout-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/07/foothills_washedout.jpg" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/07/WALK-FORWARD-1.gif'><img width="150" height="150" src="/wp-content/uploads/2014/07/WALK-FORWARD-1-150x150.gif" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/07/WALK-FORWARD-1-150x150.gif 150w, /wp-content/uploads/2014/07/WALK-FORWARD-1-300x300.gif 300w, /wp-content/uploads/2014/07/WALK-FORWARD-1-768x768.gif 768w, /wp-content/uploads/2014/07/WALK-FORWARD-1-100x100.gif 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/07/WALK-FORWARD-1.gif'><img width="150" height="150" src="/wp-content/uploads/2014/07/WALK-FORWARD.gif" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/07/Helardry-exploration-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/07/Helardry-exploration-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/07/Helardry-exploration-1-150x150.png 150w, /wp-content/uploads/2014/07/Helardry-exploration-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/07/Helardry-exploration-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/07/Helardry-exploration.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/07/white-in-situ-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/07/white-in-situ-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/07/white-in-situ-1-150x150.png 150w, /wp-content/uploads/2014/07/white-in-situ-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/07/white-in-situ-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/07/white-in-situ.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   

@@ -18,4 +18,3 @@ read: Scifi/Fantasy like David Gemmell and Patrick Rothfuss. Sadly, I don't read
 procrastinate: Uncrate, /r/gamedev, news.yc, 9to5mac
 future: Eleysium. Rich people in a flying Apple Store.
 ---
-content

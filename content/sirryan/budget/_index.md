@@ -5,4 +5,3 @@ type: budget
 categories:
   - sirryan
 ---
-content

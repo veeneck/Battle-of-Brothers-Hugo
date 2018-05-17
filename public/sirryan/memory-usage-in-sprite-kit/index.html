@@ -124,7 +124,7 @@
 				
 <div class="floatleft timestamp">
 	<span class="month">Aug</span>
-	<p class="shield" style="background-image:url('/assets/Shield8.png')">25</p>
+	<p class="shield" style="background-image:url('/assets/Shield9.png')">25</p>
 	<span class="year legacy">2014</span>
 </div>
 				<h3 class="grace">Memory Usage in Sprite Kit</h3>
@@ -194,7 +194,7 @@
 <h4 id="test-1-remove-gui">Test 1: Remove GUI</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1088" src="/wp-content/uploads/2014/08/Test-2-1-1024x766.png" alt="Test 2" width="625" height="467" srcset="/wp-content/uploads/2014/08/Test-2-1-1024x766.png 1024w, /wp-content/uploads/2014/08/Test-2-1-300x224.png 300w, /wp-content/uploads/2014/08/Test-2-1-768x575.png 768w, /wp-content/uploads/2014/08/Test-2-1.png 1211w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1088" src="/wp-content/uploads/2014/08/Test-2.png" alt="Test 2" width="625" height="467"  />
 </div>
 
 <p>I began my tests by removing things piece by piece. The goal was to get down to 1 node and observe what happened along the way.</p>
@@ -204,7 +204,7 @@
 <h4 id="test-2-remove-layers">Test 2: Remove Layers</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1091" src="/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg" alt="foothills_base_01-compressor" width="625" srcset="/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg 1024w, /wp-content/uploads/2014/08/foothills_base_01-compressor-1-300x225.jpg 300w, /wp-content/uploads/2014/08/foothills_base_01-compressor-1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+  <img class="alignnone size-full wp-image-1091" src="/wp-content/uploads/2014/08/foothills_base_01-compressor.jpg" alt="foothills_base_01-compressor" width="625" />
 </div>
 
 <p>My game is isometric, so there are a ton of layers to give depth and allow units to walk behind objects. I went ahead and removed all of those, which leaves a basic full size background image. This had hugely successful results mainly because anywhere a layer is sitting gone top of the background, the memory usage for that part of the screen is essentially doubled.</p>
@@ -214,7 +214,7 @@
 <h4 id="test-3-compress-images">Test 3: Compress Images</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1092" src="/wp-content/uploads/2014/08/Test-4-1-1024x832.png" alt="Test 4" width="625" height="507" srcset="/wp-content/uploads/2014/08/Test-4-1-1024x832.png 1024w, /wp-content/uploads/2014/08/Test-4-1-300x244.png 300w, /wp-content/uploads/2014/08/Test-4-1-768x624.png 768w, /wp-content/uploads/2014/08/Test-4-1.png 1264w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1092" src="/wp-content/uploads/2014/08/Test-4.png" alt="Test 4" width="625" height="507"  />
 </div>
 
 <p>Using <a href="https://compressor.io" target="_blank">compressor.io</a>, I shrunk my background image from 1.93MB to 390KB. That&#8217;s a huge difference, and I was expecting huge results. But, I didn&#8217;t get the results I was looking for. Hmmm. At a minimum, this at least helps with the <a href="http://stackoverflow.com/questions/4753100/max-size-of-an-ios-application" target="_blank">over-the-air download limit</a>.</p>
@@ -248,7 +248,7 @@
 <h4 id="test-8-try-a-smaller-background-image">Test 8: Try A Smaller Background Image</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1093" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-23-at-12.01.36-PM-1-1024x768.png" alt="Screen Shot 2014-08-23 at 12.01.36 PM" width="625" height="468" />
+  <img class="alignnone size-large wp-image-1093" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-23-at-12.01.36-PM.png" alt="Screen Shot 2014-08-23 at 12.01.36 PM" width="625" height="468" />
 </div>
 
 <p>At this point, it became clear that file size alone is not the only indicator of memory. So, I tried an image of <sup>1</sup>&frasl;<sub>4</sub> the size. 75% savings, which proved that the remaining ~12MB between a base project and mine was due to the texture size of the background image. Turns out textures use memory based on their <a href="http://stackoverflow.com/questions/20377859/high-memory-usage-in-spritekit-when-using-texture-atlas" target="_blank">resolution and color depth</a>.</p>
@@ -258,7 +258,7 @@
 <h4 id="test-9-rgba4444">Test 9: RGBA4444</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1110" src="/wp-content/uploads/2014/08/foothills_bad-1-1024x789.png" alt="foothills_bad" width="625" height="481" />
+  <img class="alignnone size-large wp-image-1110" src="/wp-content/uploads/2014/08/foothills_bad.png" alt="foothills_bad" width="625" height="481" />
 </div>
 
 <p>Using RGBA444 instead of RGBA8888 cuts the memory used in half. The problem is that it leaves artifacts all over the artwork, and in my case they are quite noticeable. I pointed out the water and snow as examples above.</p>
@@ -268,7 +268,7 @@
 <h4 id="test-10-break-apart-into-tiles">Test 10: Break Apart Into Tiles</h4>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1116" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-24-at-10.45.14-AM-1-1024x767.png" alt="Screen Shot 2014-08-24 at 10.45.14 AM" width="625" height="468" />
+  <img class="alignnone size-large wp-image-1116" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-24-at-10.45.14-AM.png" alt="Screen Shot 2014-08-24 at 10.45.14 AM" width="625" height="468" />
 </div>
 
 <p>I wanted to see what would happen if the background was tiled instead of one giant image. Then, I could remove tiles that would be hidden behind a z-index overlay. I thought this would be significant, but I only saw minor gains.</p>
@@ -304,7 +304,7 @@
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/cfc55e6d9b571f4e65f3d2a608aae3f5?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/cfc55e6d9b571f4e65f3d2a608aae3f5?s=118&d=http://battleofbrothers.com/assets/comment_av_4.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			
@@ -359,7 +359,7 @@ Christopher</p>
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/54dfb1e19651d37c213d699007557d6b?s=118&d=http://battleofbrothers.com/assets/comment_av_9.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/54dfb1e19651d37c213d699007557d6b?s=118&d=http://battleofbrothers.com/assets/comment_av_4.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			
@@ -408,7 +408,7 @@ Christopher</p>
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/4d5d78cbd19120f7412f553a6fed79c2?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/4d5d78cbd19120f7412f553a6fed79c2?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			
@@ -455,7 +455,7 @@ Christopher</p>
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/c2ca3e5dc778ea9fe181dae1f36d6ab1?s=118&d=http://battleofbrothers.com/assets/comment_av_12.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/c2ca3e5dc778ea9fe181dae1f36d6ab1?s=118&d=http://battleofbrothers.com/assets/comment_av_3.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			
@@ -553,7 +553,7 @@ Christopher</p>
 <li >
 	<div class="comment-body">
 		<div class="comment-author vcard">
-			<img src="https://www.gravatar.com/avatar/684d633820401f665b9d058647099a96?s=118&d=http://battleofbrothers.com/assets/comment_av_2.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+			<img src="https://www.gravatar.com/avatar/684d633820401f665b9d058647099a96?s=118&d=http://battleofbrothers.com/assets/comment_av_3.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
 		</div>
 		<div class="comment-wrapper">
 			

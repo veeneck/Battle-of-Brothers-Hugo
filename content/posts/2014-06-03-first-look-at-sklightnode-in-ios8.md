@@ -24,11 +24,11 @@ The settings are fairly self explanatory. The important one to note is `category
 
 Have a look at some screenshots showing the different types of lighting. Focus on the flags throughout the scene. First, `shadowCastBitMask`.
 
-<img class="alignnone size-large wp-image-607" src="http://battleofbrothers.com/wp-content/uploads/2014/06/shadowcast-1024x813.png" alt="shadowcast" width="625" height="496" />
+<img class="alignnone size-large wp-image-607" src="http://battleofbrothers.com/wp-content/uploads/2014/06/shadowcast.png" alt="shadowcast" width="625" height="496" />
 
 Next up, `lightingBitMask`.
 
-<img class="alignnone size-large wp-image-608" src="http://battleofbrothers.com/wp-content/uploads/2014/06/lightcast-1024x813.png" alt="lightcast" width="625" height="496" />
+<img class="alignnone size-large wp-image-608" src="http://battleofbrothers.com/wp-content/uploads/2014/06/lightcast.png" alt="lightcast" width="625" height="496" />
 
 Lastly, note that you can toggle a few additional parameters like `falloff` &#8212; the decay of the light over distance. However, as of the time of this post, I&#8217;m having trouble getting `falloff` or `shadowedBitMask` to show any change in the lighting. (working with first beta preview).
 

@@ -29,25 +29,25 @@ Neither of us here at Battle of Brothers are designers, so any practice is good 
 <div id='gallery-2' class='gallery galleryid-107 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Website-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Website-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Website-1-150x150.png 150w, /wp-content/uploads/2014/03/Website-1-300x300.png 300w, /wp-content/uploads/2014/03/Website-1-768x768.png 768w, /wp-content/uploads/2014/03/Website-1-100x100.png 100w, /wp-content/uploads/2014/03/Website-1.png 1024w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Website.png'><img width="500"  src="/wp-content/uploads/2014/03/Website.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-12.05.53-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-18-at-3.34.20-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.05.24-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
@@ -61,25 +61,25 @@ As another example, let&#8217;s have a look at the home page:
 <div id='gallery-3' class='gallery galleryid-107 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-300x300.png 300w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-768x768.png 768w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-1024x1024.png 1024w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1-100x100.png 100w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM-1.png 1026w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM.png'><img width="500" src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-13-at-7.41.10-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-300x300.png 300w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-768x768.png 768w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-1024x1024.png 1024w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1-100x100.png 100w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM-1.png 1026w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-14-at-8.11.57-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-01-15-at-12.00.23-AM.png" class="attachment-thumbnail size-thumbnail" alt="" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-26-at-3.19.58-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
@@ -95,25 +95,25 @@ Details, polish, and going the extra mile all take an exceptional amount of care
 <div id='gallery-4' class='gallery galleryid-107 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-3.56.43-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.02.04-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM-1-1202x1200.png 1202w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM.png'><img width="500"  src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-31-at-12.09.32-PM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/wp-content/uploads/2014/03/ryan-1.jpeg'><img width="150" height="150" src="/wp-content/uploads/2014/03/ryan-1-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/ryan-1-150x150.jpeg 150w, /wp-content/uploads/2014/03/ryan-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/ryan-1.jpeg'><img width="500"  src="/wp-content/uploads/2014/03/ryan.jpeg" class="attachment-thumbnail size-thumbnail" alt="" s /></a>
     </dt>
   </dl>
   
@@ -131,7 +131,7 @@ Perhaps the most frustrating thing that can happen with design is to design your
 Tags are a common concept in WordPress, and it is expected that sites will use them. What&#8217;s different about this site is that it is basically two blogs under one roof, so a lot of WordPress functions have to be split. So when it became time to implement a wordcloud, everything took longer than expected. And since the site is designed around the use of tags, I had no choice but to figure out a way to implement the feature.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-199" alt="tags" src="/wp-content/uploads/2014/03/tags-1-1024x801.png" width="625" height="488" srcset="/wp-content/uploads/2014/03/tags-1-1024x801.png 1024w, /wp-content/uploads/2014/03/tags-1-300x235.png 300w, /wp-content/uploads/2014/03/tags-1-768x601.png 768w, /wp-content/uploads/2014/03/tags-1.png 1200w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-199" alt="tags" src="/wp-content/uploads/2014/03/tags.png" width="625" height="488"  />
 </div>
 
 The comment system reached the unfortunate point of having to rewrite the code completely. I pushed the default theme as far as I could until too many hacks were introduced. At that point, the comments were barely usable and the design to the entire site was already in place. So, the only option was writing custom markup in a custom function for WordPress. Doable, but a stressful and unexpected day of work during a time crunch.

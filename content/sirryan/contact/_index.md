@@ -5,4 +5,3 @@ type: contact
 categories:
   - sirryan
 ---
-content

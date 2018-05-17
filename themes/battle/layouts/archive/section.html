@@ -21,7 +21,7 @@
 		<div class="floatleft activity posts clear">
 			<ul class="recent">
 				{{ range $sortedPosts }}
-					{{ if and (not (in .Params.tags "status")) (not (in .Params.tags "budget")) }}
+					{{ if and (not (in .Params.tags "status")) (not (in .Params.tags "budget")) (in .Params.type "post" ) }}
 						{{ partial "post_summary.html" . }}
 					{{ end }}
 				{{ end }}
