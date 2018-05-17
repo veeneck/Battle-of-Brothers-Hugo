@@ -44,7 +44,7 @@ I&#8217;ll probably spend the next month or two playing around with the concepts
 All of my game levels will probably take place on some sort of a grid, so I played around with backgrounds and grids. I may have to end up using individual tile images to draw my grids, but I started by overlaying transparent individual tile objects on top of a single background image. Each tile then has an event listener attached to it to know when it is clicked.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.08.35-AM-1.png" alt="Screen Shot 2014-04-14 at 11.08.35 AM" width="771" height="512" class="alignnone size-full wp-image-319" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.08.35-AM-1.png 771w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.08.35-AM-1-300x199.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.08.35-AM-1-768x510.png 768w" sizes="(max-width: 771px) 100vw, 771px" />
+  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.08.35-AM.png" alt="Screen Shot 2014-04-14 at 11.08.35 AM" width="771" height="512" class="alignnone size-full wp-image-319"  />
 </div>
 
 **Sprite Animation**
@@ -56,7 +56,7 @@ Animating a character took longer than it should have because I didn&#8217;t und
 A* is a common pathfinding algorithm and Roland Yonaba made it about 10 times faster with his [Jumper library][9]. I implemented that library so that my character knows the most efficient way to move from point A to point B, making sure to avoid any obstacles in their way.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM-1.png" alt="Screen Shot 2014-04-14 at 12.57.57 PM" width="762" height="445" class="alignnone size-full wp-image-320" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM-1.png 762w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM-1-300x175.png 300w" sizes="(max-width: 762px) 100vw, 762px" />
+  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-12.57.57-PM.png" alt="Screen Shot 2014-04-14 at 12.57.57 PM" width="762" height="445" class="alignnone size-full wp-image-320"  />
 </div>
 
 **Algorithm for Allowable Movement**
@@ -64,7 +64,7 @@ A* is a common pathfinding algorithm and Roland Yonaba made it about 10 times fa
 Characters will only be allowed to move a certain distance each turn, so I needed an algorithm to calculate and highlight which tiles the hero can move to.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.09.38-AM-1.png" alt="Screen Shot 2014-04-14 at 11.09.38 AM" width="761" height="574" class="alignnone size-full wp-image-321" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.09.38-AM-1.png 761w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.09.38-AM-1-300x226.png 300w" sizes="(max-width: 761px) 100vw, 761px" />
+  <img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-11.09.38-AM.png" alt="Screen Shot 2014-04-14 at 11.09.38 AM" width="761" height="574" class="alignnone size-full wp-image-321"  />
 </div>
 
 In case you ever need to do this yourself, the code I&#8217;m using is:

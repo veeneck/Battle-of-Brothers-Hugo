@@ -31,7 +31,7 @@ That same base character reads in data from archers, mages, zombies, and any oth
 While that&#8217;s great for the sub-class code that is similar, it doesn&#8217;t solve all of my problems. The next issue is that some sub-class functions are similar to only some sub-classes and not others. For example, ranged characters have functions to set the speed, angle, and end point to the projectile they fired. Melee characters do not need those functions. And to confuse things a little more, NPC ranged characters and PC ranged characters also have some separate functions specific to their player character type. To solve this issue, I&#8217;ve created a `characterFactory.lua` file that is responsible for reading in the JSON, creating the character, and then adding any character-specific functionality to the character created. To give you a visual, here is how the character creation process works now.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2014/07/characterCreation-1.png" alt="characterCreation" width="485" height="690" class="alignnone size-full wp-image-859" srcset="/wp-content/uploads/2014/07/characterCreation-1.png 485w, /wp-content/uploads/2014/07/characterCreation-1-211x300.png 211w" sizes="(max-width: 485px) 100vw, 485px" />
+  <img src="/wp-content/uploads/2014/07/characterCreation.png" alt="characterCreation" width="485" height="690" class="alignnone size-full wp-image-859"  />
 </div>
 
 So the bad news is that I lost a couple of weeks of development. The good news is that I&#8217;ve probably removed a third of my code and made the character creation process much more efficient. I&#8217;m almost back to where I was at a couple of weeks ago, so I should be able to get back to adding functionality to my game in the near future.

@@ -37,25 +37,25 @@ I know that all sounds cliché, and I don&#8217;t know all of the game&#8217;s d
 <div id='gallery-8' class='gallery galleryid-935 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/screen-shot-2014-08-05-at-11-58-57-am/'><img width="150" height="150" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-150x150.png 150w, /wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/screen-shot-2014-08-05-at-11-58-57-am/'><img width="150" height="150" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-11.58.57-AM.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/image/'><img width="150" height="150" src="/wp-content/uploads/2014/08/image-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/image-150x150.png 150w, /wp-content/uploads/2014/08/image-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/image/'><img width="150" height="150" src="/wp-content/uploads/2014/08/image.png" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='/worldmap_sketch_03/'><img width="150" height="150" src="/wp-content/uploads/2014/08/WorldMap_sketch_03-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/WorldMap_sketch_03-1-150x150.jpg 150w, /wp-content/uploads/2014/08/WorldMap_sketch_03-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/worldmap_sketch_03/'><img width="150" height="150" src="/wp-content/uploads/2014/08/WorldMap_sketch_03.jpg" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='/worldmap_island_demo01/'><img width="150" height="150" src="/wp-content/uploads/2014/08/WorldMap_Island_demo01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/WorldMap_Island_demo01-1-150x150.jpg 150w, /wp-content/uploads/2014/08/WorldMap_Island_demo01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/worldmap_island_demo01/'><img width="150" height="150" src="/wp-content/uploads/2014/08/WorldMap_Island_demo01.jpg" class="attachment-thumbnail size-thumbnail" alt=""  /></a>
     </dt>
   </dl>
   

@@ -28,37 +28,37 @@ My background is in web development and because of my experience with developing
 **iPad**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad-1024x773.png" alt="iPad" width="625" height="471" class="alignnone size-large wp-image-727" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad.png" alt="iPad" width="625" height="471" class="alignnone size-large wp-image-727" />
 </div>
 
 **iPad Retina**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad-Retina-1024x768.png" alt="iPad-Retina" width="625" height="468" class="alignnone size-large wp-image-728" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad-Retina.png" alt="iPad-Retina" width="625" height="468" class="alignnone size-large wp-image-728" />
 </div>
 
 **iPhone 5**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPhone5-1024x515.png" alt="iPhone5" width="625" height="314" class="alignnone size-large wp-image-729" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPhone5.png" alt="iPhone5" width="625" height="314" class="alignnone size-large wp-image-729" />
 </div>
 
 **Galaxy S3**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/GalaxyS3-1024x555.png" alt="GalaxyS3" width="625" height="338" class="alignnone size-large wp-image-730" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/GalaxyS3.png" alt="GalaxyS3" width="625" height="338" class="alignnone size-large wp-image-730" />
 </div>
 
 **Nook-Color**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Nook-Color-1024x567.png" alt="Nook-Color" width="625" height="346" class="alignnone size-large wp-image-731" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Nook-Color.png" alt="Nook-Color" width="625" height="346" class="alignnone size-large wp-image-731" />
 </div>
 
 **Ouya**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Ouya-1024x589.png" alt="Ouya" width="625" height="359" class="alignnone size-large wp-image-732" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Ouya.png" alt="Ouya" width="625" height="359" class="alignnone size-large wp-image-732" />
 </div>
 
 As you can see, each device displays a different version of the game and most of them weren&#8217;t very playable. So I headed over to the [Corona Docs][2] expecting to find guidance on how to build some sort of master conversion file that would allow me to specify how things needed to look on each device. To my surprise, I didn&#8217;t need to do anything like that because Corona once again knew this would be an issue and made my life as a developer easier. As it turned out, the only code I needed to add to make my demo work on multiple devices was to add these lines:
@@ -70,13 +70,13 @@ Now when I view my updated demo in multiple devices, it looks like:
 **iPad**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad1-1024x772.png" alt="iPad" width="625" height="471" class="alignnone size-large wp-image-750" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad1.png" alt="iPad" width="625" height="471" class="alignnone size-large wp-image-750" />
 </div>
 
 **iPad Retina**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad-Retina1-1024x772.png" alt="iPad-Retina" width="625" height="471" class="alignnone size-large wp-image-751" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/iPad-Retina1.png" alt="iPad-Retina" width="625" height="471" class="alignnone size-large wp-image-751" />
 </div>
 
 **iPhone 5**
@@ -88,19 +88,19 @@ Now when I view my updated demo in multiple devices, it looks like:
 **Galaxy S3**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/GalaxyS31-1024x576.png" alt="GalaxyS3" width="625" height="351" class="alignnone size-large wp-image-753" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/GalaxyS31.png" alt="GalaxyS3" width="625" height="351" class="alignnone size-large wp-image-753" />
 </div>
 
 **Nook-Color**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Nook-Color1-1024x567.png" alt="Nook-Color" width="625" height="346" class="alignnone size-large wp-image-757" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Nook-Color1.png" alt="Nook-Color" width="625" height="346" class="alignnone size-large wp-image-757" />
 </div>
 
 **Ouya**
 
 <div class="inlineimg">
-  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Ouya1-1024x591.png" alt="Ouya" width="625" height="360" class="alignnone size-large wp-image-759" />
+  <img src="http://battleofbrothers.com/wp-content/uploads/2014/06/Ouya1.png" alt="Ouya" width="625" height="360" class="alignnone size-large wp-image-759" />
 </div>
 
 Not too bad! The game doesn&#8217;t look exactly the same, because the dimensions differ across devices, but the game is playable on all of the devices and the differences can be cleaned up by using expandable backgrounds and other device-specific artwork.

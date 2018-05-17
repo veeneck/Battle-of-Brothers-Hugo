@@ -27,7 +27,7 @@ But in an effort to stay positive about game development, let&#8217;s celebrate 
 As you can see, there is not one, but three very scary ogres for my hero to fight. Each character also has a health bar displayed above them that moves along with the character and accurately displays total health.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-424" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.13-PM-1.png" alt="Screen Shot 2014-04-28 at 1.19.13 PM" width="704" height="451" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.13-PM-1.png 704w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.13-PM-1-300x192.png 300w" sizes="(max-width: 704px) 100vw, 704px" />
+  <img class="alignnone size-full wp-image-424" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.13-PM.png" alt="Screen Shot 2014-04-28 at 1.19.13 PM" width="704" height="451"  />
 </div>
 
 #### Range Calculations and Enemies in Range
@@ -35,7 +35,7 @@ As you can see, there is not one, but three very scary ogres for my hero to figh
 The hero&#8217;s movement grid now shrinks after he moves and enemies light up when they are in attacking range.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM-1.png" alt="Screen Shot 2014-04-28 at 1.19.20 PM" width="600" height="381" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM-1.png 600w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM-1-300x191.png 300w" sizes="(max-width: 600px) 100vw, 600px" />
+  <img class="alignnone size-full wp-image-425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM.png" alt="Screen Shot 2014-04-28 at 1.19.20 PM" width="600" height="381"  />
 </div>
 
 #### Fight
@@ -43,7 +43,7 @@ The hero&#8217;s movement grid now shrinks after he moves and enemies light up w
 The hero has an animation sequence that swings his sword. And if you look closely, you&#8217;ll also see a -5 above the ogre, which is a separate animation sequence displaying the amount of damage taken.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-426" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.24-PM-1.png" alt="Screen Shot 2014-04-28 at 1.19.24 PM" width="600" height="381" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.24-PM-1.png 600w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.24-PM-1-300x191.png 300w" sizes="(max-width: 600px) 100vw, 600px" />
+  <img class="alignnone size-full wp-image-426" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.24-PM.png" alt="Screen Shot 2014-04-28 at 1.19.24 PM" width="600" height="381"  />
 </div>
 
 So there is some visual progress to show, but the real improvement has been in the codebase. Besides a few helper functions, I had to re-write pretty much every line of code. And once that code was re-written, I would add a new feature and then have to re-write the code again. This isn&#8217;t too unexpected, because it&#8217;s hard for me to mentally plan what I have to do when I&#8217;ve never done it before.

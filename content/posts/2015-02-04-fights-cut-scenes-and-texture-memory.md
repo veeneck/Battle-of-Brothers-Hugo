@@ -51,7 +51,7 @@ Most of my time in the last week has been experimenting with animations and crea
 I have all of the battlefield maps, world map, and character concepts illustrated, but I still have some cut scene and marketing work to be illustrated. The first contract that I had with [Scott Pellico][2], the game’s illustrator, was completed and I’ve entered into a second contract to hopefully finish the remaining work. This is going to put me over budget, but I think the investment will be worth it. Scott started on the cut scenes and story this week, and here’s one of the images that will help me provide the player with a bit of background story before getting into the game.
 
 <div class="inlineimg">
-  <img src="/wp-content/uploads/2015/01/SC01_01-2.jpg" alt="SC01_01" width="800" height="269" class="alignnone size-full wp-image-1762" srcset="/wp-content/uploads/2015/01/SC01_01-2.jpg 800w, /wp-content/uploads/2015/01/SC01_01-2-300x101.jpg 300w, /wp-content/uploads/2015/01/SC01_01-2-768x258.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+  <img src="/wp-content/uploads/2015/01/SC01_01.jpg" alt="SC01_01" width="800" height="269" class="alignnone size-full wp-image-1762"  />
 </div>
 
 #### What&#8217;s Next
