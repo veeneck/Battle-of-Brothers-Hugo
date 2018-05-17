@@ -30,10 +30,10 @@
 
 		<div class="floatleft activity right common">
 			<h4>Popular Tags</h4>
-			<p>Currently viewing posts in the category <b>Category Name</b>.</p>
+			<p>Currently archived posts.</p>
 			<ul class="tagcloud clear">
 				{{ range $key, $value := ($.Scratch.Get "tags") }}
-					<li><a href="">{{ $value }}</a></li>
+					<li><a href="/{{ $.Scratch.Get "knight" }}/tags/{{ $value }}">{{ $value }}</a></li>
 				{{ end }}
 			</ul>
 			

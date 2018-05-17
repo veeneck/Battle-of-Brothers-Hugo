@@ -864,6 +864,11 @@
   </url>
   
   <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://battleofbrothers.com/sirryan/tags/</loc>
     <priority>0</priority>
   </url>
@@ -898,6 +903,58 @@
   
   <url>
     <loc>http://battleofbrothers.com/sirchris/subscribe/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/announcements/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/art/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/budget/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/code/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/corona/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/lua/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/marketing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/roundup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/stat/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/status/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirchris/tags/thoughts/</loc>
   </url>
   
   <url>
