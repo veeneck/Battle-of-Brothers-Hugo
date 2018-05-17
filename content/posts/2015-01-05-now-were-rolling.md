@@ -30,7 +30,7 @@ Let&#8217;s jump to the video for more.
 How many units can I fit on the screen at once? I hate to optimize code this early in the process, but the answer to that determines a lot about how my game will flow. After a week of focusing on this, <a href="http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1" target="_blank">optimizing the compiler</a>, <a href="https://www.youtube.com/watch?v=vdMYn8GShkg" target="_blank">testing different approaches</a>, and going through the code piece by piece, I can support ~90 units at 50% CPU.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1485" src="http://localhost:8888/wp-content/uploads/2014/12/Screen-Shot-2014-12-23-at-1.53.30-PM-2-1024x768.png" alt="Screen Shot 2014-12-23 at 1.53.30 PM" width="625" height="469" />
+  <img class="alignnone size-large wp-image-1485" src="/wp-content/uploads/2014/12/Screen-Shot-2014-12-23-at-1.53.30-PM-2-1024x768.png" alt="Screen Shot 2014-12-23 at 1.53.30 PM" width="625" height="469" />
 </div>
 
 The good news is that I still have plenty of reasonable ideas to increase performance. For the first time, I&#8217;m confident I can support 125-150 units at under 50% CPU. That would allow for all of the game design ideas in my head, and plenty of additional CPU for art, sound, effects, etc.
@@ -44,7 +44,7 @@ I&#8217;m learning that I have to develop some basic art skills in order to get 
 Anyway, that said, here is my first take on icons. Love the progress I have made, but they aren&#8217;t quite there yet. Need them to look more like they belong with the maps / characters.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1474" src="http://localhost:8888/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-731x1024.png" alt="B4hDHA2IUAAABya.png-large" width="625" height="876" srcset="http://localhost:8888/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-731x1024.png 731w, http://localhost:8888/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-214x300.png 214w, http://localhost:8888/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-768x1075.png 768w, http://localhost:8888/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large.png 1000w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1474" src="/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-731x1024.png" alt="B4hDHA2IUAAABya.png-large" width="625" height="876" srcset="/wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-731x1024.png 731w, /wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-214x300.png 214w, /wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large-768x1075.png 768w, /wp-content/uploads/2014/12/B4hDHA2IUAAABya.png-large.png 1000w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 #### World Map
@@ -52,7 +52,7 @@ Anyway, that said, here is my first take on icons. Love the progress I have made
 Designing the world map took more time than I thought. The story illustrations and level illustrations have to be considered so that it makes logical sense. If the story has a river in the background, the world map should show that. Obviously, it doesn&#8217;t have to be 100% exact, but some consistency is desired. On that same note, the path that the character takes throughout the map should make sense with the story. For example, you would&#8217;t cross 75% of the map for resources if that same resource could be found much closer. So, I thought through that, and came up with a rough illustration for Scott. I have a separate blog post in mind for this process, so for now, I&#8217;m just going to leave a teaser.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1479" src="http://localhost:8888/wp-content/uploads/2014/12/WorldMap_lineart_02-2-1024x688.jpg" alt="WorldMap_lineart_02" width="625" height="420" srcset="http://localhost:8888/wp-content/uploads/2014/12/WorldMap_lineart_02-2-1024x688.jpg 1024w, http://localhost:8888/wp-content/uploads/2014/12/WorldMap_lineart_02-2-300x201.jpg 300w, http://localhost:8888/wp-content/uploads/2014/12/WorldMap_lineart_02-2-768x516.jpg 768w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1479" src="/wp-content/uploads/2014/12/WorldMap_lineart_02-2-1024x688.jpg" alt="WorldMap_lineart_02" width="625" height="420" srcset="/wp-content/uploads/2014/12/WorldMap_lineart_02-2-1024x688.jpg 1024w, /wp-content/uploads/2014/12/WorldMap_lineart_02-2-300x201.jpg 300w, /wp-content/uploads/2014/12/WorldMap_lineart_02-2-768x516.jpg 768w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 #### What&#8217;s Left and What&#8217;s Next

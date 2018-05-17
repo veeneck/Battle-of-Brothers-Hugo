@@ -30,7 +30,7 @@ If you&#8217;re curious about how the AI system works, here is a screenshot to i
 
 <div class="inlineimg">
   <p>
-    <img class="alignnone size-full wp-image-489" src="http://localhost:8888/wp-content/uploads/2014/05/Scoring-e1399920168875-1.png" alt="Scoring" width="600" height="416" srcset="http://localhost:8888/wp-content/uploads/2014/05/Scoring-e1399920168875-1.png 600w, http://localhost:8888/wp-content/uploads/2014/05/Scoring-e1399920168875-1-300x208.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></div> 
+    <img class="alignnone size-full wp-image-489" src="/wp-content/uploads/2014/05/Scoring-e1399920168875-1.png" alt="Scoring" width="600" height="416" srcset="/wp-content/uploads/2014/05/Scoring-e1399920168875-1.png 600w, /wp-content/uploads/2014/05/Scoring-e1399920168875-1-300x208.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></div> 
     
     <p>
       Here you can see that there are numbers above each of the good guy&#8217;s heads. What happens is that at the beginning of an NPC&#8217;s turn, a calculation runs and generate scores for each opposing character. The NPC will perform the action associated with the highest score returned. In the screenshot above, the mage ran scores against the three PC characters and attacked the archer, who had the highest score.

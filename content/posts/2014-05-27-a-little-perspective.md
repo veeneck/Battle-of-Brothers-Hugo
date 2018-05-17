@@ -23,19 +23,19 @@ I was really excited after the last update because I felt like the foundation of
 I&#8217;m going to start out with the most exciting part of this update and that is my decision to switch from an orthographic point of view to an isometric point of view. What that basically means is the game will look less flat and more 3D because of how the tiles and artwork are drawn. Visually, what that means is that my game went from this
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.39.51-PM-1.png" alt="Screen Shot 2014-05-21 at 2.39.51 PM" width="764" height="574" class="alignnone size-full wp-image-569" />
+  <img src="/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.39.51-PM-1.png" alt="Screen Shot 2014-05-21 at 2.39.51 PM" width="764" height="574" class="alignnone size-full wp-image-569" />
 </div>
 
 to this
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1.png" alt="Screen Shot 2014-05-21 at 2.38.07 PM" width="768" height="574" class="alignnone size-full wp-image-570" srcset="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1.png 1025w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-300x224.png 300w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-768x573.png 768w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-1024x764.png 1024w" sizes="(max-width: 768px) 100vw, 768px" />
+  <img src="/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1.png" alt="Screen Shot 2014-05-21 at 2.38.07 PM" width="768" height="574" class="alignnone size-full wp-image-570" srcset="/wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1.png 1025w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-300x224.png 300w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-768x573.png 768w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-21-at-2.38.07-PM-1-1024x764.png 1024w" sizes="(max-width: 768px) 100vw, 768px" />
 </div>
 
 Successful games have been [made from both viewpoints][1], but I like the isometric viewpoint a lot more. After I switched to the new viewpoint, I found some cheap artwork over at the Unity asset store and added some ground tiles, trees, rocks, and a couple of buildings. So now the game in its current state looks like:
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png" alt="Screen Shot 2014-05-23 at 9.21.30 AM" width="769" height="502" class="alignnone size-full wp-image-571" srcset="http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png 961w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1-300x196.png 300w, http://localhost:8888/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1-768x502.png 768w" sizes="(max-width: 769px) 100vw, 769px" />
+  <img src="/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png" alt="Screen Shot 2014-05-23 at 9.21.30 AM" width="769" height="502" class="alignnone size-full wp-image-571" srcset="/wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1.png 961w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1-300x196.png 300w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-23-at-9.21.30-AM-1-768x502.png 768w" sizes="(max-width: 769px) 100vw, 769px" />
 </div>
 
 The switch really wasn&#8217;t as difficult as I thought it would be and the only real programmatic hurdle was in calculating pixel location-based on grid location and vice versa. Once that was fixed, then object placement, pathfinding, and movement all fell into place.

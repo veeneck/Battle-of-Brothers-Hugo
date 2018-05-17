@@ -40,7 +40,7 @@ The only major difference from other posts I&#8217;ve seen is in the actual save
 
 Have a look at the entire `GameData` class below, which should act as a self contained, lazy loading class to hold game data of standard variable types.
 
-{{< gist veeneck98c0c46e70ba533c0c08 >}}
+{{< gist veeneck 98c0c46e70ba533c0c08 >}}
 
 &nbsp;
 

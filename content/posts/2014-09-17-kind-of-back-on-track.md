@@ -43,19 +43,19 @@ Unfortunately, with the change of my game, some art will be thrown out. This was
 <div id='gallery-10' class='gallery galleryid-1271 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/09/01-1.png'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/01-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/01-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/09/01-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/09/01-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/09/01-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/09/01-1-150x150.png 150w, /wp-content/uploads/2014/09/01-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/09/foothills_d_01-1.png'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/foothills_d_01-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/foothills_d_01-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/09/foothills_d_01-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/09/foothills_d_01-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/09/foothills_d_01-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/09/foothills_d_01-1-150x150.png 150w, /wp-content/uploads/2014/09/foothills_d_01-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/09/02-1.png'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/09/02-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/09/02-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/09/02-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/09/02-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/09/02-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/09/02-1-150x150.png 150w, /wp-content/uploads/2014/09/02-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
@@ -67,7 +67,7 @@ As you can see, the lost art is mainly props. Hopefully, I&#8217;ll find a place
 Width and accessibility play an important role with the art now. I&#8217;ve had to add ramps to make certain areas walkable, while other areas have to be wider to make sure a formation can fit through them.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1252" src="http://localhost:8888/wp-content/uploads/2014/09/foothills_01_base-1-1024x640.png" alt="foothills_01_base" width="625" height="390" srcset="http://localhost:8888/wp-content/uploads/2014/09/foothills_01_base-1-1024x640.png 1024w, http://localhost:8888/wp-content/uploads/2014/09/foothills_01_base-1-300x188.png 300w, http://localhost:8888/wp-content/uploads/2014/09/foothills_01_base-1-768x480.png 768w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1252" src="/wp-content/uploads/2014/09/foothills_01_base-1-1024x640.png" alt="foothills_01_base" width="625" height="390" srcset="/wp-content/uploads/2014/09/foothills_01_base-1-1024x640.png 1024w, /wp-content/uploads/2014/09/foothills_01_base-1-300x188.png 300w, /wp-content/uploads/2014/09/foothills_01_base-1-768x480.png 768w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 Future changes may be necessary, such as removing the farm to allow for a larger area to walk around. Overall, I&#8217;m happy that a lot of money and work in the form of art can be used for the final product.

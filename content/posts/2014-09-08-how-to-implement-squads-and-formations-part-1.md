@@ -17,7 +17,7 @@ There is an awesome article on Gamasutra about <a href="http://www.gamasutra.com
 #### Arrange Units in Rows and Columns
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1201" src="http://localhost:8888/wp-content/uploads/2014/09/Screen-Shot-2014-09-06-at-2.42.07-PM-1024x789.png" alt="Screen Shot 2014-09-06 at 2.42.07 PM" width="625" height="481" />
+  <img class="alignnone size-large wp-image-1201" src="/wp-content/uploads/2014/09/Screen-Shot-2014-09-06-at-2.42.07-PM.png" alt="Screen Shot 2014-09-06 at 2.42.07 PM" width="625" height="481" />
 </div>
 
 Before reading anything, I started out by trying to make a Formation class that would be smart enough to handle any size or shape. Wrong approach. Instead, we&#8217;ll start with a `Squad` class that contains all of the units, and a `Formation` <a href="http://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">strategy</a> that describes the layout of those units. It&#8217;s important to note that each arrangement (4&#215;3, 5&#215;2, wedge, etc) would be a new strategy, but for simplicity in this article I&#8217;m only going to use one class.
@@ -26,7 +26,7 @@ Before reading anything, I started out by trying to make a Formation class that 
 
 So, that&#8217;s the empty `Squad` container class. Here is the `Formation` class.
 
-https://gist.github.com/d7386c8f4752b64ef349
+{{< gist veeneck d7386c8f4752b64ef349 >}}
 
 Interestingly, a formation is just an array of vectors. Each vector is an offset from `0,0`, which is the center of our formation. I place the center row first in the array so that those spots are filled first. As of now, I&#8217;m matching the `units` array and the `positions` array.
 
@@ -39,12 +39,12 @@ And that&#8217;s it. With this code, we&#8217;ve recreated the screenshot at the
 #### Rotating the Formation
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1212" src="http://localhost:8888/wp-content/uploads/2014/09/Screen-Shot-2014-09-06-at-3.21.27-PM-1-1024x789.png" alt="Screen Shot 2014-09-06 at 3.21.27 PM" width="625" height="481" />
+  <img class="alignnone size-large wp-image-1212" src="/wp-content/uploads/2014/09/Screen-Shot-2014-09-06-at-3.21.27-PM.png" alt="Screen Shot 2014-09-06 at 3.21.27 PM" width="625" height="481" />
 </div>
 
 Next up, rotation. I won&#8217;t cover wheeling just yet, but the first step to wheeling is finding out what the final position should look like. This seems like it should be difficult. How can you rotate the vector `0,64` by 13 degrees and convert it to new coordinates? Well, thanks to a little bit of linear algebra and a lotta bit of internet help, we can apply a simple equation on each vector to adjust it to the new coordinate space. Here is what our new `moveIntoFormation()` function looks like.
 
-https://gist.github.com/e6d881884efdc7077c8b
+{{< gist veeneck e6d881884efdc7077c8b >}}
 
 In particular, look at our `newX` and `newY` variables. They&#8217;ve been modified by a hard coded radian. We could easily make that a parameter in the function, and control the units rotation. And, to give credit where it&#8217;s due, I pulled the code from this <a href="http://stackoverflow.com/questions/22818531/how-to-rotate-2d-vector" target="_blank">Stack Overflow post</a>.
 
@@ -53,7 +53,7 @@ In particular, look at our `newX` and `newY` variables. They&#8217;ve been modif
 Up until now, each unit has been taking the vector that corresponds to their position in the `units` array. That causes people to overlap when they move into formation, as shown in the gif below.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1218" src="http://localhost:8888/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_ag03kX-1.gif" alt="http___makeagif.com__media_9-08-2014_ag03kX" width="400" height="300" />
+  <img class="alignnone size-full wp-image-1218" src="/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_ag03kX.gif" alt="http___makeagif.com__media_9-08-2014_ag03kX" width="400" height="300" />
 </div>
 
 This overlap looks a bit chunky, so let&#8217;s add some logic to the `moveIntoFormation()` function.
@@ -67,12 +67,12 @@ Two import changes to point out:
 
 Let&#8217;s have a look at our new function to determine the closest unit.
 
-https://gist.github.com/a87b942a30a74a6bbef4
+{{< gist veeneck a87b942a30a74a6bbef4 >}}
 
 With all of that applied, the gif below shows our new `moveIntoFormation()` code executing. Notice that the units walk in a smarter fashion now.
 
 <div class="inlineimg">
-  <img class="alignnone wp-image-1226 size-full" src="http://localhost:8888/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_xyPv_m-1.gif" alt="" width="400" height="300" />
+  <img class="alignnone wp-image-1226 size-full" src="/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_xyPv_m.gif" alt="" width="400" height="300" />
 </div>
 
 &nbsp;
@@ -89,5 +89,5 @@ We&#8217;ve got a lot of the core formation working, so all that is left is poli
 I&#8217;ve implemented a couple of those in the gif below. One note I would leave with is to be careful of doing too much at this step. For example, in my gif, one guy travels a bit too far to get to his spot. I could optimize that, but it would take more loops. I&#8217;d prefer to get everything acceptably functional, and then see what room is left for even more polish.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1224" src="http://localhost:8888/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_7krXMl-1.gif" alt="http___makeagif.com__media_9-08-2014_7krXMl" width="400" height="300" />
+  <img class="alignnone size-full wp-image-1224" src="/wp-content/uploads/2014/09/http___makeagif.com__media_9-08-2014_7krXMl.gif" alt="http___makeagif.com__media_9-08-2014_7krXMl" width="400" height="300" />
 </div>

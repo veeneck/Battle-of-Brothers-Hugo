@@ -34,7 +34,7 @@ Of course, nothing is ever easy. Here are my unanswered questions:
 #### Test 1: Remove GUI
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1088" src="http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-1024x766.png" alt="Test 2" width="625" height="467" srcset="http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-1024x766.png 1024w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-300x224.png 300w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1-768x575.png 768w, http://localhost:8888/wp-content/uploads/2014/08/Test-2-1.png 1211w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1088" src="/wp-content/uploads/2014/08/Test-2-1-1024x766.png" alt="Test 2" width="625" height="467" srcset="/wp-content/uploads/2014/08/Test-2-1-1024x766.png 1024w, /wp-content/uploads/2014/08/Test-2-1-300x224.png 300w, /wp-content/uploads/2014/08/Test-2-1-768x575.png 768w, /wp-content/uploads/2014/08/Test-2-1.png 1211w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 I began my tests by removing things piece by piece. The goal was to get down to 1 node and observe what happened along the way.
@@ -44,7 +44,7 @@ Memory: **52MB**    CPU: **17%**
 #### Test 2: Remove Layers
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1091" src="http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg" alt="foothills_base_01-compressor" width="625" srcset="http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg 1024w, http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1-300x225.jpg 300w, http://localhost:8888/wp-content/uploads/2014/08/foothills_base_01-compressor-1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+  <img class="alignnone size-full wp-image-1091" src="/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg" alt="foothills_base_01-compressor" width="625" srcset="/wp-content/uploads/2014/08/foothills_base_01-compressor-1.jpg 1024w, /wp-content/uploads/2014/08/foothills_base_01-compressor-1-300x225.jpg 300w, /wp-content/uploads/2014/08/foothills_base_01-compressor-1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
 </div>
 
 My game is isometric, so there are a ton of layers to give depth and allow units to walk behind objects. I went ahead and removed all of those, which leaves a basic full size background image. This had hugely successful results mainly because anywhere a layer is sitting gone top of the background, the memory usage for that part of the screen is essentially doubled.
@@ -54,7 +54,7 @@ Memory: **25.5MB**    CPU: **14%**
 #### Test 3: Compress Images
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1092" src="http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-1024x832.png" alt="Test 4" width="625" height="507" srcset="http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-1024x832.png 1024w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-300x244.png 300w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1-768x624.png 768w, http://localhost:8888/wp-content/uploads/2014/08/Test-4-1.png 1264w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1092" src="/wp-content/uploads/2014/08/Test-4-1-1024x832.png" alt="Test 4" width="625" height="507" srcset="/wp-content/uploads/2014/08/Test-4-1-1024x832.png 1024w, /wp-content/uploads/2014/08/Test-4-1-300x244.png 300w, /wp-content/uploads/2014/08/Test-4-1-768x624.png 768w, /wp-content/uploads/2014/08/Test-4-1.png 1264w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 Using <a href="https://compressor.io" target="_blank">compressor.io</a>, I shrunk my background image from 1.93MB to 390KB. That&#8217;s a huge difference, and I was expecting huge results. But, I didn&#8217;t get the results I was looking for. Hmmm. At a minimum, this at least helps with the <a href="http://stackoverflow.com/questions/4753100/max-size-of-an-ios-application" target="_blank">over-the-air download limit</a>.
@@ -88,7 +88,7 @@ Memory: **20.9MB**    CPU: **12%**
 #### Test 8: Try A Smaller Background Image
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1093" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-23-at-12.01.36-PM-1-1024x768.png" alt="Screen Shot 2014-08-23 at 12.01.36 PM" width="625" height="468" />
+  <img class="alignnone size-large wp-image-1093" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-23-at-12.01.36-PM-1-1024x768.png" alt="Screen Shot 2014-08-23 at 12.01.36 PM" width="625" height="468" />
 </div>
 
 At this point, it became clear that file size alone is not the only indicator of memory. So, I tried an image of 1/4 the size. 75% savings, which proved that the remaining ~12MB between a base project and mine was due to the texture size of the background image. Turns out textures use memory based on their <a href="http://stackoverflow.com/questions/20377859/high-memory-usage-in-spritekit-when-using-texture-atlas" target="_blank">resolution and color depth</a>.
@@ -98,7 +98,7 @@ Memory: **11.8MB**    CPU: **11%    **Verdict:  **Huge. Memory is relate
 #### Test 9: RGBA4444
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1110" src="http://localhost:8888/wp-content/uploads/2014/08/foothills_bad-1-1024x789.png" alt="foothills_bad" width="625" height="481" />
+  <img class="alignnone size-large wp-image-1110" src="/wp-content/uploads/2014/08/foothills_bad-1-1024x789.png" alt="foothills_bad" width="625" height="481" />
 </div>
 
 Using RGBA444 instead of RGBA8888 cuts the memory used in half. The problem is that it leaves artifacts all over the artwork, and in my case they are quite noticeable. I pointed out the water and snow as examples above.
@@ -108,7 +108,7 @@ Memory: **14.9MB**    CPU: **11%    **Verdict: **Huge. But, image qualit
 #### Test 10: Break Apart Into Tiles
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1116" src="http://localhost:8888/wp-content/uploads/2014/08/Screen-Shot-2014-08-24-at-10.45.14-AM-1-1024x767.png" alt="Screen Shot 2014-08-24 at 10.45.14 AM" width="625" height="468" />
+  <img class="alignnone size-large wp-image-1116" src="/wp-content/uploads/2014/08/Screen-Shot-2014-08-24-at-10.45.14-AM-1-1024x767.png" alt="Screen Shot 2014-08-24 at 10.45.14 AM" width="625" height="468" />
 </div>
 
 I wanted to see what would happen if the background was tiled instead of one giant image. Then, I could remove tiles that would be hidden behind a z-index overlay. I thought this would be significant, but I only saw minor gains.

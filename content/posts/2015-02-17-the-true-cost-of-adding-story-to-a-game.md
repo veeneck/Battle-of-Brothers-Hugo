@@ -59,7 +59,7 @@ That, combined with his other feedback, forced me to figure out the world. Provi
 </p>
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1420" src="http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png" alt="B1Iql1NCIAEGtKo.png-large" width="662" height="654" srcset="http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png 662w, http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-300x296.png 300w, http://localhost:8888/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-100x100.png 100w" sizes="(max-width: 662px) 100vw, 662px" />
+  <img class="alignnone size-full wp-image-1420" src="/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo.png-large.png" alt="B1Iql1NCIAEGtKo.png-large" width="662" height="654"  />
 </div>
 
 <p>

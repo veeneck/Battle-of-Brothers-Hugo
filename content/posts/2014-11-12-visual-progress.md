@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=vfJ1bXabS3c&feature=youtu.be
 I plan on having 20 levels, or battlefields, in the game and 19.5 of those levels are now complete. I needed an easy way to move between levels for testing purposes, so I added markers to the world map that allow me to click on and enter an individual level. And as you can see below, each level helps to illustrate a spot on the world map, so hopefully by the end of the game the player has a good feel for the world and its inhabitants.
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/11/maplevels-2.jpg" alt="maplevels" width="750" height="566" class="alignnone size-full wp-image-1434" />
+  <img src="/wp-content/uploads/2014/11/maplevels-2.jpg" alt="maplevels" width="750" height="566" class="alignnone size-full wp-image-1434" />
 </div>
 
 #### Added Tiles to Battlefields
@@ -37,7 +37,7 @@ I plan on having 20 levels, or battlefields, in the game and 19.5 of those level
 Each battlefield contains an isometric grid, which determines where characters can move. Those grids are custom to each battlefield, so I made 20 JSON files, each of which contains information about a specific battlefield&#8217;s grid. Here&#8217;s a look at two of the grids, with one being pretty straight and rectangular and the other having some obstacles and corners.
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/11/maptiles-3.jpg" alt="maptiles" width="541" height="746" class="alignnone size-full wp-image-1433" />
+  <img src="/wp-content/uploads/2014/11/maptiles-3.jpg" alt="maptiles" width="541" height="746" class="alignnone size-full wp-image-1433" />
 </div>
 
 #### Character Management Screen
@@ -45,7 +45,7 @@ Each battlefield contains an isometric grid, which determines where characters c
 The character management screen is where the player will be able to upgrade and customize their characters. Right now the management screen allows the player to toggle between a couple characters and assign action points to a character&#8217;s customizable stats. More characters and options will added down the road, and nothing on this screen is finalized, but hopefully the heavy lifting for this page is done and future tweaks won&#8217;t take too much work.
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/11/characterscreen-3-1024x773.png" alt="characterscreen" width="625" height="471" class="alignnone size-large wp-image-1432" />
+  <img src="/wp-content/uploads/2014/11/characterscreen-3-1024x773.png" alt="characterscreen" width="625" height="471" class="alignnone size-large wp-image-1432" />
 </div>
 
 #### What&#8217;s Next

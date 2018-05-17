@@ -209,7 +209,7 @@
 <p>Getting the GKObstacleGraph to work took up quite a bit of time. First, I need a tool to help make the outline of the map. Adding each coordinate by hand wouldn&#8217;t cut it. So, I wrote an importer from PhysicsEditor. That was super cool until I noticed random imperfections. To investigate, I wrote a tool that tries to move to every 20 pixels on the map, and placed a red X if it was in the buffer region and inaccessible.</p>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-2296" src="http://localhost:8888/wp-content/uploads/2015/08/IMG_0223-2-1024x768.jpg" alt="IMG_0223" width="625" height="469" />
+  <img class="alignnone size-large wp-image-2296" src="/wp-content/uploads/2015/08/IMG_0223-2-1024x768.jpg" alt="IMG_0223" width="625" height="469" />
 </div>
 
 <p>As you can see, there are pockets that look like they are in a valid position but can&#8217;t be walked to. It turns out that the triangles exported by Physics Editor (remember, no concave objects allowed) are sometimes sharp angles. When you stroke the path of a sharp angle, the resulting path points out quite a bit further. So, as a temporary fix, I had to manually adjust the individual triangles to try to have 30 degrees or larger angles.</p>
@@ -219,7 +219,7 @@
 <p>Contact with a physics object could cause some followers of an idle squad to be bumped out of position. When that happens, they should attempt to move back into position. See the problem in the yellow squad:</p>
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-2299" src="http://localhost:8888/wp-content/uploads/2015/08/IMG_0224-3-1024x768.jpg" alt="IMG_0224" width="625" height="469" />
+  <img class="alignnone size-large wp-image-2299" src="/wp-content/uploads/2015/08/IMG_0224-3-1024x768.jpg" alt="IMG_0224" width="625" height="469" />
 </div>
 
 <p>There are two ways to solve this. First, on physics contact, change state to find a way back to the desired position. Second, check if you are out of position during certain intervals. The first is more accurate, but requires more CPU. The second has a noticeable delay, but works and is not intensive. Currently, I&#8217;ve implemented the second, but I do plan to experiment with quad trees at some point. If I can get the performance where it needs to be, I can switch to more accurate options.</p>

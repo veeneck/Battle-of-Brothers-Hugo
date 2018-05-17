@@ -47,25 +47,25 @@ Here are a few samples I&#8217;ve bookmarked that interest me:
 <div id='gallery-1' class='gallery galleryid-105 gallery-columns-4 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1-300x300.jpg 300w, http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1-100x100.jpg 100w, http://localhost:8888/wp-content/uploads/2014/03/NiceStyleCastle-1.jpg 400w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/NiceStyleCastle-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/03/NiceStyleCastle-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/NiceStyleCastle-1-150x150.jpg 150w, /wp-content/uploads/2014/03/NiceStyleCastle-1-300x300.jpg 300w, /wp-content/uploads/2014/03/NiceStyleCastle-1-100x100.jpg 100w, /wp-content/uploads/2014/03/NiceStyleCastle-1.jpg 400w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1.png'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-150x150.png 150w, http://localhost:8888/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1.png'><img width="150" height="150" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-150x150.png 150w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-30-at-5.05.24-PM-1-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-150x150.jpg 150w, /wp-content/uploads/2014/03/shaman_croped__by_goblinegg00-d720s4c-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/03/bg_textured-o-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/03/bg_textured-o-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/03/bg_textured-o-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/03/bg_textured-o-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/03/bg_textured-o-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/03/bg_textured-o-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/03/bg_textured-o-1-150x150.jpg 150w, /wp-content/uploads/2014/03/bg_textured-o-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   

@@ -28,7 +28,7 @@ Here are the conditions that my health bars had to meet:
 Here&#8217;s what I came up with:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1527" src="http://localhost:8888/wp-content/uploads/2015/01/final-2.png" alt="final" width="444" height="150" srcset="http://localhost:8888/wp-content/uploads/2015/01/final-2.png 444w, http://localhost:8888/wp-content/uploads/2015/01/final-2-300x101.png 300w" sizes="(max-width: 444px) 100vw, 444px" />
+  <img class="alignnone size-full wp-image-1527" src="/wp-content/uploads/2015/01/final.png" alt="final" width="444" height="150" />
 </div>
 
 Surprisingly, this was a 2 day process, which shows how hard it can be to estimate for the &#8220;little things.&#8221; Let&#8217;s talk about a few of the considerations.
@@ -36,7 +36,7 @@ Surprisingly, this was a 2 day process, which shows how hard it can be to estima
 #### Health Removed
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1532" src="http://localhost:8888/wp-content/uploads/2015/01/health-removed-2.png" alt="health removed" width="573" height="167" srcset="http://localhost:8888/wp-content/uploads/2015/01/health-removed-2.png 573w, http://localhost:8888/wp-content/uploads/2015/01/health-removed-2-300x87.png 300w" sizes="(max-width: 573px) 100vw, 573px" />
+  <img class="alignnone size-large wp-image-1532" src="/wp-content/uploads/2015/01/health-removed.png" alt="health removed" width="573" height="167"  />
 </div>
 
 How does the image above look when health is removed? There is definitely enough contrast for missing health, and it is easy to check if something is ~50% health, or some other large mark. However, one criticism I have is that it is tough to tell, at a glance, the starting health of a squad. That&#8217;s an acceptable compromise for me, as the player will also see the actual units on screen, and be able to visually tell, for example, if there are 4 or 9.
@@ -44,7 +44,7 @@ How does the image above look when health is removed? There is definitely enoug
 #### Selecting a Unit
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1537" src="http://localhost:8888/wp-content/uploads/2015/01/selected-2.png" alt="selected" width="625" height="298" />
+  <img class="alignnone size-large wp-image-1537" src="/wp-content/uploads/2015/01/selected.png" alt="selected" width="625" height="298" />
 </div>
 
 Next, how would this implementation handle units that have been selected by the player? At first, I tried toggling the actual color of the health bars. In the image above, notice the shields with black bars indicating that they are missing. That idea just added too much confusion, so I went with a white background, and missing bars, for a selected state.
@@ -56,7 +56,7 @@ The main knock at this step is that a separate sprite is required for the sel
 #### Enemy Units
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1533" src="http://localhost:8888/wp-content/uploads/2015/01/enemy-2.png" alt="enemy" width="625" height="174" srcset="http://localhost:8888/wp-content/uploads/2015/01/enemy-2.png 660w, http://localhost:8888/wp-content/uploads/2015/01/enemy-2-300x84.png 300w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1533" src="/wp-content/uploads/2015/01/enemy.png" alt="enemy" width="625" height="174" />
 </div>
 
 Once I was happy with friendly units, I made sure this would work for enemy units. The pleasant surprise here is that it works, and it actually aids the user in quickly recognizing good versus bad. Also add bonus points for it being fairly easy to implement.
@@ -73,7 +73,7 @@ I can expand this further into NPC&#8217;s, damage over time indicators, and so 
 #### Notifications
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1531" src="http://localhost:8888/wp-content/uploads/2015/01/notifications-1.png" alt="notifications" width="670" height="217" srcset="http://localhost:8888/wp-content/uploads/2015/01/notifications-1.png 670w, http://localhost:8888/wp-content/uploads/2015/01/notifications-1-300x97.png 300w" sizes="(max-width: 670px) 100vw, 670px" />
+  <img class="alignnone size-full wp-image-1531" src="/wp-content/uploads/2015/01/notifications.png" alt="notifications" width="670" height="217"  />
 </div>
 
 This part was tricky because I don&#8217;t know what notifications, if any, my game will have. In fact, this is a challenge with game development overall &#8212; trying to plan for everything because it is impossible to know what will and won&#8217;t work. Anyway, I ran a quick test to see how cluttered this would look with other information in the area. I&#8217;m not fully satisfied, but confident I can find a working solution. Moving on!
@@ -81,7 +81,7 @@ This part was tricky because I don&#8217;t know what notifications, if any, my g
 #### Implementation
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1534" src="http://localhost:8888/wp-content/uploads/2015/01/implementation-3.png" alt="implementation" width="625" height="234" />
+  <img class="alignnone size-large wp-image-1534" src="/wp-content/uploads/2015/01/implementation.png" alt="implementation" width="625" height="234" />
 </div>
 
 Implementation is a bit tricky, and a bit resource intensive. Here&#8217;s what is happening:
@@ -97,5 +97,5 @@ One other note &#8212; regardless of if you use sunburst or squares, there will 
 While I still have a few things to tighten up, I love the end result.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1535" src="http://localhost:8888/wp-content/uploads/2015/01/B7Ac8MDIUAEXT1m-3.png-large-3.png" alt="B7Ac8MDIUAEXT1m.png-large" width="625" height="482" />
+  <img class="alignnone size-large wp-image-1535" src="/wp-content/uploads/2015/01/B7Ac8MDIUAEXT1m.png-large.png" alt="B7Ac8MDIUAEXT1m.png-large" width="625" height="482" />
 </div>

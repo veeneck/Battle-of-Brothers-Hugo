@@ -26,11 +26,11 @@ There are some minor positioning issues to fix, but I&#8217;m really happy with 
 In addition to the animations, I now have 20/20 of the game maps completed and 14/18 of the characters completed. Here is a look at a newly completed evil sorceress character and battlefield map.
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/12/ortho_sorceress_01-3.png" alt="ortho_sorceress_01" width="800" height="246" class="alignnone size-full wp-image-1441" srcset="http://localhost:8888/wp-content/uploads/2014/12/ortho_sorceress_01-3.png 800w, http://localhost:8888/wp-content/uploads/2014/12/ortho_sorceress_01-3-300x92.png 300w, http://localhost:8888/wp-content/uploads/2014/12/ortho_sorceress_01-3-768x236.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
+  <img src="/wp-content/uploads/2014/12/ortho_sorceress_01-3.png" alt="ortho_sorceress_01" width="800" height="246" class="alignnone size-full wp-image-1441" srcset="/wp-content/uploads/2014/12/ortho_sorceress_01-3.png 800w, /wp-content/uploads/2014/12/ortho_sorceress_01-3-300x92.png 300w, /wp-content/uploads/2014/12/ortho_sorceress_01-3-768x236.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
 </div>
 
 <div class="inlineimg">
-  <img src="http://localhost:8888/wp-content/uploads/2014/12/17_boat_03-2.jpg" alt="17_boat_03" width="800" height="505" class="alignnone size-full wp-image-1442" />
+  <img src="/wp-content/uploads/2014/12/17_boat_03-2.jpg" alt="17_boat_03" width="800" height="505" class="alignnone size-full wp-image-1442" />
 </div>
 
 I still have a good amount of work for the illustrator to complete, including cut scenes, marketing material, and some user interface artwork, and it does look like I&#8217;m giong to go overbudget in this area. One thing that I&#8217;m starting to realize is how much time everything to do with a game takes, so although I&#8217;m goign to go a bit over budget, it won&#8217;t break the bank. I can see how some games do break the bank, though.

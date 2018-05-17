@@ -36,19 +36,19 @@ Chris and I will alternate weeks with Scott, and I had the pleasure of going fir
 <div id='gallery-9' class='gallery galleryid-1020 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/08/characters_01-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-300x300.jpg 300w, http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-768x768.jpg 768w, http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-1024x1024.jpg 1024w, http://localhost:8888/wp-content/uploads/2014/08/characters_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/08/characters_01-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/08/characters_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/characters_01-1-150x150.jpg 150w, /wp-content/uploads/2014/08/characters_01-1-300x300.jpg 300w, /wp-content/uploads/2014/08/characters_01-1-768x768.jpg 768w, /wp-content/uploads/2014/08/characters_01-1-1024x1024.jpg 1024w, /wp-content/uploads/2014/08/characters_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/08/flag_design_01-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/flag_design_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/flag_design_01-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/08/flag_design_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/08/flag_design_01-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/08/flag_design_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/flag_design_01-1-150x150.jpg 150w, /wp-content/uploads/2014/08/flag_design_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://localhost:8888/wp-content/uploads/2014/08/foothills_spawns_01-1.jpg'><img width="150" height="150" src="http://localhost:8888/wp-content/uploads/2014/08/foothills_spawns_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="http://localhost:8888/wp-content/uploads/2014/08/foothills_spawns_01-1-150x150.jpg 150w, http://localhost:8888/wp-content/uploads/2014/08/foothills_spawns_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='/wp-content/uploads/2014/08/foothills_spawns_01-1.jpg'><img width="150" height="150" src="/wp-content/uploads/2014/08/foothills_spawns_01-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/08/foothills_spawns_01-1-150x150.jpg 150w, /wp-content/uploads/2014/08/foothills_spawns_01-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   

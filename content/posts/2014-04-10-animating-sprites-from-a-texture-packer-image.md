@@ -16,13 +16,13 @@ I&#8217;ve been experimenting with animation and recently ran into a little trou
 <!--more-->
 
 <div class="inlineimg">
-  <img class="wp-image-266 alignnone" alt="amg1" src="http://localhost:8888/wp-content/uploads/2014/04/amg1-1.png" width="256" height="32" />
+  <img class="wp-image-266 alignnone" alt="amg1" src="/wp-content/uploads/2014/04/amg1-1.png" width="256" height="32" />
 </div>
 
 Instead of including 89 .png files into my project, I used TexturePacker to condense them into one .png file. That made the spritesheet look something like:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-268" alt="test1_Corona SDK-0" src="http://localhost:8888/wp-content/uploads/2014/04/test1_Corona-SDK-01-1.png" width="256" height="100" />
+  <img class="alignnone size-full wp-image-268" alt="test1_Corona SDK-0" src="/wp-content/uploads/2014/04/test1_Corona-SDK-01-1.png" width="256" height="100" />
 </div>
 
 I ran into trouble because I was able load an animation sequence as a single image, but I had trouble splitting that sequence into the individual 8 frames required for animation. Here&#8217;s what I came up with to solve the issue.
@@ -42,7 +42,7 @@ Here we create a [sequenceData][5] table to store information on our animation&#
 We then build the [sprite object][6] by passing the imageSheet and sequenceData info. Finally, we run the animation, which results in something like:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-276" alt="825wp" src="http://localhost:8888/wp-content/uploads/2014/04/825wp-1.gif" width="32" height="32" />
+  <img class="alignnone size-full wp-image-276" alt="825wp" src="/wp-content/uploads/2014/04/825wp-1.gif" width="32" height="32" />
 </div>
 
 You can [download the files][7] that I used for this on Github.

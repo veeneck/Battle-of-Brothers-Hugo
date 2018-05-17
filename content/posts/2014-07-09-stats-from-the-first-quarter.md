@@ -19,7 +19,7 @@ It&#8217;s hard to believe that we&#8217;re already 3 months into the competitio
 #### Code
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-810" src="http://localhost:8888/wp-content/uploads/2014/07/CodeQ1-1-1024x860.png" alt="CodeQ1" width="625" height="524" srcset="http://localhost:8888/wp-content/uploads/2014/07/CodeQ1-1-1024x860.png 1024w, http://localhost:8888/wp-content/uploads/2014/07/CodeQ1-1-300x252.png 300w, http://localhost:8888/wp-content/uploads/2014/07/CodeQ1-1-768x645.png 768w, http://localhost:8888/wp-content/uploads/2014/07/CodeQ1-1.png 1250w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-810" src="/wp-content/uploads/2014/07/CodeQ1-1-1024x860.png" alt="CodeQ1" width="625" height="524" srcset="/wp-content/uploads/2014/07/CodeQ1-1-1024x860.png 1024w, /wp-content/uploads/2014/07/CodeQ1-1-300x252.png 300w, /wp-content/uploads/2014/07/CodeQ1-1-768x645.png 768w, /wp-content/uploads/2014/07/CodeQ1-1.png 1250w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 Overall, it is tough to make any concrete conclusions on these numbers, but here are my thoughts:
@@ -34,7 +34,7 @@ Overall, it is tough to make any concrete conclusions on these numbers, but here
 <a href="https://www.rescuetime.com" target="_blank">Rescuetime</a> has been a great tool to track hours at the computer, so we have them to thank for the productivity data. In general, I consider myself a very effective worker, so I don&#8217;t usually resort to todo lists, bug trackers, or any other project management software. That said, Magic: The Gathering has been a huge distractor at work, so we have had to implement a rule on how often we&#8217;re allowed to play. Aside from that, the days at the office have been productive.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-821" src="http://localhost:8888/wp-content/uploads/2014/07/TimeQ1-1-1024x798.png" alt="TimeQ1" width="625" height="487" />
+  <img class="alignnone size-large wp-image-821" src="/wp-content/uploads/2014/07/TimeQ1-1-1024x798.png" alt="TimeQ1" width="625" height="487" />
 </div>
 
 Things to consider with this data:
@@ -54,7 +54,7 @@ The other aspect I&#8217;m intersted in conveying is just how hard it can be to
 With all that in mind, let&#8217;s look at some numbers:
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-828" src="http://localhost:8888/wp-content/uploads/2014/07/SocialQ1-1024x430.png" alt="SocialQ1" width="625" height="262" srcset="http://localhost:8888/wp-content/uploads/2014/07/SocialQ1-1024x430.png 1024w, http://localhost:8888/wp-content/uploads/2014/07/SocialQ1-300x126.png 300w, http://localhost:8888/wp-content/uploads/2014/07/SocialQ1-768x323.png 768w, http://localhost:8888/wp-content/uploads/2014/07/SocialQ1.png 1250w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-828" src="/wp-content/uploads/2014/07/SocialQ1-1024x430.png" alt="SocialQ1" width="625" height="262" srcset="/wp-content/uploads/2014/07/SocialQ1-1024x430.png 1024w, /wp-content/uploads/2014/07/SocialQ1-300x126.png 300w, /wp-content/uploads/2014/07/SocialQ1-768x323.png 768w, /wp-content/uploads/2014/07/SocialQ1.png 1250w" sizes="(max-width: 625px) 100vw, 625px" />
 </div>
 
 As for my thoughts:
