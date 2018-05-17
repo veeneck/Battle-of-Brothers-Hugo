@@ -38,16 +38,7 @@
 								<a href="{{ .Page.RelPermalink }}">
 									<img src="{{ .Page.Params.featured_image }}" width="370" style="margin-top: 25px;" />
 								</a>
-								<span class="comments floatright">
-									<img class="icon" src="/assets/Chat-6.png" width="16px" />
-									<small><a href="/" class="dotted">X Comments</a></small>
-								</span>
-								<img class="icon" src="/assets/Tag-star.png" width="16px">
-								<small>
-									{{ range $key, $value := .Params.tags }}
-									<a href="" class="dotted">{{ $value }}</a>
-									{{ end }}
-								</small>
+								{{ partial "tagsandcomments.html" . }}
 								{{- .Summary -}}
 								<a class="more-link" href="{{ .RelPermalink }}">Read More…</a>
 								<ul class="events">Key Events
