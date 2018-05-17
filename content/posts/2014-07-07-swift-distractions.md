@@ -32,7 +32,7 @@ I missed a two week cycle due to travel. Family, a wedding, and <a href="http://
 It&#8217;s possible to watch the World Cup and program at the same time, right? Turns out the real answer is more like &#8220;Kinda.&#8221; I had a good setup going:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-793" src="/wp-content/uploads/2014/07/BqWu5M2IUAAbSV6.jpg-large-1.jpeg" alt="BqWu5M2IUAAbSV6.jpg-large" width="700" srcset="/wp-content/uploads/2014/07/BqWu5M2IUAAbSV6.jpg-large-1.jpeg 1024w, /wp-content/uploads/2014/07/BqWu5M2IUAAbSV6.jpg-large-1-300x225.jpeg 300w, /wp-content/uploads/2014/07/BqWu5M2IUAAbSV6.jpg-large-1-768x576.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+  <img class="alignnone size-full wp-image-793" src="/wp-content/uploads/2014/07/BqWu5M2IUAAbSV6.jpg-large.jpeg" alt="BqWu5M2IUAAbSV6.jpg-large" width="700"  />
 </div>
 
 The problem is that you can&#8217;t get into the zone when there are 6 hours of soccer in a day. So while I made some progress with Swift, my productivity saw a big drop during the group stage of the cup.

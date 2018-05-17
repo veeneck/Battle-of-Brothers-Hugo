@@ -31,19 +31,19 @@ This all started when I showed Chris my demo and he asked a valid question.
 I pointed out that the flags appearance change as you level up, so the user should be able to keep tabs on it. Fair point, right? Except, when you leave the flags on the map as the level progresses, things start to look really chaotic.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1170" src="/wp-content/uploads/2014/09/Screen-Shot-2014-08-19-at-4.52.11-PM-1-1024x671.png" alt="Screen Shot 2014-08-19 at 4.52.11 PM" width="625" height="409" srcset="/wp-content/uploads/2014/09/Screen-Shot-2014-08-19-at-4.52.11-PM-1-1024x671.png 1024w, /wp-content/uploads/2014/09/Screen-Shot-2014-08-19-at-4.52.11-PM-1-300x197.png 300w, /wp-content/uploads/2014/09/Screen-Shot-2014-08-19-at-4.52.11-PM-1-768x503.png 768w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1170" src="/wp-content/uploads/2014/09/Screen-Shot-2014-08-19-at-4.52.11-PM.png" alt="Screen Shot 2014-08-19 at 4.52.11 PM" width="625" height="409"  />
 </div>
 
 As you can see, everything is competing for attention. Have a look at how much cleaner it becomes when we remove the flags and environmental noise after a unit has been purchased.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1172" src="/wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM-1-1024x768.png" alt="Screen Shot 2014-08-20 at 3.10.01 PM" width="625" height="468" srcset="/wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM-1-1024x768.png 1024w, /wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM-1-300x225.png 300w, /wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM-1-768x576.png 768w, /wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM-1.png 1350w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-1172" src="/wp-content/uploads/2014/09/Screen-Shot-2014-08-20-at-3.10.01-PM.png" alt="Screen Shot 2014-08-20 at 3.10.01 PM" width="625" height="468"  />
 </div>
 
 Much easier to parse what&#8217;s going on. Problem is, **the flags and environmental changes are supposed to be the identifiers**. Without them, there is no level progression. Argh! With that in mind, I thought it would be a good idea to try to use materials to show level. Wood for level 1, stone for level 2, and marble for level 3. You can see that concept here:
 
 <div class="inlineimg">
-  <img class="alignnone wp-image-1174 size-large" src="/wp-content/uploads/2014/09/foothills_D_test_01-1-1024x153.jpg" alt="foothills_D_test_01" width="825" />
+  <img class="alignnone wp-image-1174 size-large" src="/wp-content/uploads/2014/09/foothills_D_test_01.jpg" alt="foothills_D_test_01" width="825" />
 </div>
 
 And while that somewhat solves the problem, it would take up **35%** of my illustrators time on every map. That&#8217;s just not an acceptable solution. So, in summary, the complete list of problems with my approach were:

@@ -28,7 +28,7 @@ That said, I have made progress on both fronts. I have a basic navmesh implement
 In short, people can walk, sometimes. Have a look at this navmesh:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1415" src="/wp-content/uploads/2014/11/B0zmh0LIEAAWw1v-2.png-large-2.png" alt="B0zmh0LIEAAWw1v.png-large" width="650" />
+  <img class="alignnone size-full wp-image-1415" src="/wp-content/uploads/2014/11/B0zmh0LIEAAWw1v.png-large.png" alt="B0zmh0LIEAAWw1v.png-large" width="650" />
 </div>
 
 Everything appears to work except when:
@@ -44,7 +44,7 @@ And there are plenty more examples where things will break. However, what you se
 Art is moving along nicely. During the first few weeks, things went slow because we were trying to figure out how to make art for an unknown game. Now that things are more defined, art is flying. Have a look at this story scene:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1420" src="/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png" alt="B1Iql1NCIAEGtKo.png-large" width="662" height="654" srcset="/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2.png 662w, /wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-300x296.png 300w, /wp-content/uploads/2014/11/B1Iql1NCIAEGtKo-2.png-large-2-100x100.png 100w" sizes="(max-width: 662px) 100vw, 662px" />
+  <img class="alignnone size-full wp-image-1420" src="/wp-content/uploads/2014/11/B1Iql1NCIAEGtKo.png-large.png" alt="B1Iql1NCIAEGtKo.png-large" width="662" height="654"  />
 </div>
 
 There is plenty more where that came from too. Overall, here is where the illustrations are at:
@@ -68,7 +68,7 @@ There is plenty more where that came from too. Overall, here is where the illust
 I just entered into a new contract with an animator. She lives in Israel, and so far has been amazing to work with. I&#8217;m excited to see the results, and hope that this marks the end of <a href="http://battleofbrothers.com/sirryan/my-experiences-hiring-an-artist-part-2" target="_blank">my search for artists</a>. Here is a sample of her work:
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1395" src="/wp-content/uploads/2014/11/Archer-1-Walk-Front-2.gif" alt="Archer-1-Walk-Front" width="128" height="128" srcset="/wp-content/uploads/2014/11/Archer-1-Walk-Front-2.gif 128w, /wp-content/uploads/2014/11/Archer-1-Walk-Front-2-100x100.gif 100w" sizes="(max-width: 128px) 100vw, 128px" />
+  <img class="alignnone size-full wp-image-1395" src="/wp-content/uploads/2014/11/Archer-1-Walk-Front.gif" alt="Archer-1-Walk-Front" width="128" height="128" s />
 </div>
 
 She&#8217;ll be working on ~26 characters, each with 4 to 6 8 frame animations.

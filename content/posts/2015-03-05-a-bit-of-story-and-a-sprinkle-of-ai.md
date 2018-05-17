@@ -45,7 +45,7 @@ As you can see, the shield disappears in the corner. It took a few hours to even
 The next issue I wanted to look at was the size of the battle maps. The forest level I have been showing is the first map, so the size won&#8217;t be as much of an issue. But, for later maps, size will allow for anticipation and flexibility. So, I asked Scott to expand one of the maps. Here is the result:
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1971" src="/wp-content/uploads/2015/03/bigger_map-3-1024x688.jpg" alt="bigger_map" width="625" height="420" />
+  <img class="alignnone size-large wp-image-1971" src="/wp-content/uploads/2015/03/bigger_map.jpg" alt="bigger_map" width="625" height="420" />
 </div>
 
 This is the first time I&#8217;ve shown a new map, and I&#8217;m really happy with the result. You can already see the extra room will allow for more drama as the catapults fire. I plan to make every 3rd map grow by 50% as the game progresses.
@@ -53,7 +53,7 @@ This is the first time I&#8217;ve shown a new map, and I&#8217;m really happy wi
 Finally, Scott finished the camp screen, which will change as your army grows. It doesn&#8217;t have any functionality yet in the code base, so I can only give a peak of the initial state.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1972" src="/wp-content/uploads/2015/03/Camp_phase_0_a-3-1024x648.jpg" alt="Camp_phase_0_a" width="625" height="396" />
+  <img class="alignnone size-large wp-image-1972" src="/wp-content/uploads/2015/03/Camp_phase_0_a.jpg" alt="Camp_phase_0_a" width="625" height="396" />
 </div>
 
 #### Decision Screen
@@ -61,13 +61,13 @@ Finally, Scott finished the camp screen, which will change as your army grows. I
 The decision screen makes multiple appearances throughout the game, so I figured that it would be a good place to start working on UI. The timing for this was a bit odd, but I wanted to start thinking of general UI so that I could give accurate instructions to Scott on future game screens. I asked Twitter what they thought of these two screens.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-1973" src="/wp-content/uploads/2015/03/decision1-2-764x1024.png" alt="decision1" width="625" height="838" />
+  <img class="alignnone size-large wp-image-1973" src="/wp-content/uploads/2015/03/decision1.png" alt="decision1" width="625" height="838" />
 </div>
 
 Unfortunately, most people preferred the banner. I&#8217;m not a huge fan of textured or realistic UI&#8217;s, so I have to keep iterating. That said, I did love the circle with a head in it. That staple could work for in battle icons, dialogue icons, skill trees, etc. So, I decided to solidify that as a UI element. For example, here is a round move icon in the same format.
 
 <div class="inlineimg">
-  <img class="alignnone size-full wp-image-1974" src="/wp-content/uploads/2015/03/icon-progress-1.png" alt="icon progress" width="300" height="101" />
+  <img class="alignnone size-full wp-image-1974" src="/wp-content/uploads/2015/03/icon-progress.png" alt="icon progress" width="300" height="101" />
 </div>
 
 #### Story Improvements

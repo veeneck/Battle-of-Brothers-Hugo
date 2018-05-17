@@ -34,7 +34,7 @@ The good news is that I&#8217;m happy with the code that spawns enemies and tell
   * Enemies start walking on a random delay so that they aren&#8217;t all on the same animation cycle.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-403" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-1024x793.png" alt="Screen Shot 2014-04-28 at 8.56.58 AM" width="625" height="484" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-1024x793.png 1024w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-300x232.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1-768x595.png 768w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM-1.png 1136w" sizes="(max-width: 625px) 100vw, 625px" />
+  <img class="alignnone size-large wp-image-403" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-8.56.58-AM.png" alt="Screen Shot 2014-04-28 at 8.56.58 AM" width="625" height="484"  />
 </div>
 
 The other gem I found was a tutorial by Tony Chamblee on <a href="http://tonychamblee.com/2013/11/18/tcprogresstimer-a-spritekit-progress-timer/" target="_blank">progress timers with Sprite Kit</a>. I love when someone shares a concept openly on Github with well documented or easy to follow code. Seeing how other people approach problems helps newbies learn. In this case, I was introduced to SKCropNode and tracking time.

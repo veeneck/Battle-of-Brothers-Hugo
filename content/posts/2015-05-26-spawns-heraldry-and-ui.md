@@ -60,7 +60,7 @@ This weeks work on the interface was more about usability and less about appear
 I don&#8217;t have the answers to all of these questions, but I am fairly confident in the functionality on the &#8220;Slide&#8221; system. You&#8217;ve already seen <a href="http://battleofbrothers.com/sirryan/a-wobbly-foundation" target="_blank">how it would look on the main menu and world map</a>. Here is an idea of how it would apply to the Camp screen.
 
 <div class="inlineimg">
-  <img class="alignnone size-large wp-image-2145" src="http://battleofbrothers.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-23-at-10.35.05-AM-1024x785.png" alt="Screen Shot 2015-05-23 at 10.35.05 AM" width="625" height="479" />
+  <img class="alignnone size-large wp-image-2145" src="/wp-content/uploads/2015/05/Screen-Shot-2015-05-23-at-10.35.05-AM.png" alt="Screen Shot 2015-05-23 at 10.35.05 AM" width="625" height="479" />
 </div>
 
 Functionally, it works. In the future I&#8217;ll spend time on appearance. I&#8217;m also imagining the iPhone version will have a slight variation where the second pane takes up the entire width of the remaining screen.
