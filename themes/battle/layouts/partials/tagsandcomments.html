@@ -17,6 +17,6 @@
 <img class="icon" src="/assets/Tag-star.png" width="16px">
 <small>
 	{{ range $key, $value := .Params.tags }}
-	<a href="" class="dotted">{{ $value }}</a>
+	<a href="/{{ $.Scratch.Get "knight" }}/tags/{{ $value }}" class="dotted">{{ $value }}</a>
 	{{ end }}
 </small>

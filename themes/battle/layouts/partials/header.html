@@ -15,7 +15,7 @@
    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
   {{ end }}
 
-{{ if (in .Params.categories "sirryan") }}
+{{ if or (in .Params.categories "sirryan") (eq .Page.Type "tags") }}
    	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
 {{ end }}

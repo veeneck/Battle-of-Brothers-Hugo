@@ -864,6 +864,11 @@
   </url>
   
   <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://battleofbrothers.com/tags/</loc>
     <lastmod>2014-03-27T14:59:14+00:00</lastmod>
     <priority>0</priority>
@@ -917,6 +922,70 @@
   
   <url>
     <loc>http://battleofbrothers.com/sirryan/subscribe/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/announcements/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/art/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/budget/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/code/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/mood/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/script/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/shader/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/sprite-kit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/spritekit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/status/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/story/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/swift/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/thoughts/</loc>
   </url>
   
   <url>
