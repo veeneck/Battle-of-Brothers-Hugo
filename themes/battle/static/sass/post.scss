@@ -1,3 +1,5 @@
+@import 'includes/_mixins';
+
 /* STRUCTURE */
 
 .outercontent {
@@ -7,7 +9,10 @@
 /* TITLE & DATE */
 
 .title {
-	margin: 20px 0px 0px 50px;
+	margin: 20px 0px 0px 20px;
+	@include breakpoint(tablet-screen) {
+    	margin: 20px 0px 0px 50px;
+    }
 }
 
 .shield {
@@ -42,7 +47,7 @@
 
 h3 {
 	text-transform: uppercase;
-	width: 750px;
+	max-width: 750px;
 	/*color: overridden */
 	font-size: 48px;
 	text-transform: uppercase;
@@ -57,7 +62,7 @@ h3 {
 .subhead {
 	margin: 0px 0px 30px 85px;
 	padding: 0 0 0px 0;
-	width: 750px;
+	max-width: 750px;
 	font-family: 'SourceLight';
 }
 
@@ -77,9 +82,13 @@ h3 {
 /* POST BODY */
 
 .post {
-	margin: 0px 0px 0px 137px;
+	margin: 0px 0px 0px 0px;
 	padding: 0 0 0px 0;
-	width: 750px;
+	width: 100%;
+	@include breakpoint(tablet-screen) {
+    	margin: 0px 0px 0px 137px;
+    	width: 80%;
+    }
 }
 
 .post p {
@@ -141,21 +150,27 @@ h3 {
 }
 
 .gist-data {
-	width: 800px;
-	margin-left: -60px !important;
+	max-width: 100%;
 	background-color: #FFF !important;
 	margin: 30px 0px 10px 0px;
 	color: #454545;
 	border: 30px solid #fff !important;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.08);
+	@include breakpoint(tablet-screen) {
+    	max-width: 800px;
+    	margin-left: -60px !important;
+    }
 }
 
 .gist-meta {
 	width: 860px;
 	padding: 10px 0px !important;
-	margin-left: -60px;
 	background-image: none !important;
 	background-color: transparent !important;
+	@include breakpoint(tablet-screen) {
+    	max-width: 800px;
+    	margin-left: -60px !important;
+    }
 }
 
 .gist-file, {
@@ -268,7 +283,7 @@ article small {
 /* GALLERY */
 
 .gallery {
-	width: 960px !important;
+	max-width: 960px !important;
 	margin-bottom: 30px !important;
 	margin-top: 30px !important;
 }
@@ -300,12 +315,16 @@ article small {
 }
 
 .inlineimg {
-	width: 800px;
-	margin: 30px 0px 30px -60px;
+	max-width: 100%;
+	margin: 30px 0px 30px 0px;
 	text-align: center;
 	background-color: #fff;
 	border: 30px solid #fff;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.08);
+	@include breakpoint(tablet-screen) {
+    	max-width: 800px;
+    	margin: 30px 0px 30px -60px;
+    }
 }
 
 .inlineimg img {
@@ -316,13 +335,17 @@ article small {
 /* MILESTONES, TIMELINES, BUDGET */
 
 .milestone {
-	margin: 0px 0px 30px 137px;
+	margin: 0px 0px 30px 0px;
 	padding: 30px;
-	width: 687px;
+	max-width: 100%;
 	font-family: 'SourceLight';
 	font-size: 1.1em;
 	line-height: 1.5em;
 	background-color: rgba(0,0,0,0.04);
+	@include breakpoint(tablet-screen) {
+    	margin: 0px 0px 30px 137px;
+    	max-width: 687px;
+    }
 }
 
 .milestone img {
@@ -334,12 +357,20 @@ article small {
 }
 
 .thumbnail {
-	margin: -20px 0px 15px 137px;
-	width: 667px;
+	margin: -20px 0px 15px 0px;
+	max-width: 100%;
 	background-color: #fff;
 	border: 40px solid #fff;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.08);
 	text-align: center;
+	@include breakpoint(tablet-screen) {
+		margin: -20px 0px 15px 137px;
+    	max-width: 687px;
+    }
+}
+
+.thumbnail img {
+	width: 100% !important;
 }
 
 /* SHARE */
@@ -367,14 +398,14 @@ article small {
 
 .discuss {
 	margin: -80px auto 0px auto;
-	width: 960px;
+	max-width: 960px;
 	text-align: center;
 }
 
 /* COMMENT FORM */
 
 .commentlist {
-	width: 960px;
+	max-width: 960px;
 	font-family: 'SourceLight';
 	list-style-type: none;
 	margin-bottom: 50px;
@@ -385,7 +416,7 @@ article small {
 	/*background-color: overriden; */
 	margin-bottom: 0px !important;
 	margin-top: 0px !important;
-	width: 430px;
+	max-width: 430px;
 }
 
 .comment-body {
@@ -402,7 +433,7 @@ article small {
 .comment-body blockquote p {
 	border-top: none !important;
 	padding: 5px 30px !important;
-	width: 360px;
+	max-width: 360px;
 	margin-left: 30px;
 	font-style: italic;
 }
@@ -417,7 +448,7 @@ article small {
 
 .comment-body .reply {
 	text-align: right;
-	width: 430px;
+	max-width: 430px;
 	padding-bottom: 30px;
 	/*background-color: overriden; */
 	padding-right: 50px;
@@ -516,7 +547,7 @@ cite.fn {
 }
 
 .comment-form {
-	width: 960px;
+	max-width: 960px;
 	text-align: left;
 	clear: both;
 	color: #454545;
@@ -532,7 +563,7 @@ cite.fn {
 }
 
 .comment-form-author, .comment-form-email, .comment-form-url, .logged-in-as {
-	width: 480px;
+	max-width: 480px;
 	font-family: 'SourceLight';
 }
 
@@ -541,7 +572,7 @@ cite.fn {
 }
 
 .comment-form-comment {
-	width: 450px;
+	max-width: 450px;
 	float: right;
 	display: block;
 	height: 233px;
@@ -549,7 +580,7 @@ cite.fn {
 }
 
 textarea {
-	width: 440px;
+	width: 400px;
 	background-color: rgba(0,0,0,0.05);
 	border: none;
 	font-family: 'SourceLight';
@@ -559,7 +590,7 @@ textarea {
 }
 
 .form-allowed-tags {
-	width: 440px;
+	max-width: 440px;
 	font-family: 'SourceLight';
 	font-size: 12px;
 	margin-left: 510px;
@@ -575,7 +606,7 @@ textarea {
 	font-size: 30px;
 	margin: 0 !important;
 	padding: 0 !important;
-	width: 480px;
+	max-width: 480px;
 }
 
 a#cancel-comment-reply-link {

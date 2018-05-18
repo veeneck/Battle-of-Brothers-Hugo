@@ -800,7 +800,8 @@ footer {
   display: flex;
   justify-content: center;
   max-width: 1080px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 1.2em; }
 
 /* ABOUT THE CONTEST */
 .about_contest {

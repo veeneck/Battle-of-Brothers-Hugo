@@ -4,7 +4,10 @@
 
 /* TITLE & DATE */
 .title {
-  margin: 20px 0px 0px 50px; }
+  margin: 20px 0px 0px 20px; }
+  @media (min-width: 800px) {
+    .title {
+      margin: 20px 0px 0px 50px; } }
 
 .shield {
   background-image: url("../assets/Shield1.png");
@@ -35,7 +38,7 @@
 
 h3 {
   text-transform: uppercase;
-  width: 750px;
+  max-width: 750px;
   /*color: overridden */
   font-size: 48px;
   text-transform: uppercase;
@@ -48,7 +51,7 @@ h3 {
 .subhead {
   margin: 0px 0px 30px 85px;
   padding: 0 0 0px 0;
-  width: 750px;
+  max-width: 750px;
   font-family: 'SourceLight'; }
 
 .subhead img {
@@ -63,9 +66,13 @@ h3 {
 
 /* POST BODY */
 .post {
-  margin: 0px 0px 0px 137px;
+  margin: 0px 0px 0px 0px;
   padding: 0 0 0px 0;
-  width: 750px; }
+  width: 100%; }
+  @media (min-width: 800px) {
+    .post {
+      margin: 0px 0px 0px 137px;
+      width: 80%; } }
 
 .post p {
   line-height: 1.7em;
@@ -118,20 +125,26 @@ h3 {
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.08); }
 
 .gist-data {
-  width: 800px;
-  margin-left: -60px !important;
+  max-width: 100%;
   background-color: #FFF !important;
   margin: 30px 0px 10px 0px;
   color: #454545;
   border: 30px solid #fff !important;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.08); }
+  @media (min-width: 800px) {
+    .gist-data {
+      max-width: 800px;
+      margin-left: -60px !important; } }
 
 .gist-meta {
   width: 860px;
   padding: 10px 0px !important;
-  margin-left: -60px;
   background-image: none !important;
   background-color: transparent !important; }
+  @media (min-width: 800px) {
+    .gist-meta {
+      max-width: 800px;
+      margin-left: -60px !important; } }
 
 .gist-file {
   background-color: transparent !important;
@@ -224,7 +237,7 @@ article small {
 
 /* GALLERY */
 .gallery {
-  width: 960px !important;
+  max-width: 960px !important;
   margin-bottom: 30px !important;
   margin-top: 30px !important; }
 
@@ -249,12 +262,16 @@ article small {
   margin: 25px 0px 15px 0px !important; }
 
 .inlineimg {
-  width: 800px;
-  margin: 30px 0px 30px -60px;
+  max-width: 100%;
+  margin: 30px 0px 30px 0px;
   text-align: center;
   background-color: #fff;
   border: 30px solid #fff;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.08); }
+  @media (min-width: 800px) {
+    .inlineimg {
+      max-width: 800px;
+      margin: 30px 0px 30px -60px; } }
 
 .inlineimg img {
   border: none !important;
@@ -262,13 +279,17 @@ article small {
 
 /* MILESTONES, TIMELINES, BUDGET */
 .milestone {
-  margin: 0px 0px 30px 137px;
+  margin: 0px 0px 30px 0px;
   padding: 30px;
-  width: 687px;
+  max-width: 100%;
   font-family: 'SourceLight';
   font-size: 1.1em;
   line-height: 1.5em;
   background-color: rgba(0, 0, 0, 0.04); }
+  @media (min-width: 800px) {
+    .milestone {
+      margin: 0px 0px 30px 137px;
+      max-width: 687px; } }
 
 .milestone img {
   margin-right: 15px; }
@@ -277,12 +298,19 @@ article small {
   margin-bottom: 0px; }
 
 .thumbnail {
-  margin: -20px 0px 15px 137px;
-  width: 667px;
+  margin: -20px 0px 15px 0px;
+  max-width: 100%;
   background-color: #fff;
   border: 40px solid #fff;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.08);
   text-align: center; }
+  @media (min-width: 800px) {
+    .thumbnail {
+      margin: -20px 0px 15px 137px;
+      max-width: 687px; } }
+
+.thumbnail img {
+  width: 100% !important; }
 
 /* SHARE */
 .share {
@@ -305,12 +333,12 @@ article small {
 
 .discuss {
   margin: -80px auto 0px auto;
-  width: 960px;
+  max-width: 960px;
   text-align: center; }
 
 /* COMMENT FORM */
 .commentlist {
-  width: 960px;
+  max-width: 960px;
   font-family: 'SourceLight';
   list-style-type: none;
   margin-bottom: 50px; }
@@ -320,7 +348,7 @@ article small {
   /*background-color: overriden; */
   margin-bottom: 0px !important;
   margin-top: 0px !important;
-  width: 430px; }
+  max-width: 430px; }
 
 .comment-body {
   clear: both;
@@ -334,7 +362,7 @@ article small {
 .comment-body blockquote p {
   border-top: none !important;
   padding: 5px 30px !important;
-  width: 360px;
+  max-width: 360px;
   margin-left: 30px;
   font-style: italic; }
 
@@ -343,7 +371,7 @@ article small {
 
 .comment-body .reply {
   text-align: right;
-  width: 430px;
+  max-width: 430px;
   padding-bottom: 30px;
   /*background-color: overriden; */
   padding-right: 50px;
@@ -423,7 +451,7 @@ cite.fn {
   margin-top: 30px; }
 
 .comment-form {
-  width: 960px;
+  max-width: 960px;
   text-align: left;
   clear: both;
   color: #454545; }
@@ -435,21 +463,21 @@ cite.fn {
   font-style: italic; }
 
 .comment-form-author, .comment-form-email, .comment-form-url, .logged-in-as {
-  width: 480px;
+  max-width: 480px;
   font-family: 'SourceLight'; }
 
 .logged-in-as {
   height: 231px; }
 
 .comment-form-comment {
-  width: 450px;
+  max-width: 450px;
   float: right;
   display: block;
   height: 233px;
   padding: 0px 0px 0px 30px; }
 
 textarea {
-  width: 440px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.05);
   border: none;
   font-family: 'SourceLight';
@@ -458,7 +486,7 @@ textarea {
   padding: 5px; }
 
 .form-allowed-tags {
-  width: 440px;
+  max-width: 440px;
   font-family: 'SourceLight';
   font-size: 12px;
   margin-left: 510px; }
@@ -472,7 +500,7 @@ textarea {
   font-size: 30px;
   margin: 0 !important;
   padding: 0 !important;
-  width: 480px; }
+  max-width: 480px; }
 
 a#cancel-comment-reply-link {
   text-transform: none;
