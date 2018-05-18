@@ -864,11 +864,6 @@
   </url>
   
   <url>
-    <loc>http://battleofbrothers.com/sirryan/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://battleofbrothers.com/sirchris/tags/</loc>
     <priority>0</priority>
   </url>
@@ -982,7 +977,15 @@
   </url>
   
   <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/</loc>
+  </url>
+  
+  <url>
     <loc>http://battleofbrothers.com/sirryan/tags/announcements/</loc>
+  </url>
+  
+  <url>
+    <loc>http://battleofbrothers.com/sirryan/tags/art/</loc>
   </url>
   
   <url>

@@ -273,17 +273,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/chrisburst.png": {
-		"ft": 32768,
-		"iS": 66198,
-		"oA": 0,
-		"oAP": "\/assets\/chrisburst.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/ChrisShield.png": {
 		"ft": 32768,
 		"iS": 63939,
@@ -700,28 +689,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/ryanburst.png": {
-		"ft": 32768,
-		"iS": 65833,
-		"oA": 0,
-		"oAP": "\/assets\/ryanburst.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/ryanburst2.png": {
-		"ft": 32768,
-		"iS": 65475,
-		"oA": 0,
-		"oAP": "\/assets\/ryanburst2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/ryanintro.png": {

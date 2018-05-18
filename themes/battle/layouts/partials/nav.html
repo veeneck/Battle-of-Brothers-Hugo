@@ -21,11 +21,11 @@
 {{ else }}
 <nav>
 	{{ if eq .Type "post" }}
-		<div class="container clear blog">
+		<div class="navcontainer clear blog">
 	{{ else }}
-		<div class="container clear {{ .Type }}">
+		<div class="navcontainer clear {{ .Type }}">
 	{{ end }}
-  		<div class="leftnav clear">
+  		<div class="clear">
   			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}" class="blog clear">
 	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
@@ -42,7 +42,8 @@
 	  			</a>
   			</span>
 		</div>
-		<div class="rightnav clear">
+		<div class="navspacer">&nbsp;</div>
+		<div class="clear">
 			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}/contact" class="contact clear">
 	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact

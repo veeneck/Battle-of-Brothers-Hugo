@@ -6,7 +6,9 @@
 {{ partial "header.html" . }}
   <body class="home gradient">
 
-  	<div id="leftChecker"></div>
+    {{ if eq .Page.Title "Battle of Brothers" }}
+  	   <div id="leftChecker"></div>
+    {{ end }}
 
   	{{ partial "breadcrumb.html" . }}
 

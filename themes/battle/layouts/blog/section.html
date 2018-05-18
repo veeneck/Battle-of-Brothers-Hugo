@@ -35,8 +35,8 @@
 							<h4>Status Update<span class="floatright"><span class="pound">#{{ $value }}</span></span></h4>
 							{{ end }}
 							<div class="progress clear">
-								<a href="{{ .Page.RelPermalink }}">
-									<img src="{{ .Page.Params.featured_image }}" width="370" style="margin-top: 25px;" />
+								<a class="subhero" href="{{ .Page.RelPermalink }}">
+									<img src="{{ .Page.Params.featured_image }}"  />
 								</a>
 								{{ partial "tagsandcomments.html" . }}
 								{{- .Summary -}}

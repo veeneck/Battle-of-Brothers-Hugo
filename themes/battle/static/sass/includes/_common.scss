@@ -1,3 +1,6 @@
+@import '_variables';
+@import '_mixins';
+
 /* RESETS & BASIC PAGE SETUP */
 
 * { margin: 0; padding: 0; }
@@ -30,7 +33,8 @@ a img { border: none; }
 
 .content {
 	margin: 0 auto;
-	width: 965px;
+	max-width: $maxWidth;
+	padding: 0px 10px;
 }
 
 .outercontent {
@@ -57,16 +61,15 @@ When you use this container, and you should so that every page has the same layo
 */
 
 .activity {
-	width: 450px;
-	padding: 20px 30px 20px 0px;
+	width: 50%;
+	padding: 20px 3% 20px 0px;
 	margin-top: 0px;
 	margin-bottom: 30px;
 }
 
 .activity.right {
-	width: 430px;
-	margin-left: 10px;
-	padding: 20px 0px 20px 40px;
+	width: 47%;
+	padding: 20px 0px 20px 0px;
 }
 
 .activity ul {
