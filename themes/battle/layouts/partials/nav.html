@@ -1,15 +1,15 @@
 {{ if eq .Page.Title "Battle of Brothers" }}
 
  <nav>
-	 <div class="container clear">
-  		<div class="leftnav">
+	 <div class="navcontainer homenav clear">
+  		<div class="clear navbox leftnav">
   			<span>
 	  			<a href="/sirryan" class=" clear">
 	  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Ryan
 	  			</a>
   			</span>
 		</div>
-		<div class="rightnav">
+		<div class="clear navbox rightnav">
 			<span>
 	  			<a href="/sirchris" class="clear">
 	  				<img class="" src="/assets/CastleWhite.png" width="24px"  />Visit Sir Chris
@@ -19,13 +19,13 @@
 	</div>
 </nav>
 {{ else }}
-<nav>
+<nav class="site">
 	{{ if eq .Type "post" }}
-		<div class="container clear blog">
+		<div class="navcontainer clear blog">
 	{{ else }}
-		<div class="container clear {{ .Type }}">
+		<div class="navcontainer clear {{ .Type }}">
 	{{ end }}
-  		<div class="leftnav clear">
+  		<div class="clear navbox leftnav">
   			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}" class="blog clear">
 	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
@@ -42,7 +42,7 @@
 	  			</a>
   			</span>
 		</div>
-		<div class="rightnav clear">
+		<div class="clear navbox">
 			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}/contact" class="contact clear">
 	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact

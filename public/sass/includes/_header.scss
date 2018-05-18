@@ -1,4 +1,8 @@
-/* TOP BAR WITH BREADCRUMBS */
+@import '_variables';
+@import '_mixins';
+
+
+/* ------------------- TOP BAR WITH BREADCRUMBS -------------------  */
 
 .top {
 	width: 100%;
@@ -7,10 +11,15 @@
 }
 
 .breadcrumb {
+	@include flex();
+	justify-content: space-between;
 	color: #fff;
 	margin: 0 auto;
-	padding: 10px 0 0 0px;
-	width: 960px;
+	padding: 10px 10px 0 10px;
+	max-width: $maxWidth;
+}
+
+.breadcrumb p {
 	font-family: 'SourceLight';
 	font-size: 15px;
 	line-height: 1.2em;
@@ -18,49 +27,46 @@
 
 .breadcrumb a {
 	margin: 0;
-	padding: 3px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	/* color: overridden */
 	font-size: 15px;
 	text-decoration: none;
 }
 
-a.chris {
-	color: #D8EBA5;
-	border-bottom: 1px dotted #D8EBA5;
-}
-
-a.chris:hover {
-	color: #D8EBA5;
-	border-bottom: 1px solid #D8EBA5;
-}
-
-a.ryan {
-	color: #A4DEE1;
-	border-bottom: 1px dotted #A4DEE1;
-}
-
-a.ryan:hover {
-	color: #A4DEE1;
-	border-bottom: 1px solid #A4DEE1;
-}
-
 .switch {
-	margin-top: -2px !important;
+	margin-left: auto;
 }
 
-/* HEADER */
+/* ------------------- HEADER & SHIELDS -------------------  */
 
 header {
 	padding-top: 17px;
 	text-align: center;
 }
 
+.normalHeader {
+	display:none;
+	@include breakpoint(tablet-screen) {
+		display:block;
+    }
+}
+
+.mobileHeader {
+	height: 200px;
+	@include breakpoint(tablet-screen) {
+		display:none;
+    }
+}
+
+.mobileHeader img {
+	margin-top: 25px;
+}
+
 .home header {
 	padding-top: 0px;
 }
 
-/* CHECKERS AT TOP */
-
+/// Only shows on home page
 #leftChecker {
 	background-color: #a4dee1;
 	height: 330px;
@@ -69,8 +75,6 @@ header {
 	position: absolute;
 	z-index: -1;
 }
-
-/* MAIN CENTERED BANER LOGO */
 
 .mainshield {
 	width: 266px;
@@ -85,100 +89,6 @@ header {
 .mainshield img {
 	margin-top: -31px;
 }
-
-/* NAVIGATION LINKS */
-
-nav {
-	/* background-color: overriden */
-	font-family: "Grace";
-	letter-spacing: 1px;
-	color: #454545;
-	font-size: 20px;
-	padding: 40px 0px 30px 0;
-	z-index: 2;
-	margin-top: -161px;
-}
-
-nav div.container {
-	margin: 0 auto;
-	width: 965px;
-	text-align: center;
-	background-color: transparent;
-	box-shadow: none;
-}
-
-nav a {
-	z-index: 50;
-	-webkit-backface-visibility: hidden;
-}
-
-nav span {
-	padding: 0px 0px 30px 0px;
-	display: inline-block;
-	margin: 0px 0px;
-}
-
-.leftnav {
-	margin-right: 205px;
-	width: 380px;
-	float: left;
-	text-align: left;
-}
-
-.leftnav a {
-	display: inline-block;
-	padding: 7px 5px 10px 5px;
-	margin-right: 12px; 
-	position: relative;
-	transform: translateZ(0);
-}
-
-.rightnav {
-	width: 380px;
-	float: left;
-	text-align: right;
-}
-
-.rightnav a {
-	display: inline-block;
-	padding: 7px 5px 10px 5px;
-	margin-left: 12px; 
-	transform: translateZ(0);
-	position: relative;
-}
-
-nav a img {
-	display: inline-block;
-	margin-right: 15px;
-	margin-bottom: -2px;
-}
-
-nav div.blog a.blog:before,
-nav div.timeline a.timeline:before,
-nav div.budget a.budget:before,
-nav div.contact a.contact:before,
-nav div.subscribe a.subscribe:before,
-nav div.about a.about:before {
-	width: 40px;
-	content: " ";
-	background: url("../assets/halfarrow2.png") center right no-repeat;
-	height: 50px;
-	position: absolute;
-	left: 0;
-	margin-left: -20px;
-	top: 35px; 
-}
-
-nav div.blog a.blog,
-nav div.timeline a.timeline,
-nav div.budget a.budget,
-nav div.contact a.contact,
-nav div.subscribe a.subscribe,
-nav div.about a.about {
-	border-bottom: 2px solid #454545;
-}
-
-/* SHIELDS / LOGOS IN HEADER */
 
 a.ryanshield {
 	position: absolute;
@@ -195,12 +105,20 @@ a.ryanshield {
 }
 
 a.ryanshield img {
-	margin-right: 200px;
+	margin-right: 35%;
 	padding-top: 42px;
+
+	@include breakpoint(normal-screen) {
+		margin-right: 200px;
+    }
 }
 
 a.ryanshield:hover, a.ryanshield.selected {
-	background: url("../assets/ryanburst.png") center right;
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 213px, 129px, 237px, 153px;
 }
 
 
@@ -218,18 +136,146 @@ a.chrisshield {
 }
 
 a.chrisshield img {
-	margin-left: 200px;
+	margin-left: 35%;
 	padding-top: 42px;
+
+	@include breakpoint(normal-screen) {
+		margin-left: 200px;
+    }
 	
 }
 
 a.chrisshield:hover, a.chrisshield.selected {
-	background-image: url("../assets/chrisburst.png");
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 213px, 129px, 237px, 153px;
 }
 
 a.chrisshield:hover img {
 	opacity: 1 !important;
 }
+
+/* ------------------- NAVIGATION LINKS -------------------  */
+
+nav {
+	/* background-color: overriden */
+	font-family: "Grace";
+	letter-spacing: 1px;
+	color: #454545;
+	font-size: 18px;
+	padding: 40px 0px 30px 0;
+	z-index: 2;
+	margin-top: -161px;
+
+	@include breakpoint(tablet-screen) {
+		font-size: 18px;
+    }
+
+    @include breakpoint(normal-screen) {
+		font-size: 20px;
+    }
+}
+
+nav.site {
+	display: none;
+	@include breakpoint(tablet-screen) {
+		display:block;
+    }
+}
+
+nav div.navcontainer {
+	@include flex();
+	justify-content: center;
+	margin: 0 auto;
+	max-width: $maxWidth;
+	text-align: center;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0px 10px;
+
+	div {
+		flex-grow:1;
+	}
+}
+
+nav a {
+	z-index: 50;
+	-webkit-backface-visibility: hidden;
+}
+
+nav div.navcontainer span {
+	padding: 0px 0px 15px 0px;
+	display: inline-block;
+	margin: 0px 0px;
+
+    @include breakpoint(normal-screen) {
+		padding: 0px 0px 30px 0px;
+    }
+}
+
+div.navcontainer a {
+	display: inline-block;
+	padding: 7px 5px 10px 5px;
+	margin-right: 12px; 
+	position: relative;
+	transform: translateZ(0);
+}
+
+.navbox {
+	@include flex();
+	justify-content: center;
+	max-width: 430px;
+}
+
+.leftnav {
+	margin-right: 225px;
+}
+
+.navbox span {
+	width: 33%;
+}
+
+.homenav .navbox span {
+	width: 100%;
+}
+
+nav a img {
+	display: none;
+	margin-right: 15px;
+	margin-bottom: -2px;
+
+	@include breakpoint(normal-screen) {
+		display: inline-block;
+    }
+}
+
+nav div.blog a.blog:before,
+nav div.timeline a.timeline:before,
+nav div.budget a.budget:before,
+nav div.contact a.contact:before,
+nav div.subscribe a.subscribe:before,
+nav div.about a.about:before {
+	width: 40px;
+	content: " ";
+	background: url("../assets/halfarrow2.png") center right no-repeat;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	margin-left: -20px;
+	top: 34px; 
+}
+
+nav div.blog a.blog,
+nav div.timeline a.timeline,
+nav div.budget a.budget,
+nav div.contact a.contact,
+nav div.subscribe a.subscribe,
+nav div.about a.about {
+	border-bottom: 2px solid #454545;
+}
+
 
 /* TOOLBOX */
 

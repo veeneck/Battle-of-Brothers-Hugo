@@ -1,3 +1,5 @@
+@import 'includes/_mixins';
+
 /* RESETS & BASIC PAGE SETUP */
 
 * { margin: 0; padding: 0; }
@@ -82,6 +84,13 @@ ul.events li.mailchimp input[type=submit]:hover {
 	background-color: #fcfff3;
 }
 
+.outercontentalt {
+	background-color: #d8ed9e;
+	@include breakpoint(tablet-screen) {
+    	background: none;
+    }
+}
+
 /* HEADER */
 
 nav {
@@ -92,7 +101,11 @@ nav {
 
 article {
 	min-height: 400px;
-	width: 960px;	
+	max-width: 960px;	
+	margin-top:30px;
+	@include breakpoint(tablet-screen) {
+		margin-top:0px;
+    }
 }
 
 article h3 {

@@ -23,7 +23,12 @@ footer {
 /* Absolutely positioned logos. They need a width so that the actual content can expand based on browser size */
 
 .corner p {
-	width: 175px;
+	width: 0px;
+
+    @include breakpoint(normal-screen) {
+		width: 130px;
+    }
+
 }
 
 .ryanfoot {
@@ -38,6 +43,15 @@ footer {
 	right: 0;
 }
 
+.corner img {
+	display:none;
+
+    @include breakpoint(normal-screen) {
+    	width: 250px;
+		display: block
+    }
+}
+
 /* FOOTER TEXT */
 
 .inner {
@@ -48,25 +62,36 @@ footer {
 }
 
 .outer {
-	max-width: 450px;
-	min-width: 270px;
-	margin: 0 auto 0 20px;
-	padding: 20px;
+
+
+	@include breakpoint(tablet-screen) {
+    	max-width: 450px;
+		min-width: 270px;
+		margin: 0 auto 0 20px;
+		padding: 20px;
+    }
 }
 
 .footer_content {
 	width: 100%;
-	display: table-row;
 }
 
-.footer_content div.cell {
-	display: table-cell;
+.footerflex {
+	@include flex();
+	justify-content: center;
+	max-width: $maxWidth;
+	margin:0 auto;
+	font-size: 1.2em;
 }
 
 /* ABOUT THE CONTEST */
 
 .about_contest {
-	width: 50%;
+	display: none;
+	@include breakpoint(tablet-screen) {
+    	width: 50%;
+		display: block;
+    }
 }
 
 .footer_content h5 {
@@ -104,7 +129,10 @@ footer {
 /* LINK DUMP */
 
 .links {
-	width: 50%;
+
+	@include breakpoint(tablet-screen) {
+    	width: 50%;
+    }
 }
 
 .links p {

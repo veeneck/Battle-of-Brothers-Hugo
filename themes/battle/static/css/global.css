@@ -43,28 +43,6 @@
   font-family: 'SourceLightIt';
   src: url("fonts/source-sans-pro/SourceSansPro-LightIt.otf") format("truetype"); }
 
-@font-face {
-  font-family: 'BariolBold';
-  src: url("fonts/Bariol/Bariol_Bold/Bariol_Bold.otf") format("truetype"); }
-
-@font-face {
-  font-family: 'BariolLight';
-  src: url("fonts/Bariol/Bariol_Light/Bariol_Light.otf") format("truetype"); }
-
-@font-face {
-  font-family: 'Museo100Regular';
-  src: url("fonts/museo_100_macroman/Museo100-Regular-webfont.eot");
-  src: url("fonts/museo_100_macroman/Museo100-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/museo_100_macroman/Museo100-Regular-webfont.woff") format("woff"), url("fonts/museo_100_macroman/Museo100-Regular-webfont.ttf") format("truetype"), url("fonts/museo_100_macroman/Museo100-Regular-webfont.svg#Museo100Regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'd';
-  src: url("fonts/raleway/Raleway Thin.otf");
-  src: url("fonts/raleway/webfonts/raleway_thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/raleway/webfonts/raleway_thin-webfont.woff") format("woff"), url("fonts/raleway/webfonts/raleway_thin-webfont.ttf") format("truetype"), url("fonts/raleway/webfonts/raleway_thin-webfont.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 a {
   color: #454545;
   text-decoration: none; }
@@ -127,6 +105,25 @@ a.active {
 a.active:hover:before {
 	border-top: 12px solid #454545;
 }*/
+a.chris {
+  color: #D8EBA5;
+  border-bottom: 1px dotted #D8EBA5; }
+
+a.chris:hover {
+  color: #D8EBA5;
+  border-bottom: 1px solid #D8EBA5; }
+
+a.ryan {
+  color: #A4DEE1;
+  border-bottom: 1px dotted #A4DEE1; }
+
+a.ryan:hover {
+  color: #A4DEE1;
+  border-bottom: 1px solid #A4DEE1; }
+
+/* GENERAL */
+/* RYAN */
+/* CHRIS */
 /* RESETS & BASIC PAGE SETUP */
 * {
   margin: 0;
@@ -172,7 +169,8 @@ a img {
 /* CONTENT - HOLDS ALL CONTENT ON PAGE */
 .content {
   margin: 0 auto;
-  width: 965px; }
+  max-width: 1080px;
+  padding: 0px 10px; }
 
 .outercontent {
   width: 100%;
@@ -195,15 +193,23 @@ When you use this container, and you should so that every page has the same layo
 
 */
 .activity {
-  width: 450px;
-  padding: 20px 30px 20px 0px;
-  margin-top: 0px;
+  width: 100%;
+  min-width: 350px;
+  padding: 20px 3% 20px 0px;
+  margin-top: 30px;
   margin-bottom: 30px; }
+  @media (min-width: 800px) {
+    .activity {
+      width: 50%;
+      marign-top: 0px; } }
 
 .activity.right {
-  width: 430px;
-  margin-left: 10px;
-  padding: 20px 0px 20px 40px; }
+  width: 100%;
+  padding: 0px 0px 20px 0px; }
+  @media (min-width: 800px) {
+    .activity.right {
+      padding-top: 20px;
+      width: 47%; } }
 
 .activity ul {
   list-style: none; }
@@ -244,7 +250,7 @@ hr {
   border: 0;
   padding: 0px;
   margin: 0px auto;
-  width: 960px;
+  width: 100%;
   height: 50px; }
 
 hr.dots {
@@ -363,8 +369,13 @@ hr.dots {
   font-weight: normal; }
 
 .timeline .status {
-  width: 450px;
+  max-width: 48%;
   padding: 0px 30px 0px 0px; }
+
+.timeline .pic {
+  max-width: 48%; }
+  .timeline .pic img {
+    width: 85%; }
 
 .timeline .callout {
   margin: 0px;
@@ -410,7 +421,7 @@ ul.keys {
 .pic h4 {
   color: #454545;
   text-align: right;
-  width: 480px;
+  width: 100%;
   margin-right: 0px; }
 
 .pic h4 span.pound {
@@ -455,56 +466,65 @@ ul.keys {
   margin: 0 auto 50px auto;
   width: 700px; }
 
-/* TOP BAR WITH BREADCRUMBS */
+/* GENERAL */
+/* RYAN */
+/* CHRIS */
+/* ------------------- TOP BAR WITH BREADCRUMBS -------------------  */
 .top {
   width: 100%;
   background-color: #454545;
   height: 40px; }
 
 .breadcrumb {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
   color: #fff;
   margin: 0 auto;
-  padding: 10px 0 0 0px;
-  width: 960px;
+  padding: 10px 10px 0 10px;
+  max-width: 1080px; }
+
+.breadcrumb p {
   font-family: 'SourceLight';
   font-size: 15px;
   line-height: 1.2em; }
 
 .breadcrumb a {
   margin: 0;
-  padding: 3px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   /* color: overridden */
   font-size: 15px;
   text-decoration: none; }
 
-a.chris {
-  color: #D8EBA5;
-  border-bottom: 1px dotted #D8EBA5; }
-
-a.chris:hover {
-  color: #D8EBA5;
-  border-bottom: 1px solid #D8EBA5; }
-
-a.ryan {
-  color: #A4DEE1;
-  border-bottom: 1px dotted #A4DEE1; }
-
-a.ryan:hover {
-  color: #A4DEE1;
-  border-bottom: 1px solid #A4DEE1; }
-
 .switch {
-  margin-top: -2px !important; }
+  margin-left: auto; }
 
-/* HEADER */
+/* ------------------- HEADER & SHIELDS -------------------  */
 header {
   padding-top: 17px;
   text-align: center; }
 
+.normalHeader {
+  display: none; }
+  @media (min-width: 800px) {
+    .normalHeader {
+      display: block; } }
+
+.mobileHeader {
+  height: 200px; }
+  @media (min-width: 800px) {
+    .mobileHeader {
+      display: none; } }
+
+.mobileHeader img {
+  margin-top: 25px; }
+
 .home header {
   padding-top: 0px; }
 
-/* CHECKERS AT TOP */
 #leftChecker {
   background-color: #a4dee1;
   height: 330px;
@@ -513,7 +533,6 @@ header {
   position: absolute;
   z-index: -1; }
 
-/* MAIN CENTERED BANER LOGO */
 .mainshield {
   width: 266px;
   height: 434px;
@@ -526,87 +545,6 @@ header {
 .mainshield img {
   margin-top: -31px; }
 
-/* NAVIGATION LINKS */
-nav {
-  /* background-color: overriden */
-  font-family: "Grace";
-  letter-spacing: 1px;
-  color: #454545;
-  font-size: 20px;
-  padding: 40px 0px 30px 0;
-  z-index: 2;
-  margin-top: -161px; }
-
-nav div.container {
-  margin: 0 auto;
-  width: 965px;
-  text-align: center;
-  background-color: transparent;
-  box-shadow: none; }
-
-nav a {
-  z-index: 50;
-  -webkit-backface-visibility: hidden; }
-
-nav span {
-  padding: 0px 0px 30px 0px;
-  display: inline-block;
-  margin: 0px 0px; }
-
-.leftnav {
-  margin-right: 205px;
-  width: 380px;
-  float: left;
-  text-align: left; }
-
-.leftnav a {
-  display: inline-block;
-  padding: 7px 5px 10px 5px;
-  margin-right: 12px;
-  position: relative;
-  transform: translateZ(0); }
-
-.rightnav {
-  width: 380px;
-  float: left;
-  text-align: right; }
-
-.rightnav a {
-  display: inline-block;
-  padding: 7px 5px 10px 5px;
-  margin-left: 12px;
-  transform: translateZ(0);
-  position: relative; }
-
-nav a img {
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: -2px; }
-
-nav div.blog a.blog:before,
-nav div.timeline a.timeline:before,
-nav div.budget a.budget:before,
-nav div.contact a.contact:before,
-nav div.subscribe a.subscribe:before,
-nav div.about a.about:before {
-  width: 40px;
-  content: " ";
-  background: url("../assets/halfarrow2.png") center right no-repeat;
-  height: 50px;
-  position: absolute;
-  left: 0;
-  margin-left: -20px;
-  top: 35px; }
-
-nav div.blog a.blog,
-nav div.timeline a.timeline,
-nav div.budget a.budget,
-nav div.contact a.contact,
-nav div.subscribe a.subscribe,
-nav div.about a.about {
-  border-bottom: 2px solid #454545; }
-
-/* SHIELDS / LOGOS IN HEADER */
 a.ryanshield {
   position: absolute;
   left: 0px;
@@ -621,11 +559,15 @@ a.ryanshield {
   background-color: #a4dee1; }
 
 a.ryanshield img {
-  margin-right: 200px;
+  margin-right: 35%;
   padding-top: 42px; }
+  @media (min-width: 1080px) {
+    a.ryanshield img {
+      margin-right: 200px; } }
 
 a.ryanshield:hover, a.ryanshield.selected {
-  background: url("../assets/ryanburst.png") center right; }
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 213px, 129px, 237px, 153px; }
 
 a.chrisshield {
   position: absolute;
@@ -640,14 +582,125 @@ a.chrisshield {
   background-color: #d8ed9e; }
 
 a.chrisshield img {
-  margin-left: 200px;
+  margin-left: 35%;
   padding-top: 42px; }
+  @media (min-width: 1080px) {
+    a.chrisshield img {
+      margin-left: 200px; } }
 
 a.chrisshield:hover, a.chrisshield.selected {
-  background-image: url("../assets/chrisburst.png"); }
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 213px, 129px, 237px, 153px; }
 
 a.chrisshield:hover img {
   opacity: 1 !important; }
+
+/* ------------------- NAVIGATION LINKS -------------------  */
+nav {
+  /* background-color: overriden */
+  font-family: "Grace";
+  letter-spacing: 1px;
+  color: #454545;
+  font-size: 18px;
+  padding: 40px 0px 30px 0;
+  z-index: 2;
+  margin-top: -161px; }
+  @media (min-width: 800px) {
+    nav {
+      font-size: 18px; } }
+  @media (min-width: 1080px) {
+    nav {
+      font-size: 20px; } }
+
+nav.site {
+  display: none; }
+  @media (min-width: 800px) {
+    nav.site {
+      display: block; } }
+
+nav div.navcontainer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1080px;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0px 10px; }
+  nav div.navcontainer div {
+    flex-grow: 1; }
+
+nav a {
+  z-index: 50;
+  -webkit-backface-visibility: hidden; }
+
+nav div.navcontainer span {
+  padding: 0px 0px 15px 0px;
+  display: inline-block;
+  margin: 0px 0px; }
+  @media (min-width: 1080px) {
+    nav div.navcontainer span {
+      padding: 0px 0px 30px 0px; } }
+
+div.navcontainer a {
+  display: inline-block;
+  padding: 7px 5px 10px 5px;
+  margin-right: 12px;
+  position: relative;
+  transform: translateZ(0); }
+
+.navbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  max-width: 430px; }
+
+.leftnav {
+  margin-right: 225px; }
+
+.navbox span {
+  width: 33%; }
+
+.homenav .navbox span {
+  width: 100%; }
+
+nav a img {
+  display: none;
+  margin-right: 15px;
+  margin-bottom: -2px; }
+  @media (min-width: 1080px) {
+    nav a img {
+      display: inline-block; } }
+
+nav div.blog a.blog:before,
+nav div.timeline a.timeline:before,
+nav div.budget a.budget:before,
+nav div.contact a.contact:before,
+nav div.subscribe a.subscribe:before,
+nav div.about a.about:before {
+  width: 40px;
+  content: " ";
+  background: url("../assets/halfarrow2.png") center right no-repeat;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  margin-left: -20px;
+  top: 34px; }
+
+nav div.blog a.blog,
+nav div.timeline a.timeline,
+nav div.budget a.budget,
+nav div.contact a.contact,
+nav div.subscribe a.subscribe,
+nav div.about a.about {
+  border-bottom: 2px solid #454545; }
 
 /* TOOLBOX */
 a.rotate img {
@@ -705,7 +758,10 @@ footer {
 
 /* Absolutely positioned logos. They need a width so that the actual content can expand based on browser size */
 .corner p {
-  width: 175px; }
+  width: 0px; }
+  @media (min-width: 1080px) {
+    .corner p {
+      width: 130px; } }
 
 .ryanfoot {
   position: absolute;
@@ -717,6 +773,13 @@ footer {
   bottom: 0;
   right: 0; }
 
+.corner img {
+  display: none; }
+  @media (min-width: 1080px) {
+    .corner img {
+      width: 250px;
+      display: block; } }
+
 /* FOOTER TEXT */
 .inner {
   max-width: 460px;
@@ -724,22 +787,34 @@ footer {
   margin: 0 10px 0 auto;
   padding: 20px; }
 
-.outer {
-  max-width: 450px;
-  min-width: 270px;
-  margin: 0 auto 0 20px;
-  padding: 20px; }
+@media (min-width: 800px) {
+  .outer {
+    max-width: 450px;
+    min-width: 270px;
+    margin: 0 auto 0 20px;
+    padding: 20px; } }
 
 .footer_content {
-  width: 100%;
-  display: table-row; }
+  width: 100%; }
 
-.footer_content div.cell {
-  display: table-cell; }
+.footerflex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  font-size: 1.2em; }
 
 /* ABOUT THE CONTEST */
 .about_contest {
-  width: 50%; }
+  display: none; }
+  @media (min-width: 800px) {
+    .about_contest {
+      width: 50%;
+      display: block; } }
 
 .footer_content h5 {
   font-family: 'Grace';
@@ -771,8 +846,9 @@ footer {
   margin-top: 3px; }
 
 /* LINK DUMP */
-.links {
-  width: 50%; }
+@media (min-width: 800px) {
+  .links {
+    width: 50%; } }
 
 .links p {
   margin-bottom: 30px; }
