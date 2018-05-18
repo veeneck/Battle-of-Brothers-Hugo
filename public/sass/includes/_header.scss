@@ -87,8 +87,12 @@ a.ryanshield {
 }
 
 a.ryanshield img {
-	margin-right: 200px;
+	margin-right: 35%;
 	padding-top: 42px;
+
+	@include breakpoint(normal-screen) {
+		margin-right: 200px;
+    }
 }
 
 a.ryanshield:hover, a.ryanshield.selected {
@@ -114,8 +118,12 @@ a.chrisshield {
 }
 
 a.chrisshield img {
-	margin-left: 200px;
+	margin-left: 35%;
 	padding-top: 42px;
+
+	@include breakpoint(normal-screen) {
+		margin-left: 200px;
+    }
 	
 }
 
@@ -138,10 +146,18 @@ nav {
 	font-family: "Grace";
 	letter-spacing: 1px;
 	color: #454545;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 40px 0px 30px 0;
 	z-index: 2;
 	margin-top: -161px;
+
+	@include breakpoint(tablet-screen) {
+		font-size: 18px;
+    }
+
+    @include breakpoint(normal-screen) {
+		font-size: 20px;
+    }
 }
 
 nav div.navcontainer {
@@ -164,10 +180,14 @@ nav a {
 	-webkit-backface-visibility: hidden;
 }
 
-nav span {
-	padding: 0px 0px 30px 0px;
+nav div.navcontainer span {
+	padding: 0px 0px 15px 0px;
 	display: inline-block;
 	margin: 0px 0px;
+
+    @include breakpoint(normal-screen) {
+		padding: 0px 0px 30px 0px;
+    }
 }
 
 div.navcontainer a {
@@ -178,14 +198,32 @@ div.navcontainer a {
 	transform: translateZ(0);
 }
 
-.navspacer {
-	width: 266px;
+.navbox {
+	@include flex();
+	justify-content: center;
+	max-width: 430px;
+}
+
+.leftnav {
+	margin-right: 225px;
+}
+
+.navbox span {
+	width: 33%;
+}
+
+.homenav .navbox span {
+	width: 75%;
 }
 
 nav a img {
-	display: inline-block;
+	display: none;
 	margin-right: 15px;
 	margin-bottom: -2px;
+
+	@include breakpoint(normal-screen) {
+		display: inline-block;
+    }
 }
 
 nav div.blog a.blog:before,
@@ -201,7 +239,7 @@ nav div.about a.about:before {
 	position: absolute;
 	left: 0;
 	margin-left: -20px;
-	top: 35px; 
+	top: 34px; 
 }
 
 nav div.blog a.blog,

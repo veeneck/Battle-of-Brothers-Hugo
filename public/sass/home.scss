@@ -16,6 +16,11 @@ body {
 
 /* HOME PAGE HAS A CUSTOM NAV SO THE OVERRIDES ARE HERE */
 
+.homecontent {
+	max-width: 968px;
+	margin: 0 auto;
+}
+
 .home nav {
 	margin-top: -100px !important;
 }

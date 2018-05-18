@@ -180,7 +180,7 @@ nav a {
 	-webkit-backface-visibility: hidden;
 }
 
-nav span {
+nav div.navcontainer span {
 	padding: 0px 0px 15px 0px;
 	display: inline-block;
 	margin: 0px 0px;
@@ -210,6 +210,10 @@ div.navcontainer a {
 
 .navbox span {
 	width: 33%;
+}
+
+.homenav .navbox span {
+	width: 75%;
 }
 
 nav a img {

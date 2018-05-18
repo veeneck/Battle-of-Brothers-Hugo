@@ -61,15 +61,26 @@ When you use this container, and you should so that every page has the same layo
 */
 
 .activity {
-	width: 50%;
+	width: 100%;
+	min-width: 350px;
 	padding: 20px 3% 20px 0px;
 	margin-top: 0px;
 	margin-bottom: 30px;
+
+	@include breakpoint(tablet-screen) {
+		width: 50%;
+    }
+
 }
 
 .activity.right {
-	width: 47%;
-	padding: 20px 0px 20px 0px;
+	width: 100%;
+	padding: 0px 0px 20px 0px;
+
+	@include breakpoint(tablet-screen) {
+		padding-top: 20px;
+		width: 47%;
+    }
 }
 
 .activity ul {

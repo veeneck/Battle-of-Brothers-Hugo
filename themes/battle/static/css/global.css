@@ -193,14 +193,22 @@ When you use this container, and you should so that every page has the same layo
 
 */
 .activity {
-  width: 50%;
+  width: 100%;
+  min-width: 350px;
   padding: 20px 3% 20px 0px;
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (min-width: 800px) {
+    .activity {
+      width: 50%; } }
 
 .activity.right {
-  width: 47%;
-  padding: 20px 0px 20px 0px; }
+  width: 100%;
+  padding: 0px 0px 20px 0px; }
+  @media (min-width: 800px) {
+    .activity.right {
+      padding-top: 20px;
+      width: 47%; } }
 
 .activity ul {
   list-style: none; }
@@ -603,12 +611,12 @@ nav a {
   z-index: 50;
   -webkit-backface-visibility: hidden; }
 
-nav span {
+nav div.navcontainer span {
   padding: 0px 0px 15px 0px;
   display: inline-block;
   margin: 0px 0px; }
   @media (min-width: 1080px) {
-    nav span {
+    nav div.navcontainer span {
       padding: 0px 0px 30px 0px; } }
 
 div.navcontainer a {
@@ -632,6 +640,9 @@ div.navcontainer a {
 
 .navbox span {
   width: 33%; }
+
+.homenav .navbox span {
+  width: 75%; }
 
 nav a img {
   display: none;
@@ -749,22 +760,33 @@ footer {
   margin: 0 10px 0 auto;
   padding: 20px; }
 
-.outer {
-  max-width: 450px;
-  min-width: 270px;
-  margin: 0 auto 0 20px;
-  padding: 20px; }
+@media (min-width: 800px) {
+  .outer {
+    max-width: 450px;
+    min-width: 270px;
+    margin: 0 auto 0 20px;
+    padding: 20px; } }
 
 .footer_content {
-  width: 100%;
-  display: table-row; }
+  width: 100%; }
 
-.footer_content div.cell {
-  display: table-cell; }
+.footerflex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 0 auto; }
 
 /* ABOUT THE CONTEST */
 .about_contest {
-  width: 50%; }
+  display: none; }
+  @media (min-width: 800px) {
+    .about_contest {
+      width: 50%;
+      display: block; } }
 
 .footer_content h5 {
   font-family: 'Grace';
@@ -796,8 +818,9 @@ footer {
   margin-top: 3px; }
 
 /* LINK DUMP */
-.links {
-  width: 50%; }
+@media (min-width: 800px) {
+  .links {
+    width: 50%; } }
 
 .links p {
   margin-bottom: 30px; }
