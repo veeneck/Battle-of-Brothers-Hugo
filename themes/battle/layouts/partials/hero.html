@@ -4,7 +4,7 @@
 	{{ $ryanSelected := "selected" }}
 {{ end }}
 
-<header class="content">
+<header class="content normalHeader">
 	<a class="ryanshield rotate {{ $ryanSelected }}" href="/sirryan">
 		<img class="" style="" src="/assets/RyanShield.png" />
 	</a>
@@ -20,3 +20,13 @@
 	</a>
 
 </header> <!-- #head -->
+
+<header class="content mobileHeader">
+
+	{{ if eq ($.Scratch.Get "knight") "sirchris" }}
+		<img class="" style="" src="/assets/ChrisShield.png" />
+	{{ else }}
+		<img class="" style="" src="/assets/RyanShield.png" />
+	{{ end }}
+
+</header>

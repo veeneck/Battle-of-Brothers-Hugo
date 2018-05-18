@@ -196,11 +196,12 @@ When you use this container, and you should so that every page has the same layo
   width: 100%;
   min-width: 350px;
   padding: 20px 3% 20px 0px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 30px; }
   @media (min-width: 800px) {
     .activity {
-      width: 50%; } }
+      width: 50%;
+      marign-top: 0px; } }
 
 .activity.right {
   width: 100%;
@@ -501,6 +502,21 @@ header {
   padding-top: 17px;
   text-align: center; }
 
+.normalHeader {
+  display: none; }
+  @media (min-width: 800px) {
+    .normalHeader {
+      display: block; } }
+
+.mobileHeader {
+  height: 200px; }
+  @media (min-width: 800px) {
+    .mobileHeader {
+      display: none; } }
+
+.mobileHeader img {
+  margin-top: 25px; }
+
 .home header {
   padding-top: 0px; }
 
@@ -590,6 +606,12 @@ nav {
   @media (min-width: 1080px) {
     nav {
       font-size: 20px; } }
+
+nav.site {
+  display: none; }
+  @media (min-width: 800px) {
+    nav.site {
+      display: block; } }
 
 nav div.navcontainer {
   display: -webkit-box;

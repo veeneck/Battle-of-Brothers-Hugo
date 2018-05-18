@@ -44,6 +44,24 @@ header {
 	text-align: center;
 }
 
+.normalHeader {
+	display:none;
+	@include breakpoint(tablet-screen) {
+		display:block;
+    }
+}
+
+.mobileHeader {
+	height: 200px;
+	@include breakpoint(tablet-screen) {
+		display:none;
+    }
+}
+
+.mobileHeader img {
+	margin-top: 25px;
+}
+
 .home header {
 	padding-top: 0px;
 }
@@ -157,6 +175,13 @@ nav {
 
     @include breakpoint(normal-screen) {
 		font-size: 20px;
+    }
+}
+
+nav.site {
+	display: none;
+	@include breakpoint(tablet-screen) {
+		display:block;
     }
 }
 
