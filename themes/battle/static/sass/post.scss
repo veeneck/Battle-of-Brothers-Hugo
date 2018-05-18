@@ -1,4 +1,5 @@
 @import 'includes/_mixins';
+@import 'includes/_variables';
 
 /* STRUCTURE */
 
@@ -416,7 +417,10 @@ article small {
 	/*background-color: overriden; */
 	margin-bottom: 0px !important;
 	margin-top: 0px !important;
-	max-width: 430px;
+	max-width: 100%;
+	@include breakpoint(tablet-screen) {
+    	max-width: 430px;
+    }
 }
 
 .comment-body {
@@ -448,20 +452,27 @@ article small {
 
 .comment-body .reply {
 	text-align: right;
-	max-width: 430px;
+	max-width: 100%;
 	padding-bottom: 30px;
 	/*background-color: overriden; */
 	padding-right: 50px;
 	position: relative;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
+	@include breakpoint(tablet-screen) {
+    	max-width: 430px;
+    }
 }
 
 .comment-author {
+	display: none;
 	float: right;
 	width: 138px;
 	height: 138px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.05);
+	@include breakpoint(tablet-screen) {
+    	display:block;
+    }
 }
 
 .comment-author cite {
@@ -497,11 +508,14 @@ cite.fn {
 
 .comment-meta {
 	color: #454545;
-	width: 250px;
+	width: 100%;
 	margin-bottom: -20px;
 	z-index: 5;
 	position: relative;
 	font-size: 14px !important;
+	@include breakpoint(tablet-screen) {
+    	max-width: 250px;
+    }
 }
 
 .comment-meta a {
@@ -547,7 +561,7 @@ cite.fn {
 }
 
 .comment-form {
-	max-width: 960px;
+	max-width: $maxWidth;
 	text-align: left;
 	clear: both;
 	color: #454545;
@@ -572,11 +586,14 @@ cite.fn {
 }
 
 .comment-form-comment {
-	max-width: 450px;
-	float: right;
+	max-width: 100%;
 	display: block;
 	height: 233px;
-	padding: 0px 0px 0px 30px;
+	@include breakpoint(tablet-screen) {
+    	max-width: 450px;
+		float: right;
+		padding: 0px 0px 0px 30px;
+    }
 }
 
 textarea {

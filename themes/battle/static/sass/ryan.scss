@@ -80,7 +80,10 @@ ul.events li.mailchimp input[type=submit]:hover {
 }
 
 .outercontentalt {
-	/* This exists to wrap things in a second color if we ever decide to */
+	background-color: #a4dee1;
+	@include breakpoint(tablet-screen) {
+    	background: none;
+    }
 }
 
 .remaining {

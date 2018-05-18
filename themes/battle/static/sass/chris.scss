@@ -84,6 +84,13 @@ ul.events li.mailchimp input[type=submit]:hover {
 	background-color: #fcfff3;
 }
 
+.outercontentalt {
+	background-color: #d8ed9e;
+	@include breakpoint(tablet-screen) {
+    	background: none;
+    }
+}
+
 /* HEADER */
 
 nav {
