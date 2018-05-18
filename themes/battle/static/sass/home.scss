@@ -54,7 +54,9 @@ body {
 	background-color: #bf4f6f;
 	padding: 15px 60px;
 	border: 5px solid #fff;
-	background-image: url("../assets/swirls.png");
+	@include breakpoint(tablet-screen) {
+		background-image: url("../assets/swirls.png");
+    }
 	position: relative;
 }
 
@@ -68,7 +70,9 @@ body {
 	background-color: #D86D51;
 	padding: 15px 60px;
 	border: 5px solid #fff;
-	background-image: url("../assets/swirls.png");
+	@include breakpoint(tablet-screen) {
+		background-image: url("../assets/swirls.png");
+    }
 }
 
 .home .rightnav img, .home .leftnav img {
@@ -83,18 +87,26 @@ body {
 	border-bottom: none;
 }
 
+.breaker {
+	display: none;
+	@include breakpoint(tablet-screen) {
+		display: block;
+    }
+}
+
 /* CURRENTLY THE FAQ ABOUT THE CONTEST ON HOME PAGE - If we use pattern elsewhere, move to common */
 
 .faq {
 	@include flex();
 	flex-direction:column;
-	margin-top: 50px;
+	margin-top: 175px;
 	margin-bottom: 50px;
 	background-color: #fff;
 	box-shadow: 5px 5px 2px rgba(0,0,0,0.08);
 	padding: 30px 0px;
 	width: 100%;
 	@include breakpoint(tablet-screen) {
+		margin-top: 50px;
 		flex-direction:row;
     }
 }

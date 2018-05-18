@@ -369,8 +369,13 @@ hr.dots {
   font-weight: normal; }
 
 .timeline .status {
-  width: 450px;
+  max-width: 48%;
   padding: 0px 30px 0px 0px; }
+
+.timeline .pic {
+  max-width: 48%; }
+  .timeline .pic img {
+    width: 85%; }
 
 .timeline .callout {
   margin: 0px;
@@ -416,7 +421,7 @@ ul.keys {
 .pic h4 {
   color: #454545;
   text-align: right;
-  width: 480px;
+  width: 100%;
   margin-right: 0px; }
 
 .pic h4 span.pound {
@@ -664,7 +669,7 @@ div.navcontainer a {
   width: 33%; }
 
 .homenav .navbox span {
-  width: 75%; }
+  width: 100%; }
 
 nav a img {
   display: none;

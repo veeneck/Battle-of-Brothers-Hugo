@@ -23,7 +23,9 @@
 
 <header class="content mobileHeader">
 
-	{{ if eq ($.Scratch.Get "knight") "sirchris" }}
+	{{ if eq .Page.Title "Battle of Brothers" }}
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	{{ else if eq ($.Scratch.Get "knight") "sirchris" }}
 		<img class="" style="" src="/assets/ChrisShield.png" />
 	{{ else }}
 		<img class="" style="" src="/assets/RyanShield.png" />

@@ -52,8 +52,10 @@ body {
   background-color: #bf4f6f;
   padding: 15px 60px;
   border: 5px solid #fff;
-  background-image: url("../assets/swirls.png");
   position: relative; }
+  @media (min-width: 800px) {
+    .home .leftnav a {
+      background-image: url("../assets/swirls.png"); } }
 
 .home .leftnav a:hover, .home .rightnav a:hover {
   background-color: #454545; }
@@ -63,8 +65,10 @@ body {
   font-size: 22px;
   background-color: #D86D51;
   padding: 15px 60px;
-  border: 5px solid #fff;
-  background-image: url("../assets/swirls.png"); }
+  border: 5px solid #fff; }
+  @media (min-width: 800px) {
+    .home .rightnav a {
+      background-image: url("../assets/swirls.png"); } }
 
 .home .rightnav img, .home .leftnav img {
   margin-top: 3px; }
@@ -75,6 +79,12 @@ body {
 .home a.ryanshield, .home a.chrisshield {
   border-bottom: none; }
 
+.breaker {
+  display: none; }
+  @media (min-width: 800px) {
+    .breaker {
+      display: block; } }
+
 /* CURRENTLY THE FAQ ABOUT THE CONTEST ON HOME PAGE - If we use pattern elsewhere, move to common */
 .faq {
   display: -webkit-box;
@@ -83,7 +93,7 @@ body {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 175px;
   margin-bottom: 50px;
   background-color: #fff;
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.08);
@@ -91,6 +101,7 @@ body {
   width: 100%; }
   @media (min-width: 800px) {
     .faq {
+      margin-top: 50px;
       flex-direction: row; } }
 
 .faq .question {
