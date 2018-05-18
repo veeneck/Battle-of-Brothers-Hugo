@@ -25,7 +25,7 @@
 	{{ else }}
 		<div class="navcontainer clear {{ .Type }}">
 	{{ end }}
-  		<div class="clear">
+  		<div class="clear navbox leftnav">
   			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}" class="blog clear">
 	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
@@ -42,8 +42,7 @@
 	  			</a>
   			</span>
 		</div>
-		<div class="navspacer">&nbsp;</div>
-		<div class="clear">
+		<div class="clear navbox">
 			<span>
 	  			<a href="/{{ $.Scratch.Get "knight" }}/contact" class="contact clear">
 	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
