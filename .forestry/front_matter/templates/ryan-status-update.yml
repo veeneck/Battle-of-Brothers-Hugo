@@ -42,3 +42,5 @@ fields:
   label: status number
   name: status_number
   description: Add +1 from last update.
+pages:
+- posts/where-does-the-time-go-.md
