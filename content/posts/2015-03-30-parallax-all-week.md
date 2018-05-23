@@ -5,7 +5,7 @@ type: post
 date: 2015-03-30T17:01:09+00:00
 url: /sirryan/parallax-all-week/
 featured_image: /wp-content/uploads/2015/03/encampment_fg-e1426884347607.png
-number:
+status_number:
   - 19
 keyevent:
   - Parallax for each scene.

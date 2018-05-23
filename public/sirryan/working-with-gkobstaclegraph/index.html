@@ -1,0 +1,313 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+<script src="/js/index-min.js"></script>
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18183842-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18183842-5');
+</script>
+</head>
+  <body class="home gradient">
+
+    
+
+  	
+
+<div class="top">
+	<div class="breadcrumb">
+		<p>Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a></p> 
+		<p><a href="/sirchris" title="To see what the losing team is up to." class="switch chris">See what Sir Chris is up to &#8611;</a></p>
+		
+	</div>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content normalHeader">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+<header class="content mobileHeader">
+
+	
+		<img class="" style="" src="/assets/RyanShield.png" />
+	
+
+</header>
+
+  	
+<nav class="site">
+	
+		<div class="navcontainer clear blog">
+	
+  		<div class="clear navbox leftnav">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="clear navbox">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				
+<div class="floatleft timestamp">
+	<span class="month">Nov</span>
+	<p class="shield" style="background-image:url('/assets/Shield7.png')">13</p>
+	<span class="year legacy">2015</span>
+</div>
+				<h3 class="grace">Working With GKObstacleGraph</h3>
+				<div class="subhead">
+					
+
+
+
+
+<span class="comments floatright">
+	<img class="icon" src="/assets/Chat-6.png" width="16px" />
+	<small><a href="/sirryan/working-with-gkobstaclegraph/#comments" class="dotted"><span></span>0 comments</a></small>
+</span>
+<img class="icon" src="/assets/Tag-star.png" width="16px">
+<small>
+	
+	<a href="/sirryan/tags/code" class="dotted">code</a>
+	
+	<a href="/sirryan/tags/spritekit" class="dotted">spritekit</a>
+	
+</small>
+				</div>
+			</div>
+
+			
+
+			
+				
+			
+				
+			
+
+			<div class="post source_light">		
+				
+ 				<p>This purpose of this post is to document some of the frustrations with pathfinding. I&#8217;m finding that it is too boring to try to implement every map at once, so I&#8217;m touching pathfinding every other week or so. As a refresher, the video below has served as my primer on <a href="https://developer.apple.com/library/prerelease/ios/documentation/GameplayKit/Reference/GKObstacleGraph_Class/index.html#//apple_ref/occ/cl/GKObstacleGraph" target="_blank">GKObstacleGraph</a> whenever I need to revisit pathfinding. So, if you&#8217;re a SpriteKit / GameplayKit user, you may find my approach interesting.
+</p>
+
+<div class="inlineimg">
+  
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/rDlf3wPTZqE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+</div>
+			</div>
+
+		</article>
+
+	</div>
+</div>
+
+<div class="outercontentalt">
+  	<div class="content clear">
+
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
+	  
+	  
+	  
+ 
+	  <div class="comment-form">
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Speak Freely <small></h3>     
+
+    <form class="comment-form" method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments">
+        <p class="comment-notes">
+          <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+        </p>
+          <p class="comment-form-comment">
+            <label for="comment">Comment</label> 
+            <textarea id="comment" name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+          </p>
+          <p class="comment-form-author">
+            <label for="author">Name <span class="required">*</span></label> 
+            <input id="author" name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required="required" size="30" maxlength="245">
+          </p>
+          <p class="comment-form-email">
+            <label for="email">Email</label> 
+            <input id="email" name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" ize="30" maxlength="100">
+          </p>
+          <p class="comment-form-url">
+            <label for="website">Website</label> 
+            <input id="website" name="fields[website]" type="url" class="post-comment-field" placeholder="http://yoursite.com" ize="30" maxlength="200">
+          </p>
+          <p class="form-submit">
+            <input type="submit" id="submit" class="post-comment-field btn submit" value="Submit" id="submit_button" value="Post Comment">
+            <input type="hidden" name="options[redirect]" value="http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/#post-submitted">
+            <input type="hidden" name="options[redirectError]" value="http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/#post-error">
+            <input type="hidden" name="options[entryId]" value="2015-11-13-working-with-gkobstaclegraph">
+            <input type="hidden" name="options[slug]" value="http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/">
+            <input type="hidden" name="options[origin]" value="http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/">
+            <input type="hidden" name="options[parent]" value="2015-11-13-working-with-gkobstaclegraph">
+            <input type="hidden" name="fields[reply_to]" value="">
+          </p>      
+      </form>
+    </div>
+
+    <div id="post-submitted">
+      <hr style="margin-bottom: 50px;" />
+      <h3 class="comment-reply-title">Thank you</h3>
+        <p>Your comment will be published once it has been approved.</p>
+        <p><a class="comment-reply-link" href="https://github.com/veeneck/Battle-of-Brothers-Hugo/pulls">Click here</a> to see the pull request you generated.</p>
+    </div>
+</div>
+     </div>
+</div> 
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div >
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+	  		<div class="footerflex">
+				<div class="about_contest cell">
+					<div class="inner">
+						<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+						<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+						In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+						It begins on April 7th, 2014. We'll be documenting the journey.</p>
+						<p><a href="/">Learn More!</a></p>
+					</div>
+				</div>
+				<div class="links cell">
+					<div class="outer">
+						<h5>Sir Ryan</h5>
+						<p>
+							<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+							<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+							<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+							<a class="ryan" href="/category/sirryan">Archive</a>
+							<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br>
+						</p>
+						<h5>Sir Chris</h5>
+						<p>
+						<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+						<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+						<a class="chris" href="/sirchris/timeline">Timeline</a>
+						<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+						<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+						<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+						<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+						<a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br></p>
+					</div>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

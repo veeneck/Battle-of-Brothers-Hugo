@@ -5,7 +5,7 @@ type: post
 date: 2015-02-16T14:16:41+00:00
 url: /sirchris/knights-ninjas-and-wizards/
 featured_image: /wp-content/uploads/2015/02/e067f984dcf7e6846ff5db2163d624d5-1-e1424094776180.png
-number:
+status_number:
   - 20
 keyevent:
   - 'Ninja, Knight & Wizard Animations'

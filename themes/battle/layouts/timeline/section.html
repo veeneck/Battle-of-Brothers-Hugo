@@ -26,7 +26,7 @@
 						</div>
 
 						<div class="pic floatleft common">
-							{{ range $key, $value := .Params.number }}
+							{{ range $key, $value := .Params.status_number }}
 								<h4><span class="pound">#{{ $value }}</span></h4>
 							{{ end }}
 							<img class="statusimg" src="{{ .Page.Params.featured_image }}"  />

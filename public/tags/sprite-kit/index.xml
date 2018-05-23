@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprite Kit on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/sprite-kit/</link>
+    <description>Recent content in Sprite Kit on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2015 18:48:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/sprite-kit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpriteKit: CPU gains from caching enumerateChildNodesWithName</title>
+      <link>http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/</link>
+      <pubDate>Mon, 05 Jan 2015 18:48:27 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/</guid>
+      <description>&lt;p&gt;Those of you who follow me know that I&amp;#8217;m working on a game that will have ~200 nodes on the screen updating every frame. Because of that requirement, I&amp;#8217;m &lt;a href=&#34;http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1&#34; target=&#34;_blank&#34;&gt;constantly looking&lt;/a&gt; at &lt;a href=&#34;http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit&#34; target=&#34;_blank&#34;&gt;how I can&lt;/a&gt; incrementally &lt;a href=&#34;http://battleofbrothers.com/sirryan/now-were-rolling&#34; target=&#34;_blank&#34;&gt;improve performance&lt;/a&gt;. Slowly but surely, I&amp;#8217;m making this game a well oiled machine. Today, I stumbled on a significant slow down, and the resulting fix that shaved off 16% CPU usage: caching &lt;code&gt;enumerateChildNodesWithName&lt;/code&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Joy of Debugging: Command swiftc failed with exit code 1</title>
+      <link>http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1/</link>
+      <pubDate>Sun, 21 Dec 2014 17:51:14 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been working through a particularly nasty issue, so it feels right to document it for anyone else who encounters it. Also, just to serve as a note and reminder that game development is full of unexpected, time consuming tasks on a near weekly basis. This most recent problem &amp;#8212; releasing a build to an iOS device fails to compile, but it works on the simulator. Specifically, this occurs when I try to change the Swift compiler optimization level.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Memory Usage in Sprite Kit</title>
+      <link>http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/</link>
+      <pubDate>Mon, 25 Aug 2014 14:58:39 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/</guid>
+      <description>&lt;p&gt;Now that I&amp;#8217;m &lt;a href=&#34;http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks&#34; target=&#34;_blank&#34;&gt;receiving real art&lt;/a&gt; for my game, I thought it would be a good time to learn about memory usage and limits. This was also prompted by my current level running at 55-60MB before any gameplay action or characters loaded on screen. That memory usage seemed a bit high, so I decided this was an issue that I needed to &lt;a href=&#34;https://www.youtube.com/watch?v=2o1U2pWcR34&#34; target=&#34;_blank&#34;&gt;delve into&lt;/a&gt;. In hindsight, most of this is basic to an experienced game developer, but I found the process to be quite fun. You can just read my lessons learned below if you don&amp;#8217;t want to follow my detective work.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenges You May Encounter While Porting Your SpriteKit Game to Swift</title>
+      <link>http://battleofbrothers.com/sirryan/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/</link>
+      <pubDate>Wed, 18 Jun 2014 16:20:02 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/</guid>
+      <description>&lt;p&gt;The introduction of &lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; comes at a perfect time for me. I’ve been working on a SpriteKit game in Objective-C for 10 weeks now, and some of the code is definitely in need of refactoring. Refactoring is known to be tedious, so being able to learn a new language during the process is a plus. I’ve been taking notes of any challenge I’ve come across during the conversion.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

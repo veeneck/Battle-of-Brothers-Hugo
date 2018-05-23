@@ -1,0 +1,351 @@
+
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  
+
+
+
+
+   	 <link rel="stylesheet" href="/css/chris.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+<script src="/js/index-min.js"></script>
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18183842-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18183842-5');
+</script>
+</head>
+  <body class="home gradient">
+
+    
+
+  	
+
+<div class="top">
+	<div class="breadcrumb">
+		<p>Currently following
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a></p> 
+		<p><a href="/sirryan" title="To see what the losing team is up to." class="switch ryan">See what Sir Ryan is up to &#8611;</a></p>
+		
+	</div>
+</div>
+
+
+
+  	
+
+
+
+<header class="content normalHeader">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+<header class="content mobileHeader">
+
+	
+		<img class="" style="" src="/assets/ChrisShield.png" />
+	
+
+</header>
+
+  	
+<nav class="site">
+	
+		<div class="navcontainer clear blog">
+	
+  		<div class="clear navbox leftnav">
+  			<span>
+	  			<a href="/sirchris" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="clear navbox">
+			<span>
+	  			<a href="/sirchris/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				
+<div class="floatleft timestamp">
+	<span class="month">Apr</span>
+	<p class="shield" style="background-image:url('/assets/Shield12.png')">28</p>
+	<span class="year legacy">2014</span>
+</div>
+				<h3 class="grace">Refactoring</h3>
+				<div class="subhead">
+					
+
+
+
+
+<span class="comments floatright">
+	<img class="icon" src="/assets/Chat-6.png" width="16px" />
+	<small><a href="/sirchris/refactoring/#comments" class="dotted"><span></span>0 comments</a></small>
+</span>
+<img class="icon" src="/assets/Tag-star.png" width="16px">
+<small>
+	
+	<a href="/sirchris/tags/status" class="dotted">status</a>
+	
+</small>
+				</div>
+			</div>
+
+			
+				<div class="thumbnail">
+					<img src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM.png" width="660" />
+				</div>
+			
+
+			
+				
+					<p class="milestone">
+						<img src="/assets/Arrow-board.png" width="48px" class="floatleft" />
+						This post is a status update, which is how I track progress specific to my game. 
+						Check out <a href="/sirsirchris/timeline" class="dotted underline">my timeline</a> to see what I've recently accomplished.
+					</p>
+				
+			
+
+			<div class="post source_light">		
+				
+					<ul class="events embed floatright">Key Events
+						
+							<li>Make code object oriented</li>
+						
+							<li>Add enemies to fight</li>
+						
+							<li>Re-calculate move distance</li>
+						
+					</ul>		
+				
+ 				<p>When I left off two weeks ago, I had the goal of adding some bad guys to fight my valiant knight. The good news is that those bad guys can now be seen and attacked, but the bad news is that for every step forward, I&#8217;ve had to take about 0.9 steps back. If learning was the name of the game before my first update, refactoring is the name of the game this time around. I knew there was going to be a price to pay for plunging into my game without much thought given to organization and structure, and it was time to pay the piper.</p>
+
+<p>But in an effort to stay positive about game development, let&#8217;s celebrate the visual progress I&#8217;ve made.
+</p>
+
+<h4 id="bad-guys-health-bars">Bad Guys &amp; Health Bars</h4>
+
+<p>As you can see, there is not one, but three very scary ogres for my hero to fight. Each character also has a health bar displayed above them that moves along with the character and accurately displays total health.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-424" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.13-PM.png" alt="Screen Shot 2014-04-28 at 1.19.13 PM" width="704" height="451"  />
+</div>
+
+<h4 id="range-calculations-and-enemies-in-range">Range Calculations and Enemies in Range</h4>
+
+<p>The hero&#8217;s movement grid now shrinks after he moves and enemies light up when they are in attacking range.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.20-PM.png" alt="Screen Shot 2014-04-28 at 1.19.20 PM" width="600" height="381"  />
+</div>
+
+<h4 id="fight">Fight</h4>
+
+<p>The hero has an animation sequence that swings his sword. And if you look closely, you&#8217;ll also see a -5 above the ogre, which is a separate animation sequence displaying the amount of damage taken.</p>
+
+<div class="inlineimg">
+  <img class="alignnone size-full wp-image-426" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-28-at-1.19.24-PM.png" alt="Screen Shot 2014-04-28 at 1.19.24 PM" width="600" height="381"  />
+</div>
+
+<p>So there is some visual progress to show, but the real improvement has been in the codebase. Besides a few helper functions, I had to re-write pretty much every line of code. And once that code was re-written, I would add a new feature and then have to re-write the code again. This isn&#8217;t too unexpected, because it&#8217;s hard for me to mentally plan what I have to do when I&#8217;ve never done it before.</p>
+
+<p>My main goal these past two weeks was to make the codebase as object-oriented as possible. It seems like game code gets unwieldy extremely quickly, so I have to make an effort to keep the codebase nice and neat before it becomes completely unmanageable . Knights and ogres inherit from a Character class. Movement and damage are handled in specialized classes. Each scene, or game level, is an instance of the Scene class, which pulls many of its functions from a SceneHelper class. Scene variables, including the background and character information are all dynamically loaded from scene specific JSON files.</p>
+
+<p>And while I have most of the core areas set up as their own classes, I still have some organizational questions to solve. For example, now that I can see that my characters all have some similar animation sequences, should they still handle the sprite animation individually, or should the base character class inherit from some type of sprite animation class?</p>
+
+<p>Anyways, during the next two weeks I&#8217;ll probably play around with core code organization a little bit more and I&#8217;ll also delve into the realm of artificial intelligence. My game now knows that it&#8217;s the ogre&#8217;s turn to make a move after the knight attacks, but I have to give the ogre a brain to decide what move to make. I&#8217;ve seen <a href="http://battleofbrothers.com/sirryan/its-not-all-sunshine-and-rainbows">Ryan really struggle with AI</a> over the past week or two, so I might be in for a little brain pain.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
+
+<div class="outercontentalt">
+  	<div class="content clear">
+
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
+	  
+	  
+	  
+ 
+	  <div class="comment-form">
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Speak Freely <small></h3>     
+
+    <form class="comment-form" method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments">
+        <p class="comment-notes">
+          <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+        </p>
+          <p class="comment-form-comment">
+            <label for="comment">Comment</label> 
+            <textarea id="comment" name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+          </p>
+          <p class="comment-form-author">
+            <label for="author">Name <span class="required">*</span></label> 
+            <input id="author" name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required="required" size="30" maxlength="245">
+          </p>
+          <p class="comment-form-email">
+            <label for="email">Email</label> 
+            <input id="email" name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" ize="30" maxlength="100">
+          </p>
+          <p class="comment-form-url">
+            <label for="website">Website</label> 
+            <input id="website" name="fields[website]" type="url" class="post-comment-field" placeholder="http://yoursite.com" ize="30" maxlength="200">
+          </p>
+          <p class="form-submit">
+            <input type="submit" id="submit" class="post-comment-field btn submit" value="Submit" id="submit_button" value="Post Comment">
+            <input type="hidden" name="options[redirect]" value="http://battleofbrothers.com/sirchris/refactoring/#post-submitted">
+            <input type="hidden" name="options[redirectError]" value="http://battleofbrothers.com/sirchris/refactoring/#post-error">
+            <input type="hidden" name="options[entryId]" value="2014-04-28-refactoring">
+            <input type="hidden" name="options[slug]" value="http://battleofbrothers.com/sirchris/refactoring/">
+            <input type="hidden" name="options[origin]" value="http://battleofbrothers.com/sirchris/refactoring/">
+            <input type="hidden" name="options[parent]" value="2014-04-28-refactoring">
+            <input type="hidden" name="fields[reply_to]" value="">
+          </p>      
+      </form>
+    </div>
+
+    <div id="post-submitted">
+      <hr style="margin-bottom: 50px;" />
+      <h3 class="comment-reply-title">Thank you</h3>
+        <p>Your comment will be published once it has been approved.</p>
+        <p><a class="comment-reply-link" href="https://github.com/veeneck/Battle-of-Brothers-Hugo/pulls">Click here</a> to see the pull request you generated.</p>
+    </div>
+</div>
+     </div>
+</div> 
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div >
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+	  		<div class="footerflex">
+				<div class="about_contest cell">
+					<div class="inner">
+						<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+						<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+						In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+						It begins on April 7th, 2014. We'll be documenting the journey.</p>
+						<p><a href="/">Learn More!</a></p>
+					</div>
+				</div>
+				<div class="links cell">
+					<div class="outer">
+						<h5>Sir Ryan</h5>
+						<p>
+							<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+							<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+							<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+							<a class="ryan" href="/category/sirryan">Archive</a>
+							<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br>
+						</p>
+						<h5>Sir Chris</h5>
+						<p>
+						<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+						<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+						<a class="chris" href="/sirchris/timeline">Timeline</a>
+						<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+						<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+						<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+						<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+						<a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br></p>
+					</div>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

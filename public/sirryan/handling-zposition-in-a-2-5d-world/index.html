@@ -1,0 +1,343 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+<script src="/js/index-min.js"></script>
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18183842-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18183842-5');
+</script>
+</head>
+  <body class="home gradient">
+
+    
+
+  	
+
+<div class="top">
+	<div class="breadcrumb">
+		<p>Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a></p> 
+		<p><a href="/sirchris" title="To see what the losing team is up to." class="switch chris">See what Sir Chris is up to &#8611;</a></p>
+		
+	</div>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content normalHeader">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+<header class="content mobileHeader">
+
+	
+		<img class="" style="" src="/assets/RyanShield.png" />
+	
+
+</header>
+
+  	
+<nav class="site">
+	
+		<div class="navcontainer clear blog">
+	
+  		<div class="clear navbox leftnav">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="clear navbox">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				
+<div class="floatleft timestamp">
+	<span class="month">Apr</span>
+	<p class="shield" style="background-image:url('/assets/Shield11.png')">21</p>
+	<span class="year legacy">2014</span>
+</div>
+				<h3 class="grace">Handling zPosition in a 2.5d World</h3>
+				<div class="subhead">
+					
+
+
+
+
+<span class="comments floatright">
+	<img class="icon" src="/assets/Chat-6.png" width="16px" />
+	<small><a href="/sirryan/handling-zposition-in-a-2-5d-world/#comments" class="dotted"><span></span>0 comments</a></small>
+</span>
+<img class="icon" src="/assets/Tag-star.png" width="16px">
+<small>
+	
+	<a href="/sirryan/tags/code" class="dotted">code</a>
+	
+	<a href="/sirryan/tags/learning" class="dotted">learning</a>
+	
+</small>
+				</div>
+			</div>
+
+			
+
+			
+				
+			
+				
+			
+
+			<div class="post source_light">		
+				
+ 				<p>Not surprisingly, dealing with zPosition in a 2.5d game is about as complicated as everything else in game development &#8212; it will be harder to handle than you think it should be. For example, how should you handle moving a sprite from behind a tree to in front of a tree in perceived depth. While the initial drawing of objects is straightforward, things become tricky once they start moving around. Let&#8217;s take a look at how I&#8217;m approaching zPosition in my Sprite Kit game.
+</p>
+
+<h4 id="an-enum-for-world-layers">An Enum for World Layers</h4>
+
+<p>The most common thing to start out with is an <a href="https://www.makegameswith.us/gamernews/368/control-the-drawing-order-in-cocos2d-and-sprite-ki">enum that handles general world layers</a>. Using this approach, the UI, background, characters and foreground are all children of a layer node. In my project, I took inspiration from Apple&#8217;s adventure game and ended up with this.</p>
+
+<p>This sort of setup is good for organization, but it didn&#8217;t answer all of my needs. Mainly, what happens when objects start moving. To give the illusion of depth, we need moving objects to change zPosition when they move in front of another object. I&#8217;ve altered the enum approach in a couple of ways.</p>
+
+<h4 id="give-the-enum-a-wider-range">Give the Enum a Wider Range</h4>
+
+<p>The first change to make is to give each layer of the enum more zPosition to work with. For starters, I&#8217;ve just modified the loop above to be multiples of 5000.</p>
+
+<pre><code>layer.zPosition = (i - kWorldLayerCount)*5000
+</code></pre>
+
+<p>The main reason for this is because when nodes are added to a parent layer they will still have individual zPositions that take priority. For example, a world layer with a zPosition of 3 contains a node with a zPosition of 100. The 100 will be the zPosition used, which means we could place a character on top of our HUD even though the character layer is lower than the HUD layer.</p>
+
+<h4 id="initialize-a-zposition-on-object-creation">Initialize a zPosition on Object Creation</h4>
+
+<p>Whenever I created a character, or SKSpriteNode, I provide a zPosition in the initialization method. For example, if my character layer takes up the range of 5000-10000, I might initialize a character like this:</p>
+
+<pre><code>self.zPosition = 10000 - self.position.y
+</code></pre>
+
+<p>Because anything with a larger y position will be further back in depth, we want it to have a lower zPosition. At this point, everything will be correctly positioned when first drawn.</p>
+
+<h4 id="update-nodes-when-they-move">Update Nodes When They Move</h4>
+
+<p>The next step is to update the zPosition of a node as it moves throughout the world. Currently, I&#8217;m just handling this in the global update method. A simplified version of the code would look like:</p>
+
+<p>My only concern here is that this runs every frame, but it seems to have a low enough overhead that it won&#8217;t be an issue. At this point, we have nodes drawing correctly on initialization and when they move.</p>
+
+<h4 id="unknowns-and-improvements">Unknowns and Improvements</h4>
+
+<p>Depending on the features for your particular game, there will be a couple of edge cases or improvements that need to be made. For example, if we have a character that shoots arrows on an arc path. Those arrows may rise, which means their y position will rise. However, we don&#8217;t want the zPosition to change even though the y position is changing. If you can picture in your head, the arrow would still be in front of the background targets.</p>
+
+<p>To accommodate for this, make sure everything is subclassed accurately. Basically, custom logic statements are needed for certain cases. In the arrow example, I just hard coded an offset of the average character height. Since my arrows don&#8217;t arch too high, this visually looks right most of the time.</p>
+
+<p>It&#8217;s easy to think of how zPosition will get more complicated. For example, something that arcs high will have to only account for change in perceived depth and not just look at x and y movement. I haven&#8217;t gotten to that point yet, but I&#8217;m happy to have a framework to begin working with.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
+
+<div class="outercontentalt">
+  	<div class="content clear">
+
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
+	  
+	  
+	  
+ 
+	  <div class="comment-form">
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Speak Freely <small></h3>     
+
+    <form class="comment-form" method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments">
+        <p class="comment-notes">
+          <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+        </p>
+          <p class="comment-form-comment">
+            <label for="comment">Comment</label> 
+            <textarea id="comment" name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+          </p>
+          <p class="comment-form-author">
+            <label for="author">Name <span class="required">*</span></label> 
+            <input id="author" name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required="required" size="30" maxlength="245">
+          </p>
+          <p class="comment-form-email">
+            <label for="email">Email</label> 
+            <input id="email" name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" ize="30" maxlength="100">
+          </p>
+          <p class="comment-form-url">
+            <label for="website">Website</label> 
+            <input id="website" name="fields[website]" type="url" class="post-comment-field" placeholder="http://yoursite.com" ize="30" maxlength="200">
+          </p>
+          <p class="form-submit">
+            <input type="submit" id="submit" class="post-comment-field btn submit" value="Submit" id="submit_button" value="Post Comment">
+            <input type="hidden" name="options[redirect]" value="http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/#post-submitted">
+            <input type="hidden" name="options[redirectError]" value="http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/#post-error">
+            <input type="hidden" name="options[entryId]" value="2014-04-21-handling-zposition-in-a-2-5d-world">
+            <input type="hidden" name="options[slug]" value="http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/">
+            <input type="hidden" name="options[origin]" value="http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/">
+            <input type="hidden" name="options[parent]" value="2014-04-21-handling-zposition-in-a-2-5d-world">
+            <input type="hidden" name="fields[reply_to]" value="">
+          </p>      
+      </form>
+    </div>
+
+    <div id="post-submitted">
+      <hr style="margin-bottom: 50px;" />
+      <h3 class="comment-reply-title">Thank you</h3>
+        <p>Your comment will be published once it has been approved.</p>
+        <p><a class="comment-reply-link" href="https://github.com/veeneck/Battle-of-Brothers-Hugo/pulls">Click here</a> to see the pull request you generated.</p>
+    </div>
+</div>
+     </div>
+</div> 
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div >
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+	  		<div class="footerflex">
+				<div class="about_contest cell">
+					<div class="inner">
+						<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+						<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+						In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+						It begins on April 7th, 2014. We'll be documenting the journey.</p>
+						<p><a href="/">Learn More!</a></p>
+					</div>
+				</div>
+				<div class="links cell">
+					<div class="outer">
+						<h5>Sir Ryan</h5>
+						<p>
+							<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+							<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+							<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+							<a class="ryan" href="/category/sirryan">Archive</a>
+							<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br>
+						</p>
+						<h5>Sir Chris</h5>
+						<p>
+						<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+						<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+						<a class="chris" href="/sirchris/timeline">Timeline</a>
+						<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+						<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+						<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+						<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+						<a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br></p>
+					</div>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

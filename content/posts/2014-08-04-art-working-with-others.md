@@ -5,7 +5,7 @@ type: post
 date: 2014-08-04T13:37:58+00:00
 url: /sirryan/art-working-with-others/
 featured_image: /wp-content/uploads/2014/08/orange-guy.png
-number:
+status_number:
   - 9
 keyevent:
   - Swift refactor is now 100%.

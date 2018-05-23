@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corona on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/corona/</link>
+    <description>Recent content in Corona on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2015 18:40:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/corona/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Animating a Path Using Image Masking</title>
+      <link>http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/</link>
+      <pubDate>Mon, 06 Apr 2015 18:40:23 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/</guid>
+      <description>&lt;p&gt;I recently found myself wanting to animate a character&amp;#8217;s progress path and initially I thought I would do this by creating multiple animation frames, much like a sprite. After a bit of frustration, trial and error, I realized that creating an image mask was a more efficient and effective method.&lt;/p&gt;
+
+&lt;p&gt;To give you an example of what I was trying to accomplish, here is a picture of a portion of my game&amp;#8217;s world map. The yellow and line is the path that my character takes.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Transitioning an Image but Not a Mask in Corona SDK</title>
+      <link>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</link>
+      <pubDate>Thu, 15 Jan 2015 14:09:10 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/transitioning-an-image-but-not-a-mask-in-corona-sdk/</guid>
+      <description>&lt;p&gt;I was recently playing around with image masking, and I wanted to transition the mask so that the image behind it gradually appeared on screen. Unfortunately, Corona doesn&amp;#8217;t allow you to transition masks, but after &lt;a href=&#34;http://forums.coronalabs.com/topic/34774-moving-image-but-not-mask/&#34;&gt;doing a little research&lt;/a&gt; I learned that you can use groups to transition the image behind the mask. Here&amp;#8217;s an example to see what I&amp;#8217;m talking about.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Designing Backgrounds for Multiple Aspect Ratios and Corona’s Config.lua</title>
+      <link>http://battleofbrothers.com/sirchris/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</link>
+      <pubDate>Tue, 26 Aug 2014 13:50:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/designing-backgrounds-for-multiple-aspect-ratios-and-coronas-config-lua/</guid>
+      <description>&lt;p&gt;One of the reasons I chose Corona SDK as my development platform was because they support many devices across many platforms. But mo&amp;#8217; devices means mo&amp;#8217; problems, and one of those problems is creating artwork that scales across all devices.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Handling Z-Index by Screen Coordinates</title>
+      <link>http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/</link>
+      <pubDate>Mon, 18 Aug 2014 14:48:27 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/</guid>
+      <description>&lt;p&gt;One problem that I ran into with my game was that my characters and images were not being properly z-indexed. For example, the dwarf in the image below looks like he&amp;#8217;s pasted on top of the tree, even though his position on the map suggests he should be behind the tree.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Corona</title>
+      <link>http://battleofbrothers.com/sirchris/getting-started-with-corona/</link>
+      <pubDate>Tue, 22 Jul 2014 17:37:32 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/getting-started-with-corona/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been working on my game for about three months now and I feel like I&amp;#8217;m in a pretty good spot. I have a good grasp of LUA and the Corona SDK and my problems are more focused on what type of game to make and not how to make a game. I&amp;#8217;ve spent a lot of time reading documentation and taking tutorials and I want to share the resources that helped me get started with any fellow beginners out there.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Image Selection with Corona and Texture Packer</title>
+      <link>http://battleofbrothers.com/sirchris/dynamic-image-selection-with-corona-and-texture-packer/</link>
+      <pubDate>Mon, 30 Jun 2014 15:26:31 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/dynamic-image-selection-with-corona-and-texture-packer/</guid>
+      <description>&lt;p&gt;Most mobile apps are developed to run across multiple devices, which means developers have to account for multiple screen resolutions. Image scaling is an important part of multi-device support because you want to use higher resolution images on modern, high-res devices, while using lower resolution images on low-res devices. That saves memory on the low-res devices while maximizing all of the pixel density goodness on the high-res devices. Lucky for Corona SDK developers, Corona makes image scaling a breeze with their &lt;a href=&#34;http://docs.coronalabs.com/guide/basics/configSettings/#dynamic-image-selection&#34;&gt;dynamic image selection&lt;/a&gt; feature.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Health Bars and Taking Damage in Corona SDK</title>
+      <link>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</link>
+      <pubDate>Tue, 24 Jun 2014 17:30:09 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s common to see &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34;&gt;health bars attached to a characters&lt;/a&gt; in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Isometric Tiles and Pathfinding with Corona</title>
+      <link>http://battleofbrothers.com/sirchris/isometric-tiles-and-pathfinding-with-corona/</link>
+      <pubDate>Tue, 03 Jun 2014 17:43:32 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/isometric-tiles-and-pathfinding-with-corona/</guid>
+      <description>&lt;p&gt;I previously wrote a tutorial on how to create a square grid and &lt;a href=&#34;http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star&#34;&gt;implement pathfinding with Corona SDK&lt;/a&gt; and the Jumper library, but now we&amp;#8217;re going to take things up a notch and do the same thing on an isometric grid. Isometric grids use rhombus, or diamond shaped tiles, as opposed to square tiles. The introduction of angled tiles adds the perception of depth and can dramatically change the visuals of your game without adding much complexity to your code.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pathfinding in Corona with Jumper and A Star</title>
+      <link>http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star/</link>
+      <pubDate>Thu, 24 Apr 2014 15:57:28 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star/</guid>
+      <description>&lt;p&gt;If you&amp;#8217;re making a grid based game and you need a character to move from point A to point B while avoiding obstacles, then you&amp;#8217;re going to need some type of pathfinding. Luckily for us, Roland Yonaba utilized the power of A Star, a popular pathfinding algorithm, and made it even better with his open source Jumper library. Visually, what we&amp;#8217;re trying to accomplish looks a little something like:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Animating Sprites from a Texture Packer Image</title>
+      <link>http://battleofbrothers.com/sirchris/animating-sprites-from-a-texture-packer-image/</link>
+      <pubDate>Thu, 10 Apr 2014 16:58:48 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/animating-sprites-from-a-texture-packer-image/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been experimenting with animation and recently ran into a little trouble with spritesheets, &lt;a href=&#34;http://www.codeandweb.com/texturepacker&#34;&gt;TexturePacker&lt;/a&gt;, &lt;a href=&#34;http://coronalabs.com/products/corona-sdk/&#34;&gt;Corona SDK&lt;/a&gt; and animation. The problem started when I wanted to animate &lt;a href=&#34;http://opengameart.org/content/700-sprites&#34;&gt;some sprites&lt;/a&gt; from opengameart.org. The download included 89 animation sequences and each animation contained 8 individual character sprites, which looked like:
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

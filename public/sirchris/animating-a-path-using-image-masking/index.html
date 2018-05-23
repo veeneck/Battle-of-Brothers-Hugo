@@ -1,0 +1,482 @@
+
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  
+
+
+
+
+   	 <link rel="stylesheet" href="/css/chris.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+<script src="/js/index-min.js"></script>
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18183842-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18183842-5');
+</script>
+</head>
+  <body class="home gradient">
+
+    
+
+  	
+
+<div class="top">
+	<div class="breadcrumb">
+		<p>Currently following
+		
+		<a href="/sirchris" title="Hurrah!" class="dotted">Sir Chris</a></p> 
+		<p><a href="/sirryan" title="To see what the losing team is up to." class="switch ryan">See what Sir Ryan is up to &#8611;</a></p>
+		
+	</div>
+</div>
+
+
+
+  	
+
+
+
+<header class="content normalHeader">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+<header class="content mobileHeader">
+
+	
+		<img class="" style="" src="/assets/ChrisShield.png" />
+	
+
+</header>
+
+  	
+<nav class="site">
+	
+		<div class="navcontainer clear blog">
+	
+  		<div class="clear navbox leftnav">
+  			<span>
+	  			<a href="/sirchris" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="clear navbox">
+			<span>
+	  			<a href="/sirchris/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirchris/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				
+<div class="floatleft timestamp">
+	<span class="month">Apr</span>
+	<p class="shield" style="background-image:url('/assets/Shield10.png')">6</p>
+	<span class="year legacy">2015</span>
+</div>
+				<h3 class="grace">Animating a Path Using Image Masking</h3>
+				<div class="subhead">
+					
+
+
+
+	
+	
+		
+	
+
+
+<span class="comments floatright">
+	<img class="icon" src="/assets/Chat-6.png" width="16px" />
+	<small><a href="/sirchris/animating-a-path-using-image-masking/#comments" class="dotted"><span></span>3 comments</a></small>
+</span>
+<img class="icon" src="/assets/Tag-star.png" width="16px">
+<small>
+	
+	<a href="/sirchris/tags/corona" class="dotted">corona</a>
+	
+	<a href="/sirchris/tags/learning" class="dotted">learning</a>
+	
+</small>
+				</div>
+			</div>
+
+			
+
+			
+				
+			
+				
+			
+
+			<div class="post source_light">		
+				
+ 				<p>I recently found myself wanting to animate a character&#8217;s progress path and initially I thought I would do this by creating multiple animation frames, much like a sprite. After a bit of frustration, trial and error, I realized that creating an image mask was a more efficient and effective method.</p>
+
+<p>To give you an example of what I was trying to accomplish, here is a picture of a portion of my game&#8217;s world map. The yellow and line is the path that my character takes.
+</p>
+
+<div class="inlineimg">
+  <img src="/wp-content/uploads/2015/04/Screen-Shot-2015-04-06-at-2.05.01-PM.png" alt="Screen Shot 2015-04-06 at 2.05.01 PM" width="625" height="371" class="alignnone size-large wp-image-2022" />
+</div>
+
+<p>I wanted to animate the yellow path that shows the character progressing from point A to point B, kind of like this:</p>
+
+<div class="inlineimg">
+  <div style='position:relative;padding-bottom:calc(100% / 1.78)'><iframe src='https://gfycat.com/ifr/EmptyScaryAbalone' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+</div>
+
+<p>At first, I thought I could accomplish my goal by cutting the path up into 50 or so tiny .png files and then placing them onto the screen. While this is technically possible, it became extremely time-consuming. Because each individual .png file was a different size and had to be placed on a pixel perfect location, animating it became an extremely tedious process. Changing the world map or the path itself would have been an excruciating process.</p>
+
+<p>Next, I thought I would make something like an animation sequence, where the 50.png files were exactly the same size. This would remove the problem with pixel perfect location for each individual image, and I started to go in this direction. The problem with this technique is that the game&#8217;s artwork tends to evolve and if I were to change the color or texture of the path, I would have to re-cut everything from scratch.</p>
+
+<p>Lucky for me, <a href="http://battleofbrothers.com/sirryan">Ryan</a> told me to take a look at masking, which proved to be much easier. If you&#8217;re not familiar with how masking works in Corona, check out their <a href="http://docs.coronalabs.com/guide/media/imageMask/index.html">basic tutorial</a>. What I did is instead of cutting up the path .png image into a bunch of files, I made a bunch of mask images that could be overlaid on top of the path.</p>
+
+<p>To illustrate this, take a look at the image below:</p>
+
+<div class="inlineimg">
+  <img src="/wp-content/uploads/2015/04/masking-path.png" alt="masking path" width="554" height="1024" class="alignnone size-large wp-image-2027" />
+</div>
+
+<p>The base image is what the path looks like when it&#8217;s fully drawn. If you use the first mask image, labeled &#8220;Nothing Shows&#8221;, as a mask over the base image, then none of the base image shows. If you lay the second image, labeled &#8220;Path 1&#8221;, as a mask image, then a tiny part of the base image shows. What is in white on the mask images is what will show when laid on top of the base image.</p>
+
+<p>I created about 40 of the mask images, each with a little more of the path shown in white, and labeled the files mask1, mask2, mask3, etc. Then I was able write a loop that sequentially applies each mask image over the base image.</p>
+
+<p><a href="https://gist.github.com/codepaladin/c2d7921dd50d23898683">https://gist.github.com/codepaladin/c2d7921dd50d23898683</a></p>
+
+<p>What&#8217;s great about masking is that the mask image is always drawn exactly over the base image. I only need to worry about pixel precision when placing the base image and the mask images will automatically be displayed in the right location. And it&#8217;s no problem if I change or alter of the yellow path, because the mask stays exactly the same. As a bonus, I can do other cool things with masking like add gradients, brush strokes and other effects by simply changing the shades of grey in the mask. <a href="http://www.gamasutra.com/blogs/OwenCanavan/20150106/233616/Creating_the_Scribble_Effect_in_Guild_of_Dungeoneering.php?utm_campaign=iOS_GameDev_Weekly_17&amp;utm_medium=email&amp;utm_source=iOS%2BGameDev%2BWeekly">Here&#8217;s an example</a> of what I&#8217;m talking about.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
+
+<div class="outercontentalt">
+  	<div class="content clear">
+
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
+	  
+	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">3</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>[&amp;#8230;] I went over in the last section, masking images is a widely used gaming technique in which I had no experience. Like I did with so many techniques, [&amp;#8230;]</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Battle of Brothers | A Video Game Programming Duel
+				
+			</cite> Apr 8, 2015
+		</div>
+		<div class="reply">
+			<a id="1463" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1463')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/d881f28be947b592f3b5a0cd55a84dc7?s=118&d=http://battleofbrothers.com/assets/comment_av_5.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p><p>Hi there, depending on your needs I believe there is a better way. Instead of using and creating multiple images for the mask, you could use a single image with a gradient and then use a shader to animate it smoothly, with a single uniform. Furthermore you could also add a noise texture to make it visually more interesting.
+I also did a quick and dirty test in Unity3d (<a href="https://dl.dropboxusercontent.com/u/768434/pathAnimation.zip">https://dl.dropboxusercontent.com/u/768434/pathAnimation.zip</a>), so you can check it out yourself
+The textures I used <a href="http://imgur.com/1Hjht5A">http://imgur.com/1Hjht5A</a> What the end result looks like <a href="http://imgur.com/2HE3Ilt">http://imgur.com/2HE3Ilt</a> (please note that the gradient isn&#39;t perfectly smooth, because the steps aren&#39;t spaced evenly, since I created the texture rather quickly. With a smooth, evenly spaced gradient the result would be much nicer)
+The fragment shader: float4 frag (v2f i) : COLOR { // set color float4 col = _Color;
+// apply mask col.a = tex2D( _MaskTex, i.uv ).r * 1.2; // mutliply by 1.2 so _NoiseTex can&#39;t hide passed positions
+// if gradient is smaller than _Position + _FadeAmount col.a is zero // if gradient is bigger than _Position col.a is one // values in between get smoothly interpolated col.a *= smoothstep(_Position + _FadeAmount, _Position, tex2D( _GradientTex, i.uv ).r);
+col.a -= tex2D( _NoiseTex, i.uv ).r * 0.4; // mutliply by 1.4 to reduce _NoiseTex&#39;s effect
+return col; }
+with _FadeAmount you can set how large the transition should be and with _Position you can set how far the line should be drawn (please note, _Position doesn&#39;t perfectly go from 0 to 1 here, since _FadeAmount adds a small offset and the lowest and highest values in the gradient aren&#39;t either)</p>
+
+<p>Once the paths are less likely to change, a good way to improve performance would then be to put thetextures in the r,g,b,a channels of a single texture, thereby also reducing memory footprint and tex2D calls</p>
+</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Stefan Kernjak
+				
+			</cite> Apr 18, 2015
+		</div>
+		<div class="reply">
+			<a id="1469" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1469')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/ebee8bcae5ac7ff2ffd93be20aa9780f?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Thanks for the detailed reply, Stefan. When I wrote this post Corona didn&#39;t support custom shaders, but they actually just launched that feature last week - <a href="https://coronalabs.com/blog/2015/04/15/custom-shader-effects/">https://coronalabs.com/blog/2015/04/15/custom-shader-effects/</a>. I should be able to now use your example to make my path animation a bit easier.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Chris Campbell
+				
+			</cite> Apr 20, 2015
+		</div>
+		<div class="reply">
+			<a id="1472" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1472')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
+	  
+ 
+	  <div class="comment-form">
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Speak Freely <small></h3>     
+
+    <form class="comment-form" method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments">
+        <p class="comment-notes">
+          <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+        </p>
+          <p class="comment-form-comment">
+            <label for="comment">Comment</label> 
+            <textarea id="comment" name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+          </p>
+          <p class="comment-form-author">
+            <label for="author">Name <span class="required">*</span></label> 
+            <input id="author" name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required="required" size="30" maxlength="245">
+          </p>
+          <p class="comment-form-email">
+            <label for="email">Email</label> 
+            <input id="email" name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" ize="30" maxlength="100">
+          </p>
+          <p class="comment-form-url">
+            <label for="website">Website</label> 
+            <input id="website" name="fields[website]" type="url" class="post-comment-field" placeholder="http://yoursite.com" ize="30" maxlength="200">
+          </p>
+          <p class="form-submit">
+            <input type="submit" id="submit" class="post-comment-field btn submit" value="Submit" id="submit_button" value="Post Comment">
+            <input type="hidden" name="options[redirect]" value="http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/#post-submitted">
+            <input type="hidden" name="options[redirectError]" value="http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/#post-error">
+            <input type="hidden" name="options[entryId]" value="2015-04-06-animating-a-path-using-image-masking">
+            <input type="hidden" name="options[slug]" value="http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/">
+            <input type="hidden" name="options[origin]" value="http://battleofbrothers.com/sirchris/animating-a-path-using-image-masking/">
+            <input type="hidden" name="options[parent]" value="2015-04-06-animating-a-path-using-image-masking">
+            <input type="hidden" name="fields[reply_to]" value="">
+          </p>      
+      </form>
+    </div>
+
+    <div id="post-submitted">
+      <hr style="margin-bottom: 50px;" />
+      <h3 class="comment-reply-title">Thank you</h3>
+        <p>Your comment will be published once it has been approved.</p>
+        <p><a class="comment-reply-link" href="https://github.com/veeneck/Battle-of-Brothers-Hugo/pulls">Click here</a> to see the pull request you generated.</p>
+    </div>
+</div>
+     </div>
+</div> 
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div >
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+	  		<div class="footerflex">
+				<div class="about_contest cell">
+					<div class="inner">
+						<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+						<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+						In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+						It begins on April 7th, 2014. We'll be documenting the journey.</p>
+						<p><a href="/">Learn More!</a></p>
+					</div>
+				</div>
+				<div class="links cell">
+					<div class="outer">
+						<h5>Sir Ryan</h5>
+						<p>
+							<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+							<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+							<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+							<a class="ryan" href="/category/sirryan">Archive</a>
+							<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br>
+						</p>
+						<h5>Sir Chris</h5>
+						<p>
+						<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+						<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+						<a class="chris" href="/sirchris/timeline">Timeline</a>
+						<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+						<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+						<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+						<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+						<a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br></p>
+					</div>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

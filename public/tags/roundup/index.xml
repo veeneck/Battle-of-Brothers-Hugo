@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roundup on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/roundup/</link>
+    <description>Recent content in Roundup on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 May 2014 16:59:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/roundup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Health Display Roundup</title>
+      <link>http://battleofbrothers.com/sirchris/health-display-roundup/</link>
+      <pubDate>Mon, 05 May 2014 16:59:16 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/health-display-roundup/</guid>
+      <description>&lt;p&gt;Visually displaying a character&amp;#8217;s health has been around for over 30 years and continues to be a mainstay of video games. From Zelda to Starcraft, these small graphics play a large role in how games are played and how information is communicated. The turn based game I&amp;#8217;m working on will include health bars, so I&amp;#8217;ve been looking into how other successful games have given their characters life. Here is a quick roundup of some of the more popular techniques I&amp;#8217;ve come across.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

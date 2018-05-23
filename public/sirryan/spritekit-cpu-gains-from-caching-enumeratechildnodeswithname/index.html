@@ -1,0 +1,460 @@
+
+
+	
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Battle of Brothers | A Video Game Programming Duel</title>
+	<meta name="description" content="Follow Chris and Ryan as they design indie video game software using the Corona SDK and Sprite Kit frameworks in this game programming duel.">
+	<meta name="keywords" content=“video,game,programming,software, design, corona, sprite kit, indie”>
+	<meta name="author" content="Battle of Brothers">
+	<meta name="robots" content="index, follow">
+	  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  
+
+
+   	 <link rel="stylesheet" href="/css/ryan.css?v=1'; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+
+
+
+
+
+  <link rel="stylesheet" href="/css/post.css?v=1'; ?>" type="text/css" media="screen" />
+
+
+<script src="/js/index-min.js"></script>
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18183842-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18183842-5');
+</script>
+</head>
+  <body class="home gradient">
+
+    
+
+  	
+
+<div class="top">
+	<div class="breadcrumb">
+		<p>Currently following
+		
+		<a href="/sirryan" title="Hurrah!" class="dotted">Sir Ryan</a></p> 
+		<p><a href="/sirchris" title="To see what the losing team is up to." class="switch chris">See what Sir Chris is up to &#8611;</a></p>
+		
+	</div>
+</div>
+
+
+
+  	
+
+
+	
+
+
+<header class="content normalHeader">
+	<a class="ryanshield rotate " href="/sirryan">
+		<img class="" style="" src="/assets/RyanShield.png" />
+	</a>
+
+	
+	<a class="mainshield" href="/">
+		<img alt="The one year game develpoment duel" src="/assets/Banner.png" width="266px" class="" />
+	</a>
+	
+
+	<a class="chrisshield counterrotate" href="/sirchris">
+		<img style="" src="/assets/ChrisShield.png" />
+	</a>
+
+</header> 
+
+<header class="content mobileHeader">
+
+	
+		<img class="" style="" src="/assets/RyanShield.png" />
+	
+
+</header>
+
+  	
+<nav class="site">
+	
+		<div class="navcontainer clear blog">
+	
+  		<div class="clear navbox leftnav">
+  			<span>
+	  			<a href="/sirryan" class="blog clear">
+	  				<img class="" src="/assets/Castle.png" width="16px" />Sir Ryan
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/timeline" class="timeline clear">
+	  				<img class="" src="/assets/Boom.png" width="16px"  />Timeline
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/budget" class="budget clear">
+	  				<img class="" src="/assets/Money-5.png" width="16px"  />Budget
+	  			</a>
+  			</span>
+		</div>
+		<div class="clear navbox">
+			<span>
+	  			<a href="/sirryan/contact" class="contact clear">
+	  				<img class="" src="/assets/Game-Controller.png" width="16px"  />Contact
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/subscribe" class="subscribe clear">
+	  				<img class="" src="/assets/RSS.png" width="16px"  />Subscribe
+	  			</a>
+  			</span>
+			<span>
+	  			<a href="/sirryan/about" class="about clear">
+	  				<img class="" src="/assets/Pacman-2.png" width="16px"  />About
+	  			</a>
+  			</span>
+		</div>
+	</div>
+</nav>
+
+
+    <div class="outercontent">
+  	  <div class="content clear">
+
+		<article class="clear">
+			<div class="title clear">
+				
+<div class="floatleft timestamp">
+	<span class="month">Jan</span>
+	<p class="shield" style="background-image:url('/assets/Shield8.png')">5</p>
+	<span class="year legacy">2015</span>
+</div>
+				<h3 class="grace">SpriteKit: CPU gains from caching enumerateChildNodesWithName</h3>
+				<div class="subhead">
+					
+
+
+
+	
+	
+		
+	
+
+
+<span class="comments floatright">
+	<img class="icon" src="/assets/Chat-6.png" width="16px" />
+	<small><a href="/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/#comments" class="dotted"><span></span>2 comments</a></small>
+</span>
+<img class="icon" src="/assets/Tag-star.png" width="16px">
+<small>
+	
+	<a href="/sirryan/tags/code" class="dotted">code</a>
+	
+	<a href="/sirryan/tags/sprite%20kit" class="dotted">sprite kit</a>
+	
+	<a href="/sirryan/tags/swift" class="dotted">swift</a>
+	
+</small>
+				</div>
+			</div>
+
+			
+
+			
+				
+			
+				
+			
+				
+			
+
+			<div class="post source_light">		
+				
+ 				<p>Those of you who follow me know that I&#8217;m working on a game that will have ~200 nodes on the screen updating every frame. Because of that requirement, I&#8217;m <a href="http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1" target="_blank">constantly looking</a> at <a href="http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit" target="_blank">how I can</a> incrementally <a href="http://battleofbrothers.com/sirryan/now-were-rolling" target="_blank">improve performance</a>. Slowly but surely, I&#8217;m making this game a well oiled machine. Today, I stumbled on a significant slow down, and the resulting fix that shaved off 16% CPU usage: caching <code>enumerateChildNodesWithName</code>.
+</p>
+
+<p>This discovery came from reading WWDC 2014 transcripts while discussing said function.</p>
+
+<blockquote>
+<p>This is very fast, so you can do it often but we do recommend your cache results if it becomes a performance problem.</p>
+
+<p><a href="http://asciiwwdc.com/2014/sessions/608" target="_blank">Best Practices for Building SpriteKit Games</a></p>
+</blockquote>
+
+<p>If it warranted a mention in Apple&#8217;s discussion, it deserved a closer look. So, I set up a test with 105 nodes running in the update loop. Here are the results:</p>
+
+<ul>
+<li>Calling <strong>enumerateChildNodesWithName</strong> each frame: <strong>44%</strong> CPU</li>
+<li>Caching update callbacks in an array: <strong>28%</strong> CPU</li>
+</ul>
+
+<p>Huge gains, and the best part that the caching is relatively painless to implement.</p>
+
+<h4 id="implementation">Implementation</h4>
+
+<p>First, we&#8217;ll start with an array to hold our callback functions.</p>
+
+<pre>var updateListeners : Array&lt;((CFTimeInterval) -&gt; ())&gt; = []</pre>
+
+<p>Here is an example of what one of those callbacks would look like:</p>
+
+<pre>    func updateWithTime(currentTime:NSTimeInterval) { 
+        // do something 
+    }
+</pre>
+
+<p>With that in place, all we have to do is cache the callback functions on the first run through of <code>enumerateChildNodesWithName&lt;strong&gt;</code> in the Scenes update loop.</strong></p>
+
+<script src="//gist.github.com/veenecka5f2dd16bf11843141cd/.js"></script>
+
+<p>Now, let&#8217;s say one of our characters dies. We don&#8217;t want the update function to keep running on that character. We&#8217;ll have to clear the cache by emptying the array. Then, it will automatically rebuild on the next update loop.</p>
+
+<pre>self.updateListeners = []</pre>
+
+<p>I&#8217;ve consolidated all of this into a small class that I call from my scene object in case it gets more complicated down the road. You can see my full code here:</p>
+
+<script src="//gist.github.com/veeneckf1d534a87133415bfd6d/.js"></script>
+
+<h4 id="notes-concerns">Notes &amp; Concerns</h4>
+
+<p>Each time you clear the cache, it fully rebuilds. If you&#8217;re pushing CPU limits already, this could cause some delayed frames. Two solutions to improve this:</p>
+
+<ul>
+<li>Add a removeUpdateListener() function, and a key/value store, so that you can remove a specific item on demand.</li>
+<li>Or, break apart your objects into smaller cache groups with the goal of minimizing the amount of objects removed from the cache at any given time.</li>
+</ul>
+
+<p>Consider expanding <code>updateService</code> to dynamically control what would be in the cache. My example is hard coded to <code>Characters</code> and <code>Heraldry</code>, but the situation could be different each level.</p>
+
+<p>Also, this can be a useful way to begin separating out updates for different objects by different time intervals if everything doesn&#8217;t have to tick 60 times per second.</p>
+			</div>
+
+		</article>
+
+	</div>
+</div>
+
+<div class="outercontentalt">
+  	<div class="content clear">
+
+  		<div id="discuss" class="discuss">
+			<img class="" src="/assets/discuss.png" />
+		</div>
+
+	  
+	  
+	  
+	  	
+	  	
+		    <h5 class="grace comment-count"><span class="legacy">2</span> of you did not hold your tongue!</h5>
+			<ol id="comments" class="commentlist">
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/0c2c3aadfe48fb60acf9ab2ba52a8c2f?s=118&d=http://battleofbrothers.com/assets/comment_av_6.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>You should keep a cache of items so you can remove them via key/value this is what I do with over 2k objects and only use about 2% cpu resources while swapping in/out all the time.
+Granted I use sprite sheets so the reload of images, sprites etc. is no drastic hit because the actual image is already loaded into openGL.
+I think you will find it will make your life easier by keeping a cache and if you are like me I keep a json cache so i can add stuff like &quot;destroyed&quot; : true, &quot;currentstate&quot; : 1, etc. and so forth.
+It allows me to expand the object out in real time without having to reload anything.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Christopher
+				
+			</cite> Jan 5, 2015
+		</div>
+		<div class="reply">
+			<a id="1118" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1118')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		
+		    		
+
+		    			
+
+
+<li >
+	<div class="comment-body">
+		<div class="comment-author vcard">
+			<img src="https://www.gravatar.com/avatar/73c8086c5642d4f97ab4e403fbc2c04b?s=118&d=http://battleofbrothers.com/assets/comment_av_11.png" alt="" class="avatar avatar-64 photo" height="118" width="118">
+		</div>
+		<div class="comment-wrapper">
+			
+				<p>Good stuff. Do you have 2k SKSpriteNodes actively computing each frame (i.e: performing some sort of math in the update call), and still only using 2% CPU? On iPad Air 1, with 200 active nodes, I can&#39;t come close to 2% even if I hard code the calls.</p>
+			
+		</div>
+		<div class="comment-meta commentmetadata">
+			<a href="#">#</a> by 
+			<cite class="fn">
+				
+				    Ryan Campbell
+				
+			</cite> Jan 5, 2015
+		</div>
+		<div class="reply">
+			<a id="1124" class="btn-info comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '1124')">Reply</a>
+		</div>
+	</div>
+</li>
+
+<ul class="children">
+
+  
+
+  
+
+</ul> 
+
+		    		
+		  		     
+		  	</ol>  
+		 
+
+		 <hr />
+	  
+ 
+	  <div class="comment-form">
+  <div id="respond" class="comment-respond">
+    <h3 id="reply-title" class="comment-reply-title">Speak Freely <small></h3>     
+
+    <form class="comment-form" method="POST" action="https://api.staticman.net/v2/entry/veeneck/Battle-of-Brothers-Hugo/master/comments">
+        <p class="comment-notes">
+          <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+        </p>
+          <p class="comment-form-comment">
+            <label for="comment">Comment</label> 
+            <textarea id="comment" name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+          </p>
+          <p class="comment-form-author">
+            <label for="author">Name <span class="required">*</span></label> 
+            <input id="author" name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required="required" size="30" maxlength="245">
+          </p>
+          <p class="comment-form-email">
+            <label for="email">Email</label> 
+            <input id="email" name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" ize="30" maxlength="100">
+          </p>
+          <p class="comment-form-url">
+            <label for="website">Website</label> 
+            <input id="website" name="fields[website]" type="url" class="post-comment-field" placeholder="http://yoursite.com" ize="30" maxlength="200">
+          </p>
+          <p class="form-submit">
+            <input type="submit" id="submit" class="post-comment-field btn submit" value="Submit" id="submit_button" value="Post Comment">
+            <input type="hidden" name="options[redirect]" value="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/#post-submitted">
+            <input type="hidden" name="options[redirectError]" value="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/#post-error">
+            <input type="hidden" name="options[entryId]" value="2015-01-05-spritekit-cpu-gains-from-caching-enumeratechildnodeswithname">
+            <input type="hidden" name="options[slug]" value="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/">
+            <input type="hidden" name="options[origin]" value="http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/">
+            <input type="hidden" name="options[parent]" value="2015-01-05-spritekit-cpu-gains-from-caching-enumeratechildnodeswithname">
+            <input type="hidden" name="fields[reply_to]" value="">
+          </p>      
+      </form>
+    </div>
+
+    <div id="post-submitted">
+      <hr style="margin-bottom: 50px;" />
+      <h3 class="comment-reply-title">Thank you</h3>
+        <p>Your comment will be published once it has been approved.</p>
+        <p><a class="comment-reply-link" href="https://github.com/veeneck/Battle-of-Brothers-Hugo/pulls">Click here</a> to see the pull request you generated.</p>
+    </div>
+</div>
+     </div>
+</div> 
+
+    
+    <footer class="clear">
+
+  	<div class="bob">
+  		<img src="/assets/battleofbrothers.png" />
+  	</div>
+
+  	<div >
+		<div class="footer_content">
+		  	<div class="corner cell">
+		  		<p>&nbsp</p>
+	  			<img class="ryanfoot" src="/assets/RyanShieldLarge.png" />
+	  		</div>
+	  		<div class="footerflex">
+				<div class="about_contest cell">
+					<div class="inner">
+						<h5>$25,000. 2 brothers. 1 year. 0 experience.</h5>
+						<p>Armed with little to no game development experience, we're setting out to see who can make the best game. 
+						In the spirit of learning and following a passion, we're each going to take one year and a $25,000 budget to see how far we can get. 
+						It begins on April 7th, 2014. We'll be documenting the journey.</p>
+						<p><a href="/">Learn More!</a></p>
+					</div>
+				</div>
+				<div class="links cell">
+					<div class="outer">
+						<h5>Sir Ryan</h5>
+						<p>
+							<a class="ryan" href="/sirryan/">Blog</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/budget">Budget</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/timeline">Timeline</a><span class="social">C</span>
+							<a class="white" href="https://twitter.com/veeneck">@veeneck</a></br>
+							<a class="ryan" href="/sirryan/contact">Contact</a> /&nbsp; 
+							<a class="ryan" href="/sirryan/about">About</a> /&nbsp; 
+							<a class="ryan" href="/category/sirryan">Archive</a>
+							<span class="social rss">V</span><a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br>
+						</p>
+						<h5>Sir Chris</h5>
+						<p>
+						<a class="chris" href="/sirchris/">Blog</a> /&nbsp; 
+						<a class="chris" href="/sirchris/budget">Budget</a> /&nbsp; 
+						<a class="chris" href="/sirchris/timeline">Timeline</a>
+						<span class="social">C</span><a class="white" href="https://twitter.com/codepaladin">@codepaladin</a></br>
+						<a class="chris" href="/sirchris/contact">Contact</a> /&nbsp; 
+						<a class="chris" href="/sirchris/about">About</a> /&nbsp; 
+						<a class="chris" href="/category/sirchris">Archive</a><span class="social rss">V</span>
+						<a class="white" href="http://feeds.feedburner.com/BattleOfBrothers">RSS Feed</a></br></p>
+					</div>
+				</div>
+			</div>
+			<div class="corner cell">
+				<p>&nbsp</p>
+				<img class="chrisfoot" src="/assets/ChrisShieldLarge.png" />
+			</div>
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

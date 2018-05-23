@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/categories/</link>
+    <description>Recent content in Categories on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://battleofbrothers.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sirchris</title>
+      <link>http://battleofbrothers.com/categories/sirchris/</link>
+      <pubDate>Wed, 16 Sep 2015 17:07:22 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/categories/sirchris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sirryan</title>
+      <link>http://battleofbrothers.com/categories/sirryan/</link>
+      <pubDate>Tue, 12 Jul 2016 18:08:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/categories/sirryan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

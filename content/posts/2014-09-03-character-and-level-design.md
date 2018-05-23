@@ -9,7 +9,7 @@ keyevent:
   - First Character Created
   - First Level Created
   - Contracted an Animator
-number:
+status_number:
   - 11
 categories:
   - sirchris

@@ -5,7 +5,7 @@ type: post
 date: 2014-12-04T20:20:18+00:00
 url: /sirchris/animations/
 featured_image: /wp-content/uploads/2014/12/ortho_sorceress_01.png
-number:
+status_number:
   - 16
 keyevent:
   - First animations arrived.

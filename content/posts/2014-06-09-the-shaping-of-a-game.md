@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2014-06-09T16:11:47+00:00
 url: /sirryan/the-shaping-of-a-game/
-number:
+status_number:
   - 6
 keyevent:
   - Evolving map.

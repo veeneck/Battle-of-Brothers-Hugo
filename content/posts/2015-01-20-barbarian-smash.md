@@ -9,7 +9,7 @@ keyevent:
   - Barbarian Attack Animation
   - World Map Animations
   - Teleporter Animation
-number:
+status_number:
   - 18
 categories:
   - sirchris

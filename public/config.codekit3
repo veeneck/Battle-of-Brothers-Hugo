@@ -1,0 +1,7570 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "E0BCF8AE-F402-46DE-AEBD-8640FE8C449E"
+		}
+	],
+"creatorBuild": "26680",
+"files": {
+	"\/assets\/404.jpg": {
+		"ft": 16384,
+		"iS": 255047,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/404.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/Arrow-board.png": {
+		"ft": 32768,
+		"iS": 3311,
+		"oA": 0,
+		"oAP": "\/assets\/Arrow-board.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Banner.png": {
+		"ft": 32768,
+		"iS": 77646,
+		"oA": 0,
+		"oAP": "\/assets\/Banner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/BannerCropped.png": {
+		"ft": 32768,
+		"iS": 43036,
+		"oA": 0,
+		"oAP": "\/assets\/BannerCropped.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/BannerCropped2.png": {
+		"ft": 32768,
+		"iS": 29483,
+		"oA": 0,
+		"oAP": "\/assets\/BannerCropped2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/BannerFooter.png": {
+		"ft": 32768,
+		"iS": 33704,
+		"oA": 0,
+		"oAP": "\/assets\/BannerFooter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/battleofbrothers.png": {
+		"ft": 32768,
+		"iS": 12190,
+		"oA": 0,
+		"oAP": "\/assets\/battleofbrothers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/battleofbrothersfoot.png": {
+		"ft": 32768,
+		"iS": 25868,
+		"oA": 0,
+		"oAP": "\/assets\/battleofbrothersfoot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/blacklotus.jpg": {
+		"ft": 16384,
+		"iS": 31668,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/blacklotus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/blockquote.png": {
+		"ft": 32768,
+		"iS": 4502,
+		"oA": 0,
+		"oAP": "\/assets\/blockquote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bluecorner.png": {
+		"ft": 32768,
+		"iS": 6113,
+		"oA": 0,
+		"oAP": "\/assets\/bluecorner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/BoBBanner.png": {
+		"ft": 32768,
+		"iS": 78733,
+		"oA": 0,
+		"oAP": "\/assets\/BoBBanner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Boom-over.png": {
+		"ft": 32768,
+		"iS": 3493,
+		"oA": 0,
+		"oAP": "\/assets\/Boom-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Boom.png": {
+		"ft": 32768,
+		"iS": 3152,
+		"oA": 0,
+		"oAP": "\/assets\/Boom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bullet.png": {
+		"ft": 32768,
+		"iS": 3325,
+		"oA": 0,
+		"oAP": "\/assets\/bullet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bullet2.png": {
+		"ft": 32768,
+		"iS": 3468,
+		"oA": 0,
+		"oAP": "\/assets\/bullet2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Bullseye.png": {
+		"ft": 32768,
+		"iS": 3390,
+		"oA": 0,
+		"oAP": "\/assets\/Bullseye.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Castle-over.png": {
+		"ft": 32768,
+		"iS": 3376,
+		"oA": 0,
+		"oAP": "\/assets\/Castle-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Castle.png": {
+		"ft": 32768,
+		"iS": 3036,
+		"oA": 0,
+		"oAP": "\/assets\/Castle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/CastleWhite.png": {
+		"ft": 32768,
+		"iS": 3197,
+		"oA": 0,
+		"oAP": "\/assets\/CastleWhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Chart 3.png": {
+		"ft": 32768,
+		"iS": 2880,
+		"oA": 0,
+		"oAP": "\/assets\/Chart 3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Chart-4.png": {
+		"ft": 32768,
+		"iS": 2854,
+		"oA": 0,
+		"oAP": "\/assets\/Chart-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Chat-6.png": {
+		"ft": 32768,
+		"iS": 3031,
+		"oA": 0,
+		"oAP": "\/assets\/Chat-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/chris.jpg": {
+		"ft": 16384,
+		"iS": 31475,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/chris.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/ChrisShield.png": {
+		"ft": 32768,
+		"iS": 63939,
+		"oA": 0,
+		"oAP": "\/assets\/ChrisShield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/ChrisShieldLarge.png": {
+		"ft": 32768,
+		"iS": 53994,
+		"oA": 0,
+		"oAP": "\/assets\/ChrisShieldLarge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/christopcorner.png": {
+		"ft": 32768,
+		"iS": 6204,
+		"oA": 0,
+		"oAP": "\/assets\/christopcorner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment.png": {
+		"ft": 32768,
+		"iS": 6205,
+		"oA": 0,
+		"oAP": "\/assets\/comment.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_1.png": {
+		"ft": 32768,
+		"iS": 12213,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_10.png": {
+		"ft": 32768,
+		"iS": 11289,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_11.png": {
+		"ft": 32768,
+		"iS": 13715,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_12.png": {
+		"ft": 32768,
+		"iS": 10466,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_2.png": {
+		"ft": 32768,
+		"iS": 9951,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_3.png": {
+		"ft": 32768,
+		"iS": 14225,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_4.png": {
+		"ft": 32768,
+		"iS": 10893,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_5.png": {
+		"ft": 32768,
+		"iS": 10350,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_6.png": {
+		"ft": 32768,
+		"iS": 12071,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_7.png": {
+		"ft": 32768,
+		"iS": 9545,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_8.png": {
+		"ft": 32768,
+		"iS": 8461,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/comment_av_9.png": {
+		"ft": 32768,
+		"iS": 12943,
+		"oA": 0,
+		"oAP": "\/assets\/comment_av_9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Controller-over.png": {
+		"ft": 32768,
+		"iS": 3399,
+		"oA": 0,
+		"oAP": "\/assets\/Controller-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/discuss.png": {
+		"ft": 32768,
+		"iS": 17261,
+		"oA": 0,
+		"oAP": "\/assets\/discuss.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/dots.png": {
+		"ft": 32768,
+		"iS": 3824,
+		"oA": 0,
+		"oAP": "\/assets\/dots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Email.png": {
+		"ft": 32768,
+		"iS": 3075,
+		"oA": 0,
+		"oAP": "\/assets\/Email.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Game-controller-1.png": {
+		"ft": 32768,
+		"iS": 3008,
+		"oA": 0,
+		"oAP": "\/assets\/Game-controller-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Game-Controller.png": {
+		"ft": 32768,
+		"iS": 3109,
+		"oA": 0,
+		"oAP": "\/assets\/Game-Controller.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/halfarrow.png": {
+		"ft": 32768,
+		"iS": 3911,
+		"oA": 0,
+		"oAP": "\/assets\/halfarrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/halfarrow2.png": {
+		"ft": 32768,
+		"iS": 3705,
+		"oA": 0,
+		"oAP": "\/assets\/halfarrow2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/herald.png": {
+		"ft": 32768,
+		"iS": 17321,
+		"oA": 0,
+		"oAP": "\/assets\/herald.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/HorizontalRule.png": {
+		"ft": 32768,
+		"iS": 8332,
+		"oA": 0,
+		"oAP": "\/assets\/HorizontalRule.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/hr_dots.png": {
+		"ft": 32768,
+		"iS": 2982,
+		"oA": 0,
+		"oAP": "\/assets\/hr_dots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Money-5.png": {
+		"ft": 32768,
+		"iS": 3012,
+		"oA": 0,
+		"oAP": "\/assets\/Money-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Money-over.png": {
+		"ft": 32768,
+		"iS": 3476,
+		"oA": 0,
+		"oAP": "\/assets\/Money-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Money.png": {
+		"ft": 32768,
+		"iS": 3636,
+		"oA": 0,
+		"oAP": "\/assets\/Money.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Pacman-2.png": {
+		"ft": 32768,
+		"iS": 3067,
+		"oA": 0,
+		"oAP": "\/assets\/Pacman-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Pacman-over.png": {
+		"ft": 32768,
+		"iS": 3399,
+		"oA": 0,
+		"oAP": "\/assets\/Pacman-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/progress.png": {
+		"ft": 32768,
+		"iS": 506185,
+		"oA": 0,
+		"oAP": "\/assets\/progress.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Quote-1.png": {
+		"ft": 32768,
+		"iS": 2951,
+		"oA": 0,
+		"oAP": "\/assets\/Quote-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Quote-2.png": {
+		"ft": 32768,
+		"iS": 2952,
+		"oA": 0,
+		"oAP": "\/assets\/Quote-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RSS-over.png": {
+		"ft": 32768,
+		"iS": 3704,
+		"oA": 0,
+		"oAP": "\/assets\/RSS-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RSS.png": {
+		"ft": 32768,
+		"iS": 3176,
+		"oA": 0,
+		"oAP": "\/assets\/RSS.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/ryan.jpeg": {
+		"ft": 16384,
+		"iS": 52224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/ryan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/ryanintro.png": {
+		"ft": 32768,
+		"iS": 332451,
+		"oA": 0,
+		"oAP": "\/assets\/ryanintro.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShield.png": {
+		"ft": 32768,
+		"iS": 54528,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldBanner.png": {
+		"ft": 32768,
+		"iS": 81223,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldBanner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldBlack.png": {
+		"ft": 32768,
+		"iS": 18341,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldBlack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldCropped.png": {
+		"ft": 32768,
+		"iS": 51822,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldCropped.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldLarge.png": {
+		"ft": 32768,
+		"iS": 49837,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldLarge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldNew.png": {
+		"ft": 32768,
+		"iS": 35818,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldNew.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanShieldShadow.png": {
+		"ft": 32768,
+		"iS": 64407,
+		"oA": 0,
+		"oAP": "\/assets\/RyanShieldShadow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/ryantopcorner.png": {
+		"ft": 32768,
+		"iS": 6113,
+		"oA": 0,
+		"oAP": "\/assets\/ryantopcorner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/RyanUncolored.png": {
+		"ft": 32768,
+		"iS": 40239,
+		"oA": 0,
+		"oAP": "\/assets\/RyanUncolored.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/share.png": {
+		"ft": 32768,
+		"iS": 20652,
+		"oA": 0,
+		"oAP": "\/assets\/share.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield-4.png": {
+		"ft": 32768,
+		"iS": 2978,
+		"oA": 0,
+		"oAP": "\/assets\/Shield-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield1.jpg": {
+		"ft": 16384,
+		"iS": 4715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/Shield1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/Shield1.png": {
+		"ft": 32768,
+		"iS": 3692,
+		"oA": 0,
+		"oAP": "\/assets\/Shield1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield10.png": {
+		"ft": 32768,
+		"iS": 4157,
+		"oA": 0,
+		"oAP": "\/assets\/Shield10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield11.png": {
+		"ft": 32768,
+		"iS": 3955,
+		"oA": 0,
+		"oAP": "\/assets\/Shield11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield12.png": {
+		"ft": 32768,
+		"iS": 4191,
+		"oA": 0,
+		"oAP": "\/assets\/Shield12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield2.png": {
+		"ft": 32768,
+		"iS": 3816,
+		"oA": 0,
+		"oAP": "\/assets\/Shield2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield3.png": {
+		"ft": 32768,
+		"iS": 3785,
+		"oA": 0,
+		"oAP": "\/assets\/Shield3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield4.png": {
+		"ft": 32768,
+		"iS": 3596,
+		"oA": 0,
+		"oAP": "\/assets\/Shield4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield5.png": {
+		"ft": 32768,
+		"iS": 3862,
+		"oA": 0,
+		"oAP": "\/assets\/Shield5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield6.png": {
+		"ft": 32768,
+		"iS": 3880,
+		"oA": 0,
+		"oAP": "\/assets\/Shield6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield7.png": {
+		"ft": 32768,
+		"iS": 3989,
+		"oA": 0,
+		"oAP": "\/assets\/Shield7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield8.png": {
+		"ft": 32768,
+		"iS": 3969,
+		"oA": 0,
+		"oAP": "\/assets\/Shield8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shield9.png": {
+		"ft": 32768,
+		"iS": 4072,
+		"oA": 0,
+		"oAP": "\/assets\/Shield9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Shiled11.png": {
+		"ft": 32768,
+		"iS": 3955,
+		"oA": 0,
+		"oAP": "\/assets\/Shiled11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swirls.png": {
+		"ft": 32768,
+		"iS": 7079,
+		"oA": 0,
+		"oAP": "\/assets\/swirls.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swirls2.png": {
+		"ft": 32768,
+		"iS": 7885,
+		"oA": 0,
+		"oAP": "\/assets\/swirls2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Tag-star.png": {
+		"ft": 32768,
+		"iS": 2977,
+		"oA": 0,
+		"oAP": "\/assets\/Tag-star.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/topnav.png": {
+		"ft": 32768,
+		"iS": 8097,
+		"oA": 0,
+		"oAP": "\/assets\/topnav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/twitter.png": {
+		"ft": 32768,
+		"iS": 3339,
+		"oA": 0,
+		"oAP": "\/assets\/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/underline.png": {
+		"ft": 32768,
+		"iS": 4527,
+		"oA": 0,
+		"oAP": "\/assets\/underline.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Unknown-2.png": {
+		"ft": 32768,
+		"iS": 49685,
+		"oA": 0,
+		"oAP": "\/assets\/Unknown-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/blog.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/blog-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/chris.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/chris-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/fonts\/AllThingsPink\/allthingspink.png": {
+		"ft": 32768,
+		"iS": 76034,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/AllThingsPink\/allthingspink.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/fonts\/AllThingsPink\/AllThingsPink.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/AllThingsPink\/AllThingsPink.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/AllThingsPink\/AllThingsPinkSkinny.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/AllThingsPink\/AllThingsPinkSkinny.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/AllThingsPink\/READ ME!!.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/AllThingsPink\/READ ME!!.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/Bariol\/Bariol_Bold\/Bariol_Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Bariol\/Bariol_Bold\/Bariol_Bold.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Bariol\/Bariol_Light\/Bariol_Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Bariol\/Bariol_Light\/Bariol_Light.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Bariol\/Bariol_Thin\/Bariol_Thin.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Bariol\/Bariol_Thin\/Bariol_Thin.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Eraser\/EraserRegular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Eraser\/EraserRegular.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Eraser\/Freeware License.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Eraser\/Freeware License.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/Grace\/CoveredByYourGrace.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Grace\/CoveredByYourGrace.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Grace\/KG-TOU.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Grace\/KG-TOU.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/handvetica\/EULA.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/handvetica\/EULA.html",
+		"oF": 0
+		},
+	"\/css\/fonts\/handvetica\/HandVetica.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/handvetica\/HandVetica.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/.gitignore",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/images\/junction-1.png": {
+		"ft": 32768,
+		"iS": 393913,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/images\/junction-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/fonts\/junction\/images\/junction-2.png": {
+		"ft": 32768,
+		"iS": 322816,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/images\/junction-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/fonts\/junction\/images\/junction-3.png": {
+		"ft": 32768,
+		"iS": 131861,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/images\/junction-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/fonts\/junction\/Junction.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/Junction.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/Open Font License FAQ.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/Open Font License FAQ.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/Open Font License.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/Open Font License.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/readme.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/readme.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.bak": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.bak",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/features.fea": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/features.fea",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/fontinfo.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/fontinfo.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_11.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_11.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_12.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_12.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_4.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_4.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_5.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_5.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_6.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_6.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_7.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_7.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_8.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_8.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_9.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/_9.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/a.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/a.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_tilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/A_tilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/aacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/aacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/acircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/acircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/adieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/adieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/agrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/agrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ampersand.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ampersand.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asciicircum.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asciicircum.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asciitilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asciitilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asterisk.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/asterisk.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/at.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/at.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/atilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/atilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/b.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/b.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/B_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/B_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/backslash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/backslash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bar.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bar.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/braceleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/braceleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/braceright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/braceright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bracketleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bracketleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bracketright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bracketright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bullet.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/bullet.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/c.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/c.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/C_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/C_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/caron.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/caron.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/cent.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/cent.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/colon.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/colon.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/comma.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/comma.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/contents.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/contents.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/copyright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/copyright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/d.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/d.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/D_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/D_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dollar.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dollar.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dotlessi.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/dotlessi.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/e.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/e.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/E_grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/eacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/eacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ecircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ecircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/edieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/edieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/egrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/egrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/eight.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/eight.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ellipsis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ellipsis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/emdash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/emdash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/endash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/endash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/equal.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/equal.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/exclam.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/exclam.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/exclamdown.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/exclamdown.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/f.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/f.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/F_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/F_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/fi.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/fi.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/five.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/five.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/four.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/four.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/g.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/g.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/G_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/G_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/greater.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/greater.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/h.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/h.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/H_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/H_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/hyphen.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/hyphen.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/i.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/i.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/I_grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/iacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/iacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/icircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/icircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/idieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/idieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/igrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/igrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/j.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/j.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/J_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/J_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/k.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/k.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/K_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/K_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/l.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/l.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/L_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/L_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/less.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/less.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/m.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/m.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/M_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/M_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/minus.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/minus.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/n.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/n.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/N_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/N_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/N_tilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/N_tilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/nine.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/nine.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ntilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ntilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/numbersign.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/numbersign.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/o.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/o.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_tilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/O_tilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/oacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/oacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ocircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ocircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/odieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/odieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ograve.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ograve.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/one.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/one.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/otilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/otilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/p.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/p.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/P_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/P_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/parenleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/parenleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/parenright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/parenright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/percent.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/percent.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/period.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/period.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/plus.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/plus.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/q.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/q.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Q_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Q_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/question.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/question.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/questiondown.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/questiondown.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedbl.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedbl.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedblleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedblleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedblright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotedblright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quoteleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quoteleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quoteright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quoteright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotesingle.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/quotesingle.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/r.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/r.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/R_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/R_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/registered.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/registered.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/s.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/s.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/S_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/S_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/semicolon.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/semicolon.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/seven.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/seven.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/six.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/six.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/slash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/slash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/space.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/space.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/t.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/t.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/T_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/T_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/three.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/three.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/tilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/tilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/trademark.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/trademark.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/two.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/two.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/u.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/u.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/U_grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/uacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/uacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ucircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ucircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/udieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/udieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ugrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ugrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/underscore.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/underscore.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/v.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/v.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/V_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/V_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/w.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/w.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/W_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/W_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/x.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/x.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/X_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/X_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/y.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/y.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Y_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Y_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Y_dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Y_dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ydieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/ydieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/z.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/z.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Z_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/Z_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/zero.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/glyphs\/zero.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/lib.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/lib.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.ufo\/metainfo.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.ufo\/metainfo.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/source\/Junction.vfb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/source\/Junction.vfb",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/webfonts\/Junction-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/webfonts\/Junction-webfont.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/webfonts\/Junction-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/junction\/webfonts\/Junction-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/junction\/webfonts\/Junction-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/webfonts\/Junction-webfont.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/junction\/webfonts\/Junction-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/junction\/webfonts\/Junction-webfont.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/Legacy\/wg_legacy_edition.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Legacy\/wg_legacy_edition.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/Museo100-Regular-demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/Museo100-Regular-demo.html",
+		"oF": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/Museo100-Regular-webfont.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/specimen_files\/easytabs-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/css\/fonts\/museo_100_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/fonts\/museo_100_macroman\/specimen_files\/Museo100-Regular-cleartype.png": {
+		"ft": 32768,
+		"iS": 86484,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/specimen_files\/Museo100-Regular-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/fonts\/museo_100_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/fonts\/museo_100_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/museo_100_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/fonts\/raleway\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/.gitignore",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/images\/raleway-1.jpeg": {
+		"ft": 16384,
+		"iS": 276374,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/images\/raleway-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/css\/fonts\/raleway\/images\/raleway-2.jpeg": {
+		"ft": 16384,
+		"iS": 204217,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/images\/raleway-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/css\/fonts\/raleway\/images\/raleway-3.jpeg": {
+		"ft": 16384,
+		"iS": 432202,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/images\/raleway-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/css\/fonts\/raleway\/images\/raleway-4.jpeg": {
+		"ft": 16384,
+		"iS": 171156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/images\/raleway-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/css\/fonts\/raleway\/Open Font License FAQ.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/Open Font License FAQ.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/Open Font License.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/Open Font License.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/Raleway Thin.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/Raleway Thin.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/Raleway Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/Raleway Thin.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/readme.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/readme.markdown",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/features.fea": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/features.fea",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/fontinfo.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/fontinfo.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_notdef.001.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_notdef.001.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_notdef.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_notdef.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_null.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/_null.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.alt2.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.alt2.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/a.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/A_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/A_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/A_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/A_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/aacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/aacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Aacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Aacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/acircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/acircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Acircumflex_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Acircumflex_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/acute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/acute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/adieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/adieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Adieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Adieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ae.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ae.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/AE_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/AE_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/agrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/agrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Agrave_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Agrave_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ampersand.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ampersand.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/aring.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/aring.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Aring_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Aring_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asciicircum.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asciicircum.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asciitilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asciitilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asterisk.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/asterisk.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/at.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/at.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/atilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/atilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Atilde_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Atilde_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/b.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/b.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/B_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/B_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/B_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/B_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/backslash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/backslash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bar.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bar.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/braceleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/braceleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/braceright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/braceright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bracketleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bracketleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bracketright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bracketright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/breve.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/breve.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bullet.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/bullet.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/c.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/c.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/C_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/C_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/C_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/C_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/caron.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/caron.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ccedilla.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ccedilla.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ccedilla_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ccedilla_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/cedilla.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/cedilla.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/cent.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/cent.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/circumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/circumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/colon.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/colon.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/comma.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/comma.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/contents.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/contents.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/copyright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/copyright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/CR_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/CR_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ct.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ct.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/d.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/d.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/d.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/d.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/D_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/D_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/D_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/D_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dagger.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dagger.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/daggerdbl.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/daggerdbl.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/degree.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/degree.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dollar.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dollar.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dotaccent.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dotaccent.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dotlessi.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/dotlessi.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/e.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/e.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/E_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/E_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/E_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/E_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Eacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Eacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ecircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ecircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ecircumflex_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ecircumflex_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/edieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/edieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Edieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Edieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/egrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/egrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Egrave_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Egrave_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eight.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eight.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eight.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eight.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ellipsis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ellipsis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/emdash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/emdash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/endash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/endash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/equal.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/equal.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eth.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/eth.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Eth_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Eth_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Euro_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Euro_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/exclam.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/exclam.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/exclamdown.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/exclamdown.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/f.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/f.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/F_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/F_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/F_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/F_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ff.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ff.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ffi.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ffi.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ffl.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ffl.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/fi.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/fi.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/five.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/five.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/five.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/five.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/fl.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/fl.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/four.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/four.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/four.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/four.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/g.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/g.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/G_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/germandbls.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/germandbls.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/grave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/grave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/greater.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/greater.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guillemotleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guillemotleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guillemotright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guillemotright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guilsinglleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guilsinglleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guilsinglright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/guilsinglright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/h.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/h.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/H_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/H_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/H_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/H_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/hyphen.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/hyphen.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/i.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/i.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/I_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/I_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/I_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/I_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/iacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/iacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Iacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Iacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/icircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/icircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Icircumflex_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Icircumflex_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/idieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/idieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Idieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Idieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/igrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/igrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Igrave_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Igrave_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/j.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/j.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/j.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/j.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/J_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/J_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/J_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/J_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/k.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/k.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/K_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/K_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/K_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/K_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/l.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/l.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/l.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/l.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/L_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/L_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/L_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/L_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/less.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/less.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/lslash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/lslash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Lslash_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Lslash_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/m.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/m.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/M_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/M_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/M_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/M_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/minus.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/minus.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/multiply.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/multiply.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/n.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/n.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/N_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/N_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/N_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/N_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/nine.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/nine.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/nine.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/nine.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ntilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ntilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ntilde_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ntilde_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/numbersign.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/numbersign.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/o.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/o.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/O_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/O_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/O_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/O_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Oacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Oacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ocircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ocircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ocircumflex_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ocircumflex_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/odieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/odieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Odieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Odieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oe.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oe.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/OE_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/OE_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ograve.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ograve.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ograve_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ograve_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/one.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/one.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/one.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/one.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oslash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/oslash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Oslash_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Oslash_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/otilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/otilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Otilde_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Otilde_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/p.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/p.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/P_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/P_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/P_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/P_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/paragraph.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/paragraph.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/parenleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/parenleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/parenright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/parenright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/percent.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/percent.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/period.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/period.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/periodcentered.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/periodcentered.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/plus.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/plus.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/q.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/q.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/q.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/q.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Q_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Q_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Q_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Q_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/question.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/question.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/questiondown.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/questiondown.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedbl.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedbl.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedblleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedblleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedblright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotedblright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quoteleft.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quoteleft.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quoteright.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quoteright.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotesingle.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/quotesingle.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/r.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/r.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/R_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/R_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/R_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/R_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ring.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ring.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/s.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/s.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/S_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/S_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/S_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/S_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/scaron.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/scaron.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Scaron_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Scaron_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/section.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/section.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/semicolon.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/semicolon.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/seven.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/seven.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/seven.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/seven.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/six.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/six.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/six.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/six.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/slash.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/slash.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/space.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/space.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/st.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/st.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/sterling.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/sterling.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/t.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/t.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/t.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/t.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/T_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/T_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/T_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/T_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/thorn.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/thorn.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Thorn_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Thorn_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/three.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/three.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/three.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/three.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/tilde.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/tilde.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/trademark.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/trademark.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/two.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/two.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/two.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/two.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/u.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/u.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/u.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/u.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/U_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/U_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/U_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/U_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/uacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/uacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Uacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Uacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ucircumflex.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ucircumflex.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ucircumflex_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ucircumflex_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/udieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/udieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Udieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Udieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ugrave.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ugrave.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ugrave_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ugrave_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/underscore.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/underscore.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/v.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/v.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/V_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/V_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/V_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/V_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/w.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/w.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/w.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/w.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/W_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/x.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/x.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/X_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/X_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/X_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/X_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/y.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/y.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/y.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/y.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Y_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Y_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Y_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Y_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/yacute.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/yacute.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Yacute_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Yacute_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ydieresis.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/ydieresis.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ydieresis_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Ydieresis_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/yen.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/yen.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/z.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/z.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Z_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Z_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Z_.sc.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Z_.sc.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zcaron.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zcaron.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Zcaron_.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/Zcaron_.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zero.alt.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zero.alt.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zero.glif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/glyphs\/zero.glif",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/groups.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/groups.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/kerning.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/kerning.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/lib.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/lib.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/metainfo.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/source\/Raleway Thin.ufo\/metainfo.plist",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/raleway\/webfonts\/raleway_thin-webfont.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SocialMedia\/license.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SocialMedia\/license.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/SocialMedia\/Social Media Icons Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SocialMedia\/Social Media Icons Bold.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/SocialMedia\/SocialMediaIcons.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SocialMedia\/SocialMediaIcons.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SIL Open Font License.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SIL Open Font License.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-Black.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-Black.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-BlackIt.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-BlackIt.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-Bold.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-BoldIt.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-BoldIt.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-ExtraLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-ExtraLight.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-ExtraLightIt.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-ExtraLightIt.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-It.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-It.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-Light.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-LightIt.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-LightIt.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-Regular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-Regular.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-Semibold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-Semibold.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/source-sans-pro\/SourceSansPro-SemiboldIt.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/source-sans-pro\/SourceSansPro-SemiboldIt.otf",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Black.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Black.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-BlackIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-BlackIt.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Bold.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-BoldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-BoldIt.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-ExtraLight.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-ExtraLight.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-ExtraLightIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-ExtraLightIt.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-It.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-It.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Light.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-LightIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-LightIt.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Regular.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Semibold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-Semibold.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-SemiboldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/EOT\/SourceSansPro-SemiboldIt.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/ReadMe.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/ReadMe.html",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SourceSansProReadMe.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SourceSansProReadMe.html",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-BlackIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-BlackIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-BoldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-BoldIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-ExtraLight.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-ExtraLight.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-ExtraLightIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-ExtraLightIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-It.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-It.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-LightIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-LightIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-Semibold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-SemiboldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/SourceSansPro\/SVG\/SourceSansPro-SemiboldIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Black.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Black.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-BlackIt.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-BlackIt.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Bold.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Bold.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-BoldIt.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-BoldIt.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-ExtraLight.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-ExtraLight.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-ExtraLightIt.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-ExtraLightIt.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-It.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-It.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Light.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Light.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-LightIt.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-LightIt.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Regular.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Regular.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Semibold.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-Semibold.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-SemiboldIt.otf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/OTF\/SourceSansPro-SemiboldIt.otf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Black.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Black.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-BlackIt.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-BlackIt.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Bold.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Bold.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-BoldIt.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-BoldIt.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-ExtraLight.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-ExtraLight.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-ExtraLightIt.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-ExtraLightIt.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-It.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-It.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Light.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Light.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-LightIt.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-LightIt.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Regular.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Regular.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Semibold.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-Semibold.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/SourceSansPro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff",
+		"oF": 0
+		},
+	"\/css\/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/global-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/home.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/home-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/ie8-and-down.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ie8-and-down-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/post.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/post-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/ryan.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ryan-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/index-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/index-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/index-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/sass\/blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/chris.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/chris.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/ie8-and-down.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ie8-and-down.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_common.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_common.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/includes\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/includes\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/post.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/post.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/ryan.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ryan.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 547900521,
+	"displayValue": "Battle Blog",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-krieger",
+	"iconImageWasSetByUser": 0
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 3,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

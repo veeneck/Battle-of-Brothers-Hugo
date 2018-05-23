@@ -8,7 +8,7 @@ keyevent:
   - Added Multi-Device Support
   - Added Basic HUD
   - Tested Dynamic Image Scaling
-number:
+status_number:
   - 7
 categories:
   - sirchris

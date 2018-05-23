@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Battle of Brothers</title>
+    <link>http://battleofbrothers.com/tags/code/</link>
+    <description>Recent content in Code on Battle of Brothers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 18:08:19 +0000</lastBuildDate>
+    
+	<atom:link href="http://battleofbrothers.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Isometric Projectile Trajectory in Swift and SpriteKit</title>
+      <link>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</link>
+      <pubDate>Tue, 12 Jul 2016 18:08:19 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/isometric-projectile-trajectory-in-swift-and-spritekit/</guid>
+      <description>&lt;p&gt;How do you launch a catapult, grenade, arrow, or any other projectile in an isometric world? I had to joy of figuring that out over these past two days, and I thought I would share. Before jumping in, let me point out that the code below is for my specific use case, and is not a full featured framework. So, you&amp;#8217;ll still have to understand the concepts, but if you&amp;#8217;re Googling for help this will hopefully get you on the right track.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SpriteKit Save Files in Swift 3</title>
+      <link>http://battleofbrothers.com/sirryan/spritekit-save-files-in-swift-3/</link>
+      <pubDate>Fri, 01 Jul 2016 21:07:39 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/spritekit-save-files-in-swift-3/</guid>
+      <description>&lt;p&gt;Last year I wrote about &lt;a href=&#34;http://battleofbrothers.com/sirryan/saving-game-data-in-spritekit&#34;&gt;saving game data in SpriteKit&lt;/a&gt;, and that code is now completely out of date. Swift 3 has brought about all sorts of fun changes, so it&amp;#8217;s time for me to provided some updated code.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gamedev with a Newborn</title>
+      <link>http://battleofbrothers.com/sirryan/gamedev-with-a-newborn/</link>
+      <pubDate>Tue, 29 Mar 2016 02:36:51 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/gamedev-with-a-newborn/</guid>
+      <description>&lt;p&gt;In case you&amp;#8217;re wondering, game development is hard to keep up with when dealing with an infant. Now, I went into this knowing the first 4 weeks would be baby and family first. But, I secretly had hope that I would have some spare time to keep the game moving forward. Now that the first month is over, I&amp;#8217;ve worked a grand total of:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Detecting and Managing Memory Leaks Between SKScenes</title>
+      <link>http://battleofbrothers.com/sirryan/detecting-and-managing-memory-leaks-between-skscenes/</link>
+      <pubDate>Fri, 08 Jan 2016 20:46:40 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/detecting-and-managing-memory-leaks-between-skscenes/</guid>
+      <description>&lt;p&gt;Memory leaks suck. You know they exist, and you dread the day you have to track them down. In SpriteKit, I&amp;#8217;ve encountered two main types of leaks. One is where the entire scene is not deallocated after transitioning to a new scene. The other is where memory is constantly being used up while interacting with a scene. For the latter, you have to use Instruments in XCode, or comb over your code, to get a handle on what is happening. But, for cleaning up scenes after you&amp;#8217;re finished with them, here are a few tips that simplified the process for me.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Working With GKObstacleGraph</title>
+      <link>http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/</link>
+      <pubDate>Fri, 13 Nov 2015 19:38:51 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/working-with-gkobstaclegraph/</guid>
+      <description>&lt;p&gt;This purpose of this post is to document some of the frustrations with pathfinding. I&amp;#8217;m finding that it is too boring to try to implement every map at once, so I&amp;#8217;m touching pathfinding every other week or so. As a refresher, the video below has served as my primer on &lt;a href=&#34;https://developer.apple.com/library/prerelease/ios/documentation/GameplayKit/Reference/GKObstacleGraph_Class/index.html#//apple_ref/occ/cl/GKObstacleGraph&#34; target=&#34;_blank&#34;&gt;GKObstacleGraph&lt;/a&gt; whenever I need to revisit pathfinding. So, if you&amp;#8217;re a SpriteKit / GameplayKit user, you may find my approach interesting.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Shaders in SpriteKit</title>
+      <link>http://battleofbrothers.com/sirryan/understanding-shaders-in-spritekit/</link>
+      <pubDate>Thu, 28 May 2015 18:03:09 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/understanding-shaders-in-spritekit/</guid>
+      <description>&lt;p&gt;If you&amp;#8217;re new to game development, you&amp;#8217;ve probably heard of shaders but don&amp;#8217;t quite understand them. If you&amp;#8217;re new to SpriteKit, you&amp;#8217;ve probably hit a few speed bumps working with shaders. Since I&amp;#8217;m still learning more about the two, I figured it would be nice to put up a concrete example that covers cropping and effects using shaders. Specifically, we&amp;#8217;ll cover two concepts:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Saving Game Data in SpriteKit</title>
+      <link>http://battleofbrothers.com/sirryan/saving-game-data-in-spritekit/</link>
+      <pubDate>Tue, 03 Feb 2015 13:22:40 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/saving-game-data-in-spritekit/</guid>
+      <description>&lt;p&gt;When searching for tips on how to save game data in SpriteKit, most posts explain how to save one variable (high score, for example). In that regard, this &lt;a href=&#34;http://www.thinkingswiftly.com/saving-spritekit-game-data-swift-easy-nscoder/&#34; target=&#34;_blank&#34;&gt;Thinking Swiftly post&lt;/a&gt; was extremely helpful, and is where a majority of the code below comes from. I just wanted to extend that post, and look at how an entire object could be saved in a self contained way.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Create Skippable Cutscenes in SpriteKit with Timing Functions</title>
+      <link>http://battleofbrothers.com/sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions/</link>
+      <pubDate>Mon, 26 Jan 2015 15:05:10 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/create-skippable-cutscenes-in-spritekit-with-timing-functions/</guid>
+      <description>&lt;p&gt;Cutscenes are a labor of love, so it is hard accepting that some people just don&amp;#8217;t care. That story that took months to bring together may be amazing to you, but to others it is just an inconvenience. So, for that reason, we have to make cutscenes skippable. However, I didn&amp;#8217;t want to just settle at skipping the entire scene. I wanted to also make it skimmable for the speed readers, or those who are mildly interested.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Outline Text in SpriteKit</title>
+      <link>http://battleofbrothers.com/sirryan/outline-text-in-spritekit/</link>
+      <pubDate>Tue, 20 Jan 2015 20:31:57 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/outline-text-in-spritekit/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s funny how the tasks that should be easy end up consuming the most amount of time. As of this writing, there is no easy way to outline text in SpriteKit. It&amp;#8217;s common to see approach that &lt;a href=&#34;http://stackoverflow.com/questions/19211827/what-would-be-the-best-approach-for-outlining-or-dropshadowing-a-font&#34; target=&#34;_blank&#34;&gt;add a shadow node&lt;/a&gt;, but sometimes more contrast is needed. Here&amp;#8217;s what I have discovered.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SpriteKit: CPU gains from caching enumerateChildNodesWithName</title>
+      <link>http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/</link>
+      <pubDate>Mon, 05 Jan 2015 18:48:27 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/spritekit-cpu-gains-from-caching-enumeratechildnodeswithname/</guid>
+      <description>&lt;p&gt;Those of you who follow me know that I&amp;#8217;m working on a game that will have ~200 nodes on the screen updating every frame. Because of that requirement, I&amp;#8217;m &lt;a href=&#34;http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1&#34; target=&#34;_blank&#34;&gt;constantly looking&lt;/a&gt; at &lt;a href=&#34;http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit&#34; target=&#34;_blank&#34;&gt;how I can&lt;/a&gt; incrementally &lt;a href=&#34;http://battleofbrothers.com/sirryan/now-were-rolling&#34; target=&#34;_blank&#34;&gt;improve performance&lt;/a&gt;. Slowly but surely, I&amp;#8217;m making this game a well oiled machine. Today, I stumbled on a significant slow down, and the resulting fix that shaved off 16% CPU usage: caching &lt;code&gt;enumerateChildNodesWithName&lt;/code&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Joy of Debugging: Command swiftc failed with exit code 1</title>
+      <link>http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1/</link>
+      <pubDate>Sun, 21 Dec 2014 17:51:14 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/joy-of-debugging-command-swiftc-failed-with-exit-code-1/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been working through a particularly nasty issue, so it feels right to document it for anyone else who encounters it. Also, just to serve as a note and reminder that game development is full of unexpected, time consuming tasks on a near weekly basis. This most recent problem &amp;#8212; releasing a build to an iOS device fails to compile, but it works on the simulator. Specifically, this occurs when I try to change the Swift compiler optimization level.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How To Implement Squads and Formations, Part 1</title>
+      <link>http://battleofbrothers.com/sirryan/how-to-implement-squads-and-formations-part-1/</link>
+      <pubDate>Mon, 08 Sep 2014 18:38:01 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/how-to-implement-squads-and-formations-part-1/</guid>
+      <description>&lt;p&gt;There is an awesome article on Gamasutra about &lt;a href=&#34;http://www.gamasutra.com/view/feature/131720/coordinated_unit_movement.php?page=1&#34; target=&#34;_blank&#34;&gt;Coordinated Unit Movement&lt;/a&gt;. They also have a companion post about &lt;a href=&#34;http://www.gamasutra.com/view/feature/131721/implementing_coordinated_movement.php?page=1&#34; target=&#34;_blank&#34;&gt;implementing said movement&lt;/a&gt;. However, the posts are from 1999, and they deal mainly in pseudocode. Also, I&amp;#8217;m convinced there is absolutely nothing else on the entire internet explaining the topic. So, an experienced developer may be able to read the ideas and know how to implement them, but it has been a bit of a struggle for me as a new developer. I&amp;#8217;m going to try to document a step by step implementation of formations, squads, and movement for someone who hasn&amp;#8217;t done it before. I&amp;#8217;ll be writing in Swift / Sprite Kit, but the code should be easy enough for anyone to follow. I also welcome corrections / improvements from experts.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Memory Usage in Sprite Kit</title>
+      <link>http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/</link>
+      <pubDate>Mon, 25 Aug 2014 14:58:39 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/memory-usage-in-sprite-kit/</guid>
+      <description>&lt;p&gt;Now that I&amp;#8217;m &lt;a href=&#34;http://battleofbrothers.com/sirryan/0-to-art-in-two-weeks&#34; target=&#34;_blank&#34;&gt;receiving real art&lt;/a&gt; for my game, I thought it would be a good time to learn about memory usage and limits. This was also prompted by my current level running at 55-60MB before any gameplay action or characters loaded on screen. That memory usage seemed a bit high, so I decided this was an issue that I needed to &lt;a href=&#34;https://www.youtube.com/watch?v=2o1U2pWcR34&#34; target=&#34;_blank&#34;&gt;delve into&lt;/a&gt;. In hindsight, most of this is basic to an experienced game developer, but I found the process to be quite fun. You can just read my lessons learned below if you don&amp;#8217;t want to follow my detective work.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Handling Z-Index by Screen Coordinates</title>
+      <link>http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/</link>
+      <pubDate>Mon, 18 Aug 2014 14:48:27 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/handling-z-index-by-screen-coordinates/</guid>
+      <description>&lt;p&gt;One problem that I ran into with my game was that my characters and images were not being properly z-indexed. For example, the dwarf in the image below looks like he&amp;#8217;s pasted on top of the tree, even though his position on the map suggests he should be behind the tree.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Image Selection with Corona and Texture Packer</title>
+      <link>http://battleofbrothers.com/sirchris/dynamic-image-selection-with-corona-and-texture-packer/</link>
+      <pubDate>Mon, 30 Jun 2014 15:26:31 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/dynamic-image-selection-with-corona-and-texture-packer/</guid>
+      <description>&lt;p&gt;Most mobile apps are developed to run across multiple devices, which means developers have to account for multiple screen resolutions. Image scaling is an important part of multi-device support because you want to use higher resolution images on modern, high-res devices, while using lower resolution images on low-res devices. That saves memory on the low-res devices while maximizing all of the pixel density goodness on the high-res devices. Lucky for Corona SDK developers, Corona makes image scaling a breeze with their &lt;a href=&#34;http://docs.coronalabs.com/guide/basics/configSettings/#dynamic-image-selection&#34;&gt;dynamic image selection&lt;/a&gt; feature.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Health Bars and Taking Damage in Corona SDK</title>
+      <link>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</link>
+      <pubDate>Tue, 24 Jun 2014 17:30:09 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/health-bars-and-taking-damage-in-corona-sdk/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s common to see &lt;a href=&#34;http://battleofbrothers.com/sirchris/health-display-roundup&#34;&gt;health bars attached to a characters&lt;/a&gt; in video games, and in this tutorial I explain how that can easily be accomplished in Corona SDK. And as an added bonus, the health bar also updates as the character takes damage.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenges You May Encounter While Porting Your SpriteKit Game to Swift</title>
+      <link>http://battleofbrothers.com/sirryan/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/</link>
+      <pubDate>Wed, 18 Jun 2014 16:20:02 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/challenges-you-may-encounter-while-porting-your-spritekit-game-to-swift/</guid>
+      <description>&lt;p&gt;The introduction of &lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; comes at a perfect time for me. I’ve been working on a SpriteKit game in Objective-C for 10 weeks now, and some of the code is definitely in need of refactoring. Refactoring is known to be tedious, so being able to learn a new language during the process is a plus. I’ve been taking notes of any challenge I’ve come across during the conversion.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Isometric Tiles and Pathfinding with Corona</title>
+      <link>http://battleofbrothers.com/sirchris/isometric-tiles-and-pathfinding-with-corona/</link>
+      <pubDate>Tue, 03 Jun 2014 17:43:32 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/isometric-tiles-and-pathfinding-with-corona/</guid>
+      <description>&lt;p&gt;I previously wrote a tutorial on how to create a square grid and &lt;a href=&#34;http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star&#34;&gt;implement pathfinding with Corona SDK&lt;/a&gt; and the Jumper library, but now we&amp;#8217;re going to take things up a notch and do the same thing on an isometric grid. Isometric grids use rhombus, or diamond shaped tiles, as opposed to square tiles. The introduction of angled tiles adds the perception of depth and can dramatically change the visuals of your game without adding much complexity to your code.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Look at SKLightNode in iOS8</title>
+      <link>http://battleofbrothers.com/sirryan/first-look-at-sklightnode-in-ios8/</link>
+      <pubDate>Tue, 03 Jun 2014 17:24:14 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/first-look-at-sklightnode-in-ios8/</guid>
+      <description>&lt;p&gt;Lighting effects were curiously missing from SpriteKit in iOS7, so I&amp;#8217;m happy to see them appear in iOS8. Here&amp;#8217;s a quick look at what you can expect from the light source / raycasting implementation.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learning Sprite Kit by Example</title>
+      <link>http://battleofbrothers.com/sirryan/learning-sprite-kit-by-example/</link>
+      <pubDate>Thu, 15 May 2014 14:13:33 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/learning-sprite-kit-by-example/</guid>
+      <description>&lt;p&gt;I hated school. I hate technical books. Generally, I feel like I can learn faster with the unstoppable trio of myself, Google and wonderful online communities. The trouble with game development is I don&amp;#8217;t know what questions to ask. In web development, I can search how to make two elements sit next to each other and find what I&amp;#8217;m looking for. In game development, I wouldn&amp;#8217;t have looked for a finite state machine, much less double dispatch for physics. I may be late to the party compared to other developers, but I&amp;#8217;m finding myself humbled by both books and open source projects that are extremely well crafted.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pathfinding in Corona with Jumper and A Star</title>
+      <link>http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star/</link>
+      <pubDate>Thu, 24 Apr 2014 15:57:28 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/pathfinding-in-corona-with-jumper-and-a-star/</guid>
+      <description>&lt;p&gt;If you&amp;#8217;re making a grid based game and you need a character to move from point A to point B while avoiding obstacles, then you&amp;#8217;re going to need some type of pathfinding. Luckily for us, Roland Yonaba utilized the power of A Star, a popular pathfinding algorithm, and made it even better with his open source Jumper library. Visually, what we&amp;#8217;re trying to accomplish looks a little something like:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Handling zPosition in a 2.5d World</title>
+      <link>http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/</link>
+      <pubDate>Mon, 21 Apr 2014 15:28:10 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/handling-zposition-in-a-2-5d-world/</guid>
+      <description>&lt;p&gt;Not surprisingly, dealing with zPosition in a 2.5d game is about as complicated as everything else in game development &amp;#8212; it will be harder to handle than you think it should be. For example, how should you handle moving a sprite from behind a tree to in front of a tree in perceived depth. While the initial drawing of objects is straightforward, things become tricky once they start moving around. Let&amp;#8217;s take a look at how I&amp;#8217;m approaching zPosition in my Sprite Kit game.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Animating Sprites from a Texture Packer Image</title>
+      <link>http://battleofbrothers.com/sirchris/animating-sprites-from-a-texture-packer-image/</link>
+      <pubDate>Thu, 10 Apr 2014 16:58:48 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirchris/animating-sprites-from-a-texture-packer-image/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been experimenting with animation and recently ran into a little trouble with spritesheets, &lt;a href=&#34;http://www.codeandweb.com/texturepacker&#34;&gt;TexturePacker&lt;/a&gt;, &lt;a href=&#34;http://coronalabs.com/products/corona-sdk/&#34;&gt;Corona SDK&lt;/a&gt; and animation. The problem started when I wanted to animate &lt;a href=&#34;http://opengameart.org/content/700-sprites&#34;&gt;some sprites&lt;/a&gt; from opengameart.org. The download included 89 animation sequences and each animation contained 8 individual character sprites, which looked like:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Video, Audio, Fonts and Other Useful Sprite Kit Fundamentals</title>
+      <link>http://battleofbrothers.com/sirryan/video-audio-fonts-and-other-useful-sprite-kit-fundamentals/</link>
+      <pubDate>Mon, 07 Apr 2014 13:28:54 +0000</pubDate>
+      
+      <guid>http://battleofbrothers.com/sirryan/video-audio-fonts-and-other-useful-sprite-kit-fundamentals/</guid>
+      <description>&lt;p&gt;When learning a new language or environment, some things that should be trivial seem to take forever. Once you learn how to do simple tasks, it&amp;#8217;s hard to remember how you originally struggled. So for that reason, I&amp;#8217;ve decided to keep a running log of useful code snippets that were stumbling blocks at some point. Anything that I think I&amp;#8217;ll reuse, or had trouble understanding as a beginner will be added as &lt;a href=&#34;https://gist.github.com/veeneck&#34; target=&#34;_blank&#34;&gt;a gist to my Github account&lt;/a&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

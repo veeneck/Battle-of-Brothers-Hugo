@@ -4,7 +4,7 @@ author: chris
 type: post
 date: 2015-05-27T17:40:59+00:00
 url: /sirchris/the-battlefield-ui/
-number:
+status_number:
   - 25
 keyevent:
   - Updated Battlefield UI
