@@ -36,7 +36,7 @@ fields:
   name: featured_image
   label: featured image
 - type: list
-  name: key_event
+  name: keyevent
   label: key event
 - type: list
   label: status number
