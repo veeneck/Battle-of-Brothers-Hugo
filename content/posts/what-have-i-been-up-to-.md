@@ -9,13 +9,13 @@ type = "post"
 url = "/sirryan/what-have-i-been-up-to-"
 
 +++
-Most people who come to this site would be under the impression that it is abandoned. That's partially true. But just because there is little activity here, that doesn't mean I've been doing nothing. The truth is that a lot has been accomplished, followed by burnout, followed by a crossroads that I'm now at. 
+Most people who come to this site would be under the impression that it is abandoned. That's partially true. But just because there is little activity here, that doesn't mean I've been doing nothing. The truth is that a lot has been accomplished, followed by burnout, followed by a crossroads that I'm now at.
 
 <!--more-->
 
-In the summer of 2016, my daughter was 4 months old and I was determined to spend all of my spare time working on this game. For that year between \~July 2016 and September 2017, I worked solely on the game. These weren't all 40 hour weeks because family comes first. Still, a good amount of time was put into the project. My latest status update shows some of that work, but it doesn't scratch the surface of what's been done. Documentation for each framework, performance testing, caching, a macOS build, refactoring, scrapped design decisions and on and on and on. 
+In the summer of 2016, my daughter was 4 months old and I was determined to spend all of my spare time working on this game. For that year between \~July 2016 and September 2017, I worked solely on the game. These weren't all 40 hour weeks because family comes first. Still, a good amount of time was put into the project. My latest status update shows some of that work, but it doesn't scratch the surface of what's been done. Documentation for each framework, performance testing, caching, a macOS build, refactoring, scrapped design decisions and on and on and on.
 
-If you had asked me right before September 2017 when the game would be done, I would have confidently told you that summer 2018 would be a beta, and it would take $30,000 to $50,000 more for it to be polished enough to launch. 
+If you had asked me right before September 2017 when the game would be done, I would have confidently told you that summer 2018 would be a beta, and it would take $30,000 to $50,000 more for it to be polished enough to launch.
 
 But then I had to stop programming for 3 weeks.
 
@@ -27,6 +27,10 @@ These harmless 2 weeks took quite the toll on me mentally. Once everything settl
 
 I decided to take a break. Throughout November and December I enjoyed other things, and spent longer holidays with family. In January, I fixed everything around the house that I had been putting off. I thought for sure by February my motivation would return. It didn't.
 
-In March 2018, my wife suggested a small program for a digital picture frame. I said sure, and got to work. I had absolutely zero desire to sit in front of a computer and work on this, but I agreed so that I could see if my passion could return. Fortunately, it did. I really enjoyed working on a small, defined project with no spending and no pressure. 
+In March 2018, my wife suggested a small program for a digital picture frame. I said sure, and got to work. I had absolutely zero desire to sit in front of a computer and work on this, but I agreed so that I could see if my passion could return. Fortunately, it did. I really enjoyed working on a small, defined project with no spending and no pressure.
 
 From there, momentum started to build. I created a few websites and got caught up on all of the modern CSS/HTML changes that I've missed out on. I moved this entire site to [Netlify]() and changed the CMS to [Hugo](https://gohugo.io). While doing that, I made minor improvements to the design, and put a tiny bit of work into making it responsive. To top it off, the [comment system is static now too]().
+
+I seriously considered giving up on the game at this point. I was having so much fun, I figured game development was just not fun for me. Before quitting the project, I decided to make a website to celebrate what has been accomplished, and the people who have gotten me this far.
+
+![](/uploads/illustrations.png)
