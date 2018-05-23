@@ -12,7 +12,7 @@ type = "post"
 url = "/sirryan/where-does-the-time-go-"
 
 +++
-Wow, can you believe that my last post was July12th, 2016? It's been almost two years. Well, there are a few reasons for that which I've covered in a separate post. As for the game, let's have a look at how far it has come in that time.
+Wow, can you believe that my last post was July12th, 2016? It's been almost two years. Well, there are a few reasons for that which I've covered in a separate post. As for the game, there have been plenty of changes. Since the last update, I can't think of a single system that hasn't been touched. The update video will do a good job highlighting the most significant changes.
 
 <!--more-->
 
