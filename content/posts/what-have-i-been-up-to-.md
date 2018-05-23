@@ -37,4 +37,6 @@ I seriously considered giving up on the game at this point. I was having so much
 <img src="/uploads/illustrations.png" width="760" />
 </div>
 
-While making this site, I fell in love with the game again. So much work has been done. Amazing art has been produced by great people. Still, it wasn't meant to be. The final task for me was to create an \~hour long video showing the first 4 levels completely played through. This would only require a few bug fixes to become a reality. As I was making the changes, I realized that I was enjoying myself.
+While making this site, I fell in love with the game again. So much work has been done. Amazing art has been produced by great people. Still, it wasn't meant to be. The final task for me was to create an \~hour long video showing the first 4 levels completely played through. This would only require a few bug fixes to become a reality. As I was making the changes, I realized that I was enjoying myself. I put the memorial site on hold.
+
+I would be lying if I said I'm ready to work on the game full time again. However, I am programming full time, and I'm enjoying it. Hopefully, this translates to more momentum on the game. For the first time, I'm not sure what the future of this project is. I may finish in 2 years, I may finish in 10, and I may not finish at all. Or, I could open source it. We'll see. 
