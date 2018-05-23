@@ -16,4 +16,14 @@ Wow, can you believe that my last post was July12th, 2016? It's been almost two 
 
 <!--more-->
 
-Content
+Video Update
+
+Comment on status, and link to status update blog post.
+
+#### How Far Along Is The Game?
+
+Comment on which levels, characters, etc are in.
+
+#### What's Next?
+
+Comment on when the next update will be.
