@@ -1,0 +1,32 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: type
+  label: type
+  default: post
+- type: tag_list
+  label: categories
+  name: categories
+  default:
+  - sirryan
+- type: tag_list
+  label: tags
+  name: tags
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+  default: Ryan
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: url
+  label: url
+  description: "/sirryan/url-slug"
+  config:
+    required: true
