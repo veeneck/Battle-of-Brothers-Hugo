@@ -30,6 +30,8 @@ fields:
 - type: tag_list
   label: tags
   name: tags
+  default:
+  - status
 - type: file
   name: featured_image
   label: featured image
