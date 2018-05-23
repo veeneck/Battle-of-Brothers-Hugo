@@ -9,7 +9,7 @@ keyevent:
   - Added Settings to HUD
   - Added Action Item to HUD
   - Refactored Character Creation Code
-number:
+status_number:
   - 8
 categories:
   - sirchris

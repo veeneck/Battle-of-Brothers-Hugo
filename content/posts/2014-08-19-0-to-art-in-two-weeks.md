@@ -5,7 +5,7 @@ type: post
 date: 2014-08-19T13:26:58+00:00
 url: /sirryan/0-to-art-in-two-weeks/
 featured_image: /wp-content/uploads/2014/08/flag_design_05.jpg
-number:
+status_number:
   - 10
 keyevent:
   - Contract with illustrator.

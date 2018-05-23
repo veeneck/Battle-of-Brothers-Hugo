@@ -5,7 +5,7 @@ type: post
 date: 2015-01-06T16:43:26+00:00
 url: /sirchris/character-dialogue-and-scripted-scenes/
 featured_image: /wp-content/uploads/2014/12/Screen-Shot-2014-12-22-at-1.47.35-PM.png
-number:
+status_number:
   - 17
 keyevent:
   - Custom Dialogue and Actions

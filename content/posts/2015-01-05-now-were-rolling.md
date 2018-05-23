@@ -5,7 +5,7 @@ type: post
 date: 2015-01-05T13:43:10+00:00
 url: /sirryan/now-were-rolling/
 featured_image: /wp-content/uploads/2014/12/B4wQf2AIIAA8hjZ.png-large.png
-number:
+status_number:
   - 14
 keyevent:
   - 90 Units at 50% CPU

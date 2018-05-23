@@ -5,7 +5,7 @@ type: post
 date: 2015-03-31T17:17:38+00:00
 url: /sirchris/music-memory/
 featured_image: /wp-content/uploads/2015/03/Unknown.png
-number:
+status_number:
   - 23
 keyevent:
   - First music scored.

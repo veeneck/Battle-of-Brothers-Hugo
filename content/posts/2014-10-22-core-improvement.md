@@ -5,7 +5,7 @@ type: post
 date: 2014-10-22T17:50:10+00:00
 url: /sirchris/core-improvement/
 featured_image: /wp-content/uploads/2014/10/Screen-Shot-2014-10-22-at-1.48.20-PM.png
-number:
+status_number:
   - 14
 keyevent:
   - Scene Management

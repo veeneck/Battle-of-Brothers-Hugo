@@ -9,7 +9,7 @@ keyevent:
   - Make code object oriented
   - Add enemies to fight
   - Re-calculate move distance
-number:
+status_number:
   - 3
 categories:
   - sirchris

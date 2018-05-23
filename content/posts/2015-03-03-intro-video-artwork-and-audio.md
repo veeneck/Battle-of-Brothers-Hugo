@@ -9,7 +9,7 @@ keyevent:
   - Added Battle Markers
   - Spearman Animated
   - Intro First Take
-number:
+status_number:
   - 21
 categories:
   - sirchris

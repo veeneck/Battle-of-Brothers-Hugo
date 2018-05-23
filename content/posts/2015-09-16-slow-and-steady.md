@@ -9,7 +9,7 @@ keyevent:
   - Multiple Attack Support
   - Intro Movie Update
   - New Characters Animated
-number:
+status_number:
   - 28
 categories:
   - sirchris

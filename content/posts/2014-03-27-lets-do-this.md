@@ -8,7 +8,7 @@ featured_image: /wp-content/uploads/2014/03/ryanintro.png
 keyevent:
   - '<a href="http://battleofbrothers.com/sirryan/spent-15-on-video-tutorials">$15 on video tutorials</a>'
   - Competition started!
-number:
+status_number:
   - 1
 categories:
   - sirryan

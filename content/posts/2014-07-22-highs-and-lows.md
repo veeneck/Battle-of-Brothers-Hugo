@@ -5,7 +5,7 @@ type: post
 date: 2014-07-22T15:21:54+00:00
 url: /sirchris/highs-and-lows/
 featured_image: /wp-content/uploads/2014/07/Screen-Shot-2014-07-22-at-11.20.15-AM.png
-number:
+status_number:
   - 8
 keyevent:
   - 64 bit version working.

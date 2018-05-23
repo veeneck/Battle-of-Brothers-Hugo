@@ -5,7 +5,7 @@ type: post
 date: 2015-02-16T13:46:52+00:00
 url: /sirryan/we-have-a-story/
 featured_image: /wp-content/uploads/2015/02/Trebuchet-Drive-Front_01-e1424094538475.png
-number:
+status_number:
   - 17
 keyevent:
   - First pass of story complete.

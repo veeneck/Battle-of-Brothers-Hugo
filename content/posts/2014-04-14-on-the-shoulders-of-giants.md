@@ -5,7 +5,7 @@ type: post
 date: 2014-04-14T13:44:21+00:00
 url: /sirryan/on-the-shoulders-of-giants/
 featured_image: /wp-content/uploads/2014/04/Screen-Shot-2014-04-14-at-8.06.58-AM.png
-number:
+status_number:
   - 2
 keyevent:
   - Finished video tutorials

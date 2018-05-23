@@ -9,7 +9,7 @@ keyevent:
   - Added Level Markers
   - Added Battlefield Tiles
   - Added Character Management
-number:
+status_number:
   - 15
 categories:
   - sirchris
