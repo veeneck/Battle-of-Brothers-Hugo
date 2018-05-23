@@ -33,4 +33,6 @@ From there, momentum started to build. I created a few websites and got caught u
 
 I seriously considered giving up on the game at this point. I was having so much fun, I figured game development was just not fun for me. Before quitting the project, I decided to make a website to celebrate what has been accomplished, and the people who have gotten me this far.
 
-![](/uploads/illustrations.png)
+<div class="inlineimg">
+<img src="/uploads/illustrations.png" />
+</div>
