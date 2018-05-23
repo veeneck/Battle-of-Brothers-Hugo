@@ -1,0 +1,42 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: post
+  label: type
+  name: type
+  config:
+    required: true
+- type: tag_list
+  default:
+  - sirryan
+  label: categories
+  name: categories
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: url
+  label: url
+  description: 'Take the slug. Ex: /sirryan/this-is-my-new-post'
+  config:
+    required: true
+- type: tag_list
+  label: tags
+  name: tags
+- type: file
+  name: featured_image
+  label: featured image
+- type: list
+  name: key_event
+  label: key event
+- type: list
+  label: status number
+  name: status_number
+  description: Add +1 from last update.
