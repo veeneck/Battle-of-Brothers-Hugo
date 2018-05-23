@@ -27,4 +27,6 @@ These harmless 2 weeks took quite the toll on me mentally. Once everything settl
 
 I decided to take a break. Throughout November and December I enjoyed other things, and spent longer holidays with family. In January, I fixed everything around the house that I had been putting off. I thought for sure by February my motivation would return. It didn't.
 
-In March 2018, my wife suggested a small program for a digital picture frame. I said sure, and got to work. I had absolutely zero desire to sit in front of a computer and work on this, but I agreed so that I could see if my passion could return. Fortunately, it did. I really enjoyed working on a small, defined project with no spending and no pressure.
+In March 2018, my wife suggested a small program for a digital picture frame. I said sure, and got to work. I had absolutely zero desire to sit in front of a computer and work on this, but I agreed so that I could see if my passion could return. Fortunately, it did. I really enjoyed working on a small, defined project with no spending and no pressure. 
+
+From there, momentum started to build. I created a few websites and got caught up on all of the modern CSS/HTML changes that I've missed out on. I moved this entire site to [Netlify]() and changed the CMS to [Hugo](https://gohugo.io). While doing that, I made minor improvements to the design, and put a tiny bit of work into making it responsive. To top it off, the [comment system is static now too]().
