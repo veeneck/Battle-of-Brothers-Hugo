@@ -8,7 +8,7 @@ keyevent:
   - New Character Animations
   - Added Sound Effects
   - Basic Prototype is Playable
-status_number:
+number:
   - 6
 categories:
   - sirchris

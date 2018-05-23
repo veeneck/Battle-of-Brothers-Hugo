@@ -31,7 +31,7 @@
 				{{ range $sortedPosts }}
 					{{ if lt ($.Scratch.Get "count") 1 }}
 						{{ if in .Params.tags "status" }}
-							{{ range $key, $value := .Params.status_number }}
+							{{ range $key, $value := .Params.number }}
 							<h4>Status Update<span class="floatright"><span class="pound">#{{ $value }}</span></span></h4>
 							{{ end }}
 							<div class="progress clear">

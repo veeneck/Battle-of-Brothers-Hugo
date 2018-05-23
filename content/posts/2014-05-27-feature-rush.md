@@ -9,7 +9,7 @@ keyevent:
   - Catapult implemented.
   - "Combat system for DoT's and resistances."
   - 'Limitations & upgrades on spawn flags.'
-status_number:
+number:
   - 5
 categories:
   - sirryan

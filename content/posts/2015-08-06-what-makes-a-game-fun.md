@@ -5,7 +5,7 @@ type: post
 date: 2015-08-06T20:15:39+00:00
 url: /sirchris/what-makes-a-game-fun/
 featured_image: /wp-content/uploads/2015/08/Screen-Shot-2015-08-06-at-3.39.31-PM-e1438892091101.png
-status_number:
+number:
   - 28
 keyevent:
   - Experimenting

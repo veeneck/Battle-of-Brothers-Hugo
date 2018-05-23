@@ -10,7 +10,7 @@ keyevent:
   - pList driven spawn points.
   - Gold and health.
   - Understand easing.
-status_number:
+number:
   - 4
 categories:
   - sirryan

@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2015-05-26T18:07:51+00:00
 url: /sirryan/spawns-heraldry-and-ui/
-status_number:
+number:
   - 22
 keyevent:
   - Added unit placement.

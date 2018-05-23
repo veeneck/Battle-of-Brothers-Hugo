@@ -7,7 +7,7 @@ url: /sirchris/character-creation/
 featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-09-at-2.43.39-PM.png
 keyevent:
   - First Crack at Character Creation
-status_number:
+number:
   - 27
 categories:
   - sirchris

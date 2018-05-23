@@ -5,7 +5,7 @@ type: post
 date: 2014-11-03T21:45:01+00:00
 url: /sirryan/more-difficult-than-when-i-thought-things-were-difficult/
 featured_image: /wp-content/uploads/2014/11/B1X2Ni5CMAAZg0v.png
-status_number:
+number:
   - 13
 keyevent:
   - Navmesh proof of concept.

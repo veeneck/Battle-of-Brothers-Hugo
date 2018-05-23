@@ -5,7 +5,7 @@ type: post
 date: 2014-04-28T15:09:18+00:00
 url: /sirryan/its-not-all-sunshine-and-rainbows/
 featured_image: /wp-content/uploads/2014/04/FSM7.png
-status_number:
+number:
   - 3
 keyevent:
   - Varied enemy movement.

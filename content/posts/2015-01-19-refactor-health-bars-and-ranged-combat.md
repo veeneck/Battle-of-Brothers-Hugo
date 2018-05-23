@@ -9,7 +9,7 @@ keyevent:
   - Refactor FSM
   - Health bars
   - Ranged Combat
-status_number:
+number:
   - 15
 categories:
   - sirryan

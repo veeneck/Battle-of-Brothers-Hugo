@@ -9,7 +9,7 @@ keyevent:
   - Finished refactoring
   - Created Art Design Document
   - Began Illustrations
-status_number:
+number:
   - 9
 categories:
   - sirchris

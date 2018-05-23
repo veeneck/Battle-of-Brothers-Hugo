@@ -4,7 +4,7 @@ author: Ryan
 type: post
 date: 2015-05-12T16:49:29+00:00
 url: /sirryan/a-wobbly-foundation/
-status_number:
+number:
   - 21
 keyevent:
   - Battle start and end.

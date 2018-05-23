@@ -9,7 +9,7 @@ keyevent:
   - Added Obstacles
   - Switched to Isometric Perspective
   - Added Isometric Artwork
-status_number:
+number:
   - 5
 categories:
   - sirchris

@@ -5,7 +5,7 @@ type: post
 date: 2015-04-17T13:19:29+00:00
 url: /sirryan/piecing-it-together/
 featured_image: /wp-content/uploads/2015/04/farm-e1429197046269.png
-status_number:
+number:
   - 20
 keyevent:
   - Detailed polish to cutscene.

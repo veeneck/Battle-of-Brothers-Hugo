@@ -9,7 +9,7 @@ keyevent:
   - New chat system.
   - Enemy waves and basic AI
   - Round 1 of story polish
-status_number:
+number:
   - 18
 categories:
   - sirryan

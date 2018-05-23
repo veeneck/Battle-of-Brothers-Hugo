@@ -5,7 +5,7 @@ type: post
 date: 2014-09-03T16:13:06+00:00
 url: /sirryan/more-difficult-than-expected/
 featured_image: /wp-content/uploads/2014/09/photo.jpg
-status_number:
+number:
   - 11
 keyevent:
   - Changing core game ideas.

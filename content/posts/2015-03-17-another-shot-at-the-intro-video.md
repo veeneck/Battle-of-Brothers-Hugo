@@ -5,7 +5,7 @@ type: post
 date: 2015-03-17T14:40:01+00:00
 url: /sirchris/another-shot-at-the-intro-video/
 featured_image: /wp-content/uploads/2015/03/Screen-Shot-2015-03-12-at-4.05.26-PM.png
-status_number:
+number:
   - 22
 keyevent:
   - Intro Video Take 2

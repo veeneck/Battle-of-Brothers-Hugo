@@ -9,7 +9,7 @@ keyevent:
   - AI Foundation Written
   - Archer and Mage Classes Added
   - Initial Combat System Developed
-status_number:
+number:
   - 4
 categories:
   - sirchris

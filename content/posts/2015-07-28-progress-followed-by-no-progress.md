@@ -5,7 +5,7 @@ type: post
 date: 2015-07-28T17:05:55+00:00
 url: /sirryan/progress-followed-by-no-progress/
 featured_image: /wp-content/uploads/2015/07/Screen-Shot-2015-07-27-at-2.11.42-PM-e1438020988234.png
-status_number:
+number:
   - 23
 keyevent:
   - Finished soundtrack.

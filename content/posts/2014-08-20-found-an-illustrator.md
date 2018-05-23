@@ -5,7 +5,7 @@ type: post
 date: 2014-08-20T14:40:56+00:00
 url: /sirchris/found-an-illustrator/
 featured_image: /wp-content/uploads/2014/08/castle.jpg
-status_number:
+number:
   - 10
 keyevent:
   - Contracted an Illustrator

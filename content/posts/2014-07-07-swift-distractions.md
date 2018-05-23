@@ -5,7 +5,7 @@ type: post
 date: 2014-07-07T15:35:17+00:00
 url: /sirryan/swift-distractions/
 featured_image: /wp-content/uploads/2014/07/swift_tut.jpg
-status_number:
+number:
   - 7
 keyevent:
   - Port game to Swift.
