@@ -31,7 +31,7 @@ In March 2018, my wife suggested a small program for a digital picture frame. I 
 
 From there, momentum started to build. I created a few websites and got caught up on all of the modern CSS/HTML changes that I've missed out on. I moved this entire site to [Netlify](http://netlify.com) and changed the CMS to [Hugo](https://gohugo.io). While doing that, I made minor improvements to the design, and put a tiny bit of work into making it responsive. To top it off, the [comment system is static now too](https://ryancampbell.blog/blog/import-wordpress-nested-comments-into-hugo/).
 
-I seriously considered giving up on the game at this point. I was having so much fun, I figured game development was just not fun for me. Before quitting the project, I decided to make a website to celebrate what has been accomplished, and the people who have gotten me this far.
+I seriously considered giving up on the game at this point. I was having so much fun, I figured game development was just not fun for me. Before quitting the project, I decided to make a website to celebrate what has been accomplished, and the people who have gotten me this far. Small clip below:
 
 <div class="inlineimg">
 <img src="/uploads/illustrations.png" width="760" />
