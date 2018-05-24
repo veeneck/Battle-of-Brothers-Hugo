@@ -18,7 +18,7 @@ Wow, can you believe that my last post was July12th, 2016? It's been almost two 
 
 Video Update
 
-Now that you've seen what I've been up to, the next thing you should do is go and read my recap of the past two years.
+Now that you've seen what I've been up to, the next thing you should do is [go and read my recap of the past two years](http://battleofbrothers.com/sirryan/what-have-i-been-up-to-).
 
 #### How Far Along Is The Game?
 
