@@ -9,7 +9,7 @@ type = "post"
 url = "/sirryan/what-have-i-been-up-to-"
 
 +++
-Most people who come to this site would be under the impression that it is abandoned. That's partially true. But just because there is little activity here, that doesn't mean I've been doing nothing. The truth is that a lot has been accomplished, followed by burnout, followed by a crossroads that I'm now at.
+Most people who come to this site would be under the impression that it is abandoned. That's partially true. But just because there is little activity here, that doesn't mean I've been doing nothing. The truth is that a [lot has been accomplished](http://battleofbrothers.com/sirryan/where-does-the-time-go-), followed by burnout, followed by a crossroads that I'm now at.
 
 <!--more-->
 
