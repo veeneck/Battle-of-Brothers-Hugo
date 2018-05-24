@@ -22,7 +22,7 @@ Now that you've seen what I've been up to, the next thing you should do is go an
 
 #### How Far Along Is The Game?
 
-This is a tough question to answer. You can play levels 1 through 4 almost entirely. There are still the occasional crashes, but the features and abilities are in. Some are in basic states while others are more fleshed out. The system in levels 5 through 12 are just expanded versions of those already in place. So, code wise, a lot of work is nearing completion.
+This is a tough question to answer. You can play levels 1 through 4 almost entirely. There are still the occasional crashes, but the features and abilities are in. Some are in basic states while others are more fleshed out. The systems in levels 5 through 12 are just expanded versions of those already in place. So, code wise, a lot of work is nearing completion.
 
 What still has a long way to go is polish. Things need to be balanced. Effects need to look good. Animations, UI, and feel all need work. From this perspective, the game is no where near finished.
 
