@@ -48,27 +48,31 @@ body {
 
 .home .leftnav a {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   background-color: #bf4f6f;
-  padding: 15px 60px;
+  padding: 15px 10px;
   border: 5px solid #fff;
   position: relative; }
   @media (min-width: 800px) {
     .home .leftnav a {
-      background-image: url("../assets/swirls.png"); } }
+      background-image: url("../assets/swirls.png");
+      font-size: 22px;
+      padding: 15px 60px; } }
 
 .home .leftnav a:hover, .home .rightnav a:hover {
   background-color: #454545; }
 
 .home .rightnav a {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   background-color: #D86D51;
-  padding: 15px 60px;
+  padding: 15px 10px;
   border: 5px solid #fff; }
   @media (min-width: 800px) {
     .home .rightnav a {
-      background-image: url("../assets/swirls.png"); } }
+      background-image: url("../assets/swirls.png");
+      font-size: 22px;
+      padding: 15px 60px; } }
 
 .home .rightnav img, .home .leftnav img {
   margin-top: 3px; }
