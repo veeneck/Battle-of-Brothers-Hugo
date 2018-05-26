@@ -1,7 +1,6 @@
 +++
 categories = ["sirryan"]
 date = "2018-05-23T17:59:23Z"
-draft = true
 featured_image = "/uploads/title_screen.png"
 key_event = ["New GUI", "Abilities, Spells and Death", "Add Cutscene Scripting"]
 keyevent = ["Multiple Scripting Engines", "Stou's Ability System", "New GUI"]
