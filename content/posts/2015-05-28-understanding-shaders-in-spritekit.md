@@ -165,7 +165,7 @@ fragColor
 
 Now that we know how to port from Shadertoy, let’s try it with a few examples.
 
-\*\*Example 1: \*\*<a href="https://www.shadertoy.com/view/Xtl3Dj" target="_blank">Bullseye</a>
+**Example 1:** <a href="https://www.shadertoy.com/view/Xtl3Dj" target="_blank">Bullseye</a>
 
 <div class="inlineimg">
 {{< gfycat data_id="EdibleDapperDorking" >}}
@@ -181,7 +181,7 @@ Now that we know how to port from Shadertoy, let’s try it with a few examples.
 
 {{< gist veeneck eb5c947bc6d8f1efd598 >}}
 
-\*\*Example 3: \*\*<a href="https://www.shadertoy.com/view/4lB3DG" target="_blank">Glowing Thing</a>
+**Example 3:**<a href="https://www.shadertoy.com/view/4lB3DG" target="_blank">Glowing Thing</a>
 
 <div class="inlineimg">
 {{< gfycat data_id="MixedMildGroundbeetle" >}}
