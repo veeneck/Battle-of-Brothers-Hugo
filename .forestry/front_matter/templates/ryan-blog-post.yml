@@ -31,4 +31,5 @@ fields:
   config:
     required: true
 pages:
+- posts/shaders-and-starburst-make-a-clever-health-bar.md
 - posts/what-have-i-been-up-to-.md
