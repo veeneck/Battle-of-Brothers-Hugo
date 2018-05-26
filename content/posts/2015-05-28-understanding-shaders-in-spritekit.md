@@ -171,7 +171,7 @@ Now that we know how to port from Shadertoy, let’s try it with a few examples.
 {{< gfycat data_id="EdibleDapperDorking" >}}
 </div>
 
-{{< gist veeneck8181776f76a112dce239 >}}
+{{< gist veeneck 8181776f76a112dce239 >}}
 
 **Example 2:** <a href="https://www.shadertoy.com/view/XtsGDj" target="_blank">Wobble Spiral</a>
 
@@ -179,7 +179,7 @@ Now that we know how to port from Shadertoy, let’s try it with a few examples.
 {{< gfycat data_id="UnselfishRemarkableJenny" >}}
 </div>
 
-{{< gist veeneckeb5c947bc6d8f1efd598 >}}
+{{< gist veeneck eb5c947bc6d8f1efd598 >}}
 
 \*\*Example 3: \*\*<a href="https://www.shadertoy.com/view/4lB3DG" target="_blank">Glowing Thing</a>
 
@@ -187,7 +187,7 @@ Now that we know how to port from Shadertoy, let’s try it with a few examples.
 {{< gfycat data_id="MixedMildGroundbeetle" >}}
 </div>
 
-{{< gist veeneck21d480aae49482975efe >}}
+{{< gist veeneck 21d480aae49482975efe >}}
 
 #### Further Reading & Next Steps
 
