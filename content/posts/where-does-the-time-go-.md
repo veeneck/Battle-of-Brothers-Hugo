@@ -1,6 +1,6 @@
 +++
 categories = ["sirryan"]
-date = "2018-05-23T17:59:23+00:00"
+date = "2018-05-23T17:59:23Z"
 draft = true
 featured_image = "/uploads/title_screen.png"
 key_event = ["New GUI", "Abilities, Spells and Death", "Add Cutscene Scripting"]
@@ -16,7 +16,7 @@ Wow, can you believe that my last post was July12th, 2016? It's been almost two 
 
 <!--more-->
 
-Video Update
+{{< youtube BhYxok5uGjQ >}}
 
 Now that you've seen what I've been up to, the next thing you should do is [go and read my recap of the past two years](http://battleofbrothers.com/sirryan/what-have-i-been-up-to-).
 
