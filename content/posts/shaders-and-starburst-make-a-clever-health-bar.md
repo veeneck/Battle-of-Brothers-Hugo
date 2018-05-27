@@ -71,3 +71,7 @@ The example image is for a squad with 10 units, but how does a large squad handl
 In my opinion, it looks pretty good. 50 units is definitely pushing it, and is the most my game can handle. Still, the player would know at a glance how the squad is doing. The idea isn't to know exactly how many units are dead -- just the percentage. You may ask, "why not just show a normal health circle?" I don't have a great answer. Mainly, this looks unique. Also, at lower levels, it gives you an at a glance feel for how many units you can revive, bandage and purchase. But, yeah, it looks neat.
 
 As for performance with all of these crop nodes, it's decent enough. Everything has to be rendered to one final texture or else it would choke. That entire process takes about **50ms**. Because it has to happen for every squad whenever an event happens (i.e: a unit dies), I run it in a separate thread and it seems to be happy.
+
+#### Improvements
+
+As I touched on earlier, the main improvements are to use shaders instead of `SKCropNodes`. While that may not increase execution time, it will definitely improve clarity of code. Aside from that, I'm interest if anyone has additional ideas for this sort of implementation. Keep in mind that it has to work for any shield shape, and any amount of units.
