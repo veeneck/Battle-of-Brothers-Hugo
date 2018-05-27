@@ -13,4 +13,8 @@ Up until now I've had placeholder health bars that work just fine, but require a
 
 <!--more-->
 
+<div class="inlineimg">
+![](/uploads/healthbars.png)
+</div>
+
 Alright
