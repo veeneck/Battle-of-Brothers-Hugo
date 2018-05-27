@@ -41,6 +41,33 @@ Let's have a look at the image again, this time with labels.
 <img src="/uploads/healthbars2.png" width="100%" />
 </div>
 
-You'll see
+As you can see, the bulk if the work is done by cropping the sunburst shape out of the gradient, and the shield shape out of the white health bars. **Note:** Both of these steps should be achievable with a shader, but I'm having a ton of problems with SpriteKit shaders right now. Simple steps aren't working. I plan to revise and update this, but for now a brute force approach (SKCropNode) is performing well enough.
+
+Speaking of shaders, the only one being used right now is the shader to calculate health.
+
+    void main() {
+    
+        vec4 val = texture2D(u_texture, v_tex_coord);
+        
+        if (val.a > 0.95 && val.r < u_health) {
+            gl_FragColor = vec4(1.0,1.0,1.0,1.0);
+        } else {
+            discard;
+        }
+    }
+
+It's super simple. `u_health` is passed in and the underlying image will be colored white up until the gradients r value is greater than the health. So, if a unit is at 75% health, 0.75 is passed in. Another tip that took me ever to find: `discard` will throw away a pixel. I couldn't get SpriteKit to make fully transparent pixels with `gl_FragColor`, so `discard` does the trick.
+
+Aside from that, the final two images are placed on top, and we have health bars. The cool part about this is that it works no matter what the heraldry shape is.
 
 #### Large Squads & Performance
+
+The example image is for a squad with 10 units, but how does a large squad handle?
+
+<div class="inlineimg">
+<img src="/uploads/largesize.png" width="100%" />
+</div>
+
+well.
+
+**0.0588254789763596**
