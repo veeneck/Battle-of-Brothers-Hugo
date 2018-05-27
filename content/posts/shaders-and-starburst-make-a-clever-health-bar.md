@@ -68,6 +68,6 @@ The example image is for a squad with 10 units, but how does a large squad handl
 <img src="/uploads/largesize.png" width="100%" />
 </div>
 
-well.
+In my opinion, it looks pretty good. 50 units is definitely pushing it, and is the most my game can handle. Still, the player would know at a glance how the squad is doing. The idea isn't to know exactly how many units are dead -- just the percentage. You may ask, "why not just show a normal health circle?" I don't have a great answer. Mainly, this looks unique. Also, at lower levels, it gives you an at a glance feel for how many units you can revive, bandage and purchase. But, yeah, it looks neat.
 
-**0.0588254789763596**
+As for performance with all of these crop nodes, it's decent enough. Everything has to be rendered to one final texture or else it would choke. That entire process takes about **50ms**. Because it has to happen for every squad whenever an event happens (i.e: a unit dies), I run it in a separate thread and it seems to be happy.
