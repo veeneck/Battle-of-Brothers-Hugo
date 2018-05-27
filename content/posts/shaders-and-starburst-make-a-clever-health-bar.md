@@ -9,7 +9,7 @@ type = "post"
 url = "/sirryan/shaders-and-starburst-make-a-clever-health-bar-"
 
 +++
-Up until now I've had placeholder health bars that work just fine, but require a ton of manual work and take up a lot of memory. I've always had the goal of making the health bars work programmatically, and I finally got around t doing it. Well, version 1 at least. Have a look at how I've used `SKShader`, `SKCropNode`, `SKShapeNode` and `CGPath` all rendered to one final texture to make my health system work.
+Up until now I've had placeholder health bars that do their job as intended,  but require a ton of manual work and take up a lot of memory. I've always had the goal of making the health bars work programmatically, and I finally got around to doing it. Well, version 1 at least. Have a look at how I've used `SKShader`, `SKCropNode`, `SKShapeNode` and `CGPath` all rendered to one final texture to make my health system work.
 
 <!--more-->
 
@@ -31,7 +31,7 @@ With that in mind, here is the updated code:
 
 {{< gist veeneck ecd0790dbfbfeafdf3d2c6d9b6090b2c >}}
 
-Now, that assume you have some sort of `degreesToRadians` function in your library. Other than that, it's all straightforward. After that, just render the path into a `SKShapeNode`, and finally into a texture.
+Now, that assumes you have some sort of `degreesToRadians` function in your library. Other than that, it's all straightforward. Next, just render the path into a `SKShapeNode`, and finally into a texture.
 
 #### Cropping & Shading
 
@@ -41,7 +41,7 @@ Let's have a look at the image again, this time with labels.
 <img src="/uploads/healthbars2.png" width="100%" />
 </div>
 
-As you can see, the bulk if the work is done by cropping the sunburst shape out of the gradient, and the shield shape out of the white health bars. **Note:** Both of these steps should be achievable with a shader, but I'm having a ton of problems with SpriteKit shaders right now. Simple steps aren't working. I plan to revise and update this, but for now a brute force approach (SKCropNode) is performing well enough.
+As you can see, the bulk if the work is done by cropping the sunburst shape out of the gradient, and the shield shape out of the white health bars. **Note:** Both of these steps should be achievable with a shader, but I'm having a ton of problems with SpriteKit shaders right now. Simple steps aren't working. I plan to revise and update this, but for now a brute force approach (`SKCropNode`) is performing well enough.
 
 Speaking of shaders, the only one being used right now is the shader to calculate health.
 
