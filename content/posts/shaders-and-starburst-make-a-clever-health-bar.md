@@ -14,7 +14,9 @@ Up until now I've had placeholder health bars that work just fine, but require a
 <!--more-->
 
 <div class="inlineimg">
-![](/uploads/healthbars.png)
+  <img src="/uploads/healthbars.png" width="100%" />
 </div>
 
 Alright
+
+[https://stackoverflow.com/questions/10399958/iphone-ios-generate-star-sunburst-or-polygon-uibezierpath-programmatically](https://stackoverflow.com/questions/10399958/iphone-ios-generate-star-sunburst-or-polygon-uibezierpath-programmatically "https://stackoverflow.com/questions/10399958/iphone-ios-generate-star-sunburst-or-polygon-uibezierpath-programmatically")
