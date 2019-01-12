@@ -1,7 +1,6 @@
 +++
 categories = ["sirryan"]
-date = "2018-05-23T17:59:23+00:00"
-draft = true
+date = "2018-05-23T17:59:23Z"
 featured_image = "/uploads/title_screen.png"
 key_event = ["New GUI", "Abilities, Spells and Death", "Add Cutscene Scripting"]
 keyevent = ["Multiple Scripting Engines", "Stou's Ability System", "New GUI"]
@@ -16,8 +15,10 @@ Wow, can you believe that my last post was July12th, 2016? It's been almost two 
 
 <!--more-->
 
-Video Update
-
+<div class="inlineimg">
+{{< youtube BhYxok5uGjQ >}}
+</div>
+  
 Now that you've seen what I've been up to, the next thing you should do is [go and read my recap of the past two years](http://battleofbrothers.com/sirryan/what-have-i-been-up-to-).
 
 #### How Far Along Is The Game?
